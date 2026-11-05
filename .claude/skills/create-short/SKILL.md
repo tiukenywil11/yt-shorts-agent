@@ -17,4 +17,7 @@ Inputs: topic or topic brief, target duration, channel style bible, and project 
 7. Delegate to `storyboard-architect` (once) with: project dir, style bible path, target duration. It writes `storyboard.md`, `storyboard.json`, `animation.json`, `asset-requirements.json` and runs the validator. Do not write those files yourself first.
 8. If the architect reports validation errors it could not fix, fix them and rerun `python scripts/validate_project.py projects/<id>`.
 
-Do not render in this skill. Return paths, duration, scene count, missing assets, and validation status. Keep JSON in files, not in chat.
+9. Assets: run `python scripts/gen_assets.py projects/<id>`. It generates every asset with a library drawer, copies same-id SVGs from other projects, and prints `NEEDS DRAWING` lines. If there are none, skip to step 10. Otherwise delegate to `asset-artist` (once) with the project dir and those lines; it adds drawers to `scripts/gen_assets.py`, re-runs the script, and previews the result. If an asset needs an engine component or preset that `engine/registry.json` lacks, flag it for `/build-animation` instead of drawing around it.
+10. Rerun `python scripts/validate_project.py projects/<id>` after assets are drawn, since the script rewrites paths to `.svg` in `asset-requirements.json` and `animation.json`.
+
+Do not render in this skill. Return paths, duration, scene count, assets drawn vs. still missing, and validation status. Keep JSON in files, not in chat.

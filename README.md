@@ -37,9 +37,14 @@ The first render downloads Remotion's Chrome Headless Shell (~130 MB, once).
 1. `/bootstrap-channel` creates the channel's creative system (once).
 2. `/analyze-references` analyzes supplied reference videos (once, or for a deliberate refresh).
 3. `/create-short`: topic → script (Gate 1) → local TTS → timing → storyboard + `animation.json` → validation.
-4. `/render-short`: stills (Gate 2) → draft/preview → final (Gate 3). Technical checks are automatic.
-5. `/review-short` is the single visual QA pass on the preview or final.
-6. `/build-animation` runs only when a plan needs a component or preset the registry doesn't have.
+4. `/build-animation` (conditional): only when the plan needs a component or preset `engine/registry.json` lacks. Delegates to `animation-engineer`. Run it before rendering.
+5. Assets: the end of `/create-short` runs `python scripts/gen_assets.py projects/<id>` (generates what it can, prints `NEEDS DRAWING` lines) and delegates those to the `asset-artist` agent, then revalidates. You can also run the script or agent by hand.
+6. `/render-short`: stills (Gate 2) → draft/preview → final (Gate 3). Technical checks are automatic.
+7. `/review-short` is the single visual QA pass on the preview or final (delegates to `qa-reviewer`).
+
+`/setup-renderer` is manual-only: use it to repair or change the Remotion renderer integration, not in normal production.
+
+Agent order: `reference-analyst` → `creative-director` (channel setup, once) → `storyboard-architect` → `animation-engineer` (if needed) → `asset-artist` → `qa-reviewer`.
 
 ## Commands
 
@@ -67,18 +72,28 @@ npm run render:short -- --project projects/my-short --mode preview --scenes scen
 npm run render:short -- --project projects/my-short --mode final
 ```
 
-Other scripts: `audio_timing.py` (segment WAVs → exact timings), `scene_manifest.py` (which scenes changed, `--commit` after a good render), `check_video.py` (PASS/FAIL spec check), `make_contact_sheet.py` (timestamped sheet). Studio preview: set `SHORT_PROJECT=projects/<id>`, then `npm run studio -- --props=projects/<id>/cache/props.json`.
+```bash
+python scripts/gen_assets.py projects/my-short
+```
+
+```bash
+python scripts/svg_preview.py projects/my-short
+```
+
+Other scripts: `gen_assets.py --list` (library drawers and assets drawn in other projects), `make_sfx.py` (sound effects), `audio_timing.py` (segment WAVs → exact timings), `scene_manifest.py` (which scenes changed, `--commit` after a good render), `check_video.py` (PASS/FAIL spec check), `make_contact_sheet.py` (timestamped sheet). Studio preview: set `SHORT_PROJECT=projects/<id>`, then `npm run studio -- --props=projects/<id>/cache/props.json`.
 
 ## Where things live
 
 - `engine/registry.json`: the only list of allowed components, presets, cameras, transitions, and render modes.
 - `src/`: the Remotion engine (single composition `Short`). Contract: `docs/technical/ENGINE_CONTRACT.md`.
+- `scripts/gen_assets.py`: the shared SVG art library (palette, filters, one drawer per asset id). New art is added here by `asset-artist`, not hand-written into projects.
+- `creative/`: style bible, asset registry, and animation presets for the channel.
 - `templates/animation.example.json`: a complete, valid plan to copy from.
 - `projects/<id>/`: one folder per video (plans, assets, voice, output).
 
 ## Cost-control rules
 
-- Model tiers are set in frontmatter. Routine skills and the QA, storyboard, and reference agents run on Sonnet; creative-director and animation-engineer inherit the main model. Run routine Shorts in a Sonnet session; switch to Opus only for engine or channel work.
+- Model tiers are set in frontmatter. Routine skills and the QA, storyboard, and reference agents run on Sonnet; creative-director, animation-engineer, and asset-artist inherit the main model. Run routine Shorts in a Sonnet session; switch to Opus only for engine or channel work.
 - One Claude session per Short; `/clear` between Shorts.
 - Review stills before rendering any video, render only changed scenes while iterating (`scene_manifest.py`), and render final once.
 - Let scripts report PASS/FAIL; never paste raw ffprobe output, JSON plans, or individual frames into chat.
