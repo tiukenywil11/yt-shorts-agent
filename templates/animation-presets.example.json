@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "fade_in",
+      "category": "opacity",
+      "description": "Fade element from transparent to visible"
+    },
+    {
+      "name": "pop_in",
+      "category": "transform",
+      "description": "Scale in with configurable overshoot"
+    },
+    {
+      "name": "slide_in_left",
+      "category": "transform",
+      "description": "Enter from left"
+    },
+    {
+      "name": "slide_in_right",
+      "category": "transform",
+      "description": "Enter from right"
+    },
+    {
+      "name": "float_loop",
+      "category": "loop",
+      "description": "Subtle vertical floating loop"
+    },
+    {
+      "name": "bounce",
+      "category": "transform",
+      "description": "Short bounce with controlled settle"
+    },
+    {
+      "name": "shake",
+      "category": "transform",
+      "description": "Brief emphasis shake"
+    },
+    {
+      "name": "camera_push",
+      "category": "camera",
+      "description": "Smooth camera push"
+    },
+    {
+      "name": "camera_pan",
+      "category": "camera",
+      "description": "Smooth camera pan"
+    },
+    {
+      "name": "particle_burst",
+      "category": "particles",
+      "description": "Deterministic seeded particle burst"
+    },
+    {
+      "name": "cut",
+      "category": "transition",
+      "description": "Immediate scene cut"
+    },
+    {
+      "name": "crossfade",
+      "category": "transition",
+      "description": "Crossfade between scenes"
+    }
+  ]
+}

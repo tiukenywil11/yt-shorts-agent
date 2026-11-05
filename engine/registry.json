@@ -1,0 +1,119 @@
+{
+  "version": "1.0.0",
+  "notes": "Single source of truth for the Animation DSL. Read by src/ (defaults) and scripts/validate_project.py (allowed values). Sizes are fractions of video width; fontSize/strokeWidth are px at 1080 wide and scale with render mode.",
+  "modes": {
+    "draft":   { "width": 360,  "height": 640,  "fps": 15, "crf": 32 },
+    "preview": { "width": 540,  "height": 960,  "fps": 24, "crf": 26 },
+    "final":   { "width": 1080, "height": 1920, "fps": 30, "crf": 18 },
+    "stills":  { "width": 540,  "height": 960,  "fps": 30, "crf": 0 }
+  },
+  "components": {
+    "KineticText": {
+      "type": "text",
+      "requiresAsset": false,
+      "requiresContent": true,
+      "params": {
+        "fontSize": { "type": "number", "default": 96 },
+        "fontFamily": { "type": "string", "default": "Arial Black, Impact, sans-serif" },
+        "fontWeight": { "type": "number", "default": 900 },
+        "color": { "type": "color", "default": "#FFFFFF" },
+        "strokeColor": { "type": "color", "default": "#000000" },
+        "strokeWidth": { "type": "number", "default": 0 },
+        "maxWidth": { "type": "number", "default": 0.86 },
+        "align": { "type": "enum", "values": ["left", "center", "right"], "default": "center" },
+        "uppercase": { "type": "boolean", "default": false }
+      }
+    },
+    "Caption": {
+      "type": "text",
+      "requiresAsset": false,
+      "requiresContent": true,
+      "params": {
+        "fontSize": { "type": "number", "default": 78 },
+        "fontFamily": { "type": "string", "default": "Arial Black, Impact, sans-serif" },
+        "color": { "type": "color", "default": "#FFFFFF" },
+        "highlightColor": { "type": "color", "default": "#FFD400" },
+        "strokeColor": { "type": "color", "default": "#000000" },
+        "strokeWidth": { "type": "number", "default": 10 },
+        "wordsPerChunk": { "type": "number", "default": 3 },
+        "uppercase": { "type": "boolean", "default": true }
+      }
+    },
+    "Shape": {
+      "type": "shape",
+      "requiresAsset": false,
+      "requiresContent": false,
+      "params": {
+        "shape": { "type": "enum", "values": ["rect", "circle", "triangle", "line"], "default": "rect" },
+        "width": { "type": "number", "default": 0.3 },
+        "height": { "type": "number", "default": 0.3 },
+        "color": { "type": "color", "default": "#FF5A5F" },
+        "radius": { "type": "number", "default": 0 },
+        "strokeColor": { "type": "color", "default": "transparent" },
+        "strokeWidth": { "type": "number", "default": 0 }
+      }
+    },
+    "Prop": {
+      "type": "prop",
+      "requiresAsset": true,
+      "requiresContent": false,
+      "params": {
+        "width": { "type": "number", "default": 0.4 },
+        "flipX": { "type": "boolean", "default": false }
+      }
+    },
+    "Character": {
+      "type": "character",
+      "requiresAsset": true,
+      "requiresContent": false,
+      "params": {
+        "width": { "type": "number", "default": 0.55 },
+        "flipX": { "type": "boolean", "default": false },
+        "poses": { "type": "poses", "default": [] },
+        "talking": { "type": "boolean", "default": false }
+      }
+    },
+    "ParticleBurst": {
+      "type": "particle",
+      "requiresAsset": false,
+      "requiresContent": false,
+      "params": {
+        "count": { "type": "number", "default": 24 },
+        "color": { "type": "color", "default": "#FFD400" },
+        "spread": { "type": "number", "default": 0.35 },
+        "size": { "type": "number", "default": 0.018 },
+        "seed": { "type": "string", "default": "burst" }
+      }
+    }
+  },
+  "presets": {
+    "none":           { "category": "enter", "params": {} },
+    "fade_in":        { "category": "enter", "params": { "inSec": { "type": "number", "default": 0.35 } } },
+    "pop_in":         { "category": "enter", "params": { "inSec": { "type": "number", "default": 0.35 }, "overshoot": { "type": "number", "default": 0.12 } } },
+    "slide_in_left":  { "category": "enter", "params": { "inSec": { "type": "number", "default": 0.4 }, "distance": { "type": "number", "default": 0.6 } } },
+    "slide_in_right": { "category": "enter", "params": { "inSec": { "type": "number", "default": 0.4 }, "distance": { "type": "number", "default": 0.6 } } },
+    "slide_in_up":    { "category": "enter", "params": { "inSec": { "type": "number", "default": 0.4 }, "distance": { "type": "number", "default": 0.3 } } },
+    "bounce":         { "category": "enter", "params": { "inSec": { "type": "number", "default": 0.6 }, "height": { "type": "number", "default": 0.15 } } },
+    "shake":          { "category": "enter", "params": { "inSec": { "type": "number", "default": 0.4 }, "amplitude": { "type": "number", "default": 0.02 } } },
+    "pulse":          { "category": "loop",  "params": { "periodSec": { "type": "number", "default": 0.8 }, "amount": { "type": "number", "default": 0.06 } } },
+    "float_loop":     { "category": "loop",  "params": { "periodSec": { "type": "number", "default": 2.4 }, "amplitude": { "type": "number", "default": 0.012 } } },
+    "wiggle":         { "category": "loop",  "params": { "periodSec": { "type": "number", "default": 0.6 }, "degrees": { "type": "number", "default": 4 } } },
+    "fade_out":       { "category": "exit",  "params": { "outSec": { "type": "number", "default": 0.3 } } },
+    "pop_out":        { "category": "exit",  "params": { "outSec": { "type": "number", "default": 0.25 } } }
+  },
+  "cameras": {
+    "static":      { "params": {} },
+    "camera_push": { "params": { "amount": { "type": "number", "default": 0.12 } } },
+    "camera_pan":  { "params": { "dx": { "type": "number", "default": 0.08 }, "dy": { "type": "number", "default": 0 } } }
+  },
+  "transitions": {
+    "cut":       { "params": {} },
+    "crossfade": { "params": {} },
+    "slide_up":  { "params": {} }
+  },
+  "backgrounds": {
+    "solid":    { "requiresAsset": false, "params": { "color": { "type": "color", "default": "#111111" } } },
+    "gradient": { "requiresAsset": false, "params": { "from": { "type": "color", "default": "#1E1E2F" }, "to": { "type": "color", "default": "#3A2A5D" }, "angle": { "type": "number", "default": 180 } } },
+    "image":    { "requiresAsset": true,  "params": {} }
+  }
+}

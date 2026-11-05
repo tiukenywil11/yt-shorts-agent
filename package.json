@@ -1,0 +1,24 @@
+{
+  "name": "yt-shorts-animation-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Declarative 2D Remotion engine for vertical Shorts. Plans live in projects/<id>/animation.json.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:short": "node scripts/render.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

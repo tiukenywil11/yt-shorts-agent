@@ -1,0 +1,26 @@
+{
+  "targetDurationSec": 9,
+  "voice": null,
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Most people waste the first hour of their day.",
+      "startSec": 0.0,
+      "durationSec": 2.612
+    },
+    {
+      "id": "seg-02",
+      "text": "Here is one tiny change that fixes it.",
+      "startSec": 2.862,
+      "durationSec": 2.287
+    },
+    {
+      "id": "seg-03",
+      "text": "Try it tomorrow.",
+      "startSec": 5.399,
+      "durationSec": 0.94
+    }
+  ],
+  "voiceoverDurationSec": 6.34,
+  "timingMode": "exact"
+}

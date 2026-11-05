@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "1.0",
+  "video": {
+    "id": "tts-test",
+    "title": "Smoke test",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 7.22
+  },
+  "audio": {
+    "voiceover": "voiceover.wav",
+    "music": null,
+    "voiceVolume": 1,
+    "musicVolume": 0.15
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "startSec": 0.0,
+      "durationSec": 2.862,
+      "background": {
+        "type": "gradient",
+        "from": "#1E1E2F",
+        "to": "#3A2A5D",
+        "angle": 180
+      },
+      "camera": {
+        "preset": "camera_push",
+        "params": {
+          "amount": 0.08
+        }
+      },
+      "elements": [
+        {
+          "id": "hook",
+          "type": "text",
+          "component": "KineticText",
+          "startSec": 0.1,
+          "durationSec": 2.762,
+          "transform": {
+            "x": 0.5,
+            "y": 0.35,
+            "layer": 10
+          },
+          "content": "THE FIRST HOUR",
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 120,
+            "strokeWidth": 6
+          }
+        },
+        {
+          "id": "cap-01",
+          "type": "text",
+          "component": "Caption",
+          "startSec": 0,
+          "durationSec": 2.612,
+          "transform": {
+            "x": 0.5,
+            "y": 0.78,
+            "layer": 20
+          },
+          "content": "Most people waste the first hour of their day."
+        }
+      ],
+      "transitionOut": {
+        "preset": "crossfade",
+        "durationSec": 0.3
+      }
+    },
+    {
+      "id": "scene-02",
+      "startSec": 2.862,
+      "durationSec": 2.537,
+      "background": {
+        "type": "solid",
+        "color": "#103F40"
+      },
+      "camera": {
+        "preset": "static"
+      },
+      "elements": [
+        {
+          "id": "badge",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/badge.png",
+          "startSec": 0.1,
+          "durationSec": 2.437,
+          "transform": {
+            "x": 0.5,
+            "y": 0.4,
+            "layer": 5
+          },
+          "preset": "pop_in",
+          "loop": "float_loop",
+          "params": {
+            "width": 0.45
+          }
+        },
+        {
+          "id": "burst",
+          "type": "particle",
+          "component": "ParticleBurst",
+          "startSec": 0.2,
+          "durationSec": 1.2,
+          "transform": {
+            "x": 0.5,
+            "y": 0.4,
+            "layer": 6
+          },
+          "params": {
+            "seed": "s2"
+          }
+        },
+        {
+          "id": "cap-02",
+          "type": "text",
+          "component": "Caption",
+          "startSec": 0,
+          "durationSec": 2.287,
+          "transform": {
+            "x": 0.5,
+            "y": 0.78,
+            "layer": 20
+          },
+          "content": "Here is one tiny change that fixes it."
+        }
+      ],
+      "transitionOut": {
+        "preset": "slide_up",
+        "durationSec": 0.35
+      }
+    },
+    {
+      "id": "scene-03",
+      "startSec": 5.399,
+      "durationSec": 1.821,
+      "background": {
+        "type": "solid",
+        "color": "#FF9F1C"
+      },
+      "camera": {
+        "preset": "camera_pan",
+        "params": {
+          "dx": 0.04
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-box",
+          "type": "shape",
+          "component": "Shape",
+          "startSec": 0,
+          "durationSec": 1.821,
+          "transform": {
+            "x": 0.5,
+            "y": 0.42,
+            "layer": 1
+          },
+          "preset": "slide_in_up",
+          "params": {
+            "shape": "rect",
+            "width": 0.8,
+            "height": 0.35,
+            "color": "#FFFFFF",
+            "radius": 0.04
+          }
+        },
+        {
+          "id": "cta",
+          "type": "text",
+          "component": "KineticText",
+          "startSec": 0.2,
+          "durationSec": 1.621,
+          "transform": {
+            "x": 0.5,
+            "y": 0.42,
+            "layer": 2
+          },
+          "content": "TRY IT\nTOMORROW",
+          "preset": "bounce",
+          "exit": "fade_out",
+          "params": {
+            "color": "#111111",
+            "fontSize": 110
+          }
+        },
+        {
+          "id": "cap-03",
+          "type": "text",
+          "component": "Caption",
+          "startSec": 0,
+          "durationSec": 1.219,
+          "transform": {
+            "x": 0.5,
+            "y": 0.78,
+            "layer": 20
+          },
+          "content": "Try it tomorrow morning."
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    }
+  ]
+}

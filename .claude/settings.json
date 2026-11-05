@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/:*)",
+      "Bash(ffprobe:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(npm run render:short:*)",
+      "Bash(npm run typecheck:*)",
+      "PowerShell(python scripts/:*)",
+      "PowerShell(ffprobe:*)",
+      "PowerShell(ffmpeg:*)",
+      "PowerShell(npm run render:short:*)",
+      "PowerShell(npm run typecheck:*)"
+    ]
+  }
+}

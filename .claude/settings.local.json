@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm view remotion version)",
+      "PowerShell(npm view remotion peerDependencies --json)",
+      "PowerShell(npm view react version)",
+      "PowerShell(npm view typescript version)",
+      "PowerShell(npm install --no-fund --no-audit 2>&1)",
+      "PowerShell(python scripts/audio_timing.py projects/smoke-test)",
+      "PowerShell(python scripts/validate_project.py projects/smoke-test)",
+      "PowerShell(python scripts/scene_manifest.py projects/smoke-test)",
+      "PowerShell(python scripts/make_contact_sheet.py projects/smoke-test/output/final.mp4 --tile 6x4 --output \"C:\\\\Users\\\\KENYWI~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\6fc44096c91f9657\\\\8ee31bf1-76ee-45bb-a7c3-72fb3ac342bb\\\\scratchpad\\\\sheet2.jpg\")",
+      "PowerShell(python -m pip install piper-tts 2>&1)",
+      "PowerShell(python -m piper.download_voices en_US-lessac-medium --data-dir tools/tts 2>&1 | Select-Object -Last 5; Get-ChildItem tools/tts | Select-Object Name, @{n='MB';e={[math]::Round\\($_.Length/1MB,1\\)}})"
+    ]
+  }
+}

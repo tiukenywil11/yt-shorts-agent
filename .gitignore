@@ -1,0 +1,15 @@
+# Generated production output
+projects/*/cache/
+projects/*/scenes/
+projects/*/previews/
+projects/*/output/
+projects/*/final.mp4
+*.wav
+*.mp3
+*.mp4
+*.mov
+.DS_Store
+projects/*/assets/voice/*.hash
+tools/tts/
+node_modules/
+dist/
