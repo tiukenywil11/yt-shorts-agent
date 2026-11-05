@@ -55,7 +55,20 @@
       "PowerShell(python -I \"C:\\\\Users\\\\KENYWI~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\6fc44096c91f9657\\\\187473f8-9d9e-4ed7-b03d-f7a8cff2be54\\\\scratchpad\\\\samples.py\" \\(Get-Location\\).Path 2>&1 | Out-String)",
       "PowerShell($s=\"C:\\\\Users\\\\KENYWI~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\6fc44096c91f9657\\\\187473f8-9d9e-4ed7-b03d-f7a8cff2be54\\\\scratchpad\"; Copy-Item projects/fallout-shelter/script.json \"$s\\\\script_puck.json\"; \\(Get-Content projects/fallout-shelter/script.json -Raw\\) -replace '\"voice\": \"am_puck\"','\"voice\": \"am_michael\"' | Set-Content projects/fallout-shelter/script.json -Encoding utf8 -NoNewline; Select-String projects/fallout-shelter/script.json -Pattern 'am_michael'; python scripts/tts.py projects/fallout-shelter 2>&1 | Out-String; python -I \"$s\\\\retime.py\" projects/fallout-shelter \"$s\\\\script_puck.json\"; python scripts/validate_project.py projects/fallout-shelter 2>&1 | Out-String)",
       "PowerShell($s=\"C:\\\\Users\\\\KENYWI~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\6fc44096c91f9657\\\\187473f8-9d9e-4ed7-b03d-f7a8cff2be54\\\\scratchpad\"; Copy-Item projects/fallout-shelter/script.json \"$s\\\\script_michael.json\"; python -I -c \"import json;p='projects/fallout-shelter/script.json';d=json.load\\(open\\(p,encoding='utf-8-sig'\\)\\);d['voice']['speed']=1.15;open\\(p,'w',encoding='utf-8'\\).write\\(json.dumps\\(d,indent=2,ensure_ascii=False\\)+'\\\\n'\\)\"; python scripts/tts.py projects/fallout-shelter 2>&1 | Out-String; python -I \"$s\\\\retime.py\" projects/fallout-shelter \"$s\\\\script_michael.json\"; python scripts/validate_project.py projects/fallout-shelter 2>&1 | Out-String)",
-      "PowerShell(git add scripts/tts.py projects/fallout-shelter/animation.json projects/fallout-shelter/script.json projects/fallout-shelter/storyboard.json)"
+      "PowerShell(git add scripts/tts.py projects/fallout-shelter/animation.json projects/fallout-shelter/script.json projects/fallout-shelter/storyboard.json)",
+      "Bash(python scripts/scene_manifest.py projects/fallout-shelter)",
+      "Bash(python scripts/make_contact_sheet.py projects/fallout-shelter/output/draft.mp4)",
+      "Bash(python scripts/scene_manifest.py projects/fallout-shelter --commit)",
+      "Bash(python scripts/check_video.py projects/fallout-shelter/output/draft.mp4 --expect draft)",
+      "Bash(python scripts/tts.py --help)",
+      "Bash(python scripts/audio_timing.py --help)",
+      "Bash(python scripts/tts.py projects/fallout-shelter)",
+      "Bash(python scripts/audio_timing.py projects/fallout-shelter)",
+      "Bash(xxd)",
+      "Bash(python scripts/tts.py projects/fallout-shelter --speed 1.25)",
+      "Bash(python scripts/audio_timing.py projects/fallout-shelter --gap 0.12 --tail 0.3)",
+      "Bash(python scripts/make_contact_sheet.py projects/fallout-shelter/output/preview.mp4)",
+      "Bash(python scripts/check_video.py projects/fallout-shelter/output/preview.mp4 --expect preview)"
     ]
   }
 }

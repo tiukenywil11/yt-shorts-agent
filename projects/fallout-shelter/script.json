@@ -7,7 +7,7 @@
       "delivery": "bright, confident hook",
       "visualIntent": "Plain hole in the cutaway at frame 0; Tuck beside it with a shovel.",
       "startSec": 0.0,
-      "durationSec": 3.157
+      "durationSec": 3.008
     },
     {
       "id": "seg-02",
@@ -15,8 +15,8 @@
       "emotion": "playful concern",
       "delivery": "light worry, then matter-of-fact",
       "visualIntent": "Red specks drift into the open hole; plank roof drops on. FIX 1/9.",
-      "startSec": 3.407,
-      "durationSec": 4.715
+      "startSec": 3.128,
+      "durationSec": 4.224
     },
     {
       "id": "seg-03",
@@ -24,8 +24,8 @@
       "emotion": "explaining",
       "delivery": "steady, stress 'three feet'",
       "visualIntent": "Red rays pass through roof; dirt mound rises; 3 FT stat callout. FIX 2/9.",
-      "startSec": 8.372,
-      "durationSec": 5.355
+      "startSec": 7.472,
+      "durationSec": 4.8
     },
     {
       "id": "seg-04",
@@ -33,26 +33,26 @@
       "emotion": "mild alarm",
       "delivery": "quick on 'sag', relieved on 'beams'",
       "visualIntent": "Roof bows with problem jolt; timber posts and beams drop in. FIX 3/9.",
-      "startSec": 13.977,
-      "durationSec": 4.971
+      "startSec": 12.392,
+      "durationSec": 4.629
     },
     {
       "id": "seg-05",
-      "text": "But now there's no way in. So we dig an entrance that turns a sharp corner. Radiation hates corners. Preppers call it a baffle entry.",
+      "text": "But now there's no way in. So we dig an entrance with a sharp corner. Radiation hates corners.",
       "emotion": "witty",
       "delivery": "deadpan on 'hates corners'",
       "visualIntent": "Tuck stuck outside; L-shaped tunnel appears; term tag BAFFLE ENTRY. FIX 4/9.",
-      "startSec": 19.197,
-      "durationSec": 8.405
+      "startSec": 17.141,
+      "durationSec": 5.461
     },
     {
       "id": "seg-06",
-      "text": "But sealed underground, the air goes stale fast. So we add a hand-cranked fan and a filtered vent pipe.",
+      "text": "But sealed underground, the air goes stale. So we add a hand-cranked fan and a filtered vent.",
       "emotion": "practical",
       "delivery": "even, slightly faster",
       "visualIntent": "Stale-air badge; vent pipe rises to surface, crank fan, teal air arrows. FIX 5/9.",
-      "startSec": 27.853,
-      "durationSec": 6.144
+      "startSec": 22.723,
+      "durationSec": 4.8
     },
     {
       "id": "seg-07",
@@ -60,8 +60,8 @@
       "emotion": "reassuring",
       "delivery": "warm, clear numbers",
       "visualIntent": "Empty shelf; water jugs pop on; 1 GAL/DAY stat. FIX 6/9.",
-      "startSec": 34.247,
-      "durationSec": 4.779
+      "startSec": 27.643,
+      "durationSec": 4.395
     },
     {
       "id": "seg-08",
@@ -69,8 +69,8 @@
       "emotion": "cheeky",
       "delivery": "smiling, beat before 'come out'",
       "visualIntent": "Tuck worry pose; bucket toilet with lid drops in corner. FIX 7/9.",
-      "startSec": 39.275,
-      "durationSec": 4.779
+      "startSec": 32.157,
+      "durationSec": 4.459
     },
     {
       "id": "seg-09",
@@ -78,26 +78,26 @@
       "emotion": "matter-of-fact",
       "delivery": "crisp on 'not candles'",
       "visualIntent": "Night background swap; lanterns with mustard glow discs. FIX 8/9.",
-      "startSec": 44.304,
-      "durationSec": 4.757
+      "startSec": 36.736,
+      "durationSec": 4.416
     },
     {
       "id": "seg-10",
-      "text": "But you can't hear the outside world. So we add a hand-crank radio. That's why the official advice is: get inside, stay inside, stay tuned.",
+      "text": "But you can't hear outside. So we add a hand-crank radio. Official advice: get inside, stay inside, stay tuned.",
       "emotion": "confident",
       "delivery": "rhythmic triple at the end",
       "visualIntent": "Silent question badge; crank radio on shelf; term tag STAY TUNED. FIX 9/9.",
-      "startSec": 49.311,
-      "durationSec": 8.832
+      "startSec": 41.272,
+      "durationSec": 6.656
     },
     {
       "id": "seg-11",
-      "text": "And here's the surprise: fallout fades fast. After seven hours, it's ten times weaker. After two days, a hundred times.",
+      "text": "Here's the surprise: fallout fades fast. After seven hours, ten times weaker. After two days, a hundred.",
       "emotion": "upbeat reveal",
       "delivery": "lift on 'surprise', punchy numbers",
-      "visualIntent": "Red specks on the surface thin out; stat callouts 7 HRS Ã·10, 2 DAYS Ã·100.",
-      "startSec": 58.393,
-      "durationSec": 7.573
+      "visualIntent": "Red specks on the surface thin out; stat callouts 7 HRS ÷10, 2 DAYS ÷100.",
+      "startSec": 48.048,
+      "durationSec": 6.144
     },
     {
       "id": "seg-12",
@@ -105,8 +105,8 @@
       "emotion": "proud",
       "delivery": "slow, 0.5 s pause before",
       "visualIntent": "Static pull-back of the whole lit shelter, Tuck cheer inside.",
-      "startSec": 66.217,
-      "durationSec": 3.84
+      "startSec": 54.312,
+      "durationSec": 3.413
     },
     {
       "id": "seg-13",
@@ -114,16 +114,16 @@
       "emotion": "warm sign-off",
       "delivery": "soft, smiling",
       "visualIntent": "READY stamp thuds onto the build; end-card disclaimer.",
-      "startSec": 70.307,
-      "durationSec": 1.259
+      "startSec": 57.845,
+      "durationSec": 1.152
     }
   ],
   "targetDurationSec": 66.0,
   "voice": {
     "engine": "kokoro",
     "voice": "am_michael",
-    "speed": 1.15
+    "speed": 1.25
   },
-  "voiceoverDurationSec": 71.565,
+  "voiceoverDurationSec": 58.997,
   "timingMode": "exact"
 }
