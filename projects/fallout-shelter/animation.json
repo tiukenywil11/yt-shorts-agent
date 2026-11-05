@@ -1,0 +1,5761 @@
+{
+ "schemaVersion": "1.0",
+ "video": {
+  "id": "fallout-shelter",
+  "title": "A Hole, 9 Fixes Later",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSec": 71.61
+ },
+ "audio": {
+  "voiceover": "voiceover.wav",
+  "music": null,
+  "voiceVolume": 1,
+  "musicVolume": 0.15
+ },
+ "scenes": [
+  {
+   "id": "scene-01",
+   "startSec": 0.0,
+   "durationSec": 3.559,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s01-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 3.559,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s01-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 3.559,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s01-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_stand.svg",
+     "startSec": 0,
+     "durationSec": 3.559,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "loop": "wiggle",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_stand.svg"
+       }
+      ],
+      "periodSec": 1.6,
+      "degrees": 1.5
+     }
+    },
+    {
+     "id": "s01-caption-01",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.309,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "This hole is nine problems away from a fallout shelter.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-02",
+   "startSec": 3.559,
+   "durationSec": 5.091,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "camera_push",
+    "params": {
+     "amount": 0.06
+    }
+   },
+   "elements": [
+    {
+     "id": "s02-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 5.091,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s02-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 5.091,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s02-fallout-specks",
+     "type": "particle",
+     "component": "ParticleBurst",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 4.145,
+     "transform": {
+      "x": 0.42,
+      "y": 0.5,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "exit": "fade_out",
+     "params": {
+      "count": 18,
+      "color": "#D2452B",
+      "spread": 0.18,
+      "size": 0.012,
+      "seed": "fallout-1",
+      "outSec": 0.25
+     }
+    },
+    {
+     "id": "s02-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 4.345,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s02-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 4.295,
+     "durationSec": 0.796,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.52,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s02-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 4.595,
+     "durationSec": 0.496,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s02-fix-1of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 4.791,
+     "durationSec": 0.3,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 1/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s02-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 5.091,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 4.295,
+        "asset": "assets/characters/tuck/tuck_idea.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s02-caption-02",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.841,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But fallout is radioactive dust, and it falls straight in. So we add a roof.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 4.295,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-03",
+   "startSec": 8.65,
+   "durationSec": 5.115,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s03-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 5.115,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s03-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 5.115,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s03-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 5.115,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s03-ray-specks",
+     "type": "particle",
+     "component": "ParticleBurst",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 2.414,
+     "transform": {
+      "x": 0.42,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "exit": "fade_out",
+     "params": {
+      "count": 16,
+      "color": "#D2452B",
+      "spread": 0.14,
+      "size": 0.012,
+      "seed": "ray-1",
+      "outSec": 0.25
+     }
+    },
+    {
+     "id": "s03-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 2.614,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s03-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 2.564,
+     "durationSec": 2.551,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.46,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s03-stat-3ft",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 2.914,
+     "durationSec": 2.201,
+     "transform": {
+      "x": 0.47,
+      "y": 0.3,
+      "rotation": 0,
+      "layer": 80
+     },
+     "content": "3 FT",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 120,
+      "fontWeight": 900,
+      "color": "#E9A93B",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 8,
+      "maxWidth": 0.74,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s03-fix-1of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.114,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 1/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s03-fix-2of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 3.114,
+     "durationSec": 2.001,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 2/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s03-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 2.864,
+     "durationSec": 2.251,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s03-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 5.115,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 2.564,
+        "asset": "assets/characters/tuck/tuck_point.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s03-caption-03",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.865,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But a thin roof barely stops radiation. So we pile three feet of packed dirt on top.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 2.564,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-04",
+   "startSec": 13.765,
+   "durationSec": 5.149,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "camera_push",
+    "params": {
+     "amount": 0.06
+    }
+   },
+   "elements": [
+    {
+     "id": "s04-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 5.149,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s04-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 5.149,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s04-roof-sag",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 3.019,
+     "transform": {
+      "x": 0.42,
+      "y": 0.467,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "shake",
+     "params": {
+      "width": 0.52,
+      "inSec": 0.4,
+      "amplitude": 0.012
+     }
+    },
+    {
+     "id": "s04-earth-sag",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 3.019,
+     "transform": {
+      "x": 0.43,
+      "y": 0.417,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "shake",
+     "params": {
+      "width": 0.46,
+      "inSec": 0.4,
+      "amplitude": 0.012
+     }
+    },
+    {
+     "id": "s04-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 2.919,
+     "durationSec": 2.23,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s04-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 2.919,
+     "durationSec": 2.23,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s04-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 2.969,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s04-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 2.919,
+     "durationSec": 2.23,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "slide_in_up",
+     "params": {
+      "width": 0.38,
+      "inSec": 0.32,
+      "distance": 0.1
+     }
+    },
+    {
+     "id": "s04-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 3.169,
+     "durationSec": 1.98,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "slide_in_up",
+     "params": {
+      "width": 0.38,
+      "inSec": 0.32,
+      "distance": 0.1
+     }
+    },
+    {
+     "id": "s04-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 3.419,
+     "durationSec": 1.73,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.46,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s04-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 3.719,
+     "durationSec": 1.43,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s04-fix-2of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.969,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 2/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s04-fix-3of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 3.969,
+     "durationSec": 1.18,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 3/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s04-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 5.149,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 2.919,
+        "asset": "assets/characters/tuck/tuck_idea.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s04-caption-04",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.899,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But dirt is heavy, and the roof starts to sag. So we brace it with thick timber beams.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 2.919,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-05",
+   "startSec": 18.914,
+   "durationSec": 7.448,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s05-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s05-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s05-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s05-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s05-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s05-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s05-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s05-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 1.736,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s05-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 1.686,
+     "durationSec": 5.762,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "slide_in_up",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.32,
+      "distance": 0.1
+     }
+    },
+    {
+     "id": "s05-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 3.255,
+     "durationSec": 4.193,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "slide_in_right",
+     "params": {
+      "width": 0.12,
+      "inSec": 0.32,
+      "distance": 0.1
+     }
+    },
+    {
+     "id": "s05-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 3.605,
+     "durationSec": 3.843,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.045,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s05-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 3.905,
+     "durationSec": 3.543,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s05-fix-3of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.155,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 3/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s05-fix-4of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 4.155,
+     "durationSec": 3.293,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 4/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s05-baffle-tag-back",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 6.394,
+     "durationSec": 1.054,
+     "transform": {
+      "x": 0.57,
+      "y": 0.335,
+      "rotation": -2,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "shape": "rect",
+      "width": 0.5,
+      "height": 0.075,
+      "color": "#F4E6C8",
+      "radius": 0.012,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s05-baffle-tag-text",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 6.394,
+     "durationSec": 1.054,
+     "transform": {
+      "x": 0.57,
+      "y": 0.335,
+      "rotation": -2,
+      "layer": 71
+     },
+     "content": "BAFFLE ENTRY",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 60,
+      "fontWeight": 900,
+      "color": "#3A2419",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 0,
+      "maxWidth": 0.5,
+      "align": "center",
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s05-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 7.448,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 1.686,
+        "asset": "assets/characters/tuck/tuck_point.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s05-caption-05",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 7.198,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But now there's no way in. So we dig an entrance that turns a sharp corner. Radiation hates corners. Preppers call it a baffle entry.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 1.686,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-06",
+   "startSec": 26.362,
+   "durationSec": 6.195,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "camera_pan",
+    "params": {
+     "dx": 0,
+     "dy": -0.05
+    }
+   },
+   "elements": [
+    {
+     "id": "s06-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s06-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s06-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s06-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s06-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s06-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s06-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s06-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.1
+     }
+    },
+    {
+     "id": "s06-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s06-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s06-stale-specks",
+     "type": "particle",
+     "component": "ParticleBurst",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 3.27,
+     "transform": {
+      "x": 0.42,
+      "y": 0.6,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "exit": "fade_out",
+     "params": {
+      "count": 10,
+      "color": "#D2452B",
+      "spread": 0.1,
+      "size": 0.012,
+      "seed": "stale-1",
+      "outSec": 0.25
+     }
+    },
+    {
+     "id": "s06-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 3.47,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s06-fan",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hand_fan.svg",
+     "startSec": 3.42,
+     "durationSec": 2.775,
+     "transform": {
+      "x": 0.3,
+      "y": 0.62,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.12,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s06-ventA",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 5.267,
+     "durationSec": 0.928,
+     "transform": {
+      "x": 0.3,
+      "y": 0.395,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "slide_in_up",
+     "params": {
+      "width": 0.045,
+      "inSec": 0.32,
+      "distance": 0.1
+     }
+    },
+    {
+     "id": "s06-ventB",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 5.517,
+     "durationSec": 0.678,
+     "transform": {
+      "x": 0.3,
+      "y": 0.515,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "slide_in_up",
+     "params": {
+      "width": 0.045,
+      "inSec": 0.32,
+      "distance": 0.1
+     }
+    },
+    {
+     "id": "s06-arrow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 5.767,
+     "durationSec": 0.428,
+     "transform": {
+      "x": 0.38,
+      "y": 0.58,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.06,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s06-arrow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 5.895,
+     "durationSec": 0.3,
+     "transform": {
+      "x": 0.43,
+      "y": 0.56,
+      "rotation": -3,
+      "layer": 60
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.06,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s06-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 3.77,
+     "durationSec": 2.425,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s06-fix-4of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.02,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 4/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s06-fix-5of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 4.02,
+     "durationSec": 2.175,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 5/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s06-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 6.195,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 3.42,
+        "asset": "assets/characters/tuck/tuck_idea.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s06-caption-06",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 5.944,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But sealed underground, the air goes stale fast. So we add a hand-cranked fan and a filtered vent pipe.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 3.42,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-07",
+   "startSec": 32.557,
+   "durationSec": 5.079,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s07-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s07-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s07-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s07-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s07-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s07-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s07-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s07-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.1
+     }
+    },
+    {
+     "id": "s07-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s07-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s07-ventA",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.3,
+      "y": 0.395,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s07-ventB",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.3,
+      "y": 0.515,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s07-fan",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hand_fan.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.3,
+      "y": 0.62,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s07-arrow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.38,
+      "y": 0.58,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s07-arrow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.43,
+      "y": 0.56,
+      "rotation": -3,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s07-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 2.22,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s07-shelf",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shelf_unit.svg",
+     "startSec": 0.3,
+     "durationSec": 4.779,
+     "transform": {
+      "x": 0.49,
+      "y": 0.595,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "slide_in_up",
+     "params": {
+      "width": 0.15,
+      "inSec": 0.32,
+      "distance": 0.1
+     }
+    },
+    {
+     "id": "s07-jug1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 2.17,
+     "durationSec": 2.909,
+     "transform": {
+      "x": 0.455,
+      "y": 0.645,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "bounce",
+     "params": {
+      "width": 0.032,
+      "inSec": 0.45,
+      "height": 0.05
+     }
+    },
+    {
+     "id": "s07-jug2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 2.47,
+     "durationSec": 2.609,
+     "transform": {
+      "x": 0.525,
+      "y": 0.645,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "bounce",
+     "params": {
+      "width": 0.032,
+      "inSec": 0.45,
+      "height": 0.05
+     }
+    },
+    {
+     "id": "s07-jug3",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 2.77,
+     "durationSec": 2.309,
+     "transform": {
+      "x": 0.49,
+      "y": 0.605,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "bounce",
+     "params": {
+      "width": 0.032,
+      "inSec": 0.45,
+      "height": 0.05
+     }
+    },
+    {
+     "id": "s07-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 3.12,
+     "durationSec": 1.959,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s07-fix-5of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.37,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 5/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s07-fix-6of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 3.37,
+     "durationSec": 1.709,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 6/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s07-stat-gal",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 3.72,
+     "durationSec": 1.359,
+     "transform": {
+      "x": 0.47,
+      "y": 0.3,
+      "rotation": 0,
+      "layer": 80
+     },
+     "content": "1 GAL/DAY",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 100,
+      "fontWeight": 900,
+      "color": "#E9A93B",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 8,
+      "maxWidth": 0.74,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s07-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_stand.svg",
+     "startSec": 0,
+     "durationSec": 5.079,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "loop": "wiggle",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_stand.svg"
+       },
+       {
+        "atSec": 2.17,
+        "asset": "assets/characters/tuck/tuck_point.svg"
+       }
+      ],
+      "periodSec": 1.6,
+      "degrees": 1.5
+     }
+    },
+    {
+     "id": "s07-caption-07",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.83,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But you'll be down here a while. So we stock water: one gallon per person, per day.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 2.17,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-08",
+   "startSec": 37.636,
+   "durationSec": 4.836,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_day.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s08-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s08-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s08-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s08-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s08-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s08-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s08-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s08-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.1
+     }
+    },
+    {
+     "id": "s08-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s08-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s08-ventA",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.3,
+      "y": 0.395,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s08-ventB",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.3,
+      "y": 0.515,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s08-fan",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hand_fan.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.3,
+      "y": 0.62,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s08-arrow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.38,
+      "y": 0.58,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s08-arrow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.43,
+      "y": 0.56,
+      "rotation": -3,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s08-shelf",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shelf_unit.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.49,
+      "y": 0.595,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s08-jug1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.455,
+      "y": 0.645,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s08-jug2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.525,
+      "y": 0.645,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s08-jug3",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.49,
+      "y": 0.605,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s08-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 2.352,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s08-bucket",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/bucket_toilet.svg",
+     "startSec": 2.302,
+     "durationSec": 2.534,
+     "transform": {
+      "x": 0.605,
+      "y": 0.665,
+      "rotation": -1,
+      "layer": 40
+     },
+     "preset": "bounce",
+     "params": {
+      "width": 0.07,
+      "inSec": 0.45,
+      "height": 0.05
+     }
+    },
+    {
+     "id": "s08-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 2.602,
+     "durationSec": 2.234,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s08-fix-6of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.852,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 6/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s08-fix-7of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 2.852,
+     "durationSec": 1.984,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 7/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s08-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 4.836,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 2.302,
+        "asset": "assets/characters/tuck/tuck_stand.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s08-caption-08",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.586,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But what goes in must come out. So we add a lidded bucket toilet and plenty of bags.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 2.302,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "crossfade",
+    "durationSec": 0.4
+   }
+  },
+  {
+   "id": "scene-09",
+   "startSec": 42.472,
+   "durationSec": 4.825,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_night.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s09-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s09-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s09-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s09-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s09-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s09-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s09-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s09-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.1
+     }
+    },
+    {
+     "id": "s09-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s09-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s09-ventA",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.3,
+      "y": 0.395,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s09-ventB",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.3,
+      "y": 0.515,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s09-fan",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hand_fan.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.3,
+      "y": 0.62,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s09-arrow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.38,
+      "y": 0.58,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s09-arrow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.43,
+      "y": 0.56,
+      "rotation": -3,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s09-shelf",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shelf_unit.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.49,
+      "y": 0.595,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s09-jug1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.455,
+      "y": 0.645,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s09-jug2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.525,
+      "y": 0.645,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s09-jug3",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.49,
+      "y": 0.605,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s09-bucket",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/bucket_toilet.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.605,
+      "y": 0.665,
+      "rotation": -1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.07
+     }
+    },
+    {
+     "id": "s09-problem-badge",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/problem_badge.svg",
+     "startSec": 0.1,
+     "durationSec": 1.512,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "width": 0.1,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s09-lantern1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 1.462,
+     "durationSec": 3.363,
+     "transform": {
+      "x": 0.35,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.045,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s09-glow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 1.662,
+     "durationSec": 3.163,
+     "transform": {
+      "x": 0.35,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "fade_in",
+     "loop": "pulse",
+     "params": {
+      "width": 0.15,
+      "inSec": 0.25,
+      "periodSec": 1.2,
+      "amount": 0.04
+     }
+    },
+    {
+     "id": "s09-lantern2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 1.962,
+     "durationSec": 2.863,
+     "transform": {
+      "x": 0.575,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.045,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s09-glow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 2.162,
+     "durationSec": 2.663,
+     "transform": {
+      "x": 0.575,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "fade_in",
+     "loop": "pulse",
+     "params": {
+      "width": 0.15,
+      "inSec": 0.25,
+      "periodSec": 1.2,
+      "amount": 0.04
+     }
+    },
+    {
+     "id": "s09-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 2.412,
+     "durationSec": 2.413,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s09-fix-7of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.662,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 7/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s09-fix-8of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 2.662,
+     "durationSec": 2.163,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 8/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s09-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 4.825,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 1.462,
+        "asset": "assets/characters/tuck/tuck_idea.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s09-caption-09",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.574,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But it's pitch black. So we hang battery lanterns. Not candles, they eat your air.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 1.462,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-10",
+   "startSec": 47.297,
+   "durationSec": 9.433,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_night.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s10-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s10-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s10-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s10-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s10-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s10-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s10-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s10-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.1
+     }
+    },
+    {
+     "id": "s10-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s10-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s10-ventA",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.3,
+      "y": 0.395,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s10-ventB",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.3,
+      "y": 0.515,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s10-fan",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hand_fan.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.3,
+      "y": 0.62,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s10-arrow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.38,
+      "y": 0.58,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s10-arrow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.43,
+      "y": 0.56,
+      "rotation": -3,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s10-shelf",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shelf_unit.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.49,
+      "y": 0.595,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s10-jug1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.455,
+      "y": 0.645,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s10-jug2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.525,
+      "y": 0.645,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s10-jug3",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.49,
+      "y": 0.605,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s10-bucket",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/bucket_toilet.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.605,
+      "y": 0.665,
+      "rotation": -1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.07
+     }
+    },
+    {
+     "id": "s10-lantern1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.35,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s10-lantern2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.575,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s10-glow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.35,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s10-glow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.575,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s10-problem-badge",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.1,
+     "durationSec": 3.253,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "loop": "pulse",
+     "exit": "pop_out",
+     "params": {
+      "shape": "circle",
+      "width": 0.1,
+      "height": 0.1,
+      "color": "#D2452B",
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "periodSec": 0.6,
+      "amount": 0.08,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s10-problem-qmark",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0.1,
+     "durationSec": 3.253,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 71
+     },
+     "content": "?",
+     "preset": "pop_in",
+     "exit": "pop_out",
+     "params": {
+      "fontSize": 96,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.2,
+      "inSec": 0.18,
+      "overshoot": 0.14,
+      "outSec": 0.2
+     }
+    },
+    {
+     "id": "s10-radio",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/crank_radio.svg",
+     "startSec": 3.203,
+     "durationSec": 6.23,
+     "transform": {
+      "x": 0.49,
+      "y": 0.52,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.06,
+      "inSec": 0.28,
+      "overshoot": 0.08
+     }
+    },
+    {
+     "id": "s10-fix-check",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/fix_check.svg",
+     "startSec": 3.503,
+     "durationSec": 5.93,
+     "transform": {
+      "x": 0.76,
+      "y": 0.33,
+      "rotation": 0,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.09,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s10-fix-8of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.753,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 8/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s10-fix-9of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 3.753,
+     "durationSec": 5.68,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 9/9",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s10-stay-tuned-tag-back",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 8.356,
+     "durationSec": 1.077,
+     "transform": {
+      "x": 0.57,
+      "y": 0.335,
+      "rotation": -2,
+      "layer": 70
+     },
+     "preset": "pop_in",
+     "params": {
+      "shape": "rect",
+      "width": 0.46,
+      "height": 0.075,
+      "color": "#F4E6C8",
+      "radius": 0.012,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s10-stay-tuned-tag-text",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 8.356,
+     "durationSec": 1.077,
+     "transform": {
+      "x": 0.57,
+      "y": 0.335,
+      "rotation": -2,
+      "layer": 71
+     },
+     "content": "STAY TUNED",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 60,
+      "fontWeight": 900,
+      "color": "#3A2419",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 0,
+      "maxWidth": 0.5,
+      "align": "center",
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s10-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_worry.svg",
+     "startSec": 0,
+     "durationSec": 9.433,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_worry.svg"
+       },
+       {
+        "atSec": 3.203,
+        "asset": "assets/characters/tuck/tuck_point.svg"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s10-caption-10",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 9.183,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "But you can't hear the outside world. So we add a hand-crank radio. That's why the official advice is: get inside, stay inside, stay tuned.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/problem_bonk.wav",
+     "atSec": 0.1,
+     "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 3.203,
+     "volume": 0.5
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-11",
+   "startSec": 56.73,
+   "durationSec": 8.54,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_night.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s11-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s11-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s11-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s11-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s11-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s11-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s11-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s11-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.1
+     }
+    },
+    {
+     "id": "s11-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s11-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s11-ventA",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.3,
+      "y": 0.395,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s11-ventB",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.3,
+      "y": 0.515,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s11-fan",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hand_fan.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.3,
+      "y": 0.62,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s11-arrow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.38,
+      "y": 0.58,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s11-arrow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.43,
+      "y": 0.56,
+      "rotation": -3,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s11-shelf",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shelf_unit.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.49,
+      "y": 0.595,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s11-jug1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.455,
+      "y": 0.645,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s11-jug2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.525,
+      "y": 0.645,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s11-jug3",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.49,
+      "y": 0.605,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s11-bucket",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/bucket_toilet.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.605,
+      "y": 0.665,
+      "rotation": -1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.07
+     }
+    },
+    {
+     "id": "s11-lantern1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.35,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s11-lantern2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.575,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s11-glow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.35,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s11-glow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.575,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s11-radio",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/crank_radio.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.49,
+      "y": 0.52,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s11-fix-9of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 9/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s11-fallout-a",
+     "type": "particle",
+     "component": "ParticleBurst",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 2.935,
+     "transform": {
+      "x": 0.47,
+      "y": 0.34,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "exit": "fade_out",
+     "params": {
+      "count": 18,
+      "color": "#D2452B",
+      "spread": 0.3,
+      "size": 0.012,
+      "seed": "fade-a",
+      "outSec": 0.25
+     }
+    },
+    {
+     "id": "s11-fallout-b",
+     "type": "particle",
+     "component": "ParticleBurst",
+     "asset": null,
+     "startSec": 3.135,
+     "durationSec": 2.926,
+     "transform": {
+      "x": 0.47,
+      "y": 0.34,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "exit": "fade_out",
+     "params": {
+      "count": 8,
+      "color": "#D2452B",
+      "spread": 0.3,
+      "size": 0.012,
+      "seed": "fade-b",
+      "outSec": 0.25
+     }
+    },
+    {
+     "id": "s11-fallout-c",
+     "type": "particle",
+     "component": "ParticleBurst",
+     "asset": null,
+     "startSec": 6.061,
+     "durationSec": 2.479,
+     "transform": {
+      "x": 0.47,
+      "y": 0.34,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "exit": "fade_out",
+     "params": {
+      "count": 3,
+      "color": "#D2452B",
+      "spread": 0.3,
+      "size": 0.012,
+      "seed": "fade-c",
+      "outSec": 0.25
+     }
+    },
+    {
+     "id": "s11-stat-7h",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 3.453,
+     "durationSec": 2.708,
+     "transform": {
+      "x": 0.47,
+      "y": 0.3,
+      "rotation": 0,
+      "layer": 80
+     },
+     "content": "7 HRS ÷10",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 100,
+      "fontWeight": 900,
+      "color": "#E9A93B",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 8,
+      "maxWidth": 0.74,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s11-stat-2d",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 6.379,
+     "durationSec": 2.161,
+     "transform": {
+      "x": 0.47,
+      "y": 0.3,
+      "rotation": 0,
+      "layer": 80
+     },
+     "content": "2 DAYS ÷100",
+     "preset": "pop_in",
+     "params": {
+      "fontSize": 88,
+      "fontWeight": 900,
+      "color": "#E9A93B",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 8,
+      "maxWidth": 0.74,
+      "uppercase": true,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s11-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_idea.svg",
+     "startSec": 0,
+     "durationSec": 8.54,
+     "transform": {
+      "x": 0.13,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "none",
+     "loop": "wiggle",
+     "params": {
+      "width": 0.15,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_idea.svg"
+       }
+      ],
+      "periodSec": 1.6,
+      "degrees": 1.5
+     }
+    },
+    {
+     "id": "s11-caption-11",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 8.29,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "And here's the surprise: fallout fades fast. After seven hours, it's ten times weaker. After two days, a hundred times.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/paper_rustle.wav",
+     "atSec": 3.135,
+     "volume": 0.4
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  },
+  {
+   "id": "scene-12",
+   "startSec": 65.27,
+   "durationSec": 6.34,
+   "background": {
+    "type": "image",
+    "asset": "assets/backgrounds/bg_cutaway_night.svg"
+   },
+   "camera": {
+    "preset": "static",
+    "params": {}
+   },
+   "elements": [
+    {
+     "id": "s12-hole",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.42,
+      "y": 0.585,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.5
+     }
+    },
+    {
+     "id": "s12-shovel",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shovel.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.24,
+      "y": 0.395,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.05
+     }
+    },
+    {
+     "id": "s12-roof",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.42,
+      "y": 0.455,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.52
+     }
+    },
+    {
+     "id": "s12-earth",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/earth_cover.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.43,
+      "y": 0.405,
+      "rotation": 0,
+      "layer": 31
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s12-postL",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.2,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s12-postR",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.64,
+      "y": 0.585,
+      "rotation": 90,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.38
+     }
+    },
+    {
+     "id": "s12-beam",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/timber_beam.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.42,
+      "y": 0.49,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.46
+     }
+    },
+    {
+     "id": "s12-shaft",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.1
+     }
+    },
+    {
+     "id": "s12-passage",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hole_cutout.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.7,
+      "y": 0.62,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s12-ladder",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/ladder.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.745,
+      "y": 0.53,
+      "rotation": 0,
+      "layer": 30
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s12-ventA",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.3,
+      "y": 0.395,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s12-ventB",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/vent_pipe.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.3,
+      "y": 0.515,
+      "rotation": 0,
+      "layer": 32
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s12-fan",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/hand_fan.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.3,
+      "y": 0.62,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.12
+     }
+    },
+    {
+     "id": "s12-arrow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.38,
+      "y": 0.58,
+      "rotation": 0,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s12-arrow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/air_arrow.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.43,
+      "y": 0.56,
+      "rotation": -3,
+      "layer": 60
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s12-shelf",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/shelf_unit.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.49,
+      "y": 0.595,
+      "rotation": 0,
+      "layer": 20
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.15
+     }
+    },
+    {
+     "id": "s12-jug1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.455,
+      "y": 0.645,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s12-jug2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.525,
+      "y": 0.645,
+      "rotation": -2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s12-jug3",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/water_jug.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.49,
+      "y": 0.605,
+      "rotation": 2,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.032
+     }
+    },
+    {
+     "id": "s12-bucket",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/bucket_toilet.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.605,
+      "y": 0.665,
+      "rotation": -1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.07
+     }
+    },
+    {
+     "id": "s12-lantern1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.35,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s12-lantern2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/lantern.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.575,
+      "y": 0.52,
+      "rotation": 0,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.045
+     }
+    },
+    {
+     "id": "s12-glow1",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.35,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "none",
+     "loop": "pulse",
+     "params": {
+      "width": 0.15,
+      "periodSec": 1.2,
+      "amount": 0.04
+     }
+    },
+    {
+     "id": "s12-glow2",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/glow_disc.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.575,
+      "y": 0.525,
+      "rotation": 0,
+      "layer": 35
+     },
+     "preset": "none",
+     "loop": "pulse",
+     "params": {
+      "width": 0.15,
+      "periodSec": 1.2,
+      "amount": 0.04
+     }
+    },
+    {
+     "id": "s12-radio",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/props/crank_radio.svg",
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.49,
+      "y": 0.52,
+      "rotation": 1,
+      "layer": 40
+     },
+     "preset": "none",
+     "params": {
+      "width": 0.06
+     }
+    },
+    {
+     "id": "s12-fix-9of9",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 6.34,
+     "transform": {
+      "x": 0.2,
+      "y": 0.13,
+      "rotation": 0,
+      "layer": 75
+     },
+     "content": "FIX 9/9",
+     "preset": "none",
+     "params": {
+      "fontSize": 54,
+      "fontWeight": 900,
+      "color": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 6,
+      "maxWidth": 0.3,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s12-tuck",
+     "type": "character",
+     "component": "Character",
+     "asset": "assets/characters/tuck/tuck_stand.svg",
+     "startSec": 0.15,
+     "durationSec": 6.19,
+     "transform": {
+      "x": 0.385,
+      "y": 0.65,
+      "rotation": 0,
+      "layer": 50
+     },
+     "preset": "bounce",
+     "params": {
+      "width": 0.13,
+      "talking": false,
+      "poses": [
+       {
+        "atSec": 0,
+        "asset": "assets/characters/tuck/tuck_stand.svg"
+       },
+       {
+        "atSec": 1.946,
+        "asset": "assets/characters/tuck/tuck_cheer.svg"
+       }
+      ],
+      "inSec": 0.45,
+      "height": 0.05
+     }
+    },
+    {
+     "id": "s12-ready-stamp",
+     "type": "prop",
+     "component": "Prop",
+     "asset": "assets/ui/ready_stamp.svg",
+     "startSec": 4.469,
+     "durationSec": 1.871,
+     "transform": {
+      "x": 0.55,
+      "y": 0.4,
+      "rotation": -3,
+      "layer": 95
+     },
+     "preset": "pop_in",
+     "params": {
+      "width": 0.26,
+      "inSec": 0.18,
+      "overshoot": 0.14
+     }
+    },
+    {
+     "id": "s12-confetti",
+     "type": "particle",
+     "component": "ParticleBurst",
+     "asset": null,
+     "startSec": 4.569,
+     "durationSec": 1.2,
+     "transform": {
+      "x": 0.55,
+      "y": 0.4,
+      "rotation": 0,
+      "layer": 94
+     },
+     "preset": "none",
+     "params": {
+      "count": 14,
+      "color": "#E9A93B",
+      "spread": 0.14,
+      "size": 0.014,
+      "seed": "ready-1"
+     }
+    },
+    {
+     "id": "s12-disclaimer-back",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 5.019,
+     "durationSec": 1.321,
+     "transform": {
+      "x": 0.47,
+      "y": 0.27,
+      "rotation": 0,
+      "layer": 84
+     },
+     "preset": "fade_in",
+     "params": {
+      "shape": "rect",
+      "width": 0.74,
+      "height": 0.075,
+      "color": "#F4E6C8",
+      "radius": 0.012,
+      "inSec": 0.25
+     }
+    },
+    {
+     "id": "s12-disclaimer-text",
+     "type": "text",
+     "component": "KineticText",
+     "asset": null,
+     "startSec": 5.019,
+     "durationSec": 1.321,
+     "transform": {
+      "x": 0.47,
+      "y": 0.27,
+      "rotation": 0,
+      "layer": 85
+     },
+     "content": "Illustration only. Not engineering advice. Check local codes and official guidance at ready.gov.",
+     "preset": "fade_in",
+     "params": {
+      "fontSize": 28,
+      "fontWeight": 900,
+      "color": "#3A2419",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 0,
+      "maxWidth": 0.68,
+      "align": "center",
+      "uppercase": false,
+      "inSec": 0.25
+     }
+    },
+    {
+     "id": "s12-caption-12",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 4.319,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "Nine problems. Nine fixes. One hole, ready for two weeks.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    },
+    {
+     "id": "s12-caption-13",
+     "type": "text",
+     "component": "Caption",
+     "asset": null,
+     "startSec": 4.569,
+     "durationSec": 1.173,
+     "transform": {
+      "x": 0.47,
+      "y": 0.2,
+      "rotation": 0,
+      "layer": 90
+     },
+     "content": "Ready beats lucky.",
+     "preset": "none",
+     "params": {
+      "fontSize": 92,
+      "fontFamily": "Arial Black, Impact, sans-serif",
+      "color": "#F4E6C8",
+      "highlightColor": "#F4E6C8",
+      "strokeColor": "#3A2419",
+      "strokeWidth": 9,
+      "wordsPerChunk": 1,
+      "uppercase": true
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "asset": "assets/sfx/stamp_thud.wav",
+     "atSec": 4.469,
+     "volume": 0.7
+    }
+   ],
+   "transitionOut": {
+    "preset": "cut",
+    "durationSec": 0
+   }
+  }
+ ]
+}

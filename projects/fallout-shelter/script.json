@@ -1,0 +1,125 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "This hole is nine problems away from a fallout shelter.",
+      "emotion": "curious",
+      "delivery": "bright, confident hook",
+      "visualIntent": "Plain hole in the cutaway at frame 0; Tuck beside it with a shovel.",
+      "startSec": 0.0,
+      "durationSec": 3.309
+    },
+    {
+      "id": "seg-02",
+      "text": "But fallout is radioactive dust, and it falls straight in. So we add a roof.",
+      "emotion": "playful concern",
+      "delivery": "light worry, then matter-of-fact",
+      "visualIntent": "Red specks drift into the open hole; plank roof drops on. FIX 1/9.",
+      "startSec": 3.559,
+      "durationSec": 4.841
+    },
+    {
+      "id": "seg-03",
+      "text": "But a thin roof barely stops radiation. So we pile three feet of packed dirt on top.",
+      "emotion": "explaining",
+      "delivery": "steady, stress 'three feet'",
+      "visualIntent": "Red rays pass through roof; dirt mound rises; 3 FT stat callout. FIX 2/9.",
+      "startSec": 8.65,
+      "durationSec": 4.865
+    },
+    {
+      "id": "seg-04",
+      "text": "But dirt is heavy, and the roof starts to sag. So we brace it with thick timber beams.",
+      "emotion": "mild alarm",
+      "delivery": "quick on 'sag', relieved on 'beams'",
+      "visualIntent": "Roof bows with problem jolt; timber posts and beams drop in. FIX 3/9.",
+      "startSec": 13.765,
+      "durationSec": 4.899
+    },
+    {
+      "id": "seg-05",
+      "text": "But now there's no way in. So we dig an entrance that turns a sharp corner. Radiation hates corners. Preppers call it a baffle entry.",
+      "emotion": "witty",
+      "delivery": "deadpan on 'hates corners'",
+      "visualIntent": "Tuck stuck outside; L-shaped tunnel appears; term tag BAFFLE ENTRY. FIX 4/9.",
+      "startSec": 18.914,
+      "durationSec": 7.198
+    },
+    {
+      "id": "seg-06",
+      "text": "But sealed underground, the air goes stale fast. So we add a hand-cranked fan and a filtered vent pipe.",
+      "emotion": "practical",
+      "delivery": "even, slightly faster",
+      "visualIntent": "Stale-air badge; vent pipe rises to surface, crank fan, teal air arrows. FIX 5/9.",
+      "startSec": 26.362,
+      "durationSec": 5.944
+    },
+    {
+      "id": "seg-07",
+      "text": "But you'll be down here a while. So we stock water: one gallon per person, per day.",
+      "emotion": "reassuring",
+      "delivery": "warm, clear numbers",
+      "visualIntent": "Empty shelf; water jugs pop on; 1 GAL/DAY stat. FIX 6/9.",
+      "startSec": 32.557,
+      "durationSec": 4.83
+    },
+    {
+      "id": "seg-08",
+      "text": "But what goes in must come out. So we add a lidded bucket toilet and plenty of bags.",
+      "emotion": "cheeky",
+      "delivery": "smiling, beat before 'come out'",
+      "visualIntent": "Tuck worry pose; bucket toilet with lid drops in corner. FIX 7/9.",
+      "startSec": 37.636,
+      "durationSec": 4.586
+    },
+    {
+      "id": "seg-09",
+      "text": "But it's pitch black. So we hang battery lanterns. Not candles, they eat your air.",
+      "emotion": "matter-of-fact",
+      "delivery": "crisp on 'not candles'",
+      "visualIntent": "Night background swap; lanterns with mustard glow discs. FIX 8/9.",
+      "startSec": 42.472,
+      "durationSec": 4.574
+    },
+    {
+      "id": "seg-10",
+      "text": "But you can't hear the outside world. So we add a hand-crank radio. That's why the official advice is: get inside, stay inside, stay tuned.",
+      "emotion": "confident",
+      "delivery": "rhythmic triple at the end",
+      "visualIntent": "Silent question badge; crank radio on shelf; term tag STAY TUNED. FIX 9/9.",
+      "startSec": 47.297,
+      "durationSec": 9.183
+    },
+    {
+      "id": "seg-11",
+      "text": "And here's the surprise: fallout fades fast. After seven hours, it's ten times weaker. After two days, a hundred times.",
+      "emotion": "upbeat reveal",
+      "delivery": "lift on 'surprise', punchy numbers",
+      "visualIntent": "Red specks on the surface thin out; stat callouts 7 HRS ÷10, 2 DAYS ÷100.",
+      "startSec": 56.73,
+      "durationSec": 8.29
+    },
+    {
+      "id": "seg-12",
+      "text": "Nine problems. Nine fixes. One hole, ready for two weeks.",
+      "emotion": "proud",
+      "delivery": "slow, 0.5 s pause before",
+      "visualIntent": "Static pull-back of the whole lit shelter, Tuck cheer inside.",
+      "startSec": 65.27,
+      "durationSec": 4.319
+    },
+    {
+      "id": "seg-13",
+      "text": "Ready beats lucky.",
+      "emotion": "warm sign-off",
+      "delivery": "soft, smiling",
+      "visualIntent": "READY stamp thuds onto the build; end-card disclaimer.",
+      "startSec": 69.839,
+      "durationSec": 1.173
+    }
+  ],
+  "targetDurationSec": 66.0,
+  "voice": null,
+  "voiceoverDurationSec": 71.011,
+  "timingMode": "exact"
+}

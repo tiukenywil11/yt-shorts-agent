@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+<filter id="wobble" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="11" result="wn"/>
+<feDisplacementMap in="SourceGraphic" in2="wn" scale="8" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="paper" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.12 0.5" numOctaves="3" seed="29" result="pn"/>
+<feColorMatrix in="pn" type="matrix" values="0 0 0 0 0.2275 0 0 0 0 0.1412 0 0 0 0 0.098 0.16 0 0 0 0" result="pf"/>
+<feComposite in="pf" in2="SourceAlpha" operator="in" result="pc"/>
+<feBlend in="pc" in2="SourceGraphic" mode="multiply"/>
+</filter>
+<filter id="shadow" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="9" result="b"/><feOffset in="b" dx="54" dy="54" result="o"/><feFlood flood-color="#3A2419" flood-opacity="0.28"/><feComposite in2="o" operator="in" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="piece" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/><feOffset in="b" dx="14" dy="14" result="o"/><feFlood flood-color="#3A2419" flood-opacity="0.28"/><feComposite in2="o" operator="in" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="bodyclip"><path d="M 300 990 C 236 990 220 900 236 820 C 252 720 300 660 318 600 C 300 520 296 420 340 340 C 384 262 450 236 512 236 C 574 236 640 262 684 340 C 728 420 724 520 706 600 C 724 660 772 720 788 820 C 804 900 788 990 724 990 Z"/></clipPath>
+</defs>
+<g filter="url(#shadow)"><g filter="url(#paper)"><g filter="url(#wobble)">
+<g id="tuck-body">
+<ellipse cx="430" cy="978" rx="66" ry="22" fill="#F4E6C8"/>
+<ellipse cx="624" cy="978" rx="66" ry="22" fill="#F4E6C8"/>
+<path d="M 300 990 C 236 990 220 900 236 820 C 252 720 300 660 318 600 C 300 520 296 420 340 340 C 384 262 450 236 512 236 C 574 236 640 262 684 340 C 728 420 724 520 706 600 C 724 660 772 720 788 820 C 804 900 788 990 724 990 Z" fill="#B86B43"/>
+<g clip-path="url(#bodyclip)">
+<ellipse cx="540" cy="842" rx="150" ry="124" fill="#F4E6C8"/>
+<path d="M 330 318 Q 512 248 694 318 L 694 352 Q 512 284 330 352 Z" fill="#F4E6C8"/>
+</g>
+<g transform="translate(590,282) rotate(9)"><rect x="-48" y="-36" width="96" height="72" rx="22" fill="#E9A93B"/>
+<circle cx="4" cy="0" r="17" fill="#F4E6C8"/></g>
+<path d="M 536 470 Q 548 424 640 430 Q 742 438 774 470 Q 786 490 764 504 Q 700 534 602 528 Q 532 520 536 470 Z" fill="#F4E6C8"/>
+<ellipse cx="770" cy="476" rx="24" ry="21" fill="#3A2419"/>
+<circle cx="494" cy="398" r="21" fill="#3A2419"/>
+<circle cx="602" cy="392" r="21" fill="#3A2419"/>
+<path d="M 298 588 Q 512 628 726 588 L 732 652 Q 512 698 292 652 Z" fill="#E9A93B"/>
+<g filter="url(#piece)">
+<rect x="-31" y="0" width="62" height="172" rx="24" fill="#E9A93B" transform="translate(392,636) rotate(12)"/>
+<rect x="-28" y="0" width="56" height="138" rx="22" fill="#E9A93B" transform="translate(448,644) rotate(-7)"/>
+</g>
+</g>
+
+<g filter="url(#piece)"><g transform="translate(316,650) rotate(22)"><rect x="-34" y="0" width="68" height="168" rx="34" fill="#B86B43"/><ellipse cx="0" cy="150" rx="46" ry="54" fill="#B86B43"/></g><g transform="translate(704,648) rotate(-100)"><rect x="-34" y="0" width="68" height="168" rx="34" fill="#B86B43"/><ellipse cx="0" cy="150" rx="46" ry="54" fill="#B86B43"/><rect x="-15" y="178" width="30" height="58" rx="15" fill="#B86B43"/></g></g>
+</g></g></g>
+</svg>

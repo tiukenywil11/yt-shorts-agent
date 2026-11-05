@@ -11,5 +11,10 @@ projects/*/final.mp4
 .DS_Store
 projects/*/assets/voice/*.hash
 tools/tts/
+# Downloaded reference media (keep analysis in creative/, not the source material)
+references/*/frames/
+references/**/*.info.json
+references/**/*.srt
+references/**/*.vtt
 node_modules/
 dist/

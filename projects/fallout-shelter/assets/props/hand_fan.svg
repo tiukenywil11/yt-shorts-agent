@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="496" viewBox="0 0 520 496">
+<defs>
+<filter id="wobble" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="11" result="wn"/>
+<feDisplacementMap in="SourceGraphic" in2="wn" scale="8" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="paper" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.12 0.5" numOctaves="3" seed="29" result="pn"/>
+<feColorMatrix in="pn" type="matrix" values="0 0 0 0 0.2275 0 0 0 0 0.1412 0 0 0 0 0.098 0.16 0 0 0 0" result="pf"/>
+<feComposite in="pf" in2="SourceAlpha" operator="in" result="pc"/>
+<feBlend in="pc" in2="SourceGraphic" mode="multiply"/>
+</filter>
+<filter id="shadow" filterUnits="userSpaceOnUse" x="0" y="0" width="520" height="496" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="6" result="b"/><feOffset in="b" dx="34" dy="34" result="o"/><feFlood flood-color="#3A2419" flood-opacity="0.28"/><feComposite in2="o" operator="in" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="piece" filterUnits="userSpaceOnUse" x="0" y="0" width="520" height="496" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/><feOffset in="b" dx="11" dy="11" result="o"/><feFlood flood-color="#3A2419" flood-opacity="0.28"/><feComposite in2="o" operator="in" result="s"/><feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#shadow)"><g filter="url(#paper)"><g filter="url(#wobble)"><g transform="translate(10,10)">
+<path d="M 396 200 L 446 200 L 446 290" fill="none" stroke="#B86B43" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/><circle cx="446" cy="304" r="18" fill="#F4E6C8"/><rect x="0" y="0" width="400" height="430" rx="52" fill="#B86B43"/><circle cx="200" cy="205" r="162" fill="#F4E6C8"/><g fill="#B86B43"><ellipse cx="200" cy="140" rx="44" ry="76" transform="rotate(0 200 205)"/><ellipse cx="200" cy="140" rx="44" ry="76" transform="rotate(120 200 205)"/><ellipse cx="200" cy="140" rx="44" ry="76" transform="rotate(240 200 205)"/></g><circle cx="200" cy="205" r="30" fill="#F4E6C8"/>
+</g></g></g></g>
+</svg>
