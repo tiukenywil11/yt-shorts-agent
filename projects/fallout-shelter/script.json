@@ -7,7 +7,7 @@
       "delivery": "bright, confident hook",
       "visualIntent": "Plain hole in the cutaway at frame 0; Tuck beside it with a shovel.",
       "startSec": 0.0,
-      "durationSec": 3.309
+      "durationSec": 3.157
     },
     {
       "id": "seg-02",
@@ -15,8 +15,8 @@
       "emotion": "playful concern",
       "delivery": "light worry, then matter-of-fact",
       "visualIntent": "Red specks drift into the open hole; plank roof drops on. FIX 1/9.",
-      "startSec": 3.559,
-      "durationSec": 4.841
+      "startSec": 3.407,
+      "durationSec": 4.715
     },
     {
       "id": "seg-03",
@@ -24,8 +24,8 @@
       "emotion": "explaining",
       "delivery": "steady, stress 'three feet'",
       "visualIntent": "Red rays pass through roof; dirt mound rises; 3 FT stat callout. FIX 2/9.",
-      "startSec": 8.65,
-      "durationSec": 4.865
+      "startSec": 8.372,
+      "durationSec": 5.355
     },
     {
       "id": "seg-04",
@@ -33,8 +33,8 @@
       "emotion": "mild alarm",
       "delivery": "quick on 'sag', relieved on 'beams'",
       "visualIntent": "Roof bows with problem jolt; timber posts and beams drop in. FIX 3/9.",
-      "startSec": 13.765,
-      "durationSec": 4.899
+      "startSec": 13.977,
+      "durationSec": 4.971
     },
     {
       "id": "seg-05",
@@ -42,8 +42,8 @@
       "emotion": "witty",
       "delivery": "deadpan on 'hates corners'",
       "visualIntent": "Tuck stuck outside; L-shaped tunnel appears; term tag BAFFLE ENTRY. FIX 4/9.",
-      "startSec": 18.914,
-      "durationSec": 7.198
+      "startSec": 19.197,
+      "durationSec": 8.405
     },
     {
       "id": "seg-06",
@@ -51,8 +51,8 @@
       "emotion": "practical",
       "delivery": "even, slightly faster",
       "visualIntent": "Stale-air badge; vent pipe rises to surface, crank fan, teal air arrows. FIX 5/9.",
-      "startSec": 26.362,
-      "durationSec": 5.944
+      "startSec": 27.853,
+      "durationSec": 6.144
     },
     {
       "id": "seg-07",
@@ -60,8 +60,8 @@
       "emotion": "reassuring",
       "delivery": "warm, clear numbers",
       "visualIntent": "Empty shelf; water jugs pop on; 1 GAL/DAY stat. FIX 6/9.",
-      "startSec": 32.557,
-      "durationSec": 4.83
+      "startSec": 34.247,
+      "durationSec": 4.779
     },
     {
       "id": "seg-08",
@@ -69,8 +69,8 @@
       "emotion": "cheeky",
       "delivery": "smiling, beat before 'come out'",
       "visualIntent": "Tuck worry pose; bucket toilet with lid drops in corner. FIX 7/9.",
-      "startSec": 37.636,
-      "durationSec": 4.586
+      "startSec": 39.275,
+      "durationSec": 4.779
     },
     {
       "id": "seg-09",
@@ -78,8 +78,8 @@
       "emotion": "matter-of-fact",
       "delivery": "crisp on 'not candles'",
       "visualIntent": "Night background swap; lanterns with mustard glow discs. FIX 8/9.",
-      "startSec": 42.472,
-      "durationSec": 4.574
+      "startSec": 44.304,
+      "durationSec": 4.757
     },
     {
       "id": "seg-10",
@@ -87,17 +87,17 @@
       "emotion": "confident",
       "delivery": "rhythmic triple at the end",
       "visualIntent": "Silent question badge; crank radio on shelf; term tag STAY TUNED. FIX 9/9.",
-      "startSec": 47.297,
-      "durationSec": 9.183
+      "startSec": 49.311,
+      "durationSec": 8.832
     },
     {
       "id": "seg-11",
       "text": "And here's the surprise: fallout fades fast. After seven hours, it's ten times weaker. After two days, a hundred times.",
       "emotion": "upbeat reveal",
       "delivery": "lift on 'surprise', punchy numbers",
-      "visualIntent": "Red specks on the surface thin out; stat callouts 7 HRS ÷10, 2 DAYS ÷100.",
-      "startSec": 56.73,
-      "durationSec": 8.29
+      "visualIntent": "Red specks on the surface thin out; stat callouts 7 HRS Ã·10, 2 DAYS Ã·100.",
+      "startSec": 58.393,
+      "durationSec": 7.573
     },
     {
       "id": "seg-12",
@@ -105,8 +105,8 @@
       "emotion": "proud",
       "delivery": "slow, 0.5 s pause before",
       "visualIntent": "Static pull-back of the whole lit shelter, Tuck cheer inside.",
-      "startSec": 65.27,
-      "durationSec": 4.319
+      "startSec": 66.217,
+      "durationSec": 3.84
     },
     {
       "id": "seg-13",
@@ -114,12 +114,16 @@
       "emotion": "warm sign-off",
       "delivery": "soft, smiling",
       "visualIntent": "READY stamp thuds onto the build; end-card disclaimer.",
-      "startSec": 69.839,
-      "durationSec": 1.173
+      "startSec": 70.307,
+      "durationSec": 1.259
     }
   ],
   "targetDurationSec": 66.0,
-  "voice": null,
-  "voiceoverDurationSec": 71.011,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_michael",
+    "speed": 1.15
+  },
+  "voiceoverDurationSec": 71.565,
   "timingMode": "exact"
 }

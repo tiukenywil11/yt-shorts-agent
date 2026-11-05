@@ -2,7 +2,7 @@
  "title": "A Hole, 9 Fixes Later",
  "channel": "Paper Prepper",
  "targetDurationSec": 71.61,
- "voiceoverSec": 71.011,
+ "voiceoverSec": 71.565,
  "sceneCount": 12,
  "cameraMoveScenes": [
   "scene-02",
@@ -16,7 +16,7 @@
     "seg-01"
    ],
    "startSec": 0.0,
-   "durationSec": 3.559,
+   "durationSec": 3.407,
    "narration": "This hole is nine problems away from a fallout shelter.",
    "beat": "hook",
    "dominantVisual": "Plain hole in the cutaway at frame 0; Tuck stands beside it with a shovel.",
@@ -31,8 +31,8 @@
    "segmentIds": [
     "seg-02"
    ],
-   "startSec": 3.559,
-   "durationSec": 5.091,
+   "startSec": 3.407,
+   "durationSec": 4.965,
    "narration": "But fallout is radioactive dust, and it falls straight in. So we add a roof.",
    "beat": "fix 1/9",
    "dominantVisual": "Red specks drift into the open hole; plank roof drops on.",
@@ -47,8 +47,8 @@
    "segmentIds": [
     "seg-03"
    ],
-   "startSec": 8.65,
-   "durationSec": 5.115,
+   "startSec": 8.372,
+   "durationSec": 5.605,
    "narration": "But a thin roof barely stops radiation. So we pile three feet of packed dirt on top.",
    "beat": "fix 2/9",
    "dominantVisual": "Red specks pass straight through the thin roof; dirt mound rises on top; 3 FT callout.",
@@ -63,8 +63,8 @@
    "segmentIds": [
     "seg-04"
    ],
-   "startSec": 13.765,
-   "durationSec": 5.149,
+   "startSec": 13.977,
+   "durationSec": 5.22,
    "narration": "But dirt is heavy, and the roof starts to sag. So we brace it with thick timber beams.",
    "beat": "fix 3/9",
    "dominantVisual": "Roof and dirt sag and jolt; timber posts and a beam drop in.",
@@ -79,8 +79,8 @@
    "segmentIds": [
     "seg-05"
    ],
-   "startSec": 18.914,
-   "durationSec": 7.448,
+   "startSec": 19.197,
+   "durationSec": 8.656,
    "narration": "But now there's no way in. So we dig an entrance that turns a sharp corner. Radiation hates corners. Preppers call it a baffle entry.",
    "beat": "fix 4/9",
    "dominantVisual": "Tuck stuck outside; an L-shaped entrance (shaft plus side passage) appears; BAFFLE ENTRY tag.",
@@ -95,8 +95,8 @@
    "segmentIds": [
     "seg-06"
    ],
-   "startSec": 26.362,
-   "durationSec": 6.195,
+   "startSec": 27.853,
+   "durationSec": 6.394,
    "narration": "But sealed underground, the air goes stale fast. So we add a hand-cranked fan and a filtered vent pipe.",
    "beat": "fix 5/9",
    "dominantVisual": "Stale-air badge and red specks in the sealed room; crank fan, vent pipe to the surface, teal air arrows.",
@@ -111,8 +111,8 @@
    "segmentIds": [
     "seg-07"
    ],
-   "startSec": 32.557,
-   "durationSec": 5.079,
+   "startSec": 34.247,
+   "durationSec": 5.028,
    "narration": "But you'll be down here a while. So we stock water: one gallon per person, per day.",
    "beat": "fix 6/9",
    "dominantVisual": "Empty shelf with a problem badge; three water jugs hop on; 1 GAL/DAY callout.",
@@ -127,8 +127,8 @@
    "segmentIds": [
     "seg-08"
    ],
-   "startSec": 37.636,
-   "durationSec": 4.836,
+   "startSec": 39.275,
+   "durationSec": 5.029,
    "narration": "But what goes in must come out. So we add a lidded bucket toilet and plenty of bags.",
    "beat": "fix 7/9",
    "dominantVisual": "Tuck in worry pose with a problem badge; lidded bucket toilet drops into the corner.",
@@ -143,8 +143,8 @@
    "segmentIds": [
     "seg-09"
    ],
-   "startSec": 42.472,
-   "durationSec": 4.825,
+   "startSec": 44.304,
+   "durationSec": 5.007,
    "narration": "But it's pitch black. So we hang battery lanterns. Not candles, they eat your air.",
    "beat": "fix 8/9",
    "dominantVisual": "Night swap (time_skip into this scene); problem badge in the dark; two battery lanterns with mustard glow discs.",
@@ -159,8 +159,8 @@
    "segmentIds": [
     "seg-10"
    ],
-   "startSec": 47.297,
-   "durationSec": 9.433,
+   "startSec": 49.311,
+   "durationSec": 9.082,
    "narration": "But you can't hear the outside world. So we add a hand-crank radio. That's why the official advice is: get inside, stay inside, stay tuned.",
    "beat": "fix 9/9",
    "dominantVisual": "Silent question badge; crank radio on the shelf; STAY TUNED tag.",
@@ -175,8 +175,8 @@
    "segmentIds": [
     "seg-11"
    ],
-   "startSec": 56.73,
-   "durationSec": 8.54,
+   "startSec": 58.393,
+   "durationSec": 7.824,
    "narration": "And here's the surprise: fallout fades fast. After seven hours, it's ten times weaker. After two days, a hundred times.",
    "beat": "twist",
    "dominantVisual": "Red specks on the surface thin out in three steps; 7 HRS ÷10 then 2 DAYS ÷100 callouts.",
@@ -192,8 +192,8 @@
     "seg-12",
     "seg-13"
    ],
-   "startSec": 65.27,
-   "durationSec": 6.34,
+   "startSec": 66.217,
+   "durationSec": 5.947,
    "narration": "Nine problems. Nine fixes. One hole, ready for two weeks. Ready beats lucky.",
    "beat": "payoff",
    "dominantVisual": "Static full-cutaway pull-back on the night background; Tuck cheers inside the lit shelter; READY stamp thuds on; end-card disclaimer.",

@@ -6,7 +6,7 @@
   "width": 1080,
   "height": 1920,
   "fps": 30,
-  "durationSec": 71.61
+  "durationSec": 72.164
  },
  "audio": {
   "voiceover": "voiceover.wav",
@@ -18,7 +18,7 @@
   {
    "id": "scene-01",
    "startSec": 0.0,
-   "durationSec": 3.559,
+   "durationSec": 3.407,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -34,7 +34,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 3.559,
+     "durationSec": 3.407,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -52,7 +52,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 3.559,
+     "durationSec": 3.407,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -70,7 +70,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_stand.svg",
      "startSec": 0,
-     "durationSec": 3.559,
+     "durationSec": 3.407,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -98,7 +98,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 3.309,
+     "durationSec": 3.157,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -127,8 +127,8 @@
   },
   {
    "id": "scene-02",
-   "startSec": 3.559,
-   "durationSec": 5.091,
+   "startSec": 3.407,
+   "durationSec": 4.965,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -146,7 +146,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 5.091,
+     "durationSec": 4.965,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -164,7 +164,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 5.091,
+     "durationSec": 4.965,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -181,8 +181,8 @@
      "type": "particle",
      "component": "ParticleBurst",
      "asset": null,
-     "startSec": 0.3,
-     "durationSec": 4.145,
+     "startSec": 0.293,
+     "durationSec": 4.037,
      "transform": {
       "x": 0.42,
       "y": 0.5,
@@ -205,8 +205,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 4.345,
+     "startSec": 0.098,
+     "durationSec": 4.232,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -230,8 +230,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
-     "startSec": 4.295,
-     "durationSec": 0.796,
+     "startSec": 4.183,
+     "durationSec": 0.782,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -250,8 +250,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 4.595,
-     "durationSec": 0.496,
+     "startSec": 4.476,
+     "durationSec": 0.489,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -270,8 +270,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 4.791,
-     "durationSec": 0.3,
+     "startSec": 4.666,
+     "durationSec": 0.299,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -298,7 +298,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 5.091,
+     "durationSec": 4.965,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -327,7 +327,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.841,
+     "durationSec": 4.715,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -351,12 +351,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.098,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 4.295,
+     "atSec": 4.183,
      "volume": 0.5
     }
    ],
@@ -367,8 +367,8 @@
   },
   {
    "id": "scene-03",
-   "startSec": 8.65,
-   "durationSec": 5.115,
+   "startSec": 8.372,
+   "durationSec": 5.605,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -384,7 +384,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 5.115,
+     "durationSec": 5.605,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -402,7 +402,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 5.115,
+     "durationSec": 5.605,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -420,7 +420,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 5.115,
+     "durationSec": 5.605,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -437,8 +437,8 @@
      "type": "particle",
      "component": "ParticleBurst",
      "asset": null,
-     "startSec": 0.3,
-     "durationSec": 2.414,
+     "startSec": 0.33,
+     "durationSec": 2.657,
      "transform": {
       "x": 0.42,
       "y": 0.53,
@@ -461,8 +461,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 2.614,
+     "startSec": 0.109,
+     "durationSec": 2.878,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -486,8 +486,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
-     "startSec": 2.564,
-     "durationSec": 2.551,
+     "startSec": 2.823,
+     "durationSec": 2.782,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -506,8 +506,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 2.914,
-     "durationSec": 2.201,
+     "startSec": 3.207,
+     "durationSec": 2.398,
      "transform": {
       "x": 0.47,
       "y": 0.3,
@@ -534,7 +534,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 3.114,
+     "durationSec": 3.428,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -558,8 +558,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 3.114,
-     "durationSec": 2.001,
+     "startSec": 3.428,
+     "durationSec": 2.177,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -585,8 +585,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 2.864,
-     "durationSec": 2.251,
+     "startSec": 3.153,
+     "durationSec": 2.452,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -606,7 +606,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 5.115,
+     "durationSec": 5.605,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -635,7 +635,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.865,
+     "durationSec": 5.355,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -659,12 +659,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.109,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 2.564,
+     "atSec": 2.823,
      "volume": 0.5
     }
    ],
@@ -675,8 +675,8 @@
   },
   {
    "id": "scene-04",
-   "startSec": 13.765,
-   "durationSec": 5.149,
+   "startSec": 13.977,
+   "durationSec": 5.22,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -694,7 +694,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 5.149,
+     "durationSec": 5.22,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -712,7 +712,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 5.149,
+     "durationSec": 5.22,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -730,7 +730,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 3.019,
+     "durationSec": 3.064,
      "transform": {
       "x": 0.42,
       "y": 0.467,
@@ -750,7 +750,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 3.019,
+     "durationSec": 3.064,
      "transform": {
       "x": 0.43,
       "y": 0.417,
@@ -769,8 +769,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
-     "startSec": 2.919,
-     "durationSec": 2.23,
+     "startSec": 2.962,
+     "durationSec": 2.258,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -787,8 +787,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
-     "startSec": 2.919,
-     "durationSec": 2.23,
+     "startSec": 2.962,
+     "durationSec": 2.258,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -805,8 +805,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 2.969,
+     "startSec": 0.102,
+     "durationSec": 3.012,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -830,8 +830,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
-     "startSec": 2.919,
-     "durationSec": 2.23,
+     "startSec": 2.962,
+     "durationSec": 2.258,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -850,8 +850,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
-     "startSec": 3.169,
-     "durationSec": 1.98,
+     "startSec": 3.215,
+     "durationSec": 2.005,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -870,8 +870,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
-     "startSec": 3.419,
-     "durationSec": 1.73,
+     "startSec": 3.469,
+     "durationSec": 1.751,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -890,8 +890,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 3.719,
-     "durationSec": 1.43,
+     "startSec": 3.773,
+     "durationSec": 1.447,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -911,7 +911,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 3.969,
+     "durationSec": 4.027,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -935,8 +935,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 3.969,
-     "durationSec": 1.18,
+     "startSec": 4.027,
+     "durationSec": 1.193,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -963,7 +963,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 5.149,
+     "durationSec": 5.22,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -992,7 +992,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.899,
+     "durationSec": 4.971,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -1016,12 +1016,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.102,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 2.919,
+     "atSec": 2.962,
      "volume": 0.5
     }
    ],
@@ -1032,8 +1032,8 @@
   },
   {
    "id": "scene-05",
-   "startSec": 18.914,
-   "durationSec": 7.448,
+   "startSec": 19.197,
+   "durationSec": 8.656,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -1049,7 +1049,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -1067,7 +1067,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -1085,7 +1085,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -1103,7 +1103,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -1121,7 +1121,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -1139,7 +1139,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -1157,7 +1157,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -1174,8 +1174,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 1.736,
+     "startSec": 0.117,
+     "durationSec": 2.027,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -1199,8 +1199,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
-     "startSec": 1.686,
-     "durationSec": 5.762,
+     "startSec": 1.969,
+     "durationSec": 6.687,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -1219,8 +1219,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
-     "startSec": 3.255,
-     "durationSec": 4.193,
+     "startSec": 3.802,
+     "durationSec": 4.854,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -1239,8 +1239,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
-     "startSec": 3.605,
-     "durationSec": 3.843,
+     "startSec": 4.209,
+     "durationSec": 4.447,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -1259,8 +1259,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 3.905,
-     "durationSec": 3.543,
+     "startSec": 4.56,
+     "durationSec": 4.096,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -1280,7 +1280,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.155,
+     "durationSec": 4.852,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -1304,8 +1304,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 4.155,
-     "durationSec": 3.293,
+     "startSec": 4.852,
+     "durationSec": 3.804,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -1331,8 +1331,8 @@
      "type": "shape",
      "component": "Shape",
      "asset": null,
-     "startSec": 6.394,
-     "durationSec": 1.054,
+     "startSec": 7.467,
+     "durationSec": 1.189,
      "transform": {
       "x": 0.57,
       "y": 0.335,
@@ -1355,8 +1355,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 6.394,
-     "durationSec": 1.054,
+     "startSec": 7.467,
+     "durationSec": 1.189,
      "transform": {
       "x": 0.57,
       "y": 0.335,
@@ -1384,7 +1384,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 7.448,
+     "durationSec": 8.656,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -1413,7 +1413,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 7.198,
+     "durationSec": 8.405,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -1437,12 +1437,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.117,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 1.686,
+     "atSec": 1.969,
      "volume": 0.5
     }
    ],
@@ -1453,8 +1453,8 @@
   },
   {
    "id": "scene-06",
-   "startSec": 26.362,
-   "durationSec": 6.195,
+   "startSec": 27.853,
+   "durationSec": 6.394,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -1473,7 +1473,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -1491,7 +1491,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -1509,7 +1509,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -1527,7 +1527,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -1545,7 +1545,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -1563,7 +1563,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -1581,7 +1581,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -1599,7 +1599,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -1617,7 +1617,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -1635,7 +1635,7 @@
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -1652,8 +1652,8 @@
      "type": "particle",
      "component": "ParticleBurst",
      "asset": null,
-     "startSec": 0.3,
-     "durationSec": 3.27,
+     "startSec": 0.31,
+     "durationSec": 3.38,
      "transform": {
       "x": 0.42,
       "y": 0.6,
@@ -1676,8 +1676,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 3.47,
+     "startSec": 0.103,
+     "durationSec": 3.587,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -1701,8 +1701,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/hand_fan.svg",
-     "startSec": 3.42,
-     "durationSec": 2.775,
+     "startSec": 3.535,
+     "durationSec": 2.859,
      "transform": {
       "x": 0.3,
       "y": 0.62,
@@ -1721,8 +1721,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
-     "startSec": 5.267,
-     "durationSec": 0.928,
+     "startSec": 5.444,
+     "durationSec": 0.95,
      "transform": {
       "x": 0.3,
       "y": 0.395,
@@ -1741,8 +1741,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
-     "startSec": 5.517,
-     "durationSec": 0.678,
+     "startSec": 5.703,
+     "durationSec": 0.691,
      "transform": {
       "x": 0.3,
       "y": 0.515,
@@ -1761,8 +1761,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
-     "startSec": 5.767,
-     "durationSec": 0.428,
+     "startSec": 5.961,
+     "durationSec": 0.433,
      "transform": {
       "x": 0.38,
       "y": 0.58,
@@ -1781,8 +1781,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
-     "startSec": 5.895,
-     "durationSec": 0.3,
+     "startSec": 6.093,
+     "durationSec": 0.301,
      "transform": {
       "x": 0.43,
       "y": 0.56,
@@ -1801,8 +1801,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 3.77,
-     "durationSec": 2.425,
+     "startSec": 3.897,
+     "durationSec": 2.497,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -1822,7 +1822,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.02,
+     "durationSec": 4.155,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -1846,8 +1846,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 4.02,
-     "durationSec": 2.175,
+     "startSec": 4.155,
+     "durationSec": 2.239,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -1874,7 +1874,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 6.195,
+     "durationSec": 6.394,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -1903,7 +1903,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 5.944,
+     "durationSec": 6.144,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -1927,12 +1927,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.103,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 3.42,
+     "atSec": 3.535,
      "volume": 0.5
     }
    ],
@@ -1943,8 +1943,8 @@
   },
   {
    "id": "scene-07",
-   "startSec": 32.557,
-   "durationSec": 5.079,
+   "startSec": 34.247,
+   "durationSec": 5.028,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -1960,7 +1960,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -1978,7 +1978,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -1996,7 +1996,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -2014,7 +2014,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -2032,7 +2032,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -2050,7 +2050,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -2068,7 +2068,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -2086,7 +2086,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -2104,7 +2104,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -2122,7 +2122,7 @@
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -2140,7 +2140,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.3,
       "y": 0.395,
@@ -2158,7 +2158,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.3,
       "y": 0.515,
@@ -2176,7 +2176,7 @@
      "component": "Prop",
      "asset": "assets/props/hand_fan.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.3,
       "y": 0.62,
@@ -2194,7 +2194,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.38,
       "y": 0.58,
@@ -2212,7 +2212,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.43,
       "y": 0.56,
@@ -2229,8 +2229,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 2.22,
+     "startSec": 0.098,
+     "durationSec": 2.198,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -2254,8 +2254,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/shelf_unit.svg",
-     "startSec": 0.3,
-     "durationSec": 4.779,
+     "startSec": 0.297,
+     "durationSec": 4.731,
      "transform": {
       "x": 0.49,
       "y": 0.595,
@@ -2274,8 +2274,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
-     "startSec": 2.17,
-     "durationSec": 2.909,
+     "startSec": 2.147,
+     "durationSec": 2.881,
      "transform": {
       "x": 0.455,
       "y": 0.645,
@@ -2294,8 +2294,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
-     "startSec": 2.47,
-     "durationSec": 2.609,
+     "startSec": 2.444,
+     "durationSec": 2.584,
      "transform": {
       "x": 0.525,
       "y": 0.645,
@@ -2314,8 +2314,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
-     "startSec": 2.77,
-     "durationSec": 2.309,
+     "startSec": 2.741,
+     "durationSec": 2.287,
      "transform": {
       "x": 0.49,
       "y": 0.605,
@@ -2334,8 +2334,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 3.12,
-     "durationSec": 1.959,
+     "startSec": 3.088,
+     "durationSec": 1.94,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -2355,7 +2355,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 3.37,
+     "durationSec": 3.335,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -2379,8 +2379,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 3.37,
-     "durationSec": 1.709,
+     "startSec": 3.335,
+     "durationSec": 1.693,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -2406,8 +2406,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 3.72,
-     "durationSec": 1.359,
+     "startSec": 3.681,
+     "durationSec": 1.347,
      "transform": {
       "x": 0.47,
       "y": 0.3,
@@ -2434,7 +2434,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_stand.svg",
      "startSec": 0,
-     "durationSec": 5.079,
+     "durationSec": 5.028,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -2466,7 +2466,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.83,
+     "durationSec": 4.779,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -2490,12 +2490,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.098,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 2.17,
+     "atSec": 2.147,
      "volume": 0.5
     }
    ],
@@ -2506,8 +2506,8 @@
   },
   {
    "id": "scene-08",
-   "startSec": 37.636,
-   "durationSec": 4.836,
+   "startSec": 39.275,
+   "durationSec": 5.029,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_day.svg"
@@ -2523,7 +2523,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -2541,7 +2541,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -2559,7 +2559,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -2577,7 +2577,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -2595,7 +2595,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -2613,7 +2613,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -2631,7 +2631,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -2649,7 +2649,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -2667,7 +2667,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -2685,7 +2685,7 @@
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -2703,7 +2703,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.3,
       "y": 0.395,
@@ -2721,7 +2721,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.3,
       "y": 0.515,
@@ -2739,7 +2739,7 @@
      "component": "Prop",
      "asset": "assets/props/hand_fan.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.3,
       "y": 0.62,
@@ -2757,7 +2757,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.38,
       "y": 0.58,
@@ -2775,7 +2775,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.43,
       "y": 0.56,
@@ -2793,7 +2793,7 @@
      "component": "Prop",
      "asset": "assets/props/shelf_unit.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.49,
       "y": 0.595,
@@ -2811,7 +2811,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.455,
       "y": 0.645,
@@ -2829,7 +2829,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.525,
       "y": 0.645,
@@ -2847,7 +2847,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.49,
       "y": 0.605,
@@ -2864,8 +2864,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 2.352,
+     "startSec": 0.104,
+     "durationSec": 2.451,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -2889,8 +2889,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/bucket_toilet.svg",
-     "startSec": 2.302,
-     "durationSec": 2.534,
+     "startSec": 2.398,
+     "durationSec": 2.631,
      "transform": {
       "x": 0.605,
       "y": 0.665,
@@ -2909,8 +2909,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 2.602,
-     "durationSec": 2.234,
+     "startSec": 2.711,
+     "durationSec": 2.318,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -2930,7 +2930,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.852,
+     "durationSec": 2.972,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -2954,8 +2954,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 2.852,
-     "durationSec": 1.984,
+     "startSec": 2.972,
+     "durationSec": 2.057,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -2982,7 +2982,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 4.836,
+     "durationSec": 5.029,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -3011,7 +3011,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.586,
+     "durationSec": 4.779,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -3035,12 +3035,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.104,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 2.302,
+     "atSec": 2.398,
      "volume": 0.5
     }
    ],
@@ -3051,8 +3051,8 @@
   },
   {
    "id": "scene-09",
-   "startSec": 42.472,
-   "durationSec": 4.825,
+   "startSec": 44.304,
+   "durationSec": 5.007,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_night.svg"
@@ -3068,7 +3068,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -3086,7 +3086,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -3104,7 +3104,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -3122,7 +3122,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -3140,7 +3140,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -3158,7 +3158,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -3176,7 +3176,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -3194,7 +3194,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -3212,7 +3212,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -3230,7 +3230,7 @@
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -3248,7 +3248,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.3,
       "y": 0.395,
@@ -3266,7 +3266,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.3,
       "y": 0.515,
@@ -3284,7 +3284,7 @@
      "component": "Prop",
      "asset": "assets/props/hand_fan.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.3,
       "y": 0.62,
@@ -3302,7 +3302,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.38,
       "y": 0.58,
@@ -3320,7 +3320,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.43,
       "y": 0.56,
@@ -3338,7 +3338,7 @@
      "component": "Prop",
      "asset": "assets/props/shelf_unit.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.49,
       "y": 0.595,
@@ -3356,7 +3356,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.455,
       "y": 0.645,
@@ -3374,7 +3374,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.525,
       "y": 0.645,
@@ -3392,7 +3392,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.49,
       "y": 0.605,
@@ -3410,7 +3410,7 @@
      "component": "Prop",
      "asset": "assets/props/bucket_toilet.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.605,
       "y": 0.665,
@@ -3427,8 +3427,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/problem_badge.svg",
-     "startSec": 0.1,
-     "durationSec": 1.512,
+     "startSec": 0.104,
+     "durationSec": 1.573,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -3452,8 +3452,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
-     "startSec": 1.462,
-     "durationSec": 3.363,
+     "startSec": 1.52,
+     "durationSec": 3.487,
      "transform": {
       "x": 0.35,
       "y": 0.52,
@@ -3472,8 +3472,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
-     "startSec": 1.662,
-     "durationSec": 3.163,
+     "startSec": 1.729,
+     "durationSec": 3.278,
      "transform": {
       "x": 0.35,
       "y": 0.525,
@@ -3494,8 +3494,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
-     "startSec": 1.962,
-     "durationSec": 2.863,
+     "startSec": 2.04,
+     "durationSec": 2.967,
      "transform": {
       "x": 0.575,
       "y": 0.52,
@@ -3514,8 +3514,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
-     "startSec": 2.162,
-     "durationSec": 2.663,
+     "startSec": 2.249,
+     "durationSec": 2.758,
      "transform": {
       "x": 0.575,
       "y": 0.525,
@@ -3536,8 +3536,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 2.412,
-     "durationSec": 2.413,
+     "startSec": 2.508,
+     "durationSec": 2.499,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -3557,7 +3557,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.662,
+     "durationSec": 2.768,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -3581,8 +3581,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 2.662,
-     "durationSec": 2.163,
+     "startSec": 2.768,
+     "durationSec": 2.239,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -3609,7 +3609,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 4.825,
+     "durationSec": 5.007,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -3638,7 +3638,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.574,
+     "durationSec": 4.757,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -3662,12 +3662,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.104,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 1.462,
+     "atSec": 1.52,
      "volume": 0.5
     }
    ],
@@ -3678,8 +3678,8 @@
   },
   {
    "id": "scene-10",
-   "startSec": 47.297,
-   "durationSec": 9.433,
+   "startSec": 49.311,
+   "durationSec": 9.082,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_night.svg"
@@ -3695,7 +3695,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -3713,7 +3713,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -3731,7 +3731,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -3749,7 +3749,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -3767,7 +3767,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -3785,7 +3785,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -3803,7 +3803,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -3821,7 +3821,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -3839,7 +3839,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -3857,7 +3857,7 @@
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -3875,7 +3875,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.3,
       "y": 0.395,
@@ -3893,7 +3893,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.3,
       "y": 0.515,
@@ -3911,7 +3911,7 @@
      "component": "Prop",
      "asset": "assets/props/hand_fan.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.3,
       "y": 0.62,
@@ -3929,7 +3929,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.38,
       "y": 0.58,
@@ -3947,7 +3947,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.43,
       "y": 0.56,
@@ -3965,7 +3965,7 @@
      "component": "Prop",
      "asset": "assets/props/shelf_unit.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.49,
       "y": 0.595,
@@ -3983,7 +3983,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.455,
       "y": 0.645,
@@ -4001,7 +4001,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.525,
       "y": 0.645,
@@ -4019,7 +4019,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.49,
       "y": 0.605,
@@ -4037,7 +4037,7 @@
      "component": "Prop",
      "asset": "assets/props/bucket_toilet.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.605,
       "y": 0.665,
@@ -4055,7 +4055,7 @@
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.35,
       "y": 0.52,
@@ -4073,7 +4073,7 @@
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.575,
       "y": 0.52,
@@ -4091,7 +4091,7 @@
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.35,
       "y": 0.525,
@@ -4109,7 +4109,7 @@
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.575,
       "y": 0.525,
@@ -4126,8 +4126,8 @@
      "type": "shape",
      "component": "Shape",
      "asset": null,
-     "startSec": 0.1,
-     "durationSec": 3.253,
+     "startSec": 0.096,
+     "durationSec": 3.128,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -4154,8 +4154,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 0.1,
-     "durationSec": 3.253,
+     "startSec": 0.096,
+     "durationSec": 3.128,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -4182,8 +4182,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/props/crank_radio.svg",
-     "startSec": 3.203,
-     "durationSec": 6.23,
+     "startSec": 3.081,
+     "durationSec": 6.001,
      "transform": {
       "x": 0.49,
       "y": 0.52,
@@ -4202,8 +4202,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/fix_check.svg",
-     "startSec": 3.503,
-     "durationSec": 5.93,
+     "startSec": 3.369,
+     "durationSec": 5.713,
      "transform": {
       "x": 0.76,
       "y": 0.33,
@@ -4223,7 +4223,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 3.753,
+     "durationSec": 3.609,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -4247,8 +4247,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 3.753,
-     "durationSec": 5.68,
+     "startSec": 3.609,
+     "durationSec": 5.473,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -4274,8 +4274,8 @@
      "type": "shape",
      "component": "Shape",
      "asset": null,
-     "startSec": 8.356,
-     "durationSec": 1.077,
+     "startSec": 8.036,
+     "durationSec": 1.046,
      "transform": {
       "x": 0.57,
       "y": 0.335,
@@ -4298,8 +4298,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 8.356,
-     "durationSec": 1.077,
+     "startSec": 8.036,
+     "durationSec": 1.046,
      "transform": {
       "x": 0.57,
       "y": 0.335,
@@ -4327,7 +4327,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_worry.svg",
      "startSec": 0,
-     "durationSec": 9.433,
+     "durationSec": 9.082,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -4356,7 +4356,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 9.183,
+     "durationSec": 8.832,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -4380,12 +4380,12 @@
    "sfx": [
     {
      "asset": "assets/sfx/problem_bonk.wav",
-     "atSec": 0.1,
+     "atSec": 0.096,
      "volume": 0.5
     },
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 3.203,
+     "atSec": 3.081,
      "volume": 0.5
     }
    ],
@@ -4396,8 +4396,8 @@
   },
   {
    "id": "scene-11",
-   "startSec": 56.73,
-   "durationSec": 8.54,
+   "startSec": 58.393,
+   "durationSec": 7.824,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_night.svg"
@@ -4413,7 +4413,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -4431,7 +4431,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -4449,7 +4449,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -4467,7 +4467,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -4485,7 +4485,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -4503,7 +4503,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -4521,7 +4521,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -4539,7 +4539,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -4557,7 +4557,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -4575,7 +4575,7 @@
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -4593,7 +4593,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.3,
       "y": 0.395,
@@ -4611,7 +4611,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.3,
       "y": 0.515,
@@ -4629,7 +4629,7 @@
      "component": "Prop",
      "asset": "assets/props/hand_fan.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.3,
       "y": 0.62,
@@ -4647,7 +4647,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.38,
       "y": 0.58,
@@ -4665,7 +4665,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.43,
       "y": 0.56,
@@ -4683,7 +4683,7 @@
      "component": "Prop",
      "asset": "assets/props/shelf_unit.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.49,
       "y": 0.595,
@@ -4701,7 +4701,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.455,
       "y": 0.645,
@@ -4719,7 +4719,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.525,
       "y": 0.645,
@@ -4737,7 +4737,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.49,
       "y": 0.605,
@@ -4755,7 +4755,7 @@
      "component": "Prop",
      "asset": "assets/props/bucket_toilet.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.605,
       "y": 0.665,
@@ -4773,7 +4773,7 @@
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.35,
       "y": 0.52,
@@ -4791,7 +4791,7 @@
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.575,
       "y": 0.52,
@@ -4809,7 +4809,7 @@
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.35,
       "y": 0.525,
@@ -4827,7 +4827,7 @@
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.575,
       "y": 0.525,
@@ -4845,7 +4845,7 @@
      "component": "Prop",
      "asset": "assets/props/crank_radio.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.49,
       "y": 0.52,
@@ -4863,7 +4863,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -4887,8 +4887,8 @@
      "type": "particle",
      "component": "ParticleBurst",
      "asset": null,
-     "startSec": 0.2,
-     "durationSec": 2.935,
+     "startSec": 0.182,
+     "durationSec": 2.682,
      "transform": {
       "x": 0.47,
       "y": 0.34,
@@ -4911,8 +4911,8 @@
      "type": "particle",
      "component": "ParticleBurst",
      "asset": null,
-     "startSec": 3.135,
-     "durationSec": 2.926,
+     "startSec": 2.864,
+     "durationSec": 2.672,
      "transform": {
       "x": 0.47,
       "y": 0.34,
@@ -4935,8 +4935,8 @@
      "type": "particle",
      "component": "ParticleBurst",
      "asset": null,
-     "startSec": 6.061,
-     "durationSec": 2.479,
+     "startSec": 5.536,
+     "durationSec": 2.288,
      "transform": {
       "x": 0.47,
       "y": 0.34,
@@ -4959,8 +4959,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 3.453,
-     "durationSec": 2.708,
+     "startSec": 3.155,
+     "durationSec": 2.473,
      "transform": {
       "x": 0.47,
       "y": 0.3,
@@ -4986,8 +4986,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 6.379,
-     "durationSec": 2.161,
+     "startSec": 5.827,
+     "durationSec": 1.997,
      "transform": {
       "x": 0.47,
       "y": 0.3,
@@ -5014,7 +5014,7 @@
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_idea.svg",
      "startSec": 0,
-     "durationSec": 8.54,
+     "durationSec": 7.824,
      "transform": {
       "x": 0.13,
       "y": 0.4,
@@ -5042,7 +5042,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 8.29,
+     "durationSec": 7.573,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -5066,7 +5066,7 @@
    "sfx": [
     {
      "asset": "assets/sfx/paper_rustle.wav",
-     "atSec": 3.135,
+     "atSec": 2.864,
      "volume": 0.4
     }
    ],
@@ -5077,8 +5077,8 @@
   },
   {
    "id": "scene-12",
-   "startSec": 65.27,
-   "durationSec": 6.34,
+   "startSec": 66.217,
+   "durationSec": 5.947,
    "background": {
     "type": "image",
     "asset": "assets/backgrounds/bg_cutaway_night.svg"
@@ -5094,7 +5094,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.42,
       "y": 0.585,
@@ -5112,7 +5112,7 @@
      "component": "Prop",
      "asset": "assets/props/shovel.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.24,
       "y": 0.395,
@@ -5130,7 +5130,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.42,
       "y": 0.455,
@@ -5148,7 +5148,7 @@
      "component": "Prop",
      "asset": "assets/props/earth_cover.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.43,
       "y": 0.405,
@@ -5166,7 +5166,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.2,
       "y": 0.585,
@@ -5184,7 +5184,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.64,
       "y": 0.585,
@@ -5202,7 +5202,7 @@
      "component": "Prop",
      "asset": "assets/props/timber_beam.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.42,
       "y": 0.49,
@@ -5220,7 +5220,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -5238,7 +5238,7 @@
      "component": "Prop",
      "asset": "assets/props/hole_cutout.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.7,
       "y": 0.62,
@@ -5256,7 +5256,7 @@
      "component": "Prop",
      "asset": "assets/props/ladder.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.745,
       "y": 0.53,
@@ -5274,7 +5274,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.3,
       "y": 0.395,
@@ -5292,7 +5292,7 @@
      "component": "Prop",
      "asset": "assets/props/vent_pipe.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.3,
       "y": 0.515,
@@ -5310,7 +5310,7 @@
      "component": "Prop",
      "asset": "assets/props/hand_fan.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.3,
       "y": 0.62,
@@ -5328,7 +5328,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.38,
       "y": 0.58,
@@ -5346,7 +5346,7 @@
      "component": "Prop",
      "asset": "assets/props/air_arrow.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.43,
       "y": 0.56,
@@ -5364,7 +5364,7 @@
      "component": "Prop",
      "asset": "assets/props/shelf_unit.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.49,
       "y": 0.595,
@@ -5382,7 +5382,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.455,
       "y": 0.645,
@@ -5400,7 +5400,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.525,
       "y": 0.645,
@@ -5418,7 +5418,7 @@
      "component": "Prop",
      "asset": "assets/props/water_jug.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.49,
       "y": 0.605,
@@ -5436,7 +5436,7 @@
      "component": "Prop",
      "asset": "assets/props/bucket_toilet.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.605,
       "y": 0.665,
@@ -5454,7 +5454,7 @@
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.35,
       "y": 0.52,
@@ -5472,7 +5472,7 @@
      "component": "Prop",
      "asset": "assets/props/lantern.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.575,
       "y": 0.52,
@@ -5490,7 +5490,7 @@
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.35,
       "y": 0.525,
@@ -5511,7 +5511,7 @@
      "component": "Prop",
      "asset": "assets/props/glow_disc.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.575,
       "y": 0.525,
@@ -5532,7 +5532,7 @@
      "component": "Prop",
      "asset": "assets/props/crank_radio.svg",
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.49,
       "y": 0.52,
@@ -5550,7 +5550,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 6.34,
+     "durationSec": 5.947,
      "transform": {
       "x": 0.2,
       "y": 0.13,
@@ -5574,8 +5574,8 @@
      "type": "character",
      "component": "Character",
      "asset": "assets/characters/tuck/tuck_stand.svg",
-     "startSec": 0.15,
-     "durationSec": 6.19,
+     "startSec": 0.133,
+     "durationSec": 5.814,
      "transform": {
       "x": 0.385,
       "y": 0.65,
@@ -5605,8 +5605,8 @@
      "type": "prop",
      "component": "Prop",
      "asset": "assets/ui/ready_stamp.svg",
-     "startSec": 4.469,
-     "durationSec": 1.871,
+     "startSec": 3.99,
+     "durationSec": 1.957,
      "transform": {
       "x": 0.55,
       "y": 0.4,
@@ -5625,8 +5625,8 @@
      "type": "particle",
      "component": "ParticleBurst",
      "asset": null,
-     "startSec": 4.569,
-     "durationSec": 1.2,
+     "startSec": 4.09,
+     "durationSec": 1.286,
      "transform": {
       "x": 0.55,
       "y": 0.4,
@@ -5647,8 +5647,8 @@
      "type": "shape",
      "component": "Shape",
      "asset": null,
-     "startSec": 5.019,
-     "durationSec": 1.321,
+     "startSec": 4.573,
+     "durationSec": 1.374,
      "transform": {
       "x": 0.47,
       "y": 0.27,
@@ -5670,8 +5670,8 @@
      "type": "text",
      "component": "KineticText",
      "asset": null,
-     "startSec": 5.019,
-     "durationSec": 1.321,
+     "startSec": 4.573,
+     "durationSec": 1.374,
      "transform": {
       "x": 0.47,
       "y": 0.27,
@@ -5698,7 +5698,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 4.319,
+     "durationSec": 3.84,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -5723,8 +5723,8 @@
      "type": "text",
      "component": "Caption",
      "asset": null,
-     "startSec": 4.569,
-     "durationSec": 1.173,
+     "startSec": 4.09,
+     "durationSec": 1.259,
      "transform": {
       "x": 0.47,
       "y": 0.2,
@@ -5748,7 +5748,7 @@
    "sfx": [
     {
      "asset": "assets/sfx/stamp_thud.wav",
-     "atSec": 4.469,
+     "atSec": 3.99,
      "volume": 0.7
     }
    ],
