@@ -68,7 +68,17 @@
       "Bash(python scripts/tts.py projects/fallout-shelter --speed 1.25)",
       "Bash(python scripts/audio_timing.py projects/fallout-shelter --gap 0.12 --tail 0.3)",
       "Bash(python scripts/make_contact_sheet.py projects/fallout-shelter/output/preview.mp4)",
-      "Bash(python scripts/check_video.py projects/fallout-shelter/output/preview.mp4 --expect preview)"
+      "Bash(python scripts/check_video.py projects/fallout-shelter/output/preview.mp4 --expect preview)",
+      "Bash(python scripts/new_short.py blackout-house --duration 58)",
+      "Bash(python scripts/tts.py projects/blackout-house --engine kokoro --voice am_michael --speed 1.25)",
+      "Bash(python scripts/audio_timing.py projects/blackout-house)",
+      "Bash(git add *)",
+      "Bash(awk '{print $2}')",
+      "Bash(git commit -q -m 'Add blackout-house Short work in progress *)",
+      "Bash(git switch *)",
+      "Bash(mkdir -p channels/paper-prepper)",
+      "Bash(cp -r creative channels/paper-prepper/creative)",
+      "Bash(git commit -q -m 'Add habits + money channel strategy and archive Paper Prepper creative *)"
     ]
   }
 }
