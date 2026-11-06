@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "A visible savings goal may help you save more.",
+      "startSec": 0.0,
+      "durationSec": 2.539
+    },
+    {
+      "id": "seg-02",
+      "text": "You mean to save, but the money sits in one pile with no name, and it quietly gets spent.",
+      "startSec": 2.789,
+      "durationSec": 4.885
+    },
+    {
+      "id": "seg-03",
+      "text": "A 2011 study of low-income consumers tested saving with a named goal. A visual reminder of the goal raised the savings rate, and splitting the money into two parts helped too.",
+      "startSec": 7.924,
+      "durationSec": 11.349
+    },
+    {
+      "id": "seg-04",
+      "text": "A practical way to try this. One: name one goal, like a trip or a laptop. Two: keep a visible reminder of it, like a jar or a photo. Three: split the saving into two separate parts.",
+      "startSec": 19.523,
+      "durationSec": 12.075
+    },
+    {
+      "id": "seg-05",
+      "text": "This was one study of low-income consumers, so results may differ for you. This is not financial advice.",
+      "startSec": 31.848,
+      "durationSec": 6.507
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: name one savings goal, and put it where you can see it.",
+      "startSec": 38.605,
+      "durationSec": 3.669
+    }
+  ],
+  "targetDurationSec": 40,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 42.274,
+  "timingMode": "exact"
+}

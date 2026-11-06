@@ -66,6 +66,7 @@
     { "id": "floor_strip",     "description": "Full-width Kraft floor band, top edge at y=0.64 with a 1-2px wobble, 2 Ink 20% grain dashes. Width 1.0, placed at y ~0.81.", "pillar": "all", "layer": 5, "shadowTier": "none", "colors": ["kraft", "ink"] },
 
     { "id": "coin",            "description": "Sun Yellow coin, Ink '$' cut-out, Paper rim highlight.", "pillar": "money", "layer": 40, "shadowTier": "front", "colors": ["sun", "ink", "paper"] },
+    { "id": "goal_photo",     "description": "Paper print with Sky sky, Sun disc, Mint hills and a Sun tape strip; generic goal image, no real photo.", "pillar": "money", "layer": 40, "shadowTier": "mid", "colors": ["paper", "sky", "sun", "mint", "ink"] },
     { "id": "coin_stack",      "description": "4 stacked coins, side view.", "pillar": "money", "layer": 40, "shadowTier": "front", "colors": ["sun", "ink"] },
     { "id": "savings_jar",     "description": "Paper glass jar with Ink lid and an empty interior; fill level comes from separate coin/coin_stack elements.", "pillar": "money", "layer": 30, "shadowTier": "mid", "colors": ["paper", "ink", "sky"] },
     { "id": "piggy_bank",      "description": "Generic rounded Paper pig bank with Sun coin slot (not a branded design).", "pillar": "money", "layer": 30, "shadowTier": "mid", "colors": ["paper", "sun", "ink"] },

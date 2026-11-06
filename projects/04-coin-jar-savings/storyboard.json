@@ -1,0 +1,271 @@
+{
+ "title": "Does a Visible Savings Goal Help?",
+ "channel": "Small Change Lab",
+ "pillar": "Money",
+ "series": "standard",
+ "targetDurationSec": 42.874,
+ "voiceoverSec": 42.274,
+ "sceneCount": 14,
+ "notes": [
+  "Money tint #E3F1E7 solid background + floor_strip on every scene; chip MONEY · SAVINGS GOAL; disclaimer tag NOT FINANCIAL ADVICE from the cite card (scene-04) to the end.",
+  "Cite card scene-04, 3.5 s: THE STUDY / Soman & Cheema, 2011 / SAVING MAY RISE / one study, low-income consumers. No n stated (not in abstract). Entered via slide_up (page_turn) from scene-03.",
+  "Problem (plain jar, coral cross, leaking coins) before fix (labelled jar, photo, second jar, mint checks). Coral cross and mint check never on the same prop at once.",
+  "Captions split across scenes at phrase boundaries; cut points inside a segment are estimated by letter count (no word timing). Inter-segment gaps belong to the preceding scene.",
+  "Loop: scene-14 (0.6 s) = hook layout with the jar now labelled with a goal photo and a second small jar beside it.",
+  "New placeholder SVGs: savings_jar, coin, goal_photo. Goal label tag, second jar built from Shape/KineticText/reused savings_jar. Not claimed on screen: amounts saved, that jars/coins were tested."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 2.789,
+   "beat": "hook",
+   "dominantVisual": "Inch beside a plain unlabeled jar with a few coins; tag ONE PILE · NO NAME",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "ONE PILE · NO NAME"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.789,
+   "durationSec": 3.442,
+   "beat": "problem",
+   "dominantVisual": "Worried Inch, plain jar gets a coral cross; tag NO NAME ON IT",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "NO NAME ON IT"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 6.231,
+   "durationSec": 1.693,
+   "beat": "problem",
+   "dominantVisual": "Coins slip away from the plain jar; tag QUIETLY SPENT",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "QUIETLY SPENT"
+   ],
+   "sfx": [],
+   "transitionOut": "page_turn",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 7.924,
+   "durationSec": 4.526,
+   "beat": "cite",
+   "dominantVisual": "Cite card held 3.5 s: THE STUDY / Soman & Cheema, 2011 / SAVING MAY RISE / one study, low-income consumers",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "THE STUDY",
+    "Soman & Cheema, 2011",
+    "SAVING MAY RISE",
+    "one study, low-income consumers"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 12.45,
+   "durationSec": 3.543,
+   "beat": "evidence",
+   "dominantVisual": "Goal photo taped on the jar; tags VISIBLE REMINDER then SAVINGS RATE ROSE with mint check",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "VISIBLE REMINDER",
+    "SAVINGS RATE ROSE"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 20
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 15.993,
+   "durationSec": 3.53,
+   "beat": "evidence",
+   "dominantVisual": "Money split into two small jars; tag SPLIT IN TWO with mint check",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "SPLIT IN TWO"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 19.523,
+   "durationSec": 1.899,
+   "beat": "fix",
+   "dominantVisual": "Inch with an idea next to the plain jar; tag A WAY TO TRY IT",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "A WAY TO TRY IT"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 21.422,
+   "durationSec": 2.985,
+   "beat": "fix",
+   "dominantVisual": "Step slate 1 NAME ONE GOAL",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "1",
+    "NAME ONE GOAL"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 24.407,
+   "durationSec": 3.935,
+   "beat": "fix",
+   "dominantVisual": "Step slate 2 KEEP IT VISIBLE",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "2",
+    "KEEP IT VISIBLE"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 28.342,
+   "durationSec": 3.506,
+   "beat": "fix",
+   "dominantVisual": "Step slate 3 SPLIT INTO TWO",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "3",
+    "SPLIT INTO TWO"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 31.848,
+   "durationSec": 4.675,
+   "beat": "caveat",
+   "dominantVisual": "Skeptical Inch beside the labelled jar; tags ONE STUDY then RESULTS MAY DIFFER",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "ONE STUDY",
+    "RESULTS MAY DIFFER"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 36.523,
+   "durationSec": 2.082,
+   "beat": "caveat",
+   "dominantVisual": "Inch beside the labelled jar with a big NOT FINANCIAL ADVICE tag",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "NOT FINANCIAL ADVICE"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 38.605,
+   "durationSec": 3.669,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on; cheering Inch beside the labelled jar",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-14",
+   "segmentIds": [],
+   "startSec": 42.274,
+   "durationSec": 0.6,
+   "beat": "loop",
+   "dominantVisual": "Loop frame: hook layout, jar now labelled with goal photo and a second small jar beside it",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 17
+  }
+ ]
+}

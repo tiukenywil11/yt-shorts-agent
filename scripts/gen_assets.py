@@ -827,6 +827,38 @@ SCL_DRAWERS = {
 
 # ------------------------------------------------------------------ registry: asset id -> drawer
 # Characters take a pose argument; everything else takes none.
+# ------------------------------------------------------------------ Coin Jar Savings props
+def savings_jar():
+    # 400x500; main use ~0.35 width. Empty paper jar: coins are separate elements.
+    s = _scale(400, 0.35); a = 0.9 * s
+    art = (wrect(50, 90, 300, 392, 56, SP, 701, a, attrs=f' stroke="{SI}" stroke-width="6"')
+           + wrect(62, 112, 276, 40, 14, SY, 702, a * 0.5, attrs=' opacity="0.55"')
+           + wrect(72, 170, 34, 270, 17, SY, 703, a * 0.5, attrs=' opacity="0.7"')
+           + wrect(84, 28, 232, 66, 16, SI, 704, a * 0.6)
+           + f'<path d="M 108 52 L 292 52" stroke="{SP}" stroke-width="6" stroke-linecap="round" opacity="0.5"/>')
+    return scl_doc(400, 500, art, "mid", s)
+
+
+def coin():
+    # 200x200; Sun disc, Paper rim, Ink '$'.
+    s = _scale(200, 0.1); a = 0.8 * s
+    art = (wcirc(100, 100, 88, SS, 711, a, n=22, attrs=f' stroke="{SP}" stroke-width="9"')
+           + f'<path d="M 100 52 L 100 148 M 124 76 C 113 62 76 62 76 86 C 76 110 124 96 124 120 C 124 144 88 142 74 126" '
+             f'fill="none" stroke="{SI}" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>')
+    return scl_doc(200, 200, art, "front", s)
+
+
+def goal_photo():
+    # 360x320; paper print with Sky/Mint scene and a Sun tape strip.
+    s = _scale(360, 0.3); a = 0.9 * s
+    art = (wrect(20, 22, 320, 278, 10, SP, 721, a, attrs=f' stroke="{SI}" stroke-width="5"')
+           + wrect(44, 48, 272, 190, 6, SY, 722, a * 0.6)
+           + wcirc(250, 96, 28, SS, 723, a * 0.6, n=12)
+           + wblob([(44, 238), (44, 200), (130, 128), (190, 196), (232, 158), (316, 214), (316, 238)], SM, 724, a * 0.6)
+           + wrect(128, 6, 104, 36, 5, SS, 725, a * 0.5, attrs=' opacity="0.9" transform="rotate(-3 180 24)"'))
+    return scl_doc(360, 320, art, "mid", s)
+
+
 DRAWERS = {
     "tuck": tuck,
     "bg_cutaway_day": bg_cutaway_day, "bg_cutaway_night": bg_cutaway_night,
@@ -836,6 +868,7 @@ DRAWERS = {
     "timber_beam": timber_beam, "vent_pipe": vent_pipe, "water_jug": water_jug,
     "fix_check": fix_check, "problem_badge": problem_badge, "ready_stamp": ready_stamp,
 }
+DRAWERS.update({"savings_jar": savings_jar, "coin": coin, "goal_photo": goal_photo})
 DRAWERS.update(SCL_DRAWERS)  # Small Change Lab (inch_<pose> ids are flat files)
 POSES = {"tuck": TUCK_POSES, "inch": INCH_POSES}
 
