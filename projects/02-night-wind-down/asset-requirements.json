@@ -1,0 +1,181 @@
+{
+ "missing": [
+  "inch_tired",
+  "phone_glow",
+  "lamp_dim"
+ ],
+ "note": "Placeholder SVGs exist at every new path so validation passes; replace with final art at the same paths. Optional, not referenced: pencil_tick and page_flip SFX, music bed (audio.music is null).",
+ "assets": [
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "description": "Inch pose 'neutral'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_worry",
+   "type": "character",
+   "path": "assets/characters/inch/inch_worry.svg",
+   "description": "Inch pose 'worry'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "Inch pose 'idea'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "Inch pose 'cheer'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_skeptical",
+   "type": "character",
+   "path": "assets/characters/inch/inch_skeptical.svg",
+   "description": "Inch pose 'skeptical'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "Floor strip.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "phone",
+   "type": "prop",
+   "path": "assets/props/phone.svg",
+   "description": "Phone, screen on.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "book_open",
+   "type": "prop",
+   "path": "assets/props/book_open.svg",
+   "description": "Open paper book.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "check_mint",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "cross_coral",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "cite_card",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "step_slate",
+   "type": "ui",
+   "path": "assets/ui/step_slate.svg",
+   "description": "step_slate",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "try_today_note",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "paper_rustle",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/01-focus-block (same registry id)"
+  },
+  {
+   "id": "problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "problem_bonk",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/01-focus-block (same registry id)"
+  },
+  {
+   "id": "stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "stamp_thud",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/01-focus-block (same registry id)"
+  },
+  {
+   "id": "inch_tired",
+   "type": "character",
+   "path": "assets/characters/inch/inch_tired.svg",
+   "description": "Registry optional pose 'tired': stalks drooping forward, half-lidded eyes, flat mouth. Same 1024 canvas.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "phone_glow",
+   "type": "prop",
+   "path": "assets/props/phone_glow.svg",
+   "description": "Jagged 12-point Sun Yellow star glow, ~55% opacity, sits behind phone.svg (problem state: jagged edge). Flat, no blur.",
+   "status": "drawn",
+   "inRegistry": false,
+   "source": "library"
+  },
+  {
+   "id": "lamp_dim",
+   "type": "prop",
+   "path": "assets/props/lamp_dim.svg",
+   "description": "Small dim bedside lamp: Kraft stand and base, Sun Yellow shade, Paper bulb, baked Ink 20% shadow, <=6 pieces.",
+   "status": "drawn",
+   "inRegistry": false,
+   "source": "library"
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+ "title": "Your Bedtime Screen Has a Cost",
+ "channel": "Small Change Lab",
+ "targetDurationSec": 36.43,
+ "voiceoverSec": 35.831,
+ "sceneCount": 14,
+ "notes": [
+  "Night palette: solid Ink #26303F background on every scene; Sky/Sun accents only. Body pillar: chip BODY · WIND-DOWN (Sun dot) every scene.",
+  "Disclaimer tag NOT MEDICAL ADVICE from scene-04 (cite card) to the end (scene-14).",
+  "Cite card (scene-04, 3.5 s): THE STUDY / Chang et al., 2015 · PNAS / SLOWER TO FALL ASLEEP / one lab study. No n= and no minutes (unverified, see idea.md).",
+  "Captions are split across scenes at word boundaries proportional to letter count (same method as focus-block). Scene cut points sit at phrase starts; 0.25 s inter-segment gaps belong to the preceding scene.",
+  "Problem (cross_coral scenes 03, 05) before fix (check_mint scenes 06, 09, 10). page_turn only into scene-04. Camera cam_lean_in only on scene-13.",
+  "Loop: scene-14 (0.6 s) = hook layout (Inch neutral, same spot) with phone replaced by open book plus dim lamp.",
+  "New placeholder SVGs: phone_glow, lamp_dim, inch_tired (copy of worry). See asset-requirements.json."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 2.554,
+   "beat": "hook",
+   "dominantVisual": "Inch at night beside a phone with a jagged Sun glow; chip BODY, caption states the claim",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 8
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.554,
+   "durationSec": 2.636,
+   "beat": "problem",
+   "dominantVisual": "Tired Inch watching the phone; 'ONE MORE VIDEO' then 'ONE MORE SCROLL' pop in",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "ONE MORE VIDEO",
+    "ONE MORE SCROLL"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 5.19,
+   "durationSec": 2.158,
+   "beat": "problem",
+   "dominantVisual": "Glow pulses larger, coral cross lands on the phone, a Sky 'Z Z Z' waits in the corner",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "Z Z Z"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "page_turn",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 7.348,
+   "durationSec": 3.502,
+   "beat": "cite",
+   "dominantVisual": "Cite card held 3.5 s: THE STUDY / Chang et al., 2015 / SLOWER TO FALL ASLEEP / one lab study",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "THE STUDY",
+    "Chang et al., 2015 · PNAS",
+    "SLOWER TO FALL ASLEEP",
+    "one lab study",
+    "NOT MEDICAL ADVICE"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 10.85,
+   "durationSec": 2.15,
+   "beat": "cite",
+   "dominantVisual": "Coral GLOWING SCREEN bar with cross, glowing phone below",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "GLOWING SCREEN"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 13.0,
+   "durationSec": 2.15,
+   "beat": "cite",
+   "dominantVisual": "Mint PRINTED BOOK bar with check, open book below",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "PRINTED BOOK"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 15.15,
+   "durationSec": 2.859,
+   "beat": "cite",
+   "dominantVisual": "Tired Inch; Paper tag LESS ALERT NEXT MORNING, small Sun circle for the morning",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "LESS ALERT NEXT MORNING"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 18.009,
+   "durationSec": 3.651,
+   "beat": "fix",
+   "dominantVisual": "Inch has an idea; dim lamp pops in; step slate 1 DIM LIGHTS, 1 HR BEFORE BED",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "1",
+    "DIM LIGHTS · 1 HR BEFORE BED"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 21.66,
+   "durationSec": 2.39,
+   "beat": "fix",
+   "dominantVisual": "Step slate 2; glowing phone pops out, open book pops in with a Mint check",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "2",
+    "SWAP SCREEN FOR PAPER"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 24.05,
+   "durationSec": 3.958,
+   "beat": "fix",
+   "dominantVisual": "Step slate 3 SAME ORDER EVERY NIGHT with lamp and book as the fixed routine; Mint check",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "3",
+    "SAME ORDER EVERY NIGHT"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 28.008,
+   "durationSec": 2.122,
+   "beat": "caveat",
+   "dominantVisual": "Skeptical Inch with a Paper tag ONE LAB STUDY",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "ONE LAB STUDY"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 30.13,
+   "durationSec": 2.992,
+   "beat": "caveat",
+   "dominantVisual": "Neutral Inch; Paper tag SLEEP CONDITION? ASK A CLINICIAN",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "SLEEP CONDITION? ASK A CLINICIAN"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 33.122,
+   "durationSec": 2.709,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on with stamp thud; cheering Inch beside dim lamp and open book; Mint check",
+   "camera": "cam_lean_in",
+   "onScreenText": [
+    "TRY IT TODAY"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-14",
+   "segmentIds": [],
+   "startSec": 35.831,
+   "durationSec": 0.599,
+   "beat": "loop",
+   "dominantVisual": "Loop frame: hook layout with open book and dim lamp instead of the phone",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 9
+  }
+ ]
+}

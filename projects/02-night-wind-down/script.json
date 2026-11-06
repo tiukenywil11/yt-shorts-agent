@@ -1,0 +1,49 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Your bedtime screen may keep you awake longer.",
+      "startSec": 0.0,
+      "durationSec": 2.304
+    },
+    {
+      "id": "seg-02",
+      "text": "You get in bed. One more video, one more scroll. The screen glows, and sleep waits.",
+      "startSec": 2.554,
+      "durationSec": 4.544
+    },
+    {
+      "id": "seg-03",
+      "text": "In a 2015 lab study, people who read on a glowing screen before bed took longer to fall asleep than when they read a printed book. They also felt less alert the next morning.",
+      "startSec": 7.348,
+      "durationSec": 10.411
+    },
+    {
+      "id": "seg-04",
+      "text": "So try a wind-down. One: dim the lights an hour before bed. Two: swap the screen for a paper book. Three: repeat both steps in the same order every night.",
+      "startSec": 18.009,
+      "durationSec": 9.856,
+      "say": "So try a wined-down. One: dim the lights an hour before bed. Two: swap the screen for a paper book. Three: repeat both steps in the same order every night."
+    },
+    {
+      "id": "seg-05",
+      "text": "It was one lab study, so results vary. If you have a sleep condition, ask a clinician.",
+      "startSec": 28.115,
+      "durationSec": 4.864
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: dim your lights one hour before bed.",
+      "startSec": 33.229,
+      "durationSec": 2.709
+    }
+  ],
+  "targetDurationSec": 40,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 35.938,
+  "timingMode": "exact"
+}

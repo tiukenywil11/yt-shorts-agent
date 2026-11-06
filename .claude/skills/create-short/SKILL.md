@@ -8,7 +8,7 @@ model: sonnet
 
 Inputs: topic or topic brief, target duration, channel style bible, and project ID. If the user gives a topic, do not block on optional preferences. Use `python` (not `python3`) on Windows.
 
-1. Run `python scripts/new_short.py <id> [--duration N]` if `projects/<id>/` does not exist.
+1. Run `python scripts/new_short.py <id> [--duration N]` (it creates `projects/<NN>-<id>/` with the next sequence number; use that folder in later steps) if the project does not exist.
 2. Read only the relevant channel style bible section and `docs/creative/STORY_AND_STORYBOARD.md`.
 3. Fill `idea.md` (central idea, audience, hook, payoff).
 4. Write `script.json`: `{"segments": [{"id": "seg-01", "text": "..."}], "targetDurationSec": N, "voice": null}`. **Gate 1:** show the user the narration text only and get approval.

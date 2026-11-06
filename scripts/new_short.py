@@ -20,9 +20,19 @@ def main():
     video_id = args.video_id.strip().lower()
     if not re.fullmatch(r"[a-z0-9][a-z0-9_-]{1,48}", video_id):
         raise SystemExit("Use 2-49 lowercase letters, numbers, hyphens, or underscores.")
-    project = ROOT / "projects" / video_id
-    if project.exists():
-        raise SystemExit(f"Project already exists: {project}")
+    projects = ROOT / "projects"
+    nums, slugs = [], set()
+    for d in projects.glob("*/") if projects.exists() else []:
+        m = re.fullmatch(r"(\d{2,})-(.+)", d.name)
+        if m:
+            nums.append(int(m.group(1)))
+        slugs.add(m.group(2) if m else d.name)
+    if video_id in slugs:
+        raise SystemExit(f"Project already exists: {video_id}")
+    # Folder is <NN>-<id> so projects sort in creation order; the id in JSON stays the bare slug.
+    # 00 is reserved for the tts-test scratch project, so real Shorts start at 01.
+    folder = f"{max(nums + [0]) + 1:02d}-{video_id}"
+    project = projects / folder
 
     for folder in ("assets/voice", "assets/sfx", "previews", "cache", "output"):
         (project / folder).mkdir(parents=True, exist_ok=True)

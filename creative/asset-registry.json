@@ -87,6 +87,8 @@
     { "id": "growth_curve",    "description": "Full compound curve as a thick Mint path on transparent canvas (whole curve; draw-on reveal is FUTURE).", "pillar": "money", "layer": 30, "shadowTier": "none", "colors": ["mint"] },
 
     { "id": "phone",           "description": "Generic Ink phone, Sky screen, no UI or app icons. Used face-down too.", "pillar": "mind,money", "layer": 40, "shadowTier": "front", "colors": ["ink", "sky"] },
+    { "id": "phone_glow",      "description": "Jagged 12-point Sun Yellow star glow at 55% opacity behind the phone (problem state). Flat, no shadow.", "pillar": "mind", "layer": 39, "shadowTier": "none", "colors": ["sun"] },
+    { "id": "lamp_dim",        "description": "Small dim bedside lamp: Kraft base and stem, Sun shade, Paper bulb.", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["sun", "kraft", "paper"] },
     { "id": "phone_facedown",  "description": "Same phone, back side, Ink with Kraft case.", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["ink", "kraft"] },
     { "id": "notification_dot","description": "Coral circle with Paper '!' (distraction cue).", "pillar": "mind", "layer": 70, "shadowTier": "front", "colors": ["coral", "paper"] },
     { "id": "timer_2min",      "description": "Sun Yellow kitchen timer, Ink dial marks.", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["sun", "ink"] },

@@ -490,7 +490,7 @@ def _eyes(tips, look=(8, 0), closed=False, lid=None):
                        f'stroke-width="12" stroke-linecap="round"/>')
         else:
             out.append(f'<circle cx="{x + look[0]}" cy="{y + look[1]}" r="{_PR}" fill="{SI}"/>')
-        if lid == i:  # narrowed eye: Kraft lid over the top half
+        if lid == i or lid == "both":  # narrowed eye: Kraft lid over the top half
             out.append(f'<path d="M {x - _ER - 2} {y + 2} A {_ER + 2} {_ER + 2} 0 0 1 {x + _ER + 2} {y + 2} Z" fill="{SK}"/>')
     return "".join(out)
 
@@ -503,6 +503,7 @@ _MOUTHS = {
              f'stroke-linejoin="round"/>'),
     "big": (f'<path d="M 856 810 Q 892 880 928 810 Q 892 824 856 810 Z" fill="{SI}" stroke="{SI}" stroke-width="8" '
             f'stroke-linejoin="round"/>'),
+    "flat": f'<path d="M 866 838 L 918 838" fill="none" stroke="{SI}" stroke-width="12" stroke-linecap="round"/>',
     "side": f'<path d="M 868 840 L 918 822" fill="none" stroke="{SI}" stroke-width="12" stroke-linecap="round"/>',
 }
 
@@ -523,6 +524,7 @@ INCH_POSES = {
     "idea": _inch_face([(798, 508), (872, 504)], "open", look=(6, -10), extra=_sparks(835, 470)),
     "skeptical": _inch_face([(754, 556), (884, 490)], "side", look=(10, 2), lid=0),
     "cheer": _inch_face([(748, 520), (928, 512)], "big", closed=True),
+    "tired": _inch_face([(738, 612), (944, 622)], "flat", look=(0, 12), lid="both"),
 }
 
 
@@ -714,11 +716,29 @@ def try_today_note():
                      f'stroke-linejoin="round"/>', "front", s)
 
 
+def phone_glow():
+    # Jagged 12-point Sun glow behind the phone (jagged edge = problem). Flat, no shadow, 80% opacity.
+    return scl_doc(512, 512, burst(256, 256, 248, 176, 12, SS, 701, 5).replace("/>", ' opacity="0.8"/>'), None, 1)
+
+
+def lamp_dim():
+    # Small bedside lamp, base on the canvas bottom. 5 pieces, calm rounded shapes.
+    s = _scale(512, 0.2); a = 0.8 * s
+    return scl_doc(512, 512,
+                   wrect(150, 456, 212, 48, 24, SK, 711, a)
+                   + wrect(236, 300, 40, 170, 18, SK, 712, a * 0.6)
+                   + wcirc(256, 270, 52, SP, 713, a * 0.5, n=14)
+                   + wblob([(104, 292), (136, 140), (200, 100), (312, 100), (376, 140), (408, 292), (256, 306)],
+                           SS, 714, a)
+                   + wrect(190, 128, 80, 22, 11, SP, 715, a * 0.4, step=40, attrs=' opacity="0.7"'), "front", s)
+
+
 SCL_DRAWERS = {
     **{f"inch_{p}": (lambda p=p: inch(p)) for p in INCH_POSES},
     "floor_strip": floor_strip, "phone": phone, "phone_facedown": phone_facedown, "notification_dot": notification_dot,
     "book_closed": book_closed, "book_open": book_open, "laptop": laptop, "clock_face": clock_face, "ice_cube": ice_cube,
     "later_note": later_note, "check_mint": check_mint, "cross_coral": cross_coral, "cite_card": cite_card,
+    "phone_glow": phone_glow, "lamp_dim": lamp_dim,
     "step_slate": step_slate, "try_today_note": try_today_note,
 }
 

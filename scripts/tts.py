@@ -77,7 +77,8 @@ def main():
     voice_dir.mkdir(parents=True, exist_ok=True)
     made = skipped = 0
     for seg in script.get("segments", []):
-        text = seg.get("text", "").strip()
+        # Optional "say" overrides the spoken text only (pronunciation respelling); captions keep "text".
+        text = (seg.get("say") or seg.get("text", "")).strip()
         if not text:
             continue
         sig = f"{engine}|{voice}|{text}" if speed == 1.0 else f"{engine}|{voice}|{speed}|{text}"
