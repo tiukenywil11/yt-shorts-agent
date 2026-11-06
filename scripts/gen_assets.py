@@ -733,6 +733,86 @@ def lamp_dim():
                    + wrect(190, 128, 80, 22, 11, SP, 715, a * 0.4, step=40, attrs=' opacity="0.7"'), "front", s)
 
 
+# ------------------------------------------------------------------ 03-motivation-vs-discipline props / UI
+_GLYPHS = {
+    "M": [[(0, 1), (0, 0), (.5, .55), (1, 0), (1, 1)]], "Y": [[(0, 0), (.5, .5), (1, 0)], [(.5, .5), (.5, 1)]],
+    "T": [[(0, 0), (1, 0)], [(.5, 0), (.5, 1)]], "H": [[(0, 0), (0, 1)], [(1, 0), (1, 1)], [(0, .5), (1, .5)]],
+    "A": [[(0, 1), (.5, 0), (1, 1)], [(.2, .68), (.8, .68)]],
+    "C": [[(1, .15), (.6, 0), (.2, .1), (0, .5), (.2, .9), (.6, 1), (1, .85)]],
+    "U": [[(0, 0), (0, .7), (.25, 1), (.75, 1), (1, .7), (1, 0)]], "L": [[(0, 0), (0, 1), (1, 1)]],
+    "E": [[(1, 0), (0, 0), (0, 1), (1, 1)], [(0, .5), (.8, .5)]],
+    "B": [[(0, 0), (0, 1)], [(0, 0), (.7, 0), (1, .2), (.7, .5), (0, .5)], [(0, .5), (.8, .5), (1, .75), (.7, 1), (0, 1)]],
+    "?": [[(0, .2), (.2, 0), (.8, 0), (1, .2), (.5, .55), (.5, .72)], [(.5, .96), (.5, 1)]],
+}
+
+
+def _word_paths(word, x0, x1, y0, h, sw, color):
+    """Block letters drawn as thick round-capped stroke paths (no <text>)."""
+    n = len(word); gap = h * 0.32
+    lw = ((x1 - x0) - gap * (n - 1)) / n
+    out = []
+    for i, ch in enumerate(word):
+        ox = x0 + i * (lw + gap)
+        for st in _GLYPHS[ch]:
+            d = " L ".join(f"{_f(ox + px * lw)} {_f(y0 + py * h)}" for px, py in st)
+            out.append(f'<path d="M {d}" fill="none" stroke="{color}" stroke-width="{sw}" '
+                       f'stroke-linecap="round" stroke-linejoin="round"/>')
+    return "".join(out)
+
+
+def _stamp(word, fill, seed, x0, x1):
+    s = _scale(512, 0.4)
+    return scl_doc(512, 256,
+                   wrect(20, 32, 472, 192, 22, fill, seed, 1.0 * s, step=70)
+                   + f'<rect x="38" y="50" width="436" height="156" rx="12" fill="none" stroke="{SP}" stroke-width="7"/>'
+                   + _word_paths(word, x0, x1, 82, 92, 22, SP), "front", s)
+
+
+def myth_stamp():
+    return _stamp("MYTH?", SC, 801, 96, 416)
+
+
+def actually_stamp():
+    return _stamp("MAYBE", SM, 811, 96, 416)
+
+
+def battery_low():
+    # Vertical battery 400x640 (use width 0.26): nub, body, coral sliver, three dashed empty cells.
+    s = _scale(400, 0.26); a = 0.8 * s
+    cell = (f' fill="none" stroke="{SI}" stroke-width="{round(4 * s)}" stroke-dasharray="{round(14 * s)} {round(10 * s)}"')
+    cells = "".join(f'<rect x="96" y="{y}" width="168" height="{round(62 * s * 0.8)}" rx="14"{cell}/>' for y in (190, 290, 390))
+    return scl_doc(400, 640,
+                   wrect(120, 22, 120, 50, 12, SI, 821, a * 0.5, step=50)
+                   + wrect(60, 60, 240, 540, 36, SP, 822, a, step=80, attrs=f' stroke="{SI}" stroke-width="{round(4 * s)}"')
+                   + cells
+                   + wrect(96, 500, 168, 64, 14, SC, 823, a * 0.6, step=50), "front", s)
+
+
+def timer_2min():
+    s = _scale(512, 0.2); a = 0.8 * s
+    ticks = "".join(f'<rect x="-8" y="-176" width="16" height="34" rx="8" fill="{SI}" '
+                    f'transform="translate(256,290) rotate({r})"/>' for r in (0, 90, 180, 270))
+    return scl_doc(512, 512,
+                   wrect(222, 56, 68, 52, 14, SI, 831, a * 0.5, step=40)
+                   + wcirc(256, 290, 200, SS, 832, a, n=22)
+                   + wcirc(256, 290, 156, SP, 833, a * 0.7, n=20)
+                   + ticks
+                   + f'<rect x="250" y="190" width="14" height="108" rx="7" fill="{SI}"/>'
+                   + f'<rect x="250" y="284" width="92" height="14" rx="7" fill="{SI}" transform="rotate(-40 257 291)"/>'
+                   + f'<circle cx="257" cy="291" r="16" fill="{SS}" stroke="{SI}" stroke-width="6"/>', "front", s)
+
+
+def checklist_note():
+    # Box positions kept at x130-186, y 150/250/350 (check_mint ticks are placed on them by the plan).
+    s = _scale(512, 0.2); a = 0.8 * s
+    rows = "".join(f'<rect x="130" y="{y}" width="56" height="56" rx="10" fill="none" stroke="{SI}" stroke-width="7"/>'
+                   f'<rect x="212" y="{y + 21}" width="170" height="14" rx="7" fill="{SY}"/>' for y in (150, 250, 350))
+    return scl_doc(512, 512,
+                   wrect(90, 50, 330, 430, 24, SP, 841, a, step=80, attrs=f' stroke="{SI}" stroke-width="5"')
+                   + wrect(95, 55, 320, 62, 20, SY, 842, a * 0.4, step=60)
+                   + rows, "front", s)
+
+
 SCL_DRAWERS = {
     **{f"inch_{p}": (lambda p=p: inch(p)) for p in INCH_POSES},
     "floor_strip": floor_strip, "phone": phone, "phone_facedown": phone_facedown, "notification_dot": notification_dot,
@@ -740,6 +820,8 @@ SCL_DRAWERS = {
     "later_note": later_note, "check_mint": check_mint, "cross_coral": cross_coral, "cite_card": cite_card,
     "phone_glow": phone_glow, "lamp_dim": lamp_dim,
     "step_slate": step_slate, "try_today_note": try_today_note,
+    "myth_stamp": myth_stamp, "actually_stamp": actually_stamp, "battery_low": battery_low,
+    "timer_2min": timer_2min, "checklist_note": checklist_note,
 }
 
 

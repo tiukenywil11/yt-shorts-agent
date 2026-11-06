@@ -1,0 +1,219 @@
+{
+ "missing": [
+  "battery_low",
+  "myth_stamp",
+  "actually_stamp",
+  "timer_2min",
+  "checklist_note"
+ ],
+ "note": "Placeholder SVGs exist at every new path so validation passes; replace with final art at the same paths. battery_low is not in creative/asset-registry.json yet. book_closed and clock_face are from 01-focus-block (not in registry list). No music (audio.music null).",
+ "assets": [
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "description": "Inch pose 'neutral'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "Inch pose 'idea'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "Inch pose 'cheer'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_skeptical",
+   "type": "character",
+   "path": "assets/characters/inch/inch_skeptical.svg",
+   "description": "Inch pose 'skeptical'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_tired",
+   "type": "character",
+   "path": "assets/characters/inch/inch_tired.svg",
+   "description": "Inch pose 'tired'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_worry",
+   "type": "character",
+   "path": "assets/characters/inch/inch_worry.svg",
+   "description": "Inch pose 'worry'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "floor strip",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "book_open",
+   "type": "prop",
+   "path": "assets/props/book_open.svg",
+   "description": "book open",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "book_closed",
+   "type": "prop",
+   "path": "assets/props/book_closed.svg",
+   "description": "book closed",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "clock_face",
+   "type": "prop",
+   "path": "assets/props/clock_face.svg",
+   "description": "clock face",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "check mint",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "cross coral",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "cite card",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "step_slate",
+   "type": "ui",
+   "path": "assets/ui/step_slate.svg",
+   "description": "step slate",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "try today note",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "paper_rustle",
+   "status": "reusable",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "problem_bonk",
+   "status": "reusable",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "stamp_thud",
+   "status": "reusable",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "battery_low",
+   "type": "prop",
+   "path": "assets/props/battery_low.svg",
+   "description": "MOTIVATION battery: Paper body, Ink outline, one Coral sliver at the bottom, three dashed empty cells.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "myth_stamp",
+   "type": "ui",
+   "path": "assets/ui/myth_stamp.svg",
+   "description": "Coral rubber stamp, Paper MYTH lettering.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "actually_stamp",
+   "type": "ui",
+   "path": "assets/ui/actually_stamp.svg",
+   "description": "Mint rubber stamp, Paper ACTUALLY lettering.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "timer_2min",
+   "type": "prop",
+   "path": "assets/props/timer_2min.svg",
+   "description": "Sun Yellow kitchen timer, Ink hands.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "checklist_note",
+   "type": "prop",
+   "path": "assets/props/checklist_note.svg",
+   "description": "Paper note with Sky header and 3 empty Ink boxes; ticks are separate check_mint elements.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  }
+ ]
+}

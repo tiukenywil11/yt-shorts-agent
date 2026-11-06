@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Disciplined people may not be using more willpower.",
+      "startSec": 0.0,
+      "durationSec": 2.688
+    },
+    {
+      "id": "seg-02",
+      "text": "You wait to feel motivated. The feeling shows up late, or never, and the task stays untouched.",
+      "startSec": 2.938,
+      "durationSec": 5.141
+    },
+    {
+      "id": "seg-03",
+      "text": "A 2015 paper ran six studies with 2,274 people in total. Those with better self-control relied more on habits, and reported less effort holding themselves back.",
+      "startSec": 8.329,
+      "durationSec": 12.181
+    },
+    {
+      "id": "seg-04",
+      "text": "A practical way to try this. One: pick a fixed cue, like right after breakfast. Two: shrink the task to two minutes. Three: start the moment the cue happens.",
+      "startSec": 20.761,
+      "durationSec": 9.664
+    },
+    {
+      "id": "seg-05",
+      "text": "These results were linked, not proven, and mostly self-reported. Habits take time to form.",
+      "startSec": 30.675,
+      "durationSec": 5.141
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: pick one cue, and do two minutes after it.",
+      "startSec": 36.066,
+      "durationSec": 3.157
+    }
+  ],
+  "targetDurationSec": 40,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 39.223,
+  "timingMode": "exact"
+}

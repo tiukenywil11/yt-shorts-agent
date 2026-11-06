@@ -91,6 +91,7 @@
     { "id": "lamp_dim",        "description": "Small dim bedside lamp: Kraft base and stem, Sun shade, Paper bulb.", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["sun", "kraft", "paper"] },
     { "id": "phone_facedown",  "description": "Same phone, back side, Ink with Kraft case.", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["ink", "kraft"] },
     { "id": "notification_dot","description": "Coral circle with Paper '!' (distraction cue).", "pillar": "mind", "layer": 70, "shadowTier": "front", "colors": ["coral", "paper"] },
+    { "id": "battery_low",    "description": "Near-empty MOTIVATION battery: Paper body, Ink outline, one Coral sliver, three dashed empty cells (vertical, 400x640).", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["paper", "ink", "coral"] },
     { "id": "timer_2min",      "description": "Sun Yellow kitchen timer, Ink dial marks.", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["sun", "ink"] },
     { "id": "checklist_note",  "description": "Paper notepad with 3 empty Ink boxes; ticks are separate check_mint elements.", "pillar": "mind", "layer": 40, "shadowTier": "front", "colors": ["paper", "ink"] },
     { "id": "lightbulb",       "description": "Sun Yellow bulb, Kraft base (idea / Mind chip icon).", "pillar": "mind", "layer": 45, "shadowTier": "front", "colors": ["sun", "kraft"] },

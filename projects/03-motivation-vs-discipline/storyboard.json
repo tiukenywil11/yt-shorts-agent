@@ -1,0 +1,293 @@
+{
+ "title": "Do You Need Motivation to Start?",
+ "channel": "Small Change Lab",
+ "pillar": "Mind",
+ "series": "Habit Myths",
+ "targetDurationSec": 39.8,
+ "voiceoverSec": 39.202,
+ "sceneCount": 15,
+ "notes": [
+  "Mind tint #E2ECF5 solid background + floor_strip on every scene; chip MIND · HABIT MYTHS; no disclaimer tag (Mind pillar).",
+  "Habit Myths: coral MYTH? stamp (scene-01) then mint MAYBE stamp with check (scene-06). Problem (cross, scene-02) before fix (check, scenes 06-11).",
+  "Cite card scene-04, 3.5 s: THE STUDY / Galla & Duckworth, 2015 / HABITS > WILLPOWER / linked, mostly self-reported. n = 2,274 is spoken, not on the card. Entered via slide_up (page_turn) from scene-03.",
+  "Captions split across scenes at phrase boundaries; inter-segment gaps belong to the preceding scene. Cut points inside a segment are estimated by letter count (no word timing).",
+  "Loop: scene-15 (0.6 s) = hook layout with checked cue note and open book in place of the battery.",
+  "New placeholder SVGs: battery_low, myth_stamp, actually_stamp, timer_2min, checklist_note."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 2.938,
+   "beat": "hook",
+   "dominantVisual": "Inch beside a near-empty MOTIVATION battery; coral MYTH? stamp lands on 'DISCIPLINE = WILLPOWER'",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "MOTIVATION",
+    "DISCIPLINE = WILLPOWER"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.938,
+   "durationSec": 2.662,
+   "beat": "problem",
+   "dominantVisual": "Tired Inch waits; battery gets a coral cross; tag WAITING TO FEEL LIKE IT",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "MOTIVATION",
+    "WAITING TO FEEL LIKE IT"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 5.6,
+   "durationSec": 2.729,
+   "beat": "problem",
+   "dominantVisual": "Clock face and untouched closed book; tag LATE OR NEVER",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "LATE OR NEVER"
+   ],
+   "sfx": [],
+   "transitionOut": "page_turn",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 8.329,
+   "durationSec": 3.5,
+   "beat": "cite",
+   "dominantVisual": "Cite card held 3.5 s: THE STUDY / Galla & Duckworth, 2015 / HABITS > WILLPOWER / linked, mostly self-reported",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "THE STUDY",
+    "Galla & Duckworth, 2015",
+    "HABITS > WILLPOWER",
+    "linked, mostly self-reported"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 11.829,
+   "durationSec": 2.371,
+   "beat": "evidence",
+   "dominantVisual": "Inch with tag BETTER SELF-CONTROL",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "BETTER SELF-CONTROL"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 9
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 14.2,
+   "durationSec": 2.8,
+   "beat": "evidence",
+   "dominantVisual": "Mint MAYBE stamp, tag RELIED ON HABITS, open book with check",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "RELIED ON HABITS"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 17.0,
+   "durationSec": 3.761,
+   "beat": "evidence",
+   "dominantVisual": "Calm Inch with tag LESS EFFORT and check",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "LESS EFFORT"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 20.761,
+   "durationSec": 2.039,
+   "beat": "fix",
+   "dominantVisual": "Battery pops out, open book stays; tag A WAY TO TRY IT",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "A WAY TO TRY IT"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 22.8,
+   "durationSec": 3.0,
+   "beat": "fix",
+   "dominantVisual": "Step slate 1 FIXED CUE / AFTER BREAKFAST with checklist note",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "1",
+    "FIXED CUE · AFTER BREAKFAST"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 25.8,
+   "durationSec": 2.2,
+   "beat": "fix",
+   "dominantVisual": "Step slate 2 SHRINK IT / 2 MINUTES with timer",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "2",
+    "SHRINK IT · 2 MINUTES"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 28.0,
+   "durationSec": 2.653,
+   "beat": "fix",
+   "dominantVisual": "Step slate 3 START AT THE CUE with ticked note and open book",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "3",
+    "START AT THE CUE"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 30.653,
+   "durationSec": 3.547,
+   "beat": "caveat",
+   "dominantVisual": "Skeptical Inch; tags LINKED, NOT PROVEN then MOSTLY SELF-REPORTED",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "LINKED, NOT PROVEN",
+    "MOSTLY SELF-REPORTED"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 34.2,
+   "durationSec": 1.845,
+   "beat": "caveat",
+   "dominantVisual": "Inch with tag HABITS TAKE TIME",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "HABITS TAKE TIME"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 9
+  },
+  {
+   "id": "scene-14",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 36.045,
+   "durationSec": 3.157,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on, cheering Inch, ticked cue note and open book",
+   "camera": "cam_lean_in",
+   "onScreenText": [],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-15",
+   "segmentIds": [],
+   "startSec": 39.202,
+   "durationSec": 0.598,
+   "beat": "loop",
+   "dominantVisual": "Loop frame: hook layout with checked cue note and open book instead of the battery",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 8
+  }
+ ]
+}
