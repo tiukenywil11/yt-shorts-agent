@@ -14,6 +14,7 @@ Read this index to locate knowledge. Do not read every document.
 | Produce a Short end to end | `docs/production/WORKFLOW.md` |
 | Check video quality | `docs/production/QA_CHECKLIST.md` |
 | Avoid unnecessary re-renders | `docs/production/CACHE_POLICY.md` |
+| Monetization, niche (small habits + money), posting and branding strategy | `docs/business/MONETIZATION_STRATEGY.md` |
 
 ## Source-of-truth order
 
