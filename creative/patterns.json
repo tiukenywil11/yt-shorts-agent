@@ -1,140 +1,91 @@
 {
-  "source": "references/groundnup (8 Shorts); see creative/reference-analysis.md",
-  "analyzed_on": "2026-11-06",
-  "caveats": [
-    "Newest two videos are only 2-3 days old; view comparisons are confounded by age.",
-    "Audio (voice, music, SFX) was not listened to; only loudness/silence measured.",
-    "Captions are YouTube auto-captions."
-  ],
-  "format": {
-    "duration_s": {"min": 64.0, "max": 78.1, "typical": "66-74"},
-    "source_spec": "720x1280, 60fps, AV1+AAC",
-    "words_per_video": {"min": 205, "max": 273},
-    "words_per_second": {"min": 3.1, "max": 3.5, "confidence": "high"},
-    "hard_cuts": "0-3 per video; effectively one continuous take",
-    "problem_fix_beats": "about 8-14 per video, 2-6 s each",
-    "explicit_but_turns": [6, 5, 6, 6, 5, 7, 6, 5]
+  "meta": {
+    "date": "2026-11-06",
+    "purpose": "Reference patterns for a faceless animated 'small habits explained by science' channel with a Money pillar",
+    "channels": ["improvementpill", "psych2go"],
+    "sample": {"improvementpill": {"n": 7, "video_analysed": 6, "transcript_only": ["box851akjy4"]}, "psych2go": {"n": 7, "content": 6, "promo": ["qzsdeNEMtFw"]}},
+    "caveats": [
+      "Small sample; associations only, no retention data.",
+      "Files are 360x640 AV1; audio not reviewed.",
+      "Scene-cut counts are bounds (threshold 0.25; 0.1 pass for improvementpill).",
+      "Views are not age-normalised; improvementpill uploads are Feb-Jun 2023, psych2go Dec 2025-May 2026.",
+      "9 of 13 contact sheets visually reviewed."
+    ],
+    "doc": "creative/reference-analysis.md"
   },
-  "patterns": [
-    {
-      "id": "problem_solution_chain",
-      "type": "structure",
-      "description": "Humble starting object, then repeated 'But [problem]. So [fix]. [Named term].' where each fix causes the next problem.",
-      "evidence": ["19560930_yBd26x .srt 0:08-1:06", "all 8 transcripts"],
-      "generic_or_distinctive": "generic",
-      "confidence": "high",
-      "reuse": "Yes, with original subject and wording."
+  "timing_stats": {
+    "per_video": {
+      "iFIqZNdKpi4": {"channel": "improvementpill", "views": 3140858, "dur_s": 57.6, "words": 222, "wps": 3.73, "cuts_0.25": 8, "cuts_0.10": 19, "like_per_view": 0.088},
+      "ov_ceE6_GCE": {"channel": "improvementpill", "views": 1737976, "dur_s": 59.7, "words": 187, "wps": 3.05, "cuts_0.25": 3, "cuts_0.10": 10, "like_per_view": 0.071},
+      "KCSk0_HmMsU": {"channel": "improvementpill", "views": 1341295, "dur_s": 58.2, "words": 217, "wps": 3.62, "cuts_0.25": 5, "cuts_0.10": 10, "like_per_view": 0.087},
+      "0zY5BbMHsEY": {"channel": "improvementpill", "views": 787135, "dur_s": 58.5, "words": 190, "wps": 3.15, "cuts_0.25": 0, "cuts_0.10": 14, "like_per_view": 0.070},
+      "mdc4SUYKnXM": {"channel": "improvementpill", "views": 106629, "dur_s": 55.5, "words": 205, "wps": 3.58, "cuts_0.25": 2, "cuts_0.10": 6, "like_per_view": 0.090},
+      "I_1Z6a8kVQM": {"channel": "improvementpill", "views": 103136, "dur_s": 58.4, "words": 207, "wps": 3.44, "cuts_0.25": 2, "cuts_0.10": 8, "like_per_view": 0.071},
+      "box851akjy4": {"channel": "improvementpill", "views": 97045, "dur_s": 48, "words": 188, "wps": 3.79, "cuts_0.25": null, "cuts_0.10": null, "like_per_view": 0.051, "note": "transcript only"},
+      "qGMMA04G5KE": {"channel": "psych2go", "views": 419840, "dur_s": 73.6, "words": 182, "wps": 2.43, "cuts_0.25": 17, "like_per_view": 0.134},
+      "z6MEsqhUV74": {"channel": "psych2go", "views": 197367, "dur_s": 99.5, "words": 257, "wps": 2.54, "cuts_0.25": 5, "like_per_view": 0.065},
+      "8hsCMw-KxH4": {"channel": "psych2go", "views": 74736, "dur_s": 81.4, "words": 266, "wps": 3.20, "cuts_0.25": 22, "like_per_view": 0.057},
+      "PCczfSPUw5E": {"channel": "psych2go", "views": 66980, "dur_s": 88.1, "words": 212, "wps": 2.35, "cuts_0.25": 30, "like_per_view": 0.059},
+      "LkHi7DN1qcg": {"channel": "psych2go", "views": 61993, "dur_s": 87.7, "words": 211, "wps": 2.40, "cuts_0.25": 33, "like_per_view": 0.101},
+      "qzsdeNEMtFw": {"channel": "psych2go", "views": 57829, "dur_s": 24.0, "words": 55, "wps": 2.30, "cuts_0.25": 0, "like_per_view": 0.036, "note": "workshop promo, exclude from performance conclusions"},
+      "tO505YfXN6Y": {"channel": "psych2go", "views": 31271, "dur_s": 69.6, "words": 175, "wps": 2.47, "cuts_0.25": 68, "like_per_view": 0.072, "note": "cut count likely inflated by camera moves/sliding text"}
     },
-    {
-      "id": "instant_reduction_hook",
-      "type": "hook",
-      "description": "One sentence in the first 3-5 s that reduces a complex thing to an absurdly simple start, immediately followed by a first problem within 0.5 s.",
-      "evidence": ["21521310 .srt 0:00-0:04", "19560930 .srt 0:00-0:04", "frames/21521310_EmJqO41Wx2A/full_t001.jpg"],
-      "generic_or_distinctive": "mixed: concept generic; exact 'If you X, you have a Y' wording is creator-specific",
-      "confidence": "high",
-      "reuse": "Concept yes; use different phrasing."
+    "channel_summary": {
+      "improvementpill": {"duration_s": {"min": 48, "max": 60, "typical": 58}, "wps": {"min": 3.05, "max": 3.79, "mean": 3.48}, "visual_beat_interval_s_eyeballed": "2.5-5", "mean_shot_s_cut_detect_0.1": "2.9-7.9", "first_word_at_s": 0.0, "hook_promise_within_s": 4, "caption": "burned-in boxed lower-third, all sampled", "persistent_title": true},
+      "psych2go": {"duration_s": {"min": 70, "max": 100, "typical": 82, "promo_outlier": 24}, "wps": {"min": 2.30, "max": 3.20, "mean": 2.49}, "mean_shot_s_cut_detect_0.25": "2.6-16.6 (varies; unreliable)", "first_word_at_s": "0.0-0.16", "caption": "varied: none/karaoke/in-scene", "persistent_title": false}
     },
-    {
-      "id": "completion_statement_payoff",
-      "type": "payoff",
-      "description": "Leftover-items list then a completion statement naming the finished structure.",
-      "evidence": ["6 of 8 transcripts; absent in 101751 and 68105"],
-      "generic_or_distinctive": "distinctive wording; summary-ending is generic",
-      "confidence": "high (fact), low (effect on views)",
-      "reuse": "Use own closer; consider testing a payoff with a twist."
-    },
-    {
-      "id": "named_term_reveal",
-      "type": "retention",
-      "description": "Each fix is labelled with its real technical name, shown as an ALL-CAPS on-screen label.",
-      "evidence": ["1276296 sheet s25, s28", "2471557 sheet", "68105 s07"],
-      "count_per_video": "1-6",
-      "generic_or_distinctive": "generic",
-      "confidence": "high"
-    },
-    {
-      "id": "real_world_tie_in",
-      "type": "retention",
-      "description": "A 'that is why...' everyday-life connection or counter-intuitive twist at mid or late video.",
-      "evidence": ["19560930 0:25-0:29", "1356365 0:21-0:26", "21521310 0:53-1:01", "2471557 0:44-0:49"],
-      "generic_or_distinctive": "generic",
-      "confidence": "high"
-    },
-    {
-      "id": "cutaway_diorama",
-      "type": "visual",
-      "description": "3D render, vertical cross-section slab (soil/rock strata below, structure above), small faceless hero figure in one saturated colour against a muted scene, centered, clean sky/soil margins for captions.",
-      "evidence": ["contact_sheet.jpg in all 8 frame dirs"],
-      "generic_or_distinctive": "genre style generic; specific hi-vis hero, red-beanie hero, blue plaque and suburban backdrop are distinctive",
-      "confidence": "high"
-    },
-    {
-      "id": "narration_following_camera",
-      "type": "camera",
-      "description": "Slow continuous camera that lands on the object at the spoken word; wide, detail, wide; pans along vertical shafts; occasional whip-pan.",
-      "evidence": ["2471557 s08-s28", "19560930 s09-s11", "1356365 s08-s11"],
-      "generic_or_distinctive": "generic",
-      "confidence": "medium-high"
-    },
-    {
-      "id": "additive_world_state",
-      "type": "structure",
-      "description": "One persistent set that accumulates objects beat by beat instead of cutting between scenes; physical transitions (light, weather, camera).",
-      "evidence": ["scene_cuts.txt: 0 cuts at threshold 0.3 in 7 of 8 videos"],
-      "generic_or_distinctive": "generic",
-      "confidence": "high"
-    },
-    {
-      "id": "word_by_word_captions",
-      "type": "typography",
-      "description": "White bold rounded sans with dark outline, one word at a time, centered near mid-height; ALL-CAPS term labels; number+unit callouts (3 FT, 8 AM, -40F, 1,000 LB).",
-      "evidence": ["frames/21521310_EmJqO41Wx2A/full_t001.jpg", "sheets: 1276296, 2471557, 1356365"],
-      "generic_or_distinctive": "generic",
-      "confidence": "high (word-level), medium (position)"
-    },
-    {
-      "id": "fast_dense_narration",
-      "type": "audio",
-      "description": "About 3.1-3.5 words/s continuous narration, one idea per sentence, near-zero pauses.",
-      "evidence": ["transcript word counts / cue ends"],
-      "generic_or_distinctive": "generic",
-      "confidence": "high"
-    },
-    {
-      "id": "visible_failure_before_fix",
-      "type": "animation",
-      "description": "The problem is simulated on screen (caving roof, rain, smoke, fire) before the fix is built; airflow/force arrows in accent colours.",
-      "evidence": ["19560930 s07-s24", "21521310 s01-s03", "2522980 s03, s10-s13"],
-      "generic_or_distinctive": "generic",
-      "confidence": "medium"
-    }
+    "target_for_new_channel_hypothesis": {"duration_s": "30-50", "words": "100-175", "wps": "2.8-3.2", "visual_beat_s": "2.5-5", "note": "hypothesis to test in drafts"}
+  },
+  "patterns": {
+    "improvementpill": [
+      {"id": "ip-hook-promise-number", "pattern": "Promise or number in the first spoken sentence; speech starts at frame 0.", "observation": "All 7 start narration at 0.00-0.08 s and state a promise or number within ~4 s.", "evidence": ["iFIqZNdKpi4@0-4s", "I_1Z6a8kVQM@0-4s", "ov_ceE6_GCE@0-4s", "box851akjy4@0-6s"], "interpretation": "Front-loaded payoff supports fast hook.", "confidence": "high", "transferable": true},
+      {"id": "ip-numbered-steps", "pattern": "3 numbered steps with on-screen numeral slates.", "evidence": ["iFIqZNdKpi4@7-10,19-21,33-36s", "0zY5BbMHsEY@17-20,32-35,47-50s", "I_1Z6a8kVQM@7-17,14-17,41-44s"], "interpretation": "Roadmap structure; easy to produce in a DSL.", "confidence": "high", "transferable": true},
+      {"id": "ip-persistent-title", "pattern": "Topic title stays on screen the whole video.", "evidence": ["all sampled IP sheets"], "interpretation": "Context for scrubbing and sound-off; uses vertical space.", "confidence": "high", "transferable": "partly"},
+      {"id": "ip-boxed-caption", "pattern": "Burned-in sentence-case captions in a dark semi-transparent lower-third bar.", "evidence": ["all sampled IP sheets"], "interpretation": "Readable at phone size.", "confidence": "medium", "transferable": true},
+      {"id": "ip-prop-metaphor", "pattern": "Props and symbols explain the point (bulb equals candle with check, thermometer, red cross).", "evidence": ["I_1Z6a8kVQM@31-47s", "iFIqZNdKpi4@55s"], "confidence": "medium", "transferable": true},
+      {"id": "ip-fast-vo", "pattern": "Narration 3.05-3.79 WPS.", "evidence": ["tr stats all IP"], "interpretation": "Dense; may crowd a study card.", "confidence": "high", "transferable": "adapt"},
+      {"id": "ip-no-source-on-screen", "pattern": "Vague spoken attributions, no on-screen citation.", "evidence": ["iFIqZNdKpi4@10,42s", "KCSk0_HmMsU@4s"], "interpretation": "Differentiation opportunity.", "confidence": "high", "transferable": false},
+      {"id": "ip-weak-or-no-cta", "pattern": "Only 2 of 7 have a generic follow line; others end abruptly; no loop and no action ask.", "evidence": ["mdc4SUYKnXM@53s", "box851akjy4@44s", "I_1Z6a8kVQM@58s"], "confidence": "high", "transferable": false},
+      {"id": "ip-views-topic-breadth", "pattern": "Views track topic breadth/search demand more than craft within the channel.", "evidence": ["iFIqZNdKpi4", "ov_ceE6_GCE", "KCSk0_HmMsU vs mdc4SUYKnXM, I_1Z6a8kVQM, box851akjy4"], "interpretation": "Hypothesis; confounded by age and n.", "confidence": "low", "transferable": "test"},
+      {"id": "ip-money-low", "pattern": "The one money item had the lowest views and like/view.", "evidence": ["box851akjy4 info.json"], "confidence": "low", "note": "n=1"}
+    ],
+    "psych2go": [
+      {"id": "p2g-mascot", "pattern": "One recurring blank-bodied sprout-headed mascot with strong body-language acting.", "evidence": ["qGMMA04G5KE", "tO505YfXN6Y", "LkHi7DN1qcg", "PCczfSPUw5E"], "interpretation": "Brand glue; do not copy design.", "confidence": "high", "transferable": "concept only"},
+      {"id": "p2g-card-template", "pattern": "Rigid repeated card per list item or key point.", "evidence": ["LkHi7DN1qcg@14,25,40,51,62,73s", "qGMMA04G5KE@52-62s"], "confidence": "high", "transferable": true},
+      {"id": "p2g-curiosity-hook", "pattern": "Opens on a named term or self-recognition question; first 2-3 s often visually sparse.", "evidence": ["qGMMA04G5KE@0-3s", "LkHi7DN1qcg@0-3s"], "confidence": "medium", "transferable": "test"},
+      {"id": "p2g-slower-vo", "pattern": "Narration 2.30-3.20 WPS, music beds tagged in subs.", "evidence": ["tr stats", "[music] tags in 5 of 7"], "confidence": "medium", "transferable": true},
+      {"id": "p2g-caveat-branching", "pattern": "Different cause, different fix, with an explicit limit for conditions where advice backfires.", "evidence": ["PCczfSPUw5E@21-83s"], "interpretation": "Matches our guardrails.", "confidence": "low", "transferable": true},
+      {"id": "p2g-variable-style", "pattern": "Visual style differs between videos (flat, kawaii, painterly, cinematic).", "evidence": ["tO505YfXN6Y", "PCczfSPUw5E", "qGMMA04G5KE"], "confidence": "medium", "transferable": false},
+      {"id": "p2g-weak-evidence", "pattern": "Generic 'studies show / experts suggest' and flattering trait lists; no sources on screen.", "evidence": ["LkHi7DN1qcg@17s", "tO505YfXN6Y@56s"], "confidence": "high", "transferable": false, "avoid": true},
+      {"id": "p2g-reflective-ending", "pattern": "Ends on a self-identification question or reassurance, no action.", "evidence": ["LkHi7DN1qcg@79-88s", "PCczfSPUw5E@83-88s", "8hsCMw-KxH4@77-83s"], "confidence": "high", "transferable": "adapt with action"},
+      {"id": "p2g-views-curiosity", "pattern": "Top performer is a rare named concept with a curiosity gap; advice-style items perform lower.", "evidence": ["qGMMA04G5KE (420K, 13.4% like/view)", "tO505YfXN6Y 31K"], "confidence": "low", "note": "age confound, n"}
+    ],
+    "combined": [
+      {"id": "x-hook-number-outcome-first", "pattern": "State the promise, number or term in the first sentence, speech from frame 0.", "confidence": "medium-high", "evidence": ["IP all", "P2G qGMMA04G5KE@0s"], "transferable": true},
+      {"id": "x-slate-plus-acting", "pattern": "Alternate short text slates and illustrated acting/prop beats; new visual every 2.5-5 s.", "confidence": "medium", "evidence": ["iFIqZNdKpi4", "LkHi7DN1qcg"], "transferable": true},
+      {"id": "x-numbered-roadmap", "pattern": "Explicit numbered steps with numeral cards.", "confidence": "high", "evidence": ["IP 4 of 7", "P2G 8hsCMw-KxH4, LkHi7DN1qcg, z6MEsqhUV74"], "transferable": true},
+      {"id": "x-readable-captions", "pattern": "Large high-contrast captions that survive 360 px.", "confidence": "medium", "evidence": ["IP all", "P2G PCczfSPUw5E"], "transferable": true},
+      {"id": "x-recurring-character", "pattern": "One recurring original character plus props.", "confidence": "medium", "evidence": ["P2G mascot", "IP uses generic figures"], "transferable": "concept only"},
+      {"id": "x-no-on-screen-citation", "pattern": "Neither channel cites a source on screen.", "confidence": "high", "evidence": ["all 12 videos"], "interpretation": "Differentiator; hypothesis it helps trust and policy standing.", "transferable": "opportunity"},
+      {"id": "x-no-try-it-today-or-loop", "pattern": "No explicit action ending or loop.", "confidence": "high", "evidence": ["all 13"], "transferable": "opportunity"},
+      {"id": "x-caveat-statement", "pattern": "Name when advice does not apply.", "confidence": "low", "evidence": ["PCczfSPUw5E@74-83s"], "transferable": true}
+    ]
+  },
+  "tied_to_distinct_look_do_not_copy": [
+    "IP thin-line sketch figures, heavy hand-drawn title face, pastel panel layout",
+    "P2G sprout-headed mascot, kawaii/painterly sets, book-card overlays, green karaoke highlight",
+    "Both channels' scripts, scene compositions and titles"
   ],
-  "outliers": [
-    {"video": "68105 (hospital)", "notes": "No closing 'Congratulations' line; many characters; overhead opening; abstract grim hook; subscriber-name gimmick at ~0:49-0:51 (low-confidence interpretation); highest like rate 3.05%, lowest views/day."},
-    {"video": "101751 (Trojan)", "notes": "No closing 'Congratulations' line; most 'But's (7); longest hook (4.9 s); captions end mid-sentence (possible loop or truncation)."},
-    {"video": "2471557 (vault)", "notes": "Longest (78 s) and most words (273) yet 2.47M views."}
+  "avoid_patterns": [
+    {"pattern": "Absolute outcomes ('never have issues again')", "evidence": ["KCSk0_HmMsU@54-60s"], "guardrail": "do not overstate effect sizes"},
+    {"pattern": "'The secret' single-cause framing", "evidence": ["ov_ceE6_GCE@0-4s,55-60s"], "guardrail": "cite the study, name limits"},
+    {"pattern": "Generic 'studies show/experts suggest'", "evidence": ["iFIqZNdKpi4@42s", "LkHi7DN1qcg@17s", "tO505YfXN6Y@56s"], "guardrail": "named study required"},
+    {"pattern": "Flattering trait lists (Barnum)", "evidence": ["LkHi7DN1qcg"], "guardrail": "pop-science"},
+    {"pattern": "Personal anecdote as evidence", "evidence": ["mdc4SUYKnXM@26-50s"], "guardrail": "label as own experiment"},
+    {"pattern": "Unsourced health/biology claims", "evidence": ["iFIqZNdKpi4@6-58s", "I_1Z6a8kVQM@14-58s"], "guardrail": "Not medical advice; no medical claims"},
+    {"pattern": "Money framing with no caveat or implied guaranteed path", "evidence": ["box851akjy4"], "guardrail": "Not financial advice; no income promises"},
+    {"pattern": "Inflammatory metaphors", "evidence": ["0zY5BbMHsEY@0-14s"], "guardrail": "tone / advertiser risk"},
+    {"pattern": "Template-swapped listicles", "evidence": ["IP 3-tip pattern", "P2G list cards"], "guardrail": "inauthentic content policy"}
   ],
-  "top_vs_newest_differences": [
-    {"difference": "Closing 'Congratulations' formula present in top 6, absent in newest 2", "evidence_type": "observed", "causal_confidence": "low"},
-    {"difference": "Subject: relatable DIY/survival object vs myth/war hospital", "evidence_type": "observed", "causal_confidence": "low-medium"},
-    {"difference": "Cast size: 0-1 hero vs groups", "evidence_type": "observed", "causal_confidence": "low-medium"},
-    {"difference": "Age 2-3 days vs 7-21 days", "evidence_type": "metadata", "causal_confidence": "high that it confounds the comparison"}
-  ],
-  "do_not_copy": [
-    "Literal 'If you ... you have a ...' opener and 'Congratulations, you have built a ...' closer",
-    "'This is a [term]' verbatim cadence",
-    "Orange hi-vis worker, red-beanie hero, red/gold soldiers",
-    "Blue 'FROM THE GROUND UP' plaque",
-    "Suburban backyard-with-house backdrop",
-    "Specific fact sequences (gooseneck/blast valve, time lock/relocker, rolling stone door, drum tower, etc.)",
-    "Subscriber-name carving gimmick",
-    "Title formula 'How a X Becomes a Y'"
-  ],
-  "engine_mapping_hints": {
-    "note": "Hints only; verify against engine/registry.json before use.",
-    "beat_fields": ["narration_line", "problem", "fix", "term_label", "stat_callout", "camera_target", "world_state_delta"],
-    "caption_style": "word-by-word, mid-height, high-contrast outline",
-    "target_length_s": "60-75",
-    "target_words_per_s": "3.0-3.4"
-  }
+  "open_questions_ref": "creative/open-questions.md"
 }

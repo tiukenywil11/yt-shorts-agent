@@ -1,44 +1,57 @@
 # Channel Identity
 
-Status: bootstrap v1 (2026-11-06). Working title. Check the name for trademark and handle availability before launch (see `creative/open-questions.md`).
+Status: bootstrap v1 (2026-11-06). Name and mascot locked by the creator on 2026-11-06 (Small Change Lab, Inch). Handle/domain/USPTO checks still pending before public launch. Strategy: `docs/business/MONETIZATION_STRATEGY.md`. Look, pacing and guardrail wording: `creative/style-bible.md`. Open items: `creative/open-questions.md` > Bootstrap.
 
-## Name
+## Name (handle, domain and USPTO checks: NOT done)
 | Option | Note |
 |---|---|
-| **Paper Prepper** (working) | Says the medium and the niche in two words. Easy to say aloud and to put on a thumbnail. |
-| Snug Doomsday | Warm and ironic. Says "doomsday" outright, so it skews toward hype. |
-| Plan B Burrow | Fits the mole host. It hints at prepping less clearly. |
+| **Small Change Lab** (LOCKED 2026-11-06) | Double meaning: small habit changes + loose coins (Money pillar). "Lab" signals the cited-study angle and the 30-Day Log experiments. Works as a spoken sign-off and a thumbnail word. |
+| Paper Habits | Says the medium and the topic. Very plain; weaker search distinctiveness; no money hint. |
+| One Fold Better | Paper-fold metaphor for "1% better". Charming, but "1% better" phrasing is crowded and the name needs explaining. |
 
-## Promise
-"Watch an ordinary thing become ready for a bad day, one problem and one fix at a time."
-Each Short takes a humble start (a hole, a backpack, a closet) through 8-10 linked problems. Every fix causes the next problem. It ends with a finished, sensible setup and a viewer who feels more capable.
+Risk: "small change" is a common phrase, so trademark/handle conflicts are likely somewhere. Check `@smallchangelab` (YouTube, TikTok, Instagram), `.com`/`.co`, and a USPTO search in classes 9, 16, 41 before committing.
+
+## Positioning
+"Small habits, explained by science, practiced in public."
+Shorts promise: **one small habit, one cited fact, one thing to try today.**
 
 ## Audience
-US/English speakers, 18-40. They are curious about everyday preparedness, such as blackouts, storms and go-bags. They are not hardcore survivalists. No prior knowledge is assumed.
+English speakers 18-35 (US first), early-career and students. They want better money, focus and sleep habits without hustle culture. They are skeptical of "secret hack" content. No prior knowledge assumed.
 
-## Tone
-Practical, curious, reassuring, lightly witty. Problems read as fixable mishaps, never as threats. No dread music, no countdowns to real-world disasters.
+## Mascot: Inch (LOCKED 2026-11-06)
+An original paper-cutout **snail**. The shell spiral is the brand metaphor: small steady steps that compound.
+- Build (max ~8 SVG pieces): rounded Kraft foot/body, Paper belly edge, Sun Yellow shell with one Ink spiral line, two short eye stalks with Paper eye-whites and Ink dot pupils, a small Ink mouth line. No arms.
+- Silhouette test: readable as a solid Ink shape at width 0.20.
+- Role: the viewer's stand-in. Inch acts the problem and tries the fix. Inch never narrates and never lectures. The narrator is off-screen.
+- Expression set (pose-swap SVGs): `neutral`, `point` (whole body leans, eyes to target), `worry`, `idea`, `cheer`, `shell_hide` (half retreated into the shell = overwhelmed), plus optional `tired`, `skeptical`, `carry` (prop balanced on the shell), `sleep`.
+- Do not resemble existing cartoon snails: no pink/purple shell, no lavender body, no long googly-eye stalks, no racing stripes or numbers.
 
-## Host
-**Tuck** is an original paper-cutout mole with a mustard knit scarf and a headlamp. He is the scale figure and reaction face. The build is the star. Spec: `creative/style-bible.md` > Character system.
+## Voice and tone
+Calm, curious, precise, lightly warm. Second person ("you"). First person only in 30-Day Log, labelled as "my numbers". The narrator talks like a friend who read the study, not a guru. No hype, no shame, no "secret", no absolutes.
 
-## Formulas (original; do not use the reference creator's wording)
-- **Title:** `A [Humble Thing], [N] Fixes Later`. Example: "A Hole, 9 Fixes Later". Alternate: `[N] Problems Between You and a [Goal]`.
-- **Hook (one sentence, <=10 words, done by 3.0 s):** `This [humble thing] is [N] problems away from [goal].` Example: "This hole is nine problems away from a fallout shelter." The first "But" lands by 3.5 s.
-- **Chain line:** `But [problem]. So [fix].` Optionally add `Preppers call it a [TERM].` Rotate the term line with `[TERM], for short.` and `That's a [TERM].` Never use "This is a [term]."
-- **Fix counter:** a small on-screen `FIX n/N` tag on each fix. This is our own device and the open loop.
-- **Tie-in (once, mid-video):** `That's why [everyday thing you've seen].`
-- **Closer:** `[N] problems. [N] fixes. One [humble thing], ready for [duration].` After it, the sign-off `Ready beats lucky.` plays as a READY stamp thuds onto the build.
+## Brand markers
+- **TRY IT TODAY note:** a Sun Yellow sticky note that slaps on in the final beat. This is our closing device on every Short.
+- **Study card:** a cited index card in every Short (see the style bible). This is our trust device.
+- **Pillar chip:** a small top-left label with the pillar colour dot. It stays on screen the whole video.
 
-## Brand marker
-A mustard rubber-stamp roundel reading "READY" slaps onto the finished build in the last 2 s. It is an end-card device, never an in-world plaque.
+## Pillars and series
+| Pillar | Share | Background tint | Chip icon | Guardrail tag on screen |
+|---|---|---|---|---|
+| Money | ~35% | Mint tint | coin | NOT FINANCIAL ADVICE |
+| Mind | ~25% | Sky tint | lightbulb | none (cite + limit line) |
+| Body | ~20% | Peach tint | sneaker | NOT MEDICAL ADVICE |
+| Ready | ~20% | Kraft tint | lantern | FOLLOW LOCAL GUIDANCE |
 
-## Topics
-Slate and evidence: `creative/topic-research.md` (10 candidates; #1 backyard hole -> fallout shelter, #2 house -> blackout-proof house, #3 backpack -> 72-hour go bag). Re-check trend signals before committing to a topic.
+| Series | Shape (Shorts) | Best pillars | Signature visual |
+|---|---|---|---|
+| 7 Fixes Later | An ordinary morning/paycheck/evening gets 7 quick fixes, `FIX n/7` counter; one cite card on the strongest fix | Money, Body, Ready | step numeral slates 1-7 |
+| Habit Myths | Myth, then what the research says (cite card), then the real habit | Mind, Body, Money | coral MYTH stamp, then mint ACTUALLY stamp |
+| The Numbers | One stat brought to life with a worked, labelled-illustrative number | Money first | big stat callout, then bar steps |
+| 30-Day Log | The creator's own experiment and results | any | DAY n tag; "my numbers, not a study" label |
 
-## Guardrails (binding; mirrored in the style bible)
-1. Facts and quantities come from FEMA/Ready.gov, CDC, NOAA SWPC or similar primary sources. Cite them in each project's script notes.
-2. No fearmongering about specific dated catastrophes, no conspiracy framing, no weapons or tactics, no medical dosing.
-3. Never show mushroom clouds, casualties, injuries or weapons. Hazards are shown abstractly (red specks, red badges).
-4. Construction is illustrative. Every build video carries "Illustration only. Not engineering advice. Check local codes." in the description and on the end card.
-5. Every Short ends with the viewer more capable, not more afraid.
+## Title formulas (our own; avoid "secret", "hack", "never")
+- `The [N]-[unit] Rule for [Problem]`, e.g. "The 24-Hour Rule for Impulse Buys"
+- `[Habit Myth]? What the Research Actually Says`
+- `$[X] a Day for [N] Years = ?`
+- `My [Morning/Paycheck], 7 Fixes Later`
+- `I Tried [Habit] for 30 Days (My Numbers)`

@@ -1,73 +1,83 @@
-# Open Questions and Uncertainties (GroundNUp reference set)
+# Open Questions and Caveats (reference analysis, 2026-11-06)
 
-## Blockers / unmeasured
-1. Audio content: voice type (human vs TTS, gender), music presence, SFX types, mix. Only loudness (all about -17 dB mean) and silence gaps were measured. A human listen or music/speech separation is needed. Affects our audio direction.
-2. Exact caption styling: font, size, outline, per-word animation and safe zone. Only seen in 2.5 s samples. A short dense frame sample (e.g. every 2-3 frames over 2 s) is needed before cloning the caption timing in the DSL.
-3. Camera cut/move count: scene detection (thresholds 0.3 and 0.08) misses smooth moves. A per-beat camera keyframe count would need manual labelling or optical-flow analysis.
-4. Character faces and rigging detail not inspected at full-res.
-5. Rendering engine unknown (looks game-engine-like). Not assumed.
+Companion to `creative/reference-analysis.md` and `creative/patterns.json`.
 
-## Performance interpretation
-6. Are the Trojan (2 d) and hospital (3 d) actually underperforming? Their ages make views/day averages misleading. Re-pull view counts in about 14 days and compare against the others at equal age (early-velocity curve needs analytics data we do not have).
-7. Does the missing "Congratulations" closer in the newest two matter, or is it a deliberate test (loop ending)? Check whether newer uploads keep dropping it, and whether the remaining 5 Shorts on the channel (13 total, 8 sampled) have it.
-8. Is the Trojan ending cut mid-sentence on purpose (loop) or are the auto-captions truncated? Needs listening to the last 3 s.
-9. Is the hospital "Every one subscriber carves their name..." line an ASR error or a subscriber-name gimmick? Frame 68105 s21 (about 50 s) shows a list of names on rock. Needs listening.
-10. Why igloo (21.5M) and bunker (19.6M) outperform the 1.3-2.5M tier. Candidate factors (survival stakes, single hero, simple legible mechanic, universal subject, thumbnail/title/external traffic) cannot be separated with 8 samples. Do not treat any as established.
-11. Thumbnails, Shorts feed placement, upload time, and title wording effects are not observable from the supplied files.
+## Evidence gaps
+1. Audio unreviewed: voice character, music, SFX and mix are not analysed (only "[music]" tags in P2G subs). Needed before choosing TTS voice, music bed and SFX.
+2. Video quality: all mp4s are 360x640 AV1 (labelled 720p). Typography and fine animation timing cannot be judged.
+3. box851akjy4 (the only money sample) has no video (403). Its visual treatment of money content is unknown.
+4. Visual review covered 9 of 13 contact sheets; z6MEsqhUV74, 8hsCMw-KxH4, mdc4SUYKnXM, qzsdeNEMtFw were characterised from transcript/cut data and not from frames.
+5. Scene-cut counts are unreliable for both channels (IP uses fades and in-scene change; P2G tO505YfXN6Y uses continuous camera and sliding text). Shot lengths are bounds, not exact.
+6. No retention curves, swipe-away rate, CTR or traffic sources. Everything about "what drives views" is an association with view counts only.
+7. View counts are not age-normalised. IP uploads span Feb-Jun 2023; P2G Dec 2025-May 2026. Views per day cannot be fairly compared.
+8. IP clips are 2023 uploads; "recent" in the brief means the lower-view ones in the set. Current channel behaviour in 2026 is unknown.
 
-## Data caveats
-12. Counts assumed scraped around 2026-11-06 (file mtime); true scrape time not recorded in the fields read.
-13. Captions are auto-generated; numbers and names (e.g. "40 pigs", "3 ft") should be fact-checked before reuse.
-14. Facts in the references (e.g. 1215 siege, Derinkuyu details) were not verified; our scripts need independent fact-checking.
+## Small-sample caveats
+- n = 7 IP, 7 P2G (6 content). A 3-vs-3 comparison of top and bottom performers cannot establish cause.
+- Topic breadth, title demand and age confound every craft-based explanation.
+- The money conclusion rests on one video and is confounded.
+- P2G visual style varies strongly between videos, so "P2G style" is not one thing. Possibly multiple artists/teams.
 
-## Decisions for our channel (not answered by the references)
-15. Our own closing device to replace the "Congratulations" formula.
-16. Our own hero, palette, backdrop, and brand marker (must differ from hi-vis worker, red-beanie figure, blue plaque, suburban backyard).
-17. Whether our Remotion/Three.js engine can support cutaway-slab diorama, persistent world state, continuous camera paths and word-level captions: check `docs/technical/ANIMATION_DSL.md` and `engine/registry.json` before planning.
-18. Target frame rate: references are 60 fps; the project default is 30 fps (Draft 15). Decide whether to follow the project default.
+## Questions for the creative director
+1. Length: both channels run 56-100 s; the strategy says 30-50 s. Hold to 30-50 s, or allow up to about 60 s for Money Shorts with a stat card?
+2. Pace: IP 3.5 WPS vs P2G 2.5 WPS. Which fits the Kokoro/TTS voice and a stat card? Proposal: 2.8-3.2 WPS, test in drafts.
+3. Hook type: outcome-plus-number (IP-like) or curiosity gap (P2G-like) as default? Proposal: A/B across the first batch.
+4. On-screen citation format: card with author, year, sample size and one limit line? Where in the timeline (mid, after the problem)? How to stay readable at phone size.
+5. Persistent title banner (IP-like): adopt, or keep the channel's own layout? It uses vertical space but helps clarity.
+6. Mascot or prop-led? Proposal: one original recurring character plus a prop library, with our own design.
+7. Ending: a concrete "try it today" line plus loopable frame. Should the last frame match the first so it loops?
+8. Disclaimers: where does "Not financial advice" / "Not medical advice" sit (final 2 s card, caption, or description)?
+9. Speaker voice: neutral narrator, or first person "I tried it" for build-in-public Shorts? IP's first-person Shorts (mdc4SUYKnXM, 0zY5BbMHsEY) are not clearly stronger or weaker.
+10. Avoid-list: confirm the patterns in reference-analysis section 16 as hard guardrails for scripts and reviews.
 
-## Channel bootstrap
-Decided in `creative/channel-identity.md`, `creative/style-bible.md`, `creative/animation-presets.json` and `creative/asset-registry.json`. Items 15, 16 and 18 above are answered: READY-stamp closer, Tuck host, warm 7-color palette, open-ground cutaway, and 30 fps per CLAUDE.md.
+## Suggested follow-ups (not done; needs approval or new data)
+- Listen to 3-4 clips (voice, music, SFX) or extract loudness/music-presence with ffmpeg.
+- Obtain 2-3 more money-topic Shorts (personal finance) for a Money-specific pattern check.
+- Pull per-video upload date and view counts again later for views-per-day comparison.
+- After the first 8-10 own Shorts, compare our own retention against these hypotheses and update patterns.json.
+
+## Bootstrap (2026-11-06)
+Decided in `creative/channel-identity.md`, `creative/style-bible.md`, `creative/asset-registry.json`, `creative/animation-presets.json`.
+
+### Answers to the questions above (provisional)
+- Q1 Length: 35-45 s, hard cap 50 s (7 Fixes Later may use 50 s). No 60 s exception.
+- Q2 Pace: 3.0 WPS target (2.8-3.2), 105-135 words. Measure on the first TTS draft.
+- Q3 Hook: alternate outcome+number and myth/curiosity across batch 1; log the type in idea.md.
+- Q4 Citation: index card with tab / source / finding / limit line, held 2.5-3.5 s after the problem beat. Full citation in the description and idea.md.
+- Q5 Title: a small persistent pillar chip + 3-5 word title top-left, not a heavy banner.
+- Q6 Character: one original mascot (Inch, a paper snail) + prop library.
+- Q7 Ending: "Try it today" + TRY IT TODAY note; the last 0.5 s returns to the frame-0 layout.
+- Q8 Disclaimers: on-screen tag from the cite card to the end, plus description, pinned comment, About page.
+- Q9 Voice: neutral second-person narrator; first person only in 30-Day Log.
+- Q10 Avoid-list: adopted as hard guardrails (style bible > Guardrail language).
 
 ### Assumptions (confirm or override)
-A1. The name is a working title. Options: **Paper Prepper** (working), Snug Doomsday, Plan B Burrow. Trademark, YouTube handle and domain checks have not been done.
-A2. Audience: 18-40, US/English, everyday-preparedness-curious, not hardcore survivalists.
-A3. Tone: practical, curious, reassuring, lightly witty, never fear-driven.
-A4. Narration is TTS (based on `projects/tts-test`). The voice/provider is not chosen (`script.json` has `"voice": null`).
-A5. Output is 1080x1920, 30 fps, H.264/AAC per CLAUDE.md.
-A6. Water, air and plants share Dusty Teal `#5E8F86`, the only cool-leaning hue, capped at about 10% of the frame. The alternative is to drop it and show water as cream with teal-free wave lines.
-A7. The red cross on `first_aid_kit` is allowed as the standard symbol, an exception to the "red = problem" rule.
-A8. Loudness target of about -14 LUFS / -1 dBTP is an assumption. No loudness measurement script was found or verified.
+B1. Audience 18-35, English, US first.
+B2. Palette: 7 core + 4 pillar tints. Paper Prepper props are used as-is in Ready (cocoa ink tones); recolor by hex swap only if they clash in stills.
+B3. Paper Prepper SVGs, bg cutaways and 3 SFX wavs are reusable (verified under `projects/fallout-shelter/assets/`). Tuck, the READY stamp and the PP badges are retired.
+B4. Narration: Kokoro `am_michael`. The brief says 1.15x but `projects/fallout-shelter/script.json` and `projects/blackout-house/script.json` record `speed: 1.25`. Which value is canonical?
+B5. Font stays the registry default (Arial Black) until a bundled font exists.
+B6. Loudness target about -14 LUFS / -1 dBTP; no measuring script verified.
+B7. SVG filters are not used because renderer support is unverified. Test one in stills if texture is wanted.
 
-### Engine findings that change the brief
-- Supported: one-word captions work today via `Caption.wordsPerChunk: 1`. With 1 word per chunk the word is always "active", so `highlightColor` must equal `color`.
-- Supported: static tilt via `transform.rotation`, and smooth rotation wobble via the `wiggle` loop (sine).
-- NOT supported: stepped/held rotation.
-- Caption timing is spread across the element by letter count. It is not real word timing, so sync is only as good as the per-sentence segments.
-- Camera presets scale the whole scene layer, captions included, around frame center. They ease over the full scene and reset at the next scene.
-- `scripts/validate_project.py` only accepts assets inside `projects/<id>/`. The repo-root `assets/` library in asset-registry.json must be copied per project for now.
-- Each element shares one `params` object across its enter, loop and exit presets and its component params.
+### Decisions needing the creator
+D1. RESOLVED 2026-11-06: channel name is Small Change Lab. Still open: handle, domain and USPTO checks before public launch.
+D2. RESOLVED 2026-11-06: mascot is Inch the paper snail.
+D3. Voice: keep `am_michael` for brand continuity with Paper Prepper, or pick a different Kokoro voice so the new channel sounds distinct. Confirm speed (B4). Decide when the creator's own voice is used (30-Day Log long-form).
+D4. Music source and license.
+D5. Whether a 7-step 7 Fixes Later fits in 50 s at 3.0 WPS (test in the first draft; fallback 5 fixes).
 
-### Future capabilities (proposed; NOT in `engine/registry.json`; do not use in plans)
-F1. `paper_grain` overlay: a full-frame texture multiply layer above the background. Workaround: bake the texture into the PNGs.
-F2. `drop_shadow` element param `{dx, dy, color, opacity, blur}` for dynamic paper layering. Workaround: bake shadows into assets.
-F3. `reveal_mask` / `dig_reveal` enter preset: a rectangular or torn-edge wipe that "digs" the cutaway open. Workaround: `slide_in_up` / `pop_in`.
-F4. Stepped timing (`steps` / "on twos" param on presets) for a hand-animated paper feel, and a seeded stepped `paper_boil` loop (rotation/offset held for N frames).
-F5. Persistent world state: elements that span scenes, or a `carryForward` scene flag. Workaround: redeclare earlier parts with preset `none` in every beat scene.
-F6. Camera keyframes / persistent camera (`camera_to {x, y, zoom, atSec}`) so a move can land mid-scene on a target without resetting at the cut.
-F7. Screen-space (camera-independent) layer for captions, fix counter and stamp.
-F8. Word-level caption timing from TTS timestamps, plus per-word emphasis (`emphasizeWords`).
-F9. Bundled custom font loading (a rounded heavy display font with a verified OFL license).
-F10. Particle shapes (specks, drops, paper scraps) and per-particle palette arrays. Currently circles in one color only.
-F11. Multi-part character rig (separate arms/head with pivots) and a walk cycle. Currently pose-swap PNGs only.
-F12. Shared asset library resolution in the validator and renderer (repo-level `assets/`).
-F13. Loudness measurement step (an FFmpeg `loudnorm`/ebur128 script) for the mix policy.
-
-### Unresolved decisions
-U1. Pick the final channel name, and check the handle and trademark.
-U2. Choose the TTS voice and provider and confirm it can reach about 3.2 words/s naturally.
-U3. Choose the music source and license.
-U4. Who creates the assets (hand-made, vector tool, AI-assisted with review), and the shared paper texture source.
-U5. Is the `FIX n/N` counter worth the screen space? A/B it on the first 2-3 uploads.
-U6. Re-validate the topic slate with Google Trends / YouTube autocomplete before committing to topic #1 (evidence is low-medium).
-U7. Is the title formula "A [Thing], [N] Fixes Later" distinct enough in search? Test against "[N] Problems Between You and a [Goal]".
+### Proposed NEW engine presets/components (proposals only; NOT in `engine/registry.json`; do not use in plans)
+P1. Screen-space UI layer (camera-independent) for the pillar chip, disclaimer, caption and fix counter.
+P2. Word-level caption timing from TTS timestamps, plus `emphasizeWords`.
+P3. `CitationCard` composite component {tab, source, finding, limit} with a fixed layout (replaces 6 hand-placed elements).
+P4. `StepSlate` composite {numeral, label}.
+P5. `count_up` text preset (number tween with prefix/suffix and format) for The Numbers. Workaround: 2-3 static values across beats.
+P6. `grow_y` / `reveal_wipe` enter preset (scale from the baseline, or a mask wipe) for bars and drawing on the growth curve. Workaround: `slide_in_up`.
+P7. Persistent elements across scenes (`carryForward`). Workaround: redeclare with preset `none`.
+P8. Element `drop_shadow` param. Workaround: baked SVG shadows.
+P9. Bundled font loading (rounded heavy OFL display font).
+P10. Particle shapes (coins, checks) and palette arrays.
+P11. Shared repo-level asset library resolution in the validator/renderer.
+P12. Scripts (not engine): first/last-frame loop-match check on stills; loudness measurement; WPS check from script.json.
+P13. 16:9 composition variant for long-form (strategy, scoped separately).

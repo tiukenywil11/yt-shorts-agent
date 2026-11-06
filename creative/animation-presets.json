@@ -1,99 +1,203 @@
 {
-  "version": "1.0.0",
-  "channel": "paper-prepper (working title)",
+  "version": "2.0.0",
+  "channel": "small-change-lab",
   "registryVersion": "1.0.0",
   "notes": [
-    "Channel aliases only. Each entry maps to a real engine/registry.json preset, camera, transition or component. Plans must write the registry name in the slot plus the params below; the alias name itself is NOT valid in animation.json.",
-    "An element has one enter ('preset'), one 'loop' and one 'exit', and they share ONE params object with the component params. Merge alias params when combining, e.g. paper_drop + paper_pluck -> {\"inSec\":0.28,\"overshoot\":0.08,\"outSec\":0.2}.",
-    "pop_in overshoot feeds Easing.back(overshoot*15): 0.06 ~ subtle, 0.10 ~ clear, 0.14 = channel maximum.",
-    "Camera presets ease across the whole scene and reset at the next scene."
+    "Channel aliases only. Each entry maps to a real engine/registry.json preset, camera, transition, background or component. Plans write the registry name in the slot plus these params; alias names are NOT valid in animation.json.",
+    "An element has one enter ('preset'), one 'loop' and one 'exit'; they share ONE params object with the component params. Merge, e.g. snip_in + snip_out -> {\"inSec\":0.28,\"overshoot\":0.08,\"outSec\":0.2}.",
+    "pop_in overshoot: 0.06 subtle, 0.10 clear, 0.14 channel maximum.",
+    "Cameras ease across the whole scene and reset at the next scene. Text layers scale with the camera (no screen-space layer), so pushes stay small.",
+    "Carry-forward: elements do not persist across scenes. Redeclare the chip, disclaimer and existing props in every scene with preset 'none' (hold_static).",
+    "Sizes: Shape width/height and Prop/Character width are fractions of video width; fontSize/strokeWidth are px at 1080w."
   ],
   "element": {
-    "paper_drop":       { "slot": "preset", "registry": "pop_in",         "params": { "inSec": 0.28, "overshoot": 0.08 }, "use": "Default enter for a newly built part or prop." },
-    "paper_slap":       { "slot": "preset", "registry": "pop_in",         "params": { "inSec": 0.18, "overshoot": 0.14 }, "use": "Term tags, fix counter, badges, stat callouts, READY stamp." },
-    "paper_rise":       { "slot": "preset", "registry": "slide_in_up",    "params": { "inSec": 0.32, "distance": 0.10 },  "use": "Walls, pipes, shelves rising from the ground line or floor." },
-    "paper_slide_left": { "slot": "preset", "registry": "slide_in_left",  "params": { "inSec": 0.32, "distance": 0.35 },  "use": "Tuck or materials entering from the left." },
-    "paper_slide_right":{ "slot": "preset", "registry": "slide_in_right", "params": { "inSec": 0.32, "distance": 0.35 },  "use": "Tuck or materials entering from the right." },
-    "paper_hop":        { "slot": "preset", "registry": "bounce",         "params": { "inSec": 0.45, "height": 0.05 },    "use": "Small props landing (cans, jugs, batteries); Tuck cheer." },
-    "problem_jolt":     { "slot": "preset", "registry": "shake",          "params": { "inSec": 0.40, "amplitude": 0.012 },"use": "Part that fails on the 'But' word. Re-declare the part with this preset in the problem beat." },
-    "glow_on":          { "slot": "preset", "registry": "fade_in",        "params": { "inSec": 0.25 },                    "use": "Mustard glow discs, night overlays. Not for structure." },
-    "place_static":     { "slot": "preset", "registry": "none",           "params": {},                                   "use": "Carry-forward: every previously built element redeclared in later beats." },
+    "snip_in":     { "slot": "preset", "registry": "pop_in",         "params": { "inSec": 0.28, "overshoot": 0.08 }, "use": "Default enter for props and Inch pose-first appearance." },
+    "tag_slap":    { "slot": "preset", "registry": "pop_in",         "params": { "inSec": 0.18, "overshoot": 0.14 }, "use": "Badges (check/cross), stamps, stat callouts, step slates, TRY IT TODAY note, disclaimer tag first appearance." },
+    "card_in":     { "slot": "preset", "registry": "pop_in",         "params": { "inSec": 0.30, "overshoot": 0.06 }, "use": "cite_card and its text lines (stagger text +0.15 s each)." },
+    "rise":        { "slot": "preset", "registry": "slide_in_up",    "params": { "inSec": 0.32, "distance": 0.10 },  "use": "Chart bars growing, jar fill coins, stacking." },
+    "slide_left":  { "slot": "preset", "registry": "slide_in_left",  "params": { "inSec": 0.32, "distance": 0.35 },  "use": "Inch or a prop entering from the left." },
+    "slide_right": { "slot": "preset", "registry": "slide_in_right", "params": { "inSec": 0.32, "distance": 0.35 },  "use": "Inch or a prop entering from the right." },
+    "hop":         { "slot": "preset", "registry": "bounce",         "params": { "inSec": 0.45, "height": 0.05 },    "use": "Coins landing, Inch on cheer." },
+    "nope_jolt":   { "slot": "preset", "registry": "shake",          "params": { "inSec": 0.40, "amplitude": 0.012 },"use": "Prop/Inch on the problem word. Redeclare the element with this preset in the problem beat." },
+    "soft_on":     { "slot": "preset", "registry": "fade_in",        "params": { "inSec": 0.25 },                    "use": "Glows, night overlays, the caveat line. Not for props." },
+    "hold_static": { "slot": "preset", "registry": "none",           "params": {},                                   "use": "Carry-forward of chip, disclaimer, earlier props; loop-frame redeclare." },
 
-    "host_idle":        { "slot": "loop",   "registry": "wiggle",         "params": { "periodSec": 1.6, "degrees": 1.5 }, "use": "Tuck idle sway (rotates around element center)." },
-    "paper_flutter":    { "slot": "loop",   "registry": "wiggle",         "params": { "periodSec": 0.5, "degrees": 3 },   "use": "Cloth, flags, flame cutouts only." },
-    "lamp_glow":        { "slot": "loop",   "registry": "pulse",          "params": { "periodSec": 1.2, "amount": 0.04 }, "use": "Mustard glow disc behind a lamp." },
-    "alert_pulse":      { "slot": "loop",   "registry": "pulse",          "params": { "periodSec": 0.6, "amount": 0.08 }, "use": "Signal Red problem badge while the problem is unsolved." },
-    "drift":            { "slot": "loop",   "registry": "float_loop",     "params": { "periodSec": 2.8, "amplitude": 0.006 }, "use": "Clouds, dust motes. Never on structure." },
+    "inch_idle":    { "slot": "loop", "registry": "wiggle",     "params": { "periodSec": 1.8, "degrees": 1.5 },      "use": "Inch idle sway." },
+    "paper_flutter":{ "slot": "loop", "registry": "wiggle",     "params": { "periodSec": 0.5, "degrees": 3 },        "use": "Receipts, notes, calendar pages only." },
+    "coin_bob":     { "slot": "loop", "registry": "float_loop", "params": { "periodSec": 2.4, "amplitude": 0.008 },  "use": "A single hero coin or the lightbulb. Max 1 per beat." },
+    "soft_pulse":   { "slot": "loop", "registry": "pulse",      "params": { "periodSec": 1.2, "amount": 0.04 },      "use": "Stat callout or glow while it is being spoken." },
+    "alert_pulse":  { "slot": "loop", "registry": "pulse",      "params": { "periodSec": 0.6, "amount": 0.08 },      "use": "cross_coral or notification_dot while the problem is unsolved." },
 
-    "paper_pluck":      { "slot": "exit",   "registry": "pop_out",        "params": { "outSec": 0.20 },                   "use": "Removing a failed part or a solved problem badge." },
-    "quiet_out":        { "slot": "exit",   "registry": "fade_out",       "params": { "outSec": 0.25 },                   "use": "Glows, weather, tags at end of beat." }
+    "snip_out":  { "slot": "exit", "registry": "pop_out",  "params": { "outSec": 0.20 }, "use": "Removing a cross badge or a replaced prop." },
+    "quiet_out": { "slot": "exit", "registry": "fade_out", "params": { "outSec": 0.25 }, "use": "Cite card, glows and tags at the end of their beat. Never on the final scene." }
   },
   "camera": {
-    "cam_hold":    { "registry": "static",      "params": {},                       "use": "Default. At least half of all beats." },
-    "cam_lean_in": { "registry": "camera_push", "params": { "amount": 0.06 },       "use": "Land on a fix near frame center (named object = last word of the sentence)." },
-    "cam_land":    { "registry": "camera_push", "params": { "amount": 0.12 },       "use": "Finale or a target within 0.15 of center. Max 2 per video." },
-    "cam_sink":    { "registry": "camera_pan",  "params": { "dx": 0, "dy": 0.05 },  "use": "Attention moves down a shaft or into the bedrock." },
-    "cam_rise":    { "registry": "camera_pan",  "params": { "dx": 0, "dy": -0.05 }, "use": "Attention moves up to the surface or roof." },
-    "cam_slide_r": { "registry": "camera_pan",  "params": { "dx": 0.05, "dy": 0 },  "use": "Attention moves right (keep the target left of x 0.84)." },
-    "cam_slide_l": { "registry": "camera_pan",  "params": { "dx": -0.05, "dy": 0 }, "use": "Attention moves left." }
+    "cam_hold":    { "registry": "static",      "params": {},                        "use": "Default; at least 60% of beats, always on cite-card and loop beats." },
+    "cam_lean_in": { "registry": "camera_push", "params": { "amount": 0.05 },        "use": "Land on the fix prop (named object = last word of the sentence)." },
+    "cam_land":    { "registry": "camera_push", "params": { "amount": 0.10 },        "use": "One per video max: the try-it-today beat or the big stat." },
+    "cam_slide_r": { "registry": "camera_pan",  "params": { "dx": 0.04, "dy": 0 },   "use": "Attention moves right (target stays left of x 0.82)." },
+    "cam_slide_l": { "registry": "camera_pan",  "params": { "dx": -0.04, "dy": 0 },  "use": "Attention moves left." },
+    "cam_rise":    { "registry": "camera_pan",  "params": { "dx": 0, "dy": -0.04 },  "use": "Attention moves up (growing bars, stacked coins)." }
   },
   "transition": {
-    "beat_cut":   { "registry": "cut",       "durationSec": 0,    "use": "Default between beats." },
-    "time_skip":  { "registry": "crossfade", "durationSec": 0.4,  "use": "Day to night, or a time jump ('two weeks later')." },
-    "topic_turn": { "registry": "slide_up",  "durationSec": 0.35, "use": "Rare: switch to an interior close-up (bag interior, comparison)." }
+    "beat_cut":  { "registry": "cut",       "durationSec": 0,    "use": "Default between beats and into the loop frame." },
+    "time_skip": { "registry": "crossfade", "durationSec": 0.4,  "use": "Time jumps: day 1 to day 30, night to morning, 'ten years later'." },
+    "page_turn": { "registry": "slide_up",  "durationSec": 0.35, "use": "Only into the cite card beat. Max 1 per video." }
+  },
+  "backgrounds": {
+    "bg_money": { "registry": "solid", "params": { "color": "#E3F1E7" } },
+    "bg_mind":  { "registry": "solid", "params": { "color": "#E2ECF5" } },
+    "bg_body":  { "registry": "solid", "params": { "color": "#FBE6D6" } },
+    "bg_ready": { "registry": "solid", "params": { "color": "#EFE2C9" } },
+    "bg_night": { "registry": "solid", "params": { "color": "#26303F" } }
   },
   "component_styles": {
-    "caption_paper": {
+    "caption_main": {
       "component": "Caption",
-      "params": { "fontSize": 92, "fontFamily": "Arial Black, Impact, sans-serif", "color": "#F4E6C8", "highlightColor": "#F4E6C8", "strokeColor": "#3A2419", "strokeWidth": 9, "wordsPerChunk": 1, "uppercase": true },
-      "transform": { "x": 0.47, "y": 0.20, "layer": 90 },
+      "params": { "fontSize": 84, "fontFamily": "Arial Black, Impact, sans-serif", "color": "#F5EEDD", "highlightColor": "#F2B632", "strokeColor": "#26303F", "strokeWidth": 10, "wordsPerChunk": 2, "uppercase": true },
+      "transform": { "x": 0.46, "y": 0.67, "layer": 90 },
       "preset": "none",
-      "use": "One Caption per script segment. highlightColor = fill because at 1 word per chunk the word is always 'active'."
+      "use": "One Caption per script segment, timed to the segment."
     },
-    "term_tag_text": {
-      "component": "KineticText",
-      "params": { "fontSize": 60, "fontWeight": 900, "color": "#3A2419", "strokeWidth": 0, "maxWidth": 0.5, "align": "center", "uppercase": true },
-      "transform": { "rotation": -2, "layer": 71 },
-      "enter": "paper_slap",
-      "use": "Named term next to its object. Pair with term_tag_back at the same x/y."
-    },
-    "term_tag_back": {
+    "chip_back": {
       "component": "Shape",
-      "params": { "shape": "rect", "width": 0.42, "height": 0.075, "color": "#F4E6C8", "radius": 0.012 },
-      "transform": { "rotation": -2, "layer": 70 },
-      "enter": "paper_slap",
-      "use": "Paper tag backing. Adjust width to text length. Shadow is FUTURE (none in engine)."
+      "params": { "shape": "rect", "width": 0.64, "height": 0.075, "color": "#F5EEDD", "radius": 0.02, "strokeColor": "#26303F", "strokeWidth": 4 },
+      "transform": { "x": 0.38, "y": 0.11, "layer": 86 },
+      "enter": "hold_static",
+      "use": "Persistent pillar chip backing, every scene from frame 0."
+    },
+    "chip_dot": {
+      "component": "Shape",
+      "params": { "shape": "circle", "width": 0.04, "height": 0.04, "color": "#3FA37A" },
+      "transform": { "x": 0.10, "y": 0.11, "layer": 87 },
+      "enter": "hold_static",
+      "use": "Pillar dot: Money #3FA37A, Mind #7FB3D5, Body #F2B632, Ready #C9A77C. Coral is never a pillar colour."
+    },
+    "chip_text": {
+      "component": "KineticText",
+      "params": { "fontSize": 44, "fontWeight": 900, "color": "#26303F", "strokeWidth": 0, "maxWidth": 0.56, "align": "left", "uppercase": true },
+      "transform": { "x": 0.41, "y": 0.11, "layer": 87 },
+      "enter": "hold_static",
+      "use": "'MONEY · 24-HOUR RULE'. Max 24 characters."
+    },
+    "disclaimer_back": {
+      "component": "Shape",
+      "params": { "shape": "rect", "width": 0.44, "height": 0.05, "color": "#F5EEDD", "radius": 0.012 },
+      "transform": { "x": 0.28, "y": 0.165, "layer": 87 },
+      "enter": "tag_slap",
+      "use": "From the cite card to the end (Money/Body/Ready). hold_static after its first scene."
+    },
+    "disclaimer_text": {
+      "component": "KineticText",
+      "params": { "fontSize": 40, "fontWeight": 900, "color": "#26303F", "strokeWidth": 0, "maxWidth": 0.42, "align": "center", "uppercase": true },
+      "transform": { "x": 0.28, "y": 0.165, "layer": 88 },
+      "enter": "tag_slap",
+      "use": "'NOT FINANCIAL ADVICE' / 'NOT MEDICAL ADVICE' / 'FOLLOW LOCAL GUIDANCE'."
+    },
+    "cite_card": {
+      "component": "Prop",
+      "asset": "assets/ui/cite_card.svg",
+      "params": { "width": 0.76 },
+      "transform": { "x": 0.46, "y": 0.38, "rotation": -2, "layer": 80 },
+      "enter": "card_in",
+      "use": "Hold 2.5-3.5 s. All four text styles below share rotation -2."
+    },
+    "cite_tab_text": {
+      "component": "KineticText",
+      "params": { "fontSize": 40, "fontWeight": 900, "color": "#26303F", "strokeWidth": 0, "maxWidth": 0.30, "align": "left", "uppercase": true },
+      "transform": { "x": 0.22, "y": 0.265, "rotation": -2, "layer": 81 },
+      "enter": "card_in",
+      "use": "'THE STUDY' / 'THE DATA' / 'MY NUMBERS'. Adjust x/y to the drawn tab."
+    },
+    "cite_source_text": {
+      "component": "KineticText",
+      "params": { "fontSize": 44, "fontWeight": 900, "color": "#26303F", "strokeWidth": 0, "maxWidth": 0.66, "align": "center", "uppercase": false },
+      "transform": { "x": 0.46, "y": 0.31, "rotation": -2, "layer": 81 },
+      "enter": "card_in",
+      "use": "'[Author] et al., [Year]' or '[Agency], [Year]'. Values from idea.md only."
+    },
+    "cite_finding_text": {
+      "component": "KineticText",
+      "params": { "fontSize": 110, "fontWeight": 900, "color": "#F2B632", "strokeColor": "#26303F", "strokeWidth": 7, "maxWidth": 0.66, "align": "center", "uppercase": true },
+      "transform": { "x": 0.46, "y": 0.385, "rotation": -2, "layer": 81 },
+      "enter": "card_in",
+      "use": "One number or a 2-4 word finding. For text findings use color #26303F, strokeWidth 0, fontSize 72."
+    },
+    "cite_limit_text": {
+      "component": "KineticText",
+      "params": { "fontSize": 40, "fontWeight": 900, "color": "#26303F", "strokeWidth": 0, "maxWidth": 0.62, "align": "center", "uppercase": false },
+      "transform": { "x": 0.48, "y": 0.46, "rotation": -2, "layer": 81 },
+      "enter": "card_in",
+      "use": "'Limit: n = [N]' / 'self-reported' / 'correlation, not cause' / 'illustrative math'. Pair with cite_limit_dot."
+    },
+    "cite_limit_dot": {
+      "component": "Shape",
+      "params": { "shape": "circle", "width": 0.025, "height": 0.025, "color": "#E2553F" },
+      "transform": { "x": 0.17, "y": 0.461, "layer": 81 },
+      "enter": "card_in",
+      "use": "Coral dot before the limit line; adjust x to the text start."
+    },
+    "step_slate": {
+      "component": "Prop",
+      "asset": "assets/ui/step_slate.svg",
+      "params": { "width": 0.30 },
+      "transform": { "x": 0.46, "y": 0.33, "layer": 72 },
+      "enter": "tag_slap",
+      "use": "Numbered step. 1.5-2.5 s, then the acting beat."
+    },
+    "step_numeral": {
+      "component": "KineticText",
+      "params": { "fontSize": 220, "fontWeight": 900, "color": "#26303F", "strokeWidth": 0, "maxWidth": 0.3, "align": "center" },
+      "transform": { "x": 0.46, "y": 0.33, "layer": 73 },
+      "enter": "tag_slap",
+      "use": "'1', '2', '3'. Same x/y as step_slate."
+    },
+    "step_label": {
+      "component": "KineticText",
+      "params": { "fontSize": 72, "fontWeight": 900, "color": "#26303F", "strokeColor": "#F5EEDD", "strokeWidth": 6, "maxWidth": 0.72, "align": "center", "uppercase": true },
+      "transform": { "x": 0.46, "y": 0.47, "layer": 73 },
+      "enter": "snip_in",
+      "use": "2-4 word step name. Enters 0.15 s after the numeral."
     },
     "stat_callout": {
       "component": "KineticText",
-      "params": { "fontSize": 120, "fontWeight": 900, "color": "#E9A93B", "strokeColor": "#3A2419", "strokeWidth": 8, "maxWidth": 0.6, "uppercase": true },
-      "transform": { "layer": 80 },
-      "enter": "paper_slap",
-      "use": "Number + unit, e.g. '1 GAL/DAY'. Source every number (guardrails)."
+      "params": { "fontSize": 140, "fontWeight": 900, "color": "#F2B632", "strokeColor": "#26303F", "strokeWidth": 8, "maxWidth": 0.7, "uppercase": true },
+      "transform": { "layer": 82 },
+      "enter": "tag_slap",
+      "loop": "soft_pulse",
+      "use": "Number + unit ('$1,825/YR'). Sourced or labelled illustrative. A count-up is FUTURE; step through 2-3 values across beats instead."
     },
     "fix_counter": {
       "component": "KineticText",
-      "params": { "fontSize": 54, "fontWeight": 900, "color": "#F4E6C8", "strokeColor": "#3A2419", "strokeWidth": 6, "maxWidth": 0.3, "uppercase": true },
-      "transform": { "x": 0.20, "y": 0.13, "layer": 75 },
-      "enter": "paper_slap",
-      "use": "'FIX n/N'. Re-enter with paper_slap each time n changes; otherwise place_static."
+      "params": { "fontSize": 48, "fontWeight": 900, "color": "#26303F", "strokeColor": "#F5EEDD", "strokeWidth": 5, "maxWidth": 0.25, "uppercase": true },
+      "transform": { "x": 0.70, "y": 0.165, "layer": 75 },
+      "enter": "tag_slap",
+      "use": "'FIX n/7' in 7 Fixes Later only. Re-enter on change; otherwise hold_static."
+    },
+    "try_today_note": {
+      "component": "Prop",
+      "asset": "assets/ui/try_today_note.svg",
+      "params": { "width": 0.42 },
+      "transform": { "x": 0.62, "y": 0.30, "rotation": -3, "layer": 95 },
+      "enter": "tag_slap",
+      "use": "Final beat. SFX stamp_thud at the enter frame. Action text stays in the caption."
+    },
+    "do_confetti": {
+      "component": "ParticleBurst",
+      "params": { "count": 12, "color": "#3FA37A", "spread": 0.12, "size": 0.014 },
+      "use": "On the final check or try-it-today only. Unique seed per element."
     },
     "problem_specks": {
       "component": "ParticleBurst",
-      "params": { "count": 18, "color": "#D2452B", "spread": 0.18, "size": 0.012 },
-      "use": "Abstract hazard (fallout, mold, leaks). Set a unique seed per element."
-    },
-    "fix_confetti": {
-      "component": "ParticleBurst",
-      "params": { "count": 14, "color": "#E9A93B", "spread": 0.14, "size": 0.014 },
-      "use": "Finale and READY stamp only. Unique seed."
+      "params": { "count": 14, "color": "#E2553F", "spread": 0.14, "size": 0.012 },
+      "use": "Abstract waste/loss (money leaking, distractions). Unique seed."
     },
     "host": {
       "component": "Character",
-      "params": { "width": 0.16, "talking": false },
-      "loop": "host_idle",
-      "transform": { "y": 0.40, "layer": 50 },
-      "use": "Tuck. Set y so the feet touch the ground line (0.44) or a built floor; poses via params.poses [{atSec, asset}]."
+      "params": { "width": 0.22, "talking": false },
+      "loop": "inch_idle",
+      "transform": { "x": 0.36, "y": 0.535, "layer": 50 },
+      "use": "Inch. Tune y so the foot baseline sits on the floor line (0.60) for the drawn canvas; then never change it within a video. Poses via params.poses [{atSec, asset}]."
     }
   }
 }

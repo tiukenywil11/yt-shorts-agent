@@ -1,117 +1,142 @@
-# Style Bible: Paper Prepper (working title)
+# Style Bible: Small Change Lab
 
-Source of truth for look, motion and pacing. Identity, formulas and guardrails: `creative/channel-identity.md`. Presets: `creative/animation-presets.json`. Assets: `creative/asset-registry.json`. Unsupported features: `creative/open-questions.md` > Channel bootstrap. Engine limits: `engine/registry.json`.
-Coordinates are DSL units: `x` and `y` are fractions of frame width and height; sizes are fractions of width; px values are at 1080 wide.
+Source of truth for look, motion, pacing and on-screen guardrails. Identity, mascot, series: `creative/channel-identity.md`. Presets and component styles: `creative/animation-presets.json`. Assets: `creative/asset-registry.json`. Future capabilities: `creative/open-questions.md` > Bootstrap. Engine limits: `engine/registry.json`.
+Coordinates are DSL units: `x`/`y` are fractions of frame width/height; sizes are fractions of width; px are at 1080 wide.
 
 ## Identity
-- Channel name: Paper Prepper (working; 3 options in channel-identity.md).
-- Audience: US/English, 18-40, curious about everyday preparedness, not hardcore survivalists.
-- Content promise: an ordinary thing becomes ready for a bad day through a chain of problems and fixes.
-- Emotional tone: practical, curious, reassuring, lightly witty. Never fear-driven.
-- Topics to cover: the slate in `creative/topic-research.md` (fallout shelter, blackout house, go-bag, pantry, water, root cellar, and so on).
-- Topics to avoid: dated doomsday predictions, conspiracies, weapons/tactics, medical dosing, gore or casualties, mushroom clouds.
+- Channel name: Small Change Lab (locked 2026-11-06).
+- Audience: English 18-35, early-career/students, skeptical of hype.
+- Content promise: one small habit, one cited fact, one thing to try today.
+- Emotional tone: calm, curious, precise, lightly warm. Never shaming, never hype.
+- Topics to cover: Money ~35%, Mind ~25%, Body ~20%, Ready ~20%. Slate: `creative/topic-research.md`.
+- Topics to avoid: stock/crypto picks, income promises, "get rich", supplements, dosing, diagnosis, weight-loss claims, trait lists that flatter the viewer, dated disaster fear.
 
 ## Original art direction
-- Style: flat 2D paper-cutout diorama. A single cross-section cutaway that grows piece by piece. No gradients on objects. No 3D.
-- Shape language: chunky rounded rectangles, arcs and trapezoids with visible corner radii. Safe/fixed things are round-cornered. Problems are jagged triangles or zigzags in Signal Red. Each object is built from 3-6 flat pieces at most.
-- Edge treatment: scissor-cut edges with a slight 1-2 px irregular wobble. No outlines. Torn edges with a 3-5 px Paper Cream fiber rim appear ONLY on the ground line and the top of each soil stratum.
-- Palette (7; no other hues; tints only as baked shadow):
+- Style: flat 2D paper cutout on one full-bleed tinted paper field. A small "desk-top stage": one floor line, Inch, and 1-3 props. No 3D, no gradients on objects, no panels-within-the-frame.
+- Shape language: rounded rectangles and circles = calm/done; a jagged edge appears only on problem/cross items. Each prop has at most 6 flat pieces.
+- Edges: clean scissor-cut with a slight 1-2 px wobble. No outlines, except an Ink 4 px stroke on text cards and the cite card.
+- Palette (7 core + 4 tints; no other hues):
 
 | Name | Hex | Role |
 |---|---|---|
-| Paper Cream | `#F4E6C8` | Day sky, caption fill, tags, highlights on cut edges |
-| Cocoa Ink | `#3A2419` | Darkest value: caption stroke, text, eyes, night sky top, shadows (at opacity) |
-| Umber Soil | `#7A4B2F` | Main soil stratum, wood, night sky bottom |
-| Clay | `#B86B43` | Deep stratum, brick/structure, Tuck's body |
-| Lamp Mustard | `#E9A93B` | Light sources, fixes, stat callouts, scarf, READY stamp |
-| Dusty Teal | `#5E8F86` | "Flow and life": water, air arrows, plants. Max ~10% of the frame. |
-| Signal Red | `#D2452B` | Problems ONLY: hazard specks, problem badges, leaks |
+| Paper | `#F5EEDD` | Card fill, caption fill, eye-whites, highlights |
+| Ink | `#26303F` | Text, strokes, pupils, baked shadows (at 20%), night background |
+| Kraft | `#C9A77C` | Inch's body, tables, floors, neutral props |
+| Sun Yellow | `#F2B632` | Inch's shell, stat numbers, step slates, TRY IT TODAY note, caption highlight |
+| Mint | `#3FA37A` | DO / fix / gains: check badge, upward bars, coins saved |
+| Coral | `#E2553F` | DON'T / problem / losses: cross badge, MYTH stamp, leaks. Never decorative |
+| Sky | `#7FB3D5` | Calm/flow: water, sleep, focus, night accents. Max ~15% of the frame |
+| Money tint | `#E3F1E7` | Money background |
+| Mind tint | `#E2ECF5` | Mind background |
+| Body tint | `#FBE6D6` | Body background |
+| Ready tint | `#EFE2C9` | Ready background (matches Paper Prepper props) |
 
-- Lighting: none simulated. Mood comes from background swaps. Night or underground = `bg_*_night` assets with a Cocoa Ink to Umber Soil sky, plus mustard "glow" paper discs behind lamps. Never use blue, gray or pure black (#000).
-- Texture: one shared paper-fiber texture at 6-8% multiply, baked into every PNG and background. A dynamic grain overlay is FUTURE.
-- Shadow/layering: hard paper drop shadows baked into assets. Direction is down-right 45°, color Cocoa Ink at 28% opacity, blur <=2 px. Offset by depth tier: back 4 px, mid 8 px, front 12 px. Dynamic shadows are FUTURE.
-- Background detail: minimal. At most 3 background motifs (for example 2 cream clouds and 1 teal paper tuft). No houses, fences or suburban yards in the default cutaway.
-- Composition (9:16 cutaway layout; y = fraction of height):
+- Colour-blind rule: Mint vs Coral is never the only signal. Mint always has a check mark or up arrow; Coral always has a cross, jagged edge or down arrow.
+- Lighting: none simulated. Night/sleep beats use a `solid` Ink background with Sky/Sun accents.
+- Texture: none in the engine. Optional baked flat speck pattern in background SVGs. Do not use SVG filters (`feTurbulence`, blur): renderer support is unverified.
+- Shadows: baked into each SVG as a flat Ink 20% copy offset down-right: back 4 px, mid 8 px, front 12 px. No blur.
+- Background detail: tint field + floor strip only (`solid` background + `floor_strip` prop). Image backgrounds only when the setting matters (bedroom, kitchen, desk, cutaway). Max 3 decor motifs.
+- Visual hierarchy per beat: new element, then the badge/number, then the caption, then Inch. One new element enters per narrated noun.
 
-| Zone | y range | Use |
+### Layout and Shorts safe zones (y = fraction of height)
+| Zone | Range | Use |
 |---|---|---|
-| Top UI margin | 0.00-0.10 | Nothing essential |
-| Fix counter | ~0.13 (x 0.20) | `FIX n/N` tag |
-| Caption | 0.20 (x 0.47) | One word at a time |
-| Above ground | 0.26-0.44 | Surface parts, Tuck, weather |
-| **Ground line** | **0.44** | Torn-edge band |
-| Build zone | 0.44-0.74 | Underground structure; focal point ~(0.47, 0.55) |
-| Bedrock | 0.74-1.00 | Decor strata only (sits under the YouTube UI) |
+| Top UI | y 0.00-0.08 | Nothing |
+| Pillar chip + title | y 0.09-0.13, x 0.06-0.70 | Persistent all video: dot + "MONEY · 24-HOUR RULE" |
+| Disclaimer tag | y ~0.16, x 0.06-0.46 | Money/Body/Ready, from the cite card to the end |
+| Stage | y 0.19-0.60 | Props, Inch, slates, cite card. Focal point (0.46, 0.40) |
+| Floor line | y 0.60 | Inch's feet and props sit here |
+| Caption | y 0.67 (band 0.63-0.72) | Narration captions |
+| Bottom UI | y 0.74-1.00 | Floor colour/decor only (title, channel and music UI cover it) |
+| Right rail | x > 0.84, y 0.40-0.90 | Nothing essential |
 
-  Horizontal safe range: x 0.06-0.84. The right rail holds the Shorts buttons. Center the build at x 0.47.
-  For non-dig topics (house, garage, backpack, car), keep the same zones. The "ground line" becomes the floor or the bag's opening seam.
-- Visual hierarchy: the new part, then the problem badge, then the caption, then Tuck, then the existing build. Only one element enters at a time per beat.
+Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 
 ## Character system
-- Character IDs: `tuck` (sole host). Extras are FUTURE. Animals and props may appear for scale or humor.
-- Silhouette: a pear-shaped Clay body, 1.3 heads tall. Pale Cream snout and belly patch, two Cocoa Ink dot eyes, no mouth. Mustard knit scarf with 2 tails, Cream headlamp strap with a Mustard lamp. Stubby paddle hands. Readable as a black silhouette at 0.14 width.
-- Size: `width` 0.14-0.18. Tuck is never larger than the build's focal part.
-- Poses (6 core plus 1 optional; pose-swap PNGs on an identical 1024x1024 canvas, feet at the bottom center): `stand`, `point`, `worry`, `idea`, `carry`, `cheer`, optional `dig`.
-- Face/expression: eyes only, plus brow pieces in `worry` and `idea`. Emotion comes mainly from the pose. `worry` is mild (paw to cheek), never terror.
-- Idle behavior: `host_idle` wiggle. Use `talking: true` only when Tuck "speaks" a line; the narrator is otherwise off-screen.
-- Movement vocabulary: slide in from the side, pose swaps on problem/fix words, hop on cheer. He never walks across the frame continuously (no walk cycle, FUTURE).
-- Allowed variations: props in hand. Seasonal scarf color is NOT allowed (always Mustard).
-- Consistency: same canvas, baseline and scale for every pose. `flipX` to face the build. Tuck always stands on the ground line or a built floor, never floating.
+- Character IDs: `inch` (sole recurring character). Generic one-off figures are FUTURE; do not add humans.
+- Proportions: snail 1.6:1 wide; shell = 55% of the height. 1024x1024 canvas, foot baseline at the bottom centre, identical scale on every pose.
+- Size: `width` 0.22 default, 0.30 for close acting beats, 0.16 when it shares a beat with the cite card or a slate.
+- Poses: core `neutral`, `point`, `worry`, `idea`, `cheer`, `shell_hide`; optional `tired`, `skeptical`, `carry`, `sleep`. Swap via `params.poses [{atSec, asset}]`.
+- Face: eyes on stalks + mouth line. Stalk angle carries emotion (up = energy, droop = tired, one high = skeptical). Worry is mild. No tears, no anger.
+- Idle: `inch_idle` loop. `talking: false` always; Inch never narrates.
+- Movement: slide in from the side, pose swap on the problem/fix word (leads the word by 0.2 s), `hop` on cheer. No walk cycle (FUTURE).
+- Consistency: feet on the floor line (y 0.60) or on a prop top; never floating. `flipX` to face the focal prop. Colours never change by season or pillar.
 
 ## Environment and props
-- Reusable environments: the `bg_*` entries in `creative/asset-registry.json` (cutaway day/night plus room sections).
-- Reusable props: registry list. A new prop must use the palette, the same shadow tiers and <=6 pieces.
-- Depth/layering (`transform.layer`): 0 background, 10 back-wall/strata details, 20 structure shell, 30 structure parts, 40 props, 50 Tuck, 60 FX particles, 70 term tags, 75 fix counter, 80 stat callouts, 90 caption, 95 READY stamp.
-- Environmental motion: at most 2 looping ambient elements per beat (clouds `drift`, lamps `lamp_glow`). Weather is done with `ParticleBurst` in palette colors only.
-- Resting tilt: props sit at a fixed `transform.rotation` from {-3, -2, -1, 1, 2, 3}°, which gives a hand-placed feel. Structure shells sit at 0°.
+- Environments: pillar-tint `solid` background + `floor_strip`; image backgrounds per `creative/asset-registry.json`. Ready may use the Paper Prepper cutaways.
+- Props: registry list, Money first. A new prop must use the palette, baked shadow tiers and <=6 pieces. No logos, brand names, real banknotes or real app UIs; money is generic coins, a "$" note and plain cards.
+- Do vs don't iconography: `cross_coral` badge on the wrong way (top-right of the prop), then `check_mint` on the fix. Up/down arrows in Mint/Coral for numbers. Never show both badges on one prop at once.
+- Layers: 0 bg, 5 floor strip, 20 big props, 40 small props, 50 Inch, 60 particles, 70 badges, 72-74 slates/stamps, 80 cite card, 82 stat callouts, 86 pillar chip, 87 disclaimer, 90 caption, 95 TRY IT TODAY note.
+- Ambient motion: at most 2 loops per beat (`coin_bob`, `soft_pulse`). Resting tilt for props from {-3,-2,-1,1,2,3} deg; cards -2 deg; slates 0.
 
 ## Animation language
-- Timing: snappy. Enters take 0.18-0.35 s, then hold. One new element per narrated noun. The element enters 0.1 s BEFORE its word is spoken.
-- Easing: registry built-ins (ease-out cubic / back). A stepped "on twos" paper feel is FUTURE. Do not fake it with jitter.
-- Anticipation: none on objects. Tuck's pose swap to `worry` leads the problem word by 0.2 s.
-- Follow-through: pop overshoot only. 0.06-0.10 is the norm; 0.14 is the max (term tags).
-- Secondary motion: `paper_flutter` on cloth, flags and flames only.
-- Squash/stretch: none. Paper does not stretch. The engine's built-in talking squash on Tuck is the only exception.
-- Motion intensity: low. The structure never loops. Max 3 moving elements on screen at once, excluding the caption.
-- Problem beat: affected part `problem_jolt`, red badge `paper_slap` + `alert_pulse`, optional red-speck burst. Fix beat: new part `paper_drop`/`paper_rise`, badge `paper_pluck`, mustard check `paper_slap`.
-- Preferred transitions: `beat_cut` between beats (the redeclared set makes the cut invisible); `time_skip` for day/night; `topic_turn` rarely.
+- Timing: snappy. Enters 0.18-0.35 s, then hold. An element enters 0.1 s before its word.
+- Easing: registry built-ins only. Stepped "on twos" timing is FUTURE.
+- Follow-through: pop overshoot 0.06-0.10; 0.14 max (tags, stamps, badges).
+- Squash/stretch: none (paper). Secondary motion: `paper_flutter` on paper notes/receipts only.
+- Motion intensity: low. Max 3 moving elements at once, excluding the caption.
+- Problem beat: prop `nope_jolt`, `cross_coral` `tag_slap` + `alert_pulse`, Inch `worry`/`shell_hide`, optional coral specks. Fix beat: new prop `snip_in`, cross `snip_out`, `check_mint` `tag_slap`, Inch `idea`/`cheer`.
+- Transitions: `beat_cut` by default; `time_skip` (crossfade) for time jumps (day 1 to day 30, night to morning); `page_turn` (slide_up) only into the cite card. No fades to black.
 
 ## Camera
-- Framing: the whole cutaway is visible by default. The build focal point sits near frame center because pushes scale around center.
-- Angle: flat, front-on cross-section. Always.
-- Movement: one camera preset per beat (scene). The camera eases across the entire scene, so write the named object as the LAST word of the beat's sentence. The camera then "lands" as the word is spoken. No more than half the beats move. The camera resets at each scene start, so put a move only on a beat followed by a `beat_cut`.
-- Zoom: `cam_lean_in` (0.06) by default, `cam_land` (0.12) only for the finale or a target within 0.15 of center.
-- Pans: `cam_sink`/`cam_rise`/`cam_slide`. Pans overscale by 1+2*|d|, so keep |d| <= 0.06.
-- Shake: no camera shake. Use element `problem_jolt`.
-- Safe areas: captions and tags sit inside the camera layer and scale with it. Keep them within x 0.10-0.84 and y 0.12-0.70. A screen-space caption layer is FUTURE.
+- Framing: full stage visible; focal near centre (pushes scale around frame centre).
+- Angle: flat front-on. Always.
+- Movement: `cam_hold` on at least 60% of beats. One preset per scene; it eases over the whole scene and resets at the next scene, so put the named object as the last word of that beat's sentence.
+- Zoom: `cam_lean_in` (0.05) by default; `cam_land` (0.10) at most once per video. Keep pushes small: the chip, disclaimer and caption scale with the camera (no screen-space layer; FUTURE F1).
+- Pans: |d| <= 0.04. Shake: never on camera; use `nope_jolt` on the element.
+- Safe areas: with any camera move, keep text inside x 0.10-0.82, y 0.10-0.70.
 
 ## Typography
-- Font family: registry default `Arial Black, Impact, sans-serif` for now. A bundled rounded heavy display font is FUTURE (open question).
-- Caption style: `caption_paper` preset. Cream fill, Cocoa Ink stroke, uppercase, one word per chunk. highlightColor equals the fill because the active word is always highlighted at chunk size 1.
-- Emphasis: term words appear in a separate `term_tag` (Cocoa Ink text on a Paper Cream tag, rotated -2°). Numbers appear as `stat_callout` (Mustard with an Ink stroke, unit included: "3 FT", "1 GAL/DAY").
-- Position: caption at (0.47, 0.20); term tag next to its object, never overlapping the caption; fix counter at (0.20, 0.13).
-- Animation: tags `paper_slap`, exit `paper_pluck`. The caption enters with no preset.
-- Caption sync: the engine spreads words across the element by letter count, so use one Caption per sentence segment from script.json. Word-level TTS timestamps are FUTURE.
+- Font: registry default `Arial Black, Impact, sans-serif` (bundled rounded font is FUTURE).
+- Minimum size 40 px at 1080w for any text (reads at 360 px drafts). Cite source line 44 px, limit line 40 px, stat 120-160 px, step numeral 220 px.
+- Caption style `caption_main`: Paper fill, Ink stroke 10, Sun Yellow active-word highlight, 2 words per chunk, uppercase, 84 px at (0.46, 0.67). One Caption per script segment (timing spreads by letter count; word timing is FUTURE).
+- Emphasis: numbers go in `stat_callout` (Sun Yellow, Ink stroke, unit included: "$5/DAY", "24 HRS"). Terms go on a Paper tag. Never more than one emphasis element per beat.
+- Numbers in captions are written as digits ("24 hours", "$1,200").
+
+## Citation card (required: one per Short)
+- Build: `cite_card` SVG (Paper index card, Ink 4 px border, Sun Yellow tab, baked shadow) at (0.46, 0.38), width 0.76, rotation -2, layer 80. Text on top:
+  1. Tab: `THE STUDY` (peer-reviewed) or `THE DATA` (government/agency stats). 40 px Ink.
+  2. Source line: `[Author] et al., [Year]` or `[Agency], [Report], [Year]`. 44 px Ink.
+  3. Finding: one number or one short clause. 96-120 px Ink, or Sun Yellow with stroke for a number.
+  4. Limit line, Coral dot + 40 px Ink: one of `n = [N]`, `self-reported`, `correlation, not cause`, `one study`, `averages vary`, `illustrative math`.
+- Timing: enters with `page_turn` (or `snip_in`) after the problem; hold **2.5-3.5 s**; narration says the finding in plain words and names the source ("A 2010 study of 96 people found...", with real values from idea.md). Never read the whole card aloud.
+- Full citation (title, link/DOI) goes in the description and in `projects/<id>/idea.md`. No card = no publish.
+- 30-Day Log uses a `MY NUMBERS` tab and the limit line "one person, not a study".
 
 ## Audio
-- Narration: TTS. Warm, mid-pitch, conversational, smiling delivery, targeting 3.2 words/s (3.0-3.4). One idea per sentence. Pauses of 0.3 s or less except before the closer (0.5 s).
-- Music: a light acoustic or lo-fi bed (plucks, soft percussion), royalty-free with a documented license. `musicVolume` 0.12-0.18. No dread drones or risers.
-- SFX (paper Foley): rustle on `paper_drop`, snip on `paper_pluck`, soft thunk on `paper_hop`, low "bonk" on problem, stamp thud on READY. 0.4-0.7 volume. At most 1 SFX per 1.5 s.
-- Loudness/mix policy: VO always on top (`voiceVolume` 1.0). Target about -14 LUFS integrated and -1 dBTP on the final. The measurement tool is not confirmed (open question).
+- Narration: Kokoro TTS `am_michael` (worked in Paper Prepper). Brief says 1.15x; the PP `script.json` files record `speed: 1.25`. Confirm, then measure. Target **3.0 words/s** (2.8-3.2). One idea per sentence. Pauses <=0.3 s, except 0.4 s before "Try it today".
+- Music: soft lo-fi/acoustic bed, royalty-free with a documented license, `musicVolume` 0.10-0.15. No risers, no dread drones.
+- SFX (paper Foley, 0.4-0.7 volume, max 1 per 1.5 s): rustle on `snip_in`, bonk on cross, pencil tick on check, coin clink on coin props, page flip on the cite card, stamp thud on the TRY IT TODAY note. Reuse the PP rustle/bonk/thud wavs.
+- Mix: VO on top (`voiceVolume` 1.0). Target about -14 LUFS / -1 dBTP (measurement tool unconfirmed).
 
 ## Story and pacing
-- Target duration: 60-72 s. 195-235 words. 8-10 fixes.
-- Hook: 0-3.0 s, one sentence (formula in channel-identity.md). The humble start is already on screen at frame 0. No title card, no logo.
-- Setup: the first "But" lands by 3.5 s.
-- Development: `But [problem]. So [fix].` Each fix causes the next problem. Show each problem visually before fixing it. 2-4 named terms per video. One `That's why...` tie-in at 30-45 s, and one counter-intuitive twist at 45-55 s.
-- Payoff: a pull-back (static, whole build visible, night background if the topic suits) with all fixes in place.
-- Ending: the closer formula, then the READY stamp in the last 2 s. End-card disclaimer for construction topics.
-- Typical scene duration: 1 beat = 1 scene. Early beats 4-6 s, late beats 2.5-4 s.
+- Target duration: **35-45 s** (hard cap 50 s). **105-135 words** (cap 150). 7 Fixes Later may run to 50 s.
+- Scene cadence: 1 beat = 1 scene; 11-15 scenes; a new visual every **2.5-4 s**; nothing static over 4.5 s except the cite card (3.5 s max).
+- Beat map (about 40 s): Hook 0-2.5 s; Problem/cost 2.5-9 s; Cite card 9-16 s; Fix steps 16-32 s (1-3 numeral slates, or 7 for 7 Fixes Later); Caveat 32-35 s; Try it today 35-40 s; loop frame in the last 0.5 s.
+- Hook rules: speech on frame 0. Sentence 1 is 12 words or fewer and states a number, cost or concrete outcome ("Waiting 24 hours can kill most impulse buys" style, only if the source supports it). The problem is visible at frame 0 (Inch + prop in the problem state, chip on screen). No title card, logo or blank frame. Alternate outcome+number hooks with myth/curiosity hooks across batch 1 and log the hook type in idea.md.
+- Development: show the problem before the fix; Coral cross, then Mint check. The fix is a concrete behaviour (when, where, how long), not a mindset.
+- Caveat (required): one sentence on who or when this doesn't apply ("If your income is irregular, start with a smaller amount." style).
+- Ending: "Try it today: [one action, 12 words or fewer, under 5 minutes]." TRY IT TODAY note `tag_slap` + stamp thud + `check_mint`. No "follow/subscribe" voice line (CTA lives in the pinned comment).
+- Loop: the final 0.5 s cuts back to the frame-0 layout (same background, Inch in the same spot and pose as the hook, prop now in the fixed state). The last line must not be a sign-off; it can lead into the first line. No fade-out, no end card, no black.
+
+## Guardrail language (on screen and spoken)
+- Disclaimer tags (Paper tag, Ink 40 px, layer 87, from the cite card to the end): Money `NOT FINANCIAL ADVICE`; Body `NOT MEDICAL ADVICE`; Ready `FOLLOW LOCAL GUIDANCE`. Also in the description, the pinned comment and the About page. Affiliate links are disclosed in every description.
+- Say: "one study found", "linked with", "on average", "for many people", "in this example", "assuming [X]%".
+- Never say: "proven", "science says", "studies show", "experts say", "the secret", "hack", "guaranteed", "never again", "cures", "boosts metabolism", "get rich", "you should buy/invest in [X]".
+- Money: illustrative maths only, with the assumed rate on screen ("assumes 5%/yr, illustrative"). No tickers, products, returns promised, or debt/tax advice for a specific situation.
+- Body: no dosing, supplements, diagnosis or weight claims. Add "If you have a condition, ask a clinician" when the habit touches health.
+
+## What we do NOT borrow from references
+- Improvement Pill: thin-line sketch figures; the heavy hand-drawn title banner across the top; the square illustration panel on a colour field with empty space below; per-beat rainbow panel colours; the dark semi-transparent caption bar; the "Tip #1" lettering; "the secret / you haven't heard of" framing; rat-race or "slave" metaphors; absolute outcomes.
+- Psych2Go: the sprout-headed mascot or any plant-headed/blank-bodied figure; kawaii and painterly sets; book-page/card overlays; green karaoke highlight; "signs you are..." flattering trait lists; reflective-question endings without an action.
+- Both: scripts, titles, scene compositions, "studies show" attributions, unsourced health claims, 56-100 s runtimes.
+- Paper Prepper: Tuck, the READY stamp, the `FIX n/N` "every fix causes the next problem" chain, the cocoa palette as our primary.
+- What we keep (general techniques only): promise/number in sentence 1; a persistent topic label; numbered step slates; do/don't badges; slate beats alternating with acting beats; one recurring original character; a caveat line.
 
 ## Constraints
-- Must always: use the 7-color palette; keep one persistent cutaway per video (redeclare earlier parts in each scene with preset `place_static`); show the problem before the fix; cite primary sources in script notes; end reassuring; use only registry components, presets, cameras and transitions.
-- Must never: copy reference wording or title template ("If you... you have...", "Congratulations, you have built...", "How a X Becomes a Y", "This is a [term]"); use human worker heroes, plaques or a backyard-with-house backdrop; show weapons, casualties or mushroom clouds; use blue/gray/black; invent engine features in plans.
-- Flexible elements: topic environment, night vs day finale, Tuck's held prop, the term line variant, the number of fixes (8-10).
+- Must always: palette only; one cite card with a limit line; problem before fix; a caveat line; try-it-today + loop frame; disclaimer tag per pillar; registry-only components/presets; sources in idea.md.
+- Must never: copy reference looks or wording; logos/brands/real UIs; humans; Coral as decoration; absolute or medical/financial promises; the same script with swapped nouns.
+- Flexible: background image vs solid tint, number of steps (1-3, or 7), Inch's held prop, hook type, night palette for sleep topics.
 
 ## Preset registry
-See `creative/animation-presets.json`. Every channel preset maps to a real `engine/registry.json` preset, camera or transition. It is not duplicated here.
+See `creative/animation-presets.json`. Every alias maps to a real `engine/registry.json` name. Not duplicated here.
