@@ -14,7 +14,7 @@ AUDIO_KEYS = {"voiceover", "music", "voiceVolume", "musicVolume"}
 SCENE_KEYS = {"id", "startSec", "durationSec", "background", "camera", "elements", "sfx", "transitionOut", "notes"}
 ELEMENT_KEYS = {"id", "type", "component", "asset", "startSec", "durationSec", "transform",
                 "content", "preset", "loop", "exit", "params", "notes"}
-TRANSFORM_KEYS = {"x", "y", "scale", "rotation", "opacity", "layer"}
+TRANSFORM_KEYS = {"x", "y", "scale", "rotation", "opacity", "layer", "fixed"}
 EPS = 0.001
 
 
@@ -155,6 +155,8 @@ def validate_element(el, j, scene_id, scene_len, project, reg, ids, r):
         r.err(f"{where}: rotation must be numeric (degrees).")
     if "layer" in tr and not (isinstance(tr["layer"], int) and not isinstance(tr["layer"], bool)):
         r.err(f"{where}: layer must be an integer.")
+    if "fixed" in tr and not isinstance(tr["fixed"], bool):
+        r.err(f"{where}: fixed must be true/false (true = screen-fixed, ignores the camera).")
 
 
 def validate_scene(scene, i, project, reg, scene_ids, element_ids, r):

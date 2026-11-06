@@ -44,9 +44,9 @@ Coordinates are DSL units: `x`/`y` are fractions of frame width/height; sizes ar
 | Top UI | y 0.00-0.08 | Nothing |
 | Pillar chip + title | y 0.09-0.13, x 0.06-0.70 | Persistent all video: dot + "MONEY · 24-HOUR RULE" |
 | Disclaimer tag | y ~0.16, x 0.06-0.46 | Money/Body/Ready, from the cite card to the end |
-| Stage | y 0.19-0.60 | Props, Inch, slates, cite card. Focal point (0.46, 0.40) |
-| Floor line | y 0.60 | Inch's feet and props sit here |
-| Caption | y 0.67 (band 0.63-0.72) | Narration captions |
+| Stage | y 0.19-0.64 | Props, Inch, slates, cite card. Focal point (0.46, 0.42) |
+| Floor line | y 0.64 | Inch's feet and props sit here (moved from 0.60 on 2026-11-06 after the first stills left the lower frame empty) |
+| Caption | y 0.70 (band 0.66-0.74) | Narration captions |
 | Bottom UI | y 0.74-1.00 | Floor colour/decor only (title, channel and music UI cover it) |
 | Right rail | x > 0.84, y 0.40-0.90 | Nothing essential |
 
@@ -55,12 +55,12 @@ Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 ## Character system
 - Character IDs: `inch` (sole recurring character). Generic one-off figures are FUTURE; do not add humans.
 - Proportions: snail 1.6:1 wide; shell = 55% of the height. 1024x1024 canvas, foot baseline at the bottom centre, identical scale on every pose.
-- Size: `width` 0.22 default, 0.30 for close acting beats, 0.16 when it shares a beat with the cite card or a slate.
+- Size: `width` 0.29 default, 0.34 for close acting beats, 0.21 when it shares a beat with the cite card or a slate. Props scale to match (desk props about 0.26-0.29, phone 0.14). A four-item desk row fills x 0.05-0.87; slight overlaps in depth are fine.
 - Poses: core `neutral`, `point`, `worry`, `idea`, `cheer`, `shell_hide`; optional `tired`, `skeptical`, `carry`, `sleep`. Swap via `params.poses [{atSec, asset}]`.
 - Face: eyes on stalks + mouth line. Stalk angle carries emotion (up = energy, droop = tired, one high = skeptical). Worry is mild. No tears, no anger.
 - Idle: `inch_idle` loop. `talking: false` always; Inch never narrates.
 - Movement: slide in from the side, pose swap on the problem/fix word (leads the word by 0.2 s), `hop` on cheer. No walk cycle (FUTURE).
-- Consistency: feet on the floor line (y 0.60) or on a prop top; never floating. `flipX` to face the focal prop. Colours never change by season or pillar.
+- Consistency: feet on the floor line (y 0.64) or on a prop top; never floating. `flipX` to face the focal prop. Colours never change by season or pillar.
 
 ## Environment and props
 - Environments: pillar-tint `solid` background + `floor_strip`; image backgrounds per `creative/asset-registry.json`. Ready may use the Paper Prepper cutaways.
@@ -89,7 +89,7 @@ Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 ## Typography
 - Font: registry default `Arial Black, Impact, sans-serif` (bundled rounded font is FUTURE).
 - Minimum size 40 px at 1080w for any text (reads at 360 px drafts). Cite source line 44 px, limit line 40 px, stat 120-160 px, step numeral 220 px.
-- Caption style `caption_main`: Paper fill, Ink stroke 10, Sun Yellow active-word highlight, 2 words per chunk, uppercase, 84 px at (0.46, 0.67). One Caption per script segment (timing spreads by letter count; word timing is FUTURE).
+- Caption style `caption_main`: Paper fill, Ink stroke 10, Sun Yellow active-word highlight, 2 words per chunk, uppercase, 84 px at (0.46, 0.70). One Caption per script segment (timing spreads by letter count; word timing is FUTURE).
 - Emphasis: numbers go in `stat_callout` (Sun Yellow, Ink stroke, unit included: "$5/DAY", "24 HRS"). Terms go on a Paper tag. Never more than one emphasis element per beat.
 - Numbers in captions are written as digits ("24 hours", "$1,200").
 
@@ -104,7 +104,7 @@ Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 - 30-Day Log uses a `MY NUMBERS` tab and the limit line "one person, not a study".
 
 ## Audio
-- Narration: Kokoro TTS `am_michael` (worked in Paper Prepper). Brief says 1.15x; the PP `script.json` files record `speed: 1.25`. Confirm, then measure. Target **3.0 words/s** (2.8-3.2). One idea per sentence. Pauses <=0.3 s, except 0.4 s before "Try it today".
+- Narration: **locked 2026-11-06: Kokoro TTS `af_heart`, speed 1.10** (`"voice": {"engine": "kokoro", "voice": "af_heart", "speed": 1.1}` in `script.json`). Use it in every video, with no per-video voice changes. Reasons and auditions: `creative/voice-research.md`. If a script measures outside the target, adjust speed between 1.05 and 1.15. Target **3.0 words/s** (2.8-3.2). One idea per sentence. Pauses <=0.3 s, except 0.4 s before "Try it today".
 - Music: soft lo-fi/acoustic bed, royalty-free with a documented license, `musicVolume` 0.10-0.15. No risers, no dread drones.
 - SFX (paper Foley, 0.4-0.7 volume, max 1 per 1.5 s): rustle on `snip_in`, bonk on cross, pencil tick on check, coin clink on coin props, page flip on the cite card, stamp thud on the TRY IT TODAY note. Reuse the PP rustle/bonk/thud wavs.
 - Mix: VO on top (`voiceVolume` 1.0). Target about -14 LUFS / -1 dBTP (measurement tool unconfirmed).

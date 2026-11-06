@@ -11,6 +11,8 @@ export interface Transform {
   rotation?: number;
   opacity?: number;
   layer?: number;
+  /** Screen-fixed (HUD): ignores the scene camera. Fixed elements draw above all camera elements. */
+  fixed?: boolean;
 }
 
 export interface Element {

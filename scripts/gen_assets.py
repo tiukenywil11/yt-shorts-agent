@@ -352,6 +352,377 @@ def ready_stamp():
                 f'font-size="236" textLength="770" lengthAdjust="spacingAndGlyphs">READY</text></g>', extra=distress)
 
 
+# ================================================================== Small Change Lab (channel 2)
+# Separate palette + helpers; the Paper Prepper drawers above are untouched.
+# creative/style-bible.md: NO SVG filters. Shadow = flat Ink copy at 20%, offset down-right by tier
+# (back 4 / mid 8 / front 12 px at 1080w, diagonal length), no blur. Wobble = hand-jittered points (fixed seeds).
+SP, SI, SK, SS, SM, SC, SY = "#F5EEDD", "#26303F", "#C9A77C", "#F2B632", "#3FA37A", "#E2553F", "#7FB3D5"
+SCL_PALETTE = {"paper": SP, "ink": SI, "kraft": SK, "sun": SS, "mint": SM, "coral": SC, "sky": SY}
+SCL_TIER = {"back": 4, "mid": 8, "front": 12}
+SCL_FONT = "Arial Black, Arial, sans-serif"
+
+
+def _f(v):
+    return f"{v:.1f}".rstrip("0").rstrip(".")
+
+
+def _cr(pts, closed=True):
+    """Catmull-Rom spline through points -> cubic bezier path data."""
+    n = len(pts)
+    P = (lambda i: pts[i % n]) if closed else (lambda i: pts[max(0, min(n - 1, i))])
+    d = f"M {_f(pts[0][0])} {_f(pts[0][1])}"
+    for i in range(n if closed else n - 1):
+        p0, p1, p2, p3 = P(i - 1), P(i), P(i + 1), P(i + 2)
+        c1 = (p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6)
+        c2 = (p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6)
+        d += f" C {_f(c1[0])} {_f(c1[1])} {_f(c2[0])} {_f(c2[1])} {_f(p2[0])} {_f(p2[1])}"
+    return d + (" Z" if closed else "")
+
+
+def _jit(pts, seed, amp):
+    rnd = random.Random(seed)
+    return [(x + rnd.uniform(-amp, amp), y + rnd.uniform(-amp, amp)) for x, y in pts]
+
+
+def _rr_pts(x, y, w, h, r, step):
+    """Points around a rounded rect (clockwise from top-left)."""
+    pts = []
+
+    def edge(ax, ay, bx, by):
+        k = max(1, round(math.hypot(bx - ax, by - ay) / step))
+        pts.extend((ax + (bx - ax) * i / k, ay + (by - ay) * i / k) for i in range(k))
+
+    def arc(cx, cy, a0):
+        pts.extend((cx + r * math.cos(math.radians(a0 + 30 * i)), cy + r * math.sin(math.radians(a0 + 30 * i)))
+                   for i in range(3))
+    edge(x + r, y, x + w - r, y); arc(x + w - r, y + r, -90)
+    edge(x + w, y + r, x + w, y + h - r); arc(x + w - r, y + h - r, 0)
+    edge(x + w - r, y + h, x + r, y + h); arc(x + r, y + h - r, 90)
+    edge(x, y + h - r, x, y + r); arc(x + r, y + r, 180)
+    return pts
+
+
+def wrect(x, y, w, h, r, fill, seed, amp, step=60, attrs=""):
+    return f'<path d="{_cr(_jit(_rr_pts(x, y, w, h, r, step), seed, amp))}" fill="{fill}"{attrs}/>'
+
+
+def wcirc(cx, cy, r, fill, seed, amp, n=None, attrs=""):
+    n = n or max(12, int(r / 14))
+    pts = [(cx + r * math.cos(2 * math.pi * i / n), cy + r * math.sin(2 * math.pi * i / n)) for i in range(n)]
+    return f'<path d="{_cr(_jit(pts, seed, amp))}" fill="{fill}"{attrs}/>'
+
+
+def wblob(pts, fill, seed, amp, attrs=""):
+    return f'<path d="{_cr(_jit(pts, seed, amp))}" fill="{fill}"{attrs}/>'
+
+
+def burst(cx, cy, r_out, r_in, n, fill, seed, amp, rot=0.0):
+    """Jagged rim (problem items only). Round joins give visible corner radii."""
+    rnd = random.Random(seed)
+    pts = []
+    for i in range(2 * n):
+        a = math.pi * i / n - math.pi / 2 + rot
+        r = (r_out if i % 2 == 0 else r_in) + rnd.uniform(-amp, amp)
+        pts.append(f"{_f(cx + r * math.cos(a))} {_f(cy + r * math.sin(a))}")
+    sw = max(4, round(r_out * 0.06))
+    return (f'<path d="M {" L ".join(pts)} Z" fill="{fill}" stroke="{fill}" stroke-width="{sw}" '
+            f'stroke-linejoin="round"/>')
+
+
+def _inkify(art):
+    return re.sub(r'(fill|stroke)="#[0-9A-Fa-f]{6}"', rf'\1="{SI}"', art)
+
+
+def scl_doc(w, h, art, tier, s):
+    """s = canvas units per output px at the asset's main use size. tier None = no shadow."""
+    sh = ""
+    if tier:
+        d = _f(SCL_TIER[tier] / math.sqrt(2) * s)
+        sh = f'<g opacity="0.2" transform="translate({d} {d})">{_inkify(art)}</g>\n'
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
+            f'{sh}<g>\n{art}\n</g>\n</svg>\n')
+
+
+def _scale(canvas_w, width_frac):
+    return canvas_w / (width_frac * 1080)
+
+
+# ------------------------------------------------------------------ Inch (Small Change Lab mascot)
+# Original paper snail facing right. 1024x1024, foot baseline y 1004, centred. The body group is identical
+# in every pose; only eye stalks, eyes, mouth and sparks change.
+IW = 1024
+IS = _scale(IW, 0.22)  # ~4.31 units/px at default width
+IA = 0.9 * IS          # wobble amplitude (~1.3 px)
+_INCH_OUTLINE = [(78, 992), (92, 950), (160, 920), (320, 904), (480, 898), (604, 890), (654, 846), (680, 766),
+                 (740, 688), (822, 654), (898, 674), (934, 748), (940, 850), (932, 942), (916, 994), (884, 1004),
+                 (650, 1004), (380, 1004), (150, 1004), (90, 1003)]
+
+
+def _spiral(cx, cy, r0, r1, turns, end_deg, n=72):
+    T = turns * 2 * math.pi
+    a0 = math.radians(end_deg) - T
+    return [(cx + (r0 + (r1 - r0) * i / n) * math.cos(a0 + T * i / n),
+             cy + (r0 + (r1 - r0) * i / n) * math.sin(a0 + T * i / n)) for i in range(n + 1)]
+
+
+INCH_BODY = ('<g id="inch-body">\n'
+             + wblob(_INCH_OUTLINE, SK, 401, IA) + "\n"
+             + wrect(120, 974, 790, 30, 15, SP, 402, IA * 0.6) + "\n"
+             + wcirc(400, 716, 192, SS, 403, IA, n=20) + "\n"
+             + f'<path d="{_cr(_spiral(408, 710, 12, 150, 1.8, 58), closed=False)}" fill="none" stroke="{SI}" '
+               f'stroke-width="22" stroke-linecap="round"/>\n</g>')
+
+_STALK_BASE = ((800, 700), (872, 694))
+_ER, _PR = 40, 17
+
+
+def _stalks(tips):
+    return "".join(f'<path d="M {bx} {by} L {tx} {ty}" stroke="{SK}" stroke-width="32" stroke-linecap="round"/>'
+                   for (bx, by), (tx, ty) in zip(_STALK_BASE, tips))
+
+
+def _eyes(tips, look=(8, 0), closed=False, lid=None):
+    out = []
+    for i, (x, y) in enumerate(tips):
+        out.append(f'<circle cx="{x}" cy="{y}" r="{_ER}" fill="{SP}"/>')
+        if closed:
+            out.append(f'<path d="M {x - 21} {y + 8} Q {x} {y - 18} {x + 21} {y + 8}" fill="none" stroke="{SI}" '
+                       f'stroke-width="12" stroke-linecap="round"/>')
+        else:
+            out.append(f'<circle cx="{x + look[0]}" cy="{y + look[1]}" r="{_PR}" fill="{SI}"/>')
+        if lid == i:  # narrowed eye: Kraft lid over the top half
+            out.append(f'<path d="M {x - _ER - 2} {y + 2} A {_ER + 2} {_ER + 2} 0 0 1 {x + _ER + 2} {y + 2} Z" fill="{SK}"/>')
+    return "".join(out)
+
+
+_MOUTHS = {
+    "smile": f'<path d="M 866 826 Q 892 850 920 828" fill="none" stroke="{SI}" stroke-width="12" stroke-linecap="round"/>',
+    "wavy": (f'<path d="M 862 836 Q 875 822 888 836 T 914 836" fill="none" stroke="{SI}" stroke-width="12" '
+             f'stroke-linecap="round" stroke-linejoin="round"/>'),
+    "open": (f'<path d="M 862 818 Q 892 866 924 818 Q 892 830 862 818 Z" fill="{SI}" stroke="{SI}" stroke-width="8" '
+             f'stroke-linejoin="round"/>'),
+    "big": (f'<path d="M 856 810 Q 892 880 928 810 Q 892 824 856 810 Z" fill="{SI}" stroke="{SI}" stroke-width="8" '
+            f'stroke-linejoin="round"/>'),
+    "side": f'<path d="M 868 840 L 918 822" fill="none" stroke="{SI}" stroke-width="12" stroke-linecap="round"/>',
+}
+
+
+def _sparks(cx, cy):
+    return "".join(f'<rect x="-11" y="-118" width="22" height="58" rx="11" fill="{SS}" '
+                   f'transform="translate({cx},{cy}) rotate({a})"/>' for a in (-42, 0, 42))
+
+
+def _inch_face(tips, mouth, look=(8, 0), closed=False, lid=None, extra=""):
+    return _stalks(tips) + _eyes(tips, look, closed, lid) + _MOUTHS[mouth] + extra
+
+
+# pose -> face group drawn over the shared body. Add poses here on the same canvas/baseline.
+INCH_POSES = {
+    "neutral": _inch_face([(782, 520), (892, 512)], "smile"),
+    "worry": _inch_face([(744, 540), (930, 534)], "wavy", look=(0, -15)),
+    "idea": _inch_face([(798, 508), (872, 504)], "open", look=(6, -10), extra=_sparks(835, 470)),
+    "skeptical": _inch_face([(754, 556), (884, 490)], "side", look=(10, 2), lid=0),
+    "cheer": _inch_face([(748, 520), (928, 512)], "big", closed=True),
+}
+
+
+def inch(pose):
+    return scl_doc(IW, IW, INCH_BODY + "\n" + INCH_POSES[pose], "front", IS)
+
+
+# ------------------------------------------------------------------ SCL props
+# Square 512 canvases with the base on the canvas bottom, so plans place them at y = 0.60 - half height.
+def floor_strip():
+    # 1080x884 at width 1.0, y 0.77: band top lands on y 0.60 and the band reaches the frame bottom.
+    w, h, top = 1080, 884, 116
+    rnd = random.Random(501)
+    pts, x = [], -12
+    while x <= w + 12:
+        pts.append((x, top + rnd.uniform(-1.6, 1.6)))
+        x += 40 * rnd.uniform(0.7, 1.3)
+    d = "M " + " L ".join(f"{_f(px)} {_f(py)}" for px, py in pts) + f" L {w + 12} {h + 4} L -12 {h + 4} Z"
+    grain = "".join(f'<rect x="{gx}" y="{gy}" width="{gw}" height="10" rx="5" fill="{SI}"/>'
+                    for gx, gy, gw in ((150, 300, 150), (690, 520, 120)))
+    return scl_doc(w, h, f'<path d="{d}" fill="{SK}"/>\n<g opacity="0.2">{grain}</g>', None, 1)
+
+
+def _phone_body(s, a):
+    return wrect(146, 80, 210, 428, 46, SI, 511, a)
+
+
+def phone():
+    s = _scale(512, 0.11); a = 0.6 * s
+    return scl_doc(512, 512,
+                   _phone_body(s, a)
+                   + wrect(166, 116, 170, 360, 24, SY, 512, a * 0.6)
+                   + f'<rect x="226" y="94" width="50" height="10" rx="5" fill="{SP}"/>'
+                   + wrect(186, 160, 104, 44, 20, SP, 513, a * 0.4)
+                   + wrect(212, 222, 104, 44, 20, SP, 514, a * 0.4), "front", s)
+
+
+def phone_facedown():
+    s = _scale(512, 0.11); a = 0.6 * s
+    return scl_doc(512, 512,
+                   _phone_body(s, a)
+                   + wrect(160, 94, 182, 400, 36, SK, 515, a * 0.6)
+                   + wrect(182, 118, 76, 110, 26, SI, 516, a * 0.4)
+                   + f'<circle cx="220" cy="148" r="15" fill="{SK}"/><circle cx="220" cy="196" r="15" fill="{SK}"/>',
+                   "front", s)
+
+
+def notification_dot():
+    s = _scale(512, 0.05)
+    return scl_doc(512, 512,
+                   burst(226, 226, 206, 182, 12, SC, 521, 4)
+                   + f'<rect x="202" y="96" width="48" height="166" rx="24" fill="{SP}"/>'
+                   + f'<circle cx="226" cy="324" r="29" fill="{SP}"/>', "front", s)
+
+
+def book_closed():
+    s = _scale(512, 0.2); a = 0.8 * s
+    lines = "".join(f'<rect x="92" y="{y}" width="{w}" height="7" rx="3.5" fill="{SY}"/>'
+                    for y, w in ((382, 330), (414, 300), (446, 320)))
+    return scl_doc(512, 512,
+                   wrect(40, 318, 420, 190, 22, SY, 531, a)
+                   + wrect(70, 352, 376, 120, 12, SP, 532, a * 0.6)
+                   + lines
+                   + f'<path d="M 360 460 L 360 504 L 378 492 L 396 504 L 396 460 Z" fill="{SS}" stroke="{SS}" '
+                     f'stroke-width="6" stroke-linejoin="round"/>', "front", s)
+
+
+def book_open():
+    s = _scale(512, 0.2); a = 1.0 * s
+    cover = [(26, 380), (130, 360), (256, 392), (382, 360), (486, 380), (486, 492), (382, 478), (256, 510),
+             (130, 478), (26, 492)]
+    left = [(44, 364), (140, 336), (250, 372), (250, 488), (140, 458), (44, 474)]
+    right = [(262, 372), (372, 336), (468, 364), (468, 474), (372, 458), (262, 488)]
+
+    def rule(x0, x1, y0, sag, flip):
+        return f'M {x0} {y0 + (sag if flip else 0)} Q {(x0 + x1) / 2} {y0 - 14} {x1} {y0 + (0 if flip else sag)}'
+    lines = " ".join([rule(70, 228, 392, 18, False), rule(70, 228, 424, 18, False), rule(70, 200, 456, 16, False),
+                      rule(284, 442, 392, 18, True), rule(284, 442, 424, 18, True), rule(312, 442, 456, 16, True)])
+    return scl_doc(512, 512,
+                   wblob(cover, SY, 541, a)
+                   + wblob(left, SP, 542, a * 0.6) + wblob(right, SP, 543, a * 0.6)
+                   + f'<path d="{lines}" fill="none" stroke="{SY}" stroke-width="7" stroke-linecap="round"/>'
+                   + f'<path d="M 300 360 L 300 300 L 318 314 L 336 300 L 336 352 Z" fill="{SS}" stroke="{SS}" '
+                     f'stroke-width="6" stroke-linejoin="round"/>', "front", s)
+
+
+def laptop():
+    s = _scale(512, 0.22); a = 0.8 * s
+    bars = "".join(f'<rect x="{x}" y="{y}" width="{w}" height="18" rx="9" fill="{SP}"/>'
+                   for x, y, w in ((112, 226, 170), (112, 266, 230), (112, 306, 120)))
+    return scl_doc(512, 512,
+                   wrect(64, 168, 380, 292, 26, SI, 551, a)
+                   + wrect(88, 192, 332, 244, 12, SY, 552, a * 0.6)
+                   + bars
+                   + wblob([(14, 462), (254, 456), (494, 462), (488, 500), (470, 508), (254, 508), (38, 508), (20, 500)],
+                           SI, 553, a)
+                   + f'<rect x="210" y="466" width="88" height="12" rx="6" fill="{SP}"/>', "front", s)
+
+
+def clock_face():
+    s = _scale(512, 0.16); a = 0.8 * s
+    ticks = "".join(f'<rect x="-9" y="-176" width="18" height="38" rx="9" fill="{SI}" '
+                    f'transform="translate(246,246) rotate({r})"/>' for r in (0, 90, 180, 270))
+    return scl_doc(512, 512,
+                   wcirc(246, 246, 226, SK, 561, a, n=22)
+                   + wcirc(246, 246, 190, SP, 562, a * 0.7, n=20)
+                   + ticks
+                   + f'<g transform="translate(246,246)">'
+                     f'<rect x="-13" y="-104" width="26" height="118" rx="13" fill="{SI}" transform="rotate(62)"/>'
+                     f'<rect x="-10" y="-150" width="20" height="164" rx="10" fill="{SI}" transform="rotate(-24)"/></g>'
+                   + f'<circle cx="246" cy="246" r="20" fill="{SS}"/>', "front", s)
+
+
+def ice_cube():
+    # Plans shrink it with transform.scale and lower y so the base stays on the floor: keep the base at the bottom.
+    s = _scale(512, 0.13); a = 0.7 * s
+    return scl_doc(512, 512,
+                   wblob([(50, 497), (150, 488), (360, 488), (462, 497), (446, 508), (66, 508)], SY, 571, a * 0.5)
+                   + wrect(78, 136, 348, 348, 64, SY, 572, a)
+                   + f'<path d="M 128 330 L 128 238 Q 128 186 180 186 L 262 186" fill="none" stroke="{SP}" '
+                     f'stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>'
+                   + f'<circle cx="324" cy="186" r="16" fill="{SP}"/>',
+                   "front", s)
+
+
+def later_note():
+    # No text: the LATER label is a KineticText element in the plan.
+    s = _scale(512, 0.16); a = 1.2 * s; b = round(4 * s)  # Ink 4 px border
+    lines = "".join(f'<rect x="96" y="{y}" width="{w}" height="9" rx="4.5" fill="{SY}"/>'
+                    for y, w in ((300, 300), (360, 300), (420, 220)))
+    return scl_doc(512, 512,
+                   f'<path d="M 48 104 L 452 104 L 452 404 L 352 504 L 48 504 Z" fill="{SP}" stroke="{SI}" '
+                   f'stroke-width="{b}" stroke-linejoin="round"/>'
+                   + wrect(54 + b // 2, 110 + b // 2, 392 - b, 60, 6, SY, 581, a * 0.4)
+                   + lines
+                   + f'<path d="M 452 404 L 352 504 Q 366 432 452 404 Z" fill="{SP}" stroke="{SI}" stroke-width="{b}" '
+                     f'stroke-linejoin="round"/>', "front", s)
+
+
+# ------------------------------------------------------------------ SCL UI
+def check_mint():
+    s = _scale(512, 0.09)
+    return scl_doc(512, 512,
+                   wcirc(236, 236, 214, SM, 601, 1.2 * s, n=20)
+                   + f'<path d="M 132 246 L 206 318 L 346 168" fill="none" stroke="{SP}" stroke-width="62" '
+                     f'stroke-linecap="round" stroke-linejoin="round"/>', "front", s)
+
+
+def cross_coral():
+    s = _scale(512, 0.09)
+    return scl_doc(512, 512,
+                   burst(236, 236, 224, 192, 14, SC, 611, 5)
+                   + f'<path d="M 162 162 L 310 310 M 310 162 L 162 310" fill="none" stroke="{SP}" stroke-width="58" '
+                     f'stroke-linecap="round"/>', "front", s)
+
+
+def cite_card():
+    # 820x500 at width 0.76 (1 unit = 1 px). Tab text, source, finding, limit line and the Coral limit dot are
+    # engine elements; the tab sits where the plan puts 'THE STUDY' (canvas ~ (152, 29)).
+    s = _scale(820, 0.76)
+    return scl_doc(820, 500,
+                   wrect(8, 40, 796, 444, 18, SP, 621, 1.3, step=80, attrs=f' stroke="{SI}" stroke-width="4"')
+                   + f'<path d="M 40 178 L 772 178 M 40 346 L 772 346" stroke="{SY}" stroke-width="4" stroke-linecap="round"/>'
+                   + wrect(8, 4, 288, 60, 14, SS, 622, 1.0, step=60, attrs=f' stroke="{SI}" stroke-width="4"'),
+                   "front", s)
+
+
+def step_slate():
+    # Numeral is KineticText on top.
+    s = _scale(600, 0.3)
+    return scl_doc(600, 600,
+                   wcirc(290, 290, 262, SS, 631, 5, n=16)
+                   + f'<path d="M 108 236 Q 136 140 232 104" fill="none" stroke="{SP}" stroke-width="20" stroke-linecap="round"/>',
+                   "front", s)
+
+
+def try_today_note():
+    # Brand marker: fixed lettering baked in (safe system font, fixed textLength).
+    s = _scale(600, 0.42)
+    txt = (f'<text x="292" y="{{y}}" text-anchor="middle" font-family="{SCL_FONT}" font-weight="900" font-size="138" '
+           f'fill="{SI}" textLength="{{tl}}" lengthAdjust="spacingAndGlyphs">{{t}}</text>')
+    return scl_doc(600, 600,
+                   wblob([(40, 40), (300, 38), (560, 40), (562, 240), (560, 440), (440, 560), (240, 562), (40, 560),
+                          (38, 300)], SS, 641, 1.6)
+                   + txt.format(y=250, tl=400, t="TRY IT")
+                   + txt.format(y=410, tl=440, t="TODAY")
+                   + f'<rect x="96" y="446" width="300" height="20" rx="10" fill="{SI}"/>'
+                   + f'<path d="M 560 440 L 440 560 Q 452 466 560 440 Z" fill="{SP}" stroke="{SP}" stroke-width="6" '
+                     f'stroke-linejoin="round"/>', "front", s)
+
+
+SCL_DRAWERS = {
+    **{f"inch_{p}": (lambda p=p: inch(p)) for p in INCH_POSES},
+    "floor_strip": floor_strip, "phone": phone, "phone_facedown": phone_facedown, "notification_dot": notification_dot,
+    "book_closed": book_closed, "book_open": book_open, "laptop": laptop, "clock_face": clock_face, "ice_cube": ice_cube,
+    "later_note": later_note, "check_mint": check_mint, "cross_coral": cross_coral, "cite_card": cite_card,
+    "step_slate": step_slate, "try_today_note": try_today_note,
+}
+
+
 # ------------------------------------------------------------------ registry: asset id -> drawer
 # Characters take a pose argument; everything else takes none.
 DRAWERS = {
@@ -363,7 +734,8 @@ DRAWERS = {
     "timber_beam": timber_beam, "vent_pipe": vent_pipe, "water_jug": water_jug,
     "fix_check": fix_check, "problem_badge": problem_badge, "ready_stamp": ready_stamp,
 }
-POSES = {"tuck": TUCK_POSES}
+DRAWERS.update(SCL_DRAWERS)  # Small Change Lab (inch_<pose> ids are flat files)
+POSES = {"tuck": TUCK_POSES, "inch": INCH_POSES}
 
 
 # ------------------------------------------------------------------ project filling + cross-project reuse

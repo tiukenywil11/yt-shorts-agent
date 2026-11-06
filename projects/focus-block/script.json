@@ -1,0 +1,102 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Every time you switch tasks, your brain pays a time cost.",
+      "emotion": "curious",
+      "delivery": "crisp, starts on frame 0",
+      "visualIntent": "Inch at the desk between book, phone and laptop; small clock appears",
+      "startSec": 0.0,
+      "durationSec": 3.349
+    },
+    {
+      "id": "seg-02",
+      "text": "Text, homework, email, text again. It feels fast, but you keep restarting.",
+      "emotion": "wry",
+      "delivery": "quick list rhythm",
+      "visualIntent": "Inch spins between the three props; clock ticks up on each switch; coral cross",
+      "startSec": 3.599,
+      "durationSec": 4.459
+    },
+    {
+      "id": "seg-03",
+      "text": "In a 2001 lab study, people were slower when they switched tasks than when they stuck with one.",
+      "emotion": "matter-of-fact",
+      "delivery": "clear, name the study",
+      "visualIntent": "Cite card: Rubinstein et al., 2001 / SWITCHING = SLOWER / lab tasks",
+      "startSec": 8.308,
+      "durationSec": 5.525
+    },
+    {
+      "id": "seg-04",
+      "text": "And the harder the task, the bigger that cost.",
+      "emotion": "matter-of-fact",
+      "delivery": "slight emphasis on bigger",
+      "visualIntent": "Clock grows as a heavier book lands",
+      "startSec": 14.083,
+      "durationSec": 2.325
+    },
+    {
+      "id": "seg-05",
+      "text": "So try a focus block.",
+      "emotion": "warm",
+      "delivery": "turn, brighter",
+      "visualIntent": "Mint check; Inch idea pose",
+      "startSec": 16.659,
+      "durationSec": 1.408
+    },
+    {
+      "id": "seg-06",
+      "text": "One: pick one task, and set a twenty-minute timer you can see.",
+      "emotion": "warm",
+      "delivery": "steady",
+      "visualIntent": "Step slate 1; paper ice-cube timer appears next to the book",
+      "startSec": 18.317,
+      "durationSec": 3.477
+    },
+    {
+      "id": "seg-07",
+      "text": "Two: phone face down, in another room if you can.",
+      "emotion": "warm",
+      "delivery": "steady",
+      "visualIntent": "Step slate 2; phone slides out of frame",
+      "startSec": 22.044,
+      "durationSec": 2.901
+    },
+    {
+      "id": "seg-08",
+      "text": "Three: when a new thought pops up, write it on a later list and keep going.",
+      "emotion": "warm",
+      "delivery": "steady",
+      "visualIntent": "Step slate 3; sticky note 'LATER' gets a line; ice cube shrinks",
+      "startSec": 25.195,
+      "durationSec": 3.861
+    },
+    {
+      "id": "seg-09",
+      "text": "These were simple lab tasks, so real work varies, and some jobs need quick switching.",
+      "emotion": "honest",
+      "delivery": "calm caveat",
+      "visualIntent": "Inch skeptical; small 'lab tasks' tag",
+      "startSec": 29.307,
+      "durationSec": 5.077
+    },
+    {
+      "id": "seg-10",
+      "text": "Try it today: one task, one twenty-minute block, timer where you can see it.",
+      "emotion": "encouraging",
+      "delivery": "0.4 s pause before, upbeat",
+      "visualIntent": "TRY IT TODAY note tag_slap + stamp; ice cube gone; loop back to hook layout",
+      "startSec": 34.634,
+      "durationSec": 4.373
+    }
+  ],
+  "targetDurationSec": 42,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.05
+  },
+  "voiceoverDurationSec": 39.007,
+  "timingMode": "exact"
+}

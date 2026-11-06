@@ -1,0 +1,346 @@
+{
+ "note": "All visual SVGs are flat placeholder shapes generated for validation/stills; replace with final art at the same paths.",
+ "assets": [
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "description": "Inch pose 'neutral' per creative/asset-registry.json (1024 canvas, foot baseline bottom centre).",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_worry",
+   "type": "character",
+   "path": "assets/characters/inch/inch_worry.svg",
+   "description": "Inch pose 'worry' per creative/asset-registry.json (1024 canvas, foot baseline bottom centre).",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "Inch pose 'idea' per creative/asset-registry.json (1024 canvas, foot baseline bottom centre).",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_skeptical",
+   "type": "character",
+   "path": "assets/characters/inch/inch_skeptical.svg",
+   "description": "Inch pose 'skeptical' per creative/asset-registry.json (1024 canvas, foot baseline bottom centre).",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "Inch pose 'cheer' per creative/asset-registry.json (1024 canvas, foot baseline bottom centre).",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "Kraft floor band, top edge y 0.60 (1080x640 canvas).",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "phone",
+   "type": "prop",
+   "path": "assets/props/phone.svg",
+   "description": "Generic Ink phone, Sky screen.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "phone_facedown",
+   "type": "prop",
+   "path": "assets/props/phone_facedown.svg",
+   "description": "Same phone, back side.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "notification_dot",
+   "type": "prop",
+   "path": "assets/props/notification_dot.svg",
+   "description": "Coral dot with Paper '!'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "book_closed",
+   "type": "prop",
+   "path": "assets/props/book_closed.svg",
+   "description": "Closed Sky textbook, base at canvas bottom (NEW, not in registry).",
+   "status": "drawn",
+   "inRegistry": false,
+   "newAsset": true,
+   "source": "library"
+  },
+  {
+   "id": "book_open",
+   "type": "prop",
+   "path": "assets/props/book_open.svg",
+   "description": "Open book, Paper pages (NEW).",
+   "status": "drawn",
+   "inRegistry": false,
+   "newAsset": true,
+   "source": "library"
+  },
+  {
+   "id": "laptop",
+   "type": "prop",
+   "path": "assets/props/laptop.svg",
+   "description": "Generic Ink laptop, Sky screen, no logo (NEW).",
+   "status": "drawn",
+   "inRegistry": false,
+   "newAsset": true,
+   "source": "library"
+  },
+  {
+   "id": "clock_face",
+   "type": "prop",
+   "path": "assets/props/clock_face.svg",
+   "description": "Paper wall clock, Ink hands, no '24' arc (NEW; clock_24h is not suitable).",
+   "status": "drawn",
+   "inRegistry": false,
+   "newAsset": true,
+   "source": "library"
+  },
+  {
+   "id": "ice_cube",
+   "type": "prop",
+   "path": "assets/props/ice_cube.svg",
+   "description": "Flat Sky rounded paper ice cube with Paper highlight; our own generic visible timer (NEW).",
+   "status": "drawn",
+   "inRegistry": false,
+   "newAsset": true,
+   "source": "library"
+  },
+  {
+   "id": "later_note",
+   "type": "prop",
+   "path": "assets/props/later_note.svg",
+   "description": "Paper sticky note with Ink border and Sky ruled lines, no text (NEW).",
+   "status": "drawn",
+   "inRegistry": false,
+   "newAsset": true,
+   "source": "library"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "Mint circle, Paper check.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "Coral jagged circle, Paper X.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "Paper index card 820x500, Ink 4 px border, Sun tab, no text.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "step_slate",
+   "type": "ui",
+   "path": "assets/ui/step_slate.svg",
+   "description": "Sun Yellow circle 600x600, numeral is KineticText.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "Sun sticky note with baked 'TRY IT TODAY' lettering.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "Copied from projects/blackout-house/assets/sfx/",
+   "status": "generated",
+   "license": "original or documented royalty-free"
+  },
+  {
+   "id": "sfx_problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "Copied from projects/blackout-house/assets/sfx/",
+   "status": "generated",
+   "license": "original or documented royalty-free"
+  },
+  {
+   "id": "sfx_stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "Copied from projects/blackout-house/assets/sfx/",
+   "status": "generated",
+   "license": "original or documented royalty-free"
+  },
+  {
+   "id": "voiceover",
+   "type": "audio",
+   "path": "voiceover.wav",
+   "status": "drawn",
+   "description": "Kokoro am_michael, 37.301 s",
+   "source": "existing"
+  }
+ ],
+ "missing": [
+  {
+   "id": "inch_neutral",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/characters/inch/inch_neutral.svg"
+  },
+  {
+   "id": "inch_worry",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/characters/inch/inch_worry.svg"
+  },
+  {
+   "id": "inch_idea",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/characters/inch/inch_idea.svg"
+  },
+  {
+   "id": "inch_skeptical",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/characters/inch/inch_skeptical.svg"
+  },
+  {
+   "id": "inch_cheer",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/characters/inch/inch_cheer.svg"
+  },
+  {
+   "id": "floor_strip",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/floor_strip.svg"
+  },
+  {
+   "id": "phone",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/phone.svg"
+  },
+  {
+   "id": "phone_facedown",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/phone_facedown.svg"
+  },
+  {
+   "id": "notification_dot",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/notification_dot.svg"
+  },
+  {
+   "id": "book_closed",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/book_closed.svg",
+   "note": "new asset, add to creative/asset-registry.json"
+  },
+  {
+   "id": "book_open",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/book_open.svg",
+   "note": "new asset, add to creative/asset-registry.json"
+  },
+  {
+   "id": "laptop",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/laptop.svg",
+   "note": "new asset, add to creative/asset-registry.json"
+  },
+  {
+   "id": "clock_face",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/clock_face.svg",
+   "note": "new asset, add to creative/asset-registry.json"
+  },
+  {
+   "id": "ice_cube",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/ice_cube.svg",
+   "note": "new asset, add to creative/asset-registry.json"
+  },
+  {
+   "id": "later_note",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/props/later_note.svg",
+   "note": "new asset, add to creative/asset-registry.json"
+  },
+  {
+   "id": "check_mint",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/ui/check_mint.svg"
+  },
+  {
+   "id": "cross_coral",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/ui/cross_coral.svg"
+  },
+  {
+   "id": "cite_card",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/ui/cite_card.svg"
+  },
+  {
+   "id": "step_slate",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/ui/step_slate.svg"
+  },
+  {
+   "id": "try_today_note",
+   "status": "placeholder_svg_generated_needs_final_art",
+   "path": "assets/ui/try_today_note.svg"
+  },
+  {
+   "id": "sfx_pencil_tick",
+   "status": "optional_not_created",
+   "note": "Check-badge tick; not referenced in animation.json."
+  },
+  {
+   "id": "sfx_page_flip",
+   "status": "optional_not_created",
+   "note": "Cite card flip; paper_rustle stands in."
+  },
+  {
+   "id": "music_bed",
+   "status": "optional_not_created",
+   "note": "No documented royalty-free bed; audio.music is null."
+  }
+ ]
+}

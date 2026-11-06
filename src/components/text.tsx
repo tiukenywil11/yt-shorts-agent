@@ -53,6 +53,11 @@ export const Caption: React.FC<ComponentProps> = ({el, p}) => {
   const per = Math.max(1, Math.round(p.wordsPerChunk));
   const chunkStart = Math.floor(active / per) * per;
   const chunk = words.slice(chunkStart, chunkStart + per);
+  // The active word scales up 8% and the outline extends past each glyph box, so the gap reserves
+  // room for both; otherwise long words visually touch their neighbour ("ATWENTY-MINUTE").
+  const ACTIVE_SCALE = 1.08;
+  const strokePx = p.strokeWidth * k;
+  const growEm = (w: string) => ((ACTIVE_SCALE - 1) / 2) * w.length * 0.8;
 
   return (
     <div
@@ -61,7 +66,7 @@ export const Caption: React.FC<ComponentProps> = ({el, p}) => {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
-        columnGap: '0.38em',
+        columnGap: `calc(0.38em + ${2 * strokePx}px)`,
         fontFamily: p.fontFamily,
         fontWeight: 900,
         fontSize: p.fontSize * k,
@@ -77,8 +82,9 @@ export const Caption: React.FC<ComponentProps> = ({el, p}) => {
             key={chunkStart + i}
             style={{
               display: 'inline-block',
+              marginInline: `${growEm(w)}em`,
               color: isActive ? p.highlightColor : p.color,
-              transform: `scale(${isActive ? 1.08 : 1})`,
+              transform: `scale(${isActive ? ACTIVE_SCALE : 1})`,
             }}
           >
             {w}

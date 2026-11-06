@@ -1,0 +1,273 @@
+{
+ "title": "Every Switch Costs You Time",
+ "channel": "Small Change Lab",
+ "targetDurationSec": 37.9,
+ "voiceoverSec": 37.301,
+ "sceneCount": 14,
+ "notes": [
+  "Segments seg-02, seg-03 and seg-09 span two or three scenes; their captions are split into consecutive Caption elements (same text, same total timing).",
+  "Scene boundaries fall at segment starts (the 0.25 s gaps belong to the preceding scene) except the mid-segment splits at 5.45, 11.0 and 30.8.",
+  "Ticks '+', '++', '+++', '++++' are unitless marks, not statistics. Only sourced claim: Rubinstein et al., 2001.",
+  "Mind pillar: no disclaimer tag. Cite card held 2.9 s (scene-04). Cross comes before check (scene-03/05 cross; check from scene-05 onward).",
+  "Camera: cam_lean_in on scene-07, scene-10, scene-13; all others cam_hold. page_turn only into scene-04.",
+  "Pencil tick and page flip SFX do not exist yet; paper_rustle stands in for the page flip; no SFX on check badges.",
+  "Placeholder SVGs were generated at every asset path so validation passes; the asset artist must replace them (see asset-requirements.json)."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0,
+   "durationSec": 3.493,
+   "beat": "hook",
+   "dominantVisual": "Inch at the desk between book, phone and laptop; a small clock pops in on 'time cost'",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 3.493,
+   "durationSec": 1.957,
+   "beat": "problem",
+   "dominantVisual": "Clock ticks up '+' marks on each switch: text, homework, email, text again",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "+ ++ +++ ++++"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 5.45,
+   "durationSec": 2.431,
+   "beat": "problem",
+   "dominantVisual": "Coral cross lands on the clock: it feels fast, but you keep restarting",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "++++",
+    "cross badge"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "page_turn",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 7.881,
+   "durationSec": 3.119,
+   "beat": "cite",
+   "dominantVisual": "Cite card held 2.9 s: Rubinstein et al., 2001 / SWITCHING = SLOWER / lab tasks",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "THE STUDY",
+    "Rubinstein et al., 2001 · J Exp Psych",
+    "SWITCHING = SLOWER",
+    "Limit: lab tasks"
+   ],
+   "sfx": [
+    "paper_rustle.wav (stands in for page flip)"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 11.0,
+   "durationSec": 2.358,
+   "beat": "cite",
+   "dominantVisual": "Long coral SWITCH bar with cross vs short mint ONE TASK bar with check",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "SWITCH",
+    "ONE TASK"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 13.358,
+   "durationSec": 2.426,
+   "beat": "problem",
+   "dominantVisual": "Clock grows as a heavier book lands",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 8
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 15.784,
+   "durationSec": 1.679,
+   "beat": "fix",
+   "dominantVisual": "Open book with Mint check; Inch has an idea",
+   "camera": "cam_lean_in",
+   "onScreenText": [],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 8
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 17.463,
+   "durationSec": 3.536,
+   "beat": "fix",
+   "dominantVisual": "Step slate 1, then the paper ice-cube timer appears next to the book",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "1",
+    "PICK ONE TASK",
+    "20 MIN"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-07"
+   ],
+   "startSec": 20.999,
+   "durationSec": 3.002,
+   "beat": "fix",
+   "dominantVisual": "Step slate 2; phone flips face down, then leaves the desk",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "2",
+    "PHONE FACE DOWN"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-08"
+   ],
+   "startSec": 24.001,
+   "durationSec": 3.983,
+   "beat": "fix",
+   "dominantVisual": "Step slate 3; sticky note 'LATER' gets a line while the ice cube shrinks",
+   "camera": "cam_lean_in",
+   "onScreenText": [
+    "3",
+    "LATER LIST",
+    "LATER"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-09"
+   ],
+   "startSec": 27.984,
+   "durationSec": 2.816,
+   "beat": "caveat",
+   "dominantVisual": "Inch skeptical with a 'LAB TASKS' tag",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "LAB TASKS"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-09"
+   ],
+   "startSec": 30.8,
+   "durationSec": 2.405,
+   "beat": "caveat",
+   "dominantVisual": "Second tag: SOME JOBS SWITCH FAST",
+   "camera": "cam_hold",
+   "onScreenText": [
+    "LAB TASKS",
+    "SOME JOBS SWITCH FAST"
+   ],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-10"
+   ],
+   "startSec": 33.205,
+   "durationSec": 4.195,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on with stamp thud; Mint check; ice cube gone",
+   "camera": "cam_lean_in",
+   "onScreenText": [
+    "TRY IT TODAY"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "beat_cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-14",
+   "segmentIds": [],
+   "startSec": 37.4,
+   "durationSec": 0.5,
+   "beat": "loop",
+   "dominantVisual": "Hook layout again: same Inch spot and pose, book open, phone face down, no ice cube",
+   "camera": "cam_hold",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "beat_cut",
+   "elementCount": 8
+  }
+ ]
+}

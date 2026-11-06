@@ -83,22 +83,27 @@ export const SceneView: React.FC<{scene: Scene; transitionIn?: Transition}> = ({
     enter = transitionIn!.preset === 'slide_up' ? {transform: `translateY(${(1 - k) * height}px)`} : {opacity: k};
   }
 
+  const renderEl = (el: Element) => (
+    <Sequence
+      key={el.id}
+      name={el.id}
+      from={toFrames(el.startSec, fps)}
+      durationInFrames={Math.max(1, toFrames(el.durationSec, fps))}
+      layout="none"
+    >
+      <ElementBody el={el} />
+    </Sequence>
+  );
+  const elements = scene.elements ?? [];
+  const fixed = elements.filter((el) => el.transform?.fixed);
+
   return (
     <AbsoluteFill style={{overflow: 'hidden', ...enter}}>
       <AbsoluteFill style={cameraStyle(scene, frame, sceneFrames, width)}>
         <BackgroundView bg={scene.background} />
-        {(scene.elements ?? []).map((el) => (
-          <Sequence
-            key={el.id}
-            name={el.id}
-            from={toFrames(el.startSec, fps)}
-            durationInFrames={Math.max(1, toFrames(el.durationSec, fps))}
-            layout="none"
-          >
-            <ElementBody el={el} />
-          </Sequence>
-        ))}
+        {elements.filter((el) => !el.transform?.fixed).map(renderEl)}
       </AbsoluteFill>
+      {fixed.length > 0 && <AbsoluteFill>{fixed.map(renderEl)}</AbsoluteFill>}
       {(scene.sfx ?? []).map((fx, i) => (
         <Sequence key={`sfx-${i}`} from={toFrames(fx.atSec, fps)} layout="none">
           <Html5Audio src={staticFile(fx.asset)} volume={fx.volume ?? 1} />

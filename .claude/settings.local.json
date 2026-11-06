@@ -78,7 +78,20 @@
       "Bash(git switch *)",
       "Bash(mkdir -p channels/paper-prepper)",
       "Bash(cp -r creative channels/paper-prepper/creative)",
-      "Bash(git commit -q -m 'Add habits + money channel strategy and archive Paper Prepper creative *)"
+      "Bash(git commit -q -m 'Add habits + money channel strategy and archive Paper Prepper creative *)",
+      "Bash(python -I -c \"import json;json.load\\(open\\('creative/patterns.json'\\)\\);print\\('ok'\\)\")",
+      "Bash(grep -c -E \"[A-Za-z0-9_-]{11}[^|]{0,20}[0-9]+\\(\\\\.[0-9]+\\)?\\(-[0-9.]+\\)? ?s\" creative/reference-analysis.md)",
+      "Bash(python -c \"import json;d=json.load\\(open\\('engine/registry.json'\\)\\);print\\({k:\\(list\\(v\\)[:40] if isinstance\\(v,\\(dict,list\\)\\) else v\\) for k,v in d.items\\(\\)}\\)\")",
+      "Bash(sed -i 's/# Style Bible: Small Change Lab \\(working title\\)/# Style Bible: Small Change Lab/; s/- Channel name: Small Change Lab \\(working; options in channel-identity.md\\)./- Channel name: Small Change Lab \\(locked 2026-11-06\\)./' creative/style-bible.md)",
+      "Bash(sed -i 's/\"small-change-lab \\(working title\\)\"/\"small-change-lab\"/' creative/asset-registry.json creative/animation-presets.json)",
+      "Bash(python -c \"import json;[json.load\\(open\\(f,encoding='utf-8'\\)\\) for f in ['creative/asset-registry.json','creative/animation-presets.json']];print\\('ok'\\)\")",
+      "Bash(git commit *)",
+      "Bash(python -c \"import PIL;print\\('PIL',PIL.__version__\\)\")",
+      "Bash(python -c \"import cairosvg;print\\('cairosvg'\\)\")",
+      "Bash(grep -iE \"^\\(sharp|puppeteer|playwright|@resvg|@remotion\\)$\")",
+      "Bash(python scripts/make_channel_art.py)",
+      "Bash(rm creative/brand/_t.html creative/brand/dp.png)",
+      "Bash(sed -i 's/\"--headless=new\"/\"--headless\"/' scripts/make_channel_art.py)"
     ]
   }
 }

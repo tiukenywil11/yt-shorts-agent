@@ -55,7 +55,7 @@
     "caption_main": {
       "component": "Caption",
       "params": { "fontSize": 84, "fontFamily": "Arial Black, Impact, sans-serif", "color": "#F5EEDD", "highlightColor": "#F2B632", "strokeColor": "#26303F", "strokeWidth": 10, "wordsPerChunk": 2, "uppercase": true },
-      "transform": { "x": 0.46, "y": 0.67, "layer": 90 },
+      "transform": { "x": 0.46, "y": 0.70, "layer": 90 },
       "preset": "none",
       "use": "One Caption per script segment, timed to the segment."
     },
@@ -197,7 +197,7 @@
       "params": { "width": 0.22, "talking": false },
       "loop": "inch_idle",
       "transform": { "x": 0.36, "y": 0.535, "layer": 50 },
-      "use": "Inch. Tune y so the foot baseline sits on the floor line (0.60) for the drawn canvas; then never change it within a video. Poses via params.poses [{atSec, asset}]."
+      "use": "Inch. Tune y so the foot baseline sits on the floor line (0.64) for the drawn canvas; then never change it within a video. Poses via params.poses [{atSec, asset}]."
     }
   }
 }

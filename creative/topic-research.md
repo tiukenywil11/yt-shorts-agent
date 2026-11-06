@@ -29,3 +29,6 @@ Source priority: peer-reviewed study or meta-analysis > government agency data (
 - Calendar hooks: New Year (#7, #8), tax season (#2, #5), Black Friday (#1), September National Preparedness Month (#14, #15).
 - Long-form seeds: #3 + #4 ("the science behind small money habits"), #7 + #8 ("how habits actually form").
 - Re-check search demand with YouTube autocomplete and Google Trends before committing a batch.
+
+## Trend check 2026-11-06
+Pulled YouTube hashtag Shorts pages (35 habit hashtags, ~420 dated Shorts) plus YouTube autocomplete. 20 ranked topics, evidence videos and method/limits: `creative/trending-habit-topics-2026-11.xlsx` (sheets Topics, Evidence, Raw, Method). Top 5 by trend score: focus blocks ("study until the ice melts"), motivation vs discipline, night wind-down, phone screen time, coin-jar savings. Not official trending data; views are a snapshot. Sources in the sheet are still source types to verify.
