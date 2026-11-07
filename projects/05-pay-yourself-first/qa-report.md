@@ -1,6 +1,15 @@
-# QA Report: 05-pay-yourself-first (draft.mp4, 360x640 / 15 fps)
+# QA Report: 05-pay-yourself-first (draft.mp4 review, updated for re-rendered final.mp4)
 
-Recommendation: FIX FIRST (one major story/sync defect, DSL-only fix). Then publish.
+Recommendation: PUBLISH after a quick ear check of scene-05/06 sync. The trailing-footage defect is fixed, and M1 appears fixed on the stills.
+
+## Update (final re-render)
+- Trailing footage fixed: the old 0.6 s silent scene-14 (40.8-41.4 s) played after the last sentence and showed a mismatched "SAVE MORE." frame. It was removed, scene-13 was extended by about 0.1 s, and video.durationSec is now 40.9 s. Voiceover ends at 40.80 s.
+- final.mp4 was re-rendered with --overwrite after a stills pass of all scenes. `check_video.py --expect final` PASS: 1080x1920, 30 fps, h264/aac, yuv420p, 40.92 s, clean decode.
+- M1: the new stills show scene-05 with ENROLLED AUTOMATICALLY and a check, and scene-06 with PARTICIPATION HIGHER, SIGN UP YOURSELF and a cross, in spoken order. Marked fixed on stills only; sync with the audio was not re-listened.
+- m2 is resolved by removing scene-14. The video no longer ends on a loop frame.
+- Not verified: the final MP4 was not watched or listened to in full. This section reflects the stills contact sheet and the scripted checks.
+
+## Original review (draft.mp4, 360x640 / 15 fps, 41.41 s)
 
 ## Technical (check_video.py --expect draft)
 PASS on all checks: 360x640, 15 fps, h264, yuv420p, aac, 41.41 s, full decode clean.
@@ -11,7 +20,7 @@ None.
 
 ## Major
 
-### M1. scene-05 / scene-06: captions and visuals are in the reverse order of the narration (clarity, storytelling)
+### M1. (FIXED on stills, see update) scene-05 / scene-06: captions and visuals are in the reverse order of the narration (clarity, storytelling)
 - Evidence: script seg-03 is "When new hires were enrolled ... automatically, participation was significantly higher than when they had to sign up themselves." The pause ends at 13.37, so scene-05 (13.3-17.2) carries the "When new hires were enrolled ..." audio.
 - Scene-05 instead shows the caption "Participation was significantly higher than when they had to sign up themselves", the SIGN UP YOURSELF tag and a red cross.
 - Scene-06 (17.2-21.25) shows "ENROLLED AUTOMATICALLY", a green check and "PARTICIPATION HIGHER" while the narrator says "...than when they had to sign up themselves."
@@ -32,7 +41,7 @@ None.
 - Fix (DSL): after M1, reduce the card finding to "Madrian & Shea, 2001" and "one study, one company" only, or re-show the card briefly in scene-06. Optional.
 - Also: the red limit-dot sits about 60 px left of its text (scene-04-limit-dot, DSL x offset, or the cite_card.svg asset).
 
-### m2. scene-14 (40.8-41.4): loop frame
+### m2. (RESOLVED, scene-14 removed) scene-14 (40.8-41.4): loop frame
 - The last frame ("SAVE MORE.", jar with coins) is a good caption-to-hook continuation, but it does not return to the hook layout as idea.md promises.
 - At frame 0 the "ON AUTOPILOT" tag is present and the wallet is overlapped by the jar.
 - At the end the tag is gone, and the jar covers the wallet label ("WALLE" is clipped).

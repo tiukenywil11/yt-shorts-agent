@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Hitting snooze may not ruin your morning.",
+      "startSec": 0.0,
+      "durationSec": 1.984
+    },
+    {
+      "id": "seg-02",
+      "text": "The myth says snoozing makes you groggier. So you tap it, then feel guilty about it.",
+      "startSec": 2.234,
+      "durationSec": 4.416
+    },
+    {
+      "id": "seg-03",
+      "text": "A 2023 lab study had 31 regular snoozers either snooze for thirty minutes or wake up abruptly. After getting up, the snoozers did as well or better on thinking tests, for about six minutes of lost sleep.",
+      "startSec": 6.9,
+      "durationSec": 13.419
+    },
+    {
+      "id": "seg-04",
+      "text": "A practical way to try this. One: set your alarm for the time you need to be up. Two: if you snooze, decide the window the night before. Three: stand up when the last alarm rings.",
+      "startSec": 20.569,
+      "durationSec": 10.859
+    },
+    {
+      "id": "seg-05",
+      "text": "This was one small lab study of habitual snoozers, so results may differ for you. This is not medical advice.",
+      "startSec": 31.677,
+      "durationSec": 6.635
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: decide your snooze window before bed.",
+      "startSec": 38.562,
+      "durationSec": 2.795
+    }
+  ],
+  "targetDurationSec": 40,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 41.357,
+  "timingMode": "exact"
+}

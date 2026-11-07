@@ -91,7 +91,8 @@
       "Bash(grep -iE \"^\\(sharp|puppeteer|playwright|@resvg|@remotion\\)$\")",
       "Bash(python scripts/make_channel_art.py)",
       "Bash(rm creative/brand/_t.html creative/brand/dp.png)",
-      "Bash(sed -i 's/\"--headless=new\"/\"--headless\"/' scripts/make_channel_art.py)"
+      "Bash(sed -i 's/\"--headless=new\"/\"--headless\"/' scripts/make_channel_art.py)",
+      "Bash(python -c \"import json;d=json.load\\(open\\('projects/05-pay-yourself-first/script.json'\\)\\);print\\(json.dumps\\(d,indent=1\\)[:1500]\\)\")"
     ]
   }
 }

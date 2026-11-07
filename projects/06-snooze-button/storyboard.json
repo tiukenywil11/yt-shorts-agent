@@ -1,0 +1,308 @@
+{
+ "title": "Is Hitting Snooze Really That Bad?",
+ "channel": "Small Change Lab",
+ "pillar": "Body",
+ "series": "Habit Myths",
+ "targetDurationSec": 41.96,
+ "voiceoverSec": 41.357,
+ "sceneCount": 15,
+ "notes": [
+  "Body tint #FBE6D6 solid + floor_strip; chip BODY \u00b7 HABIT MYTHS; NOT MEDICAL ADVICE tag from the cite card (scene-04) to scene-13.",
+  "Cite card scene-04: Sundelin et al., 2023; 31 SNOOZERS; limit one lab study. Print year to be confirmed before publish (Crossref lists 2023 online).",
+  "Myth before finding: Coral MYTH stamp + cross (scene-02), Mint ACTUALLY stamp + check (scene-06). Never both on one prop.",
+  "Cuts inside a segment are estimated by letter count. Inter-segment gaps belong to the preceding scene.",
+  "Loop scene-15 (0.603 s): hook layout; clock now ticked with tag PLANNED SNOOZE.",
+  "Alarm clock, bed, moon and test sheet are engine-built from Shape; no new SVGs required. Optional upgrade: draw alarm_clock/bed/sun_disc from the registry.",
+  "Script gap: style bible asks for 'If you have a condition, ask a clinician' on health habits; not in approved script, NOT MEDICAL ADVICE tag and spoken disclaimer cover it."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 2.234,
+   "beat": "hook",
+   "dominantVisual": "Tired Inch beside a paper alarm clock with a Sun SNOOZE button; tag SNOOZE",
+   "camera": "static",
+   "onScreenText": [
+    "SNOOZE"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.234,
+   "durationSec": 2.261,
+   "beat": "problem",
+   "dominantVisual": "Coral MYTH stamp over tag SNOOZE = GROGGY; cross badge on the clock; worried Inch",
+   "camera": "static",
+   "onScreenText": [
+    "MYTH",
+    "SNOOZE = GROGGY"
+   ],
+   "sfx": [
+    "stamp_thud.wav",
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 4.495,
+   "durationSec": 2.405,
+   "beat": "problem",
+   "dominantVisual": "Clock jolts; worried Inch; tag GUILTY?",
+   "camera": "camera_push",
+   "onScreenText": [
+    "GUILTY?"
+   ],
+   "sfx": [],
+   "transitionOut": "slide_up",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 6.9,
+   "durationSec": 2.71,
+   "beat": "cite",
+   "dominantVisual": "Cite card: THE STUDY / Sundelin et al., 2023 / 31 SNOOZERS / one lab study",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Sundelin et al., 2023",
+    "31 SNOOZERS",
+    "one lab study"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 9.61,
+   "durationSec": 3.57,
+   "beat": "evidence",
+   "dominantVisual": "Two clocks side by side: SNOOZE 30 MIN vs ABRUPT WAKE-UP",
+   "camera": "static",
+   "onScreenText": [
+    "SNOOZE",
+    "30 MIN",
+    "ABRUPT",
+    "WAKE-UP"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 30
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 13.18,
+   "durationSec": 4.759,
+   "beat": "evidence",
+   "dominantVisual": "Mint ACTUALLY stamp, SAME OR BETTER on a ticked test sheet",
+   "camera": "static",
+   "onScreenText": [
+    "ACTUALLY",
+    "SAME OR BETTER",
+    "ON THINKING TESTS"
+   ],
+   "sfx": [
+    "stamp_thud.wav",
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 17.939,
+   "durationSec": 2.63,
+   "beat": "evidence",
+   "dominantVisual": "Stat ~6 MIN of sleep lost, small paper bed",
+   "camera": "camera_push",
+   "onScreenText": [
+    "~6 MIN",
+    "OF SLEEP LOST"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 20.569,
+   "durationSec": 1.759,
+   "beat": "fix",
+   "dominantVisual": "Inch with idea beside a 3-box checklist; tag 3 STEPS",
+   "camera": "static",
+   "onScreenText": [
+    "3 STEPS"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 22.328,
+   "durationSec": 3.155,
+   "beat": "fix",
+   "dominantVisual": "Step slate 1: SET ALARM TO WAKE TIME; clock ticked",
+   "camera": "static",
+   "onScreenText": [
+    "1",
+    "SET ALARM TO WAKE TIME"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 25.483,
+   "durationSec": 3.397,
+   "beat": "fix",
+   "dominantVisual": "Step slate 2: PLAN IT THE NIGHT BEFORE; Sky moon, clock ticked",
+   "camera": "static",
+   "onScreenText": [
+    "2",
+    "PLAN IT THE NIGHT BEFORE"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 21
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 28.88,
+   "durationSec": 2.797,
+   "beat": "fix",
+   "dominantVisual": "Step slate 3: STAND UP AT LAST ALARM; ringing clock, ticked",
+   "camera": "static",
+   "onScreenText": [
+    "3",
+    "STAND UP AT LAST ALARM"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 31.677,
+   "durationSec": 3.104,
+   "beat": "caveat",
+   "dominantVisual": "Skeptical Inch; tag ONE SMALL LAB STUDY",
+   "camera": "static",
+   "onScreenText": [
+    "ONE SMALL LAB STUDY"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 34.781,
+   "durationSec": 3.781,
+   "beat": "caveat",
+   "dominantVisual": "Tag MAY DIFFER FOR YOU; NOT MEDICAL ADVICE tag stays",
+   "camera": "static",
+   "onScreenText": [
+    "MAY DIFFER FOR YOU"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-14",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 38.562,
+   "durationSec": 2.795,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on; cheering Inch, ticked clock",
+   "camera": "static",
+   "onScreenText": [
+    "TRY IT TODAY"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-15",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 41.357,
+   "durationSec": 0.603,
+   "beat": "loop",
+   "dominantVisual": "Loop frame: hook layout, clock now ticked with tag PLANNED SNOOZE",
+   "camera": "static",
+   "onScreenText": [
+    "PLANNED SNOOZE"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 17
+  }
+ ]
+}

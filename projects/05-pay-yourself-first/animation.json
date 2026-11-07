@@ -6,7 +6,7 @@
     "width": 1080,
     "height": 1920,
     "fps": 30,
-    "durationSec": 41.4
+    "durationSec": 40.9
   },
   "audio": {
     "voiceover": "voiceover.wav",
@@ -108,7 +108,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -443,7 +443,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -796,7 +796,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -1150,7 +1150,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -1554,7 +1554,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -1953,7 +1953,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -2415,7 +2415,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -2787,7 +2787,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -3189,7 +3189,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -3661,7 +3661,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -4032,7 +4032,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -4408,7 +4408,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -4590,7 +4590,7 @@
     {
       "id": "scene-13",
       "startSec": 37.154,
-      "durationSec": 3.648,
+      "durationSec": 3.746,
       "background": {
         "type": "solid",
         "color": "#E3F1E7"
@@ -4606,7 +4606,7 @@
           "component": "Prop",
           "asset": "assets/props/floor_strip.svg",
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.5,
             "y": 0.81,
@@ -4624,7 +4624,7 @@
           "component": "Shape",
           "asset": null,
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.38,
             "y": 0.11,
@@ -4649,7 +4649,7 @@
           "component": "Shape",
           "asset": null,
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.1,
             "y": 0.11,
@@ -4671,7 +4671,7 @@
           "component": "KineticText",
           "asset": null,
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.41,
             "y": 0.11,
@@ -4680,7 +4680,7 @@
             "fixed": true
           },
           "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
+          "content": "MONEY \u00c2\u00b7 AUTO-SAVE",
           "params": {
             "fontSize": 44,
             "fontWeight": 900,
@@ -4697,7 +4697,7 @@
           "component": "Shape",
           "asset": null,
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.29,
             "y": 0.17,
@@ -4722,7 +4722,7 @@
           "component": "KineticText",
           "asset": null,
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.29,
             "y": 0.17,
@@ -4748,7 +4748,7 @@
           "component": "Caption",
           "asset": null,
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.46,
             "y": 0.7,
@@ -4775,7 +4775,7 @@
           "component": "Character",
           "asset": "assets/characters/inch/inch_cheer.svg",
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.34,
             "y": 0.5595,
@@ -4803,7 +4803,7 @@
           "component": "Prop",
           "asset": "assets/props/savings_jar.svg",
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.72,
             "y": 0.6,
@@ -4821,7 +4821,7 @@
           "component": "Prop",
           "asset": "assets/props/coin.svg",
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.69,
             "y": 0.655,
@@ -4839,7 +4839,7 @@
           "component": "Prop",
           "asset": "assets/props/coin.svg",
           "startSec": 0,
-          "durationSec": 3.648,
+          "durationSec": 3.746,
           "transform": {
             "x": 0.75,
             "y": 0.655,
@@ -4857,7 +4857,7 @@
           "component": "Prop",
           "asset": "assets/ui/try_today_note.svg",
           "startSec": 0.1,
-          "durationSec": 3.548,
+          "durationSec": 3.646,
           "transform": {
             "x": 0.58,
             "y": 0.3,
@@ -4877,7 +4877,7 @@
           "component": "Prop",
           "asset": "assets/ui/check_mint.svg",
           "startSec": 0.3,
-          "durationSec": 3.348,
+          "durationSec": 3.446,
           "transform": {
             "x": 0.28,
             "y": 0.47,
@@ -4903,292 +4903,6 @@
           "volume": 0.65
         }
       ]
-    },
-    {
-      "id": "scene-14",
-      "startSec": 40.802,
-      "durationSec": 0.598,
-      "background": {
-        "type": "solid",
-        "color": "#E3F1E7"
-      },
-      "camera": {
-        "preset": "static",
-        "params": {}
-      },
-      "elements": [
-        {
-          "id": "scene-14-floor",
-          "type": "prop",
-          "component": "Prop",
-          "asset": "assets/props/floor_strip.svg",
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.5,
-            "y": 0.81,
-            "rotation": 0,
-            "layer": 5
-          },
-          "preset": "none",
-          "params": {
-            "width": 1.0
-          }
-        },
-        {
-          "id": "scene-14-chip-back",
-          "type": "shape",
-          "component": "Shape",
-          "asset": null,
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.38,
-            "y": 0.11,
-            "rotation": 0,
-            "layer": 86,
-            "fixed": true
-          },
-          "preset": "none",
-          "params": {
-            "shape": "rect",
-            "width": 0.64,
-            "height": 0.075,
-            "color": "#F5EEDD",
-            "radius": 0.02,
-            "strokeColor": "#26303F",
-            "strokeWidth": 4
-          }
-        },
-        {
-          "id": "scene-14-chip-dot",
-          "type": "shape",
-          "component": "Shape",
-          "asset": null,
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.1,
-            "y": 0.11,
-            "rotation": 0,
-            "layer": 87,
-            "fixed": true
-          },
-          "preset": "none",
-          "params": {
-            "shape": "circle",
-            "width": 0.04,
-            "height": 0.04,
-            "color": "#3FA37A"
-          }
-        },
-        {
-          "id": "scene-14-chip-text",
-          "type": "text",
-          "component": "KineticText",
-          "asset": null,
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.41,
-            "y": 0.11,
-            "rotation": 0,
-            "layer": 87,
-            "fixed": true
-          },
-          "preset": "none",
-          "content": "MONEY · AUTO-SAVE",
-          "params": {
-            "fontSize": 44,
-            "fontWeight": 900,
-            "color": "#26303F",
-            "strokeWidth": 0,
-            "maxWidth": 0.56,
-            "align": "left",
-            "uppercase": true
-          }
-        },
-        {
-          "id": "scene-14-cap",
-          "type": "text",
-          "component": "Caption",
-          "asset": null,
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.46,
-            "y": 0.7,
-            "rotation": 0,
-            "layer": 90,
-            "fixed": true
-          },
-          "preset": "none",
-          "content": "Saving on autopilot may help you save more.",
-          "params": {
-            "fontSize": 84,
-            "fontFamily": "Arial Black, Impact, sans-serif",
-            "color": "#F5EEDD",
-            "highlightColor": "#F2B632",
-            "strokeColor": "#26303F",
-            "strokeWidth": 10,
-            "wordsPerChunk": 2,
-            "uppercase": true
-          }
-        },
-        {
-          "id": "scene-14-inch",
-          "type": "character",
-          "component": "Character",
-          "asset": "assets/characters/inch/inch_neutral.svg",
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.34,
-            "y": 0.5595,
-            "rotation": 0,
-            "layer": 50
-          },
-          "preset": "none",
-          "loop": "wiggle",
-          "params": {
-            "width": 0.286,
-            "talking": false,
-            "poses": [
-              {
-                "atSec": 0,
-                "asset": "assets/characters/inch/inch_neutral.svg"
-              }
-            ],
-            "periodSec": 1.8,
-            "degrees": 1.5
-          }
-        },
-        {
-          "id": "scene-14-wallet",
-          "type": "shape",
-          "component": "Shape",
-          "asset": null,
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.68,
-            "y": 0.6,
-            "rotation": 0,
-            "layer": 38
-          },
-          "preset": "none",
-          "params": {
-            "shape": "rect",
-            "width": 0.3,
-            "height": 0.12,
-            "color": "#C9A77C",
-            "radius": 0.02,
-            "strokeColor": "#26303F",
-            "strokeWidth": 5
-          }
-        },
-        {
-          "id": "scene-14-wallet-t",
-          "type": "text",
-          "component": "KineticText",
-          "asset": null,
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.68,
-            "y": 0.63,
-            "rotation": 0,
-            "layer": 39
-          },
-          "preset": "none",
-          "content": "WALLET",
-          "params": {
-            "fontSize": 34,
-            "fontWeight": 900,
-            "color": "#26303F",
-            "strokeWidth": 0,
-            "maxWidth": 0.26,
-            "align": "center",
-            "uppercase": true
-          }
-        },
-        {
-          "id": "scene-14-wc0",
-          "type": "prop",
-          "component": "Prop",
-          "asset": "assets/props/coin.svg",
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.59,
-            "y": 0.525,
-            "rotation": -8,
-            "layer": 41
-          },
-          "preset": "none",
-          "params": {
-            "width": 0.07
-          }
-        },
-        {
-          "id": "scene-14-wc1",
-          "type": "prop",
-          "component": "Prop",
-          "asset": "assets/props/coin.svg",
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.68,
-            "y": 0.525,
-            "rotation": 2,
-            "layer": 41
-          },
-          "preset": "none",
-          "params": {
-            "width": 0.07
-          }
-        },
-        {
-          "id": "scene-14-jar",
-          "type": "prop",
-          "component": "Prop",
-          "asset": "assets/props/savings_jar.svg",
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.82,
-            "y": 0.58,
-            "rotation": 0,
-            "layer": 40
-          },
-          "preset": "none",
-          "params": {
-            "width": 0.22
-          }
-        },
-        {
-          "id": "scene-14-jc0",
-          "type": "prop",
-          "component": "Prop",
-          "asset": "assets/props/coin.svg",
-          "startSec": 0,
-          "durationSec": 0.598,
-          "transform": {
-            "x": 0.79,
-            "y": 0.635,
-            "rotation": -8,
-            "layer": 41
-          },
-          "preset": "none",
-          "params": {
-            "width": 0.06
-          }
-        }
-      ],
-      "transitionOut": {
-        "preset": "cut",
-        "durationSec": 0
-      }
     }
   ]
 }
