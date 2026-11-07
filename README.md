@@ -94,7 +94,7 @@ Other scripts: `gen_assets.py --list` (library drawers and assets drawn in other
 
 ## Cost-control rules
 
-- Model tiers are set in frontmatter. Routine skills and the QA, storyboard, and reference agents run on Sonnet; creative-director, animation-engineer, and asset-artist inherit the main model. Run routine Shorts in a Sonnet session; switch to Opus only for engine or channel work.
+- Model tiers are set in frontmatter. Routine skills and the QA, storyboard, reference, and publish-packager agents run on Sonnet; creative-director, animation-engineer, and asset-artist inherit the main model. Run routine Shorts in a Sonnet session; switch to Opus only for engine or channel work.
 - One Claude session per Short; `/clear` between Shorts.
 - Review stills before rendering any video, render only changed scenes while iterating (`scene_manifest.py`), and render final once.
 - Let scripts report PASS/FAIL; never paste raw ffprobe output, JSON plans, or individual frames into chat.
