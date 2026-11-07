@@ -1,0 +1,289 @@
+{
+ "title": "Build an Emergency Kit, One Item per Payday",
+ "channel": "Small Change Lab",
+ "pillar": "Ready",
+ "series": "standard",
+ "targetDurationSec": 40.56,
+ "voiceoverSec": 40.461,
+ "sceneCount": 14,
+ "notes": [
+  "Ready tint #EFE2C9 solid + floor_strip; chip READY \u00b7 EMERGENCY KIT; FOLLOW LOCAL GUIDANCE tag from the cite card (scene-05) to the end.",
+  "Cite card scene-05: THE STUDY / Hiatt et al., 2021 / 96% FOOD, 53% WATER / limit self-reported 2014, n = 572. Source: Hiatt et al., Disaster Med Public Health Prep 16(3), doi:10.1017/dmp.2020.480 (survey Aug 2014, abstract-verified). Voice says '2021 study' (online year).",
+  "Ending: no loop or trailing scene; video ends 0.1 s after the voiceover on the TRY IT TODAY note (scene-14).",
+  "Cuts inside a segment are estimated by letter count; inter-segment gaps belong to the preceding scene.",
+  "Water jug is the Paper Prepper library prop (generic, no Tuck, no READY stamp). Bin, can and long checklist are engine-built from Shape. Coin and checklist_note are library props.",
+  "Pending before publish: confirm Ready.gov wording (gallon per person per day, 3 days) and put the URL in publish.md."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0,
+   "durationSec": 1.3,
+   "beat": "hook",
+   "dominantVisual": "Inch beside a water jug; tag ONE SURVEY",
+   "camera": "static",
+   "onScreenText": [
+    "ONE SURVEY"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 9
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 1.3,
+   "durationSec": 3.515,
+   "beat": "hook",
+   "dominantVisual": "Big 53% stat over the water jug; tag 3 DAYS OF WATER",
+   "camera": "static",
+   "onScreenText": [
+    "53%",
+    "3 DAYS OF WATER"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 4.815,
+   "durationSec": 2.585,
+   "beat": "problem",
+   "dominantVisual": "Inch beside an empty bin; tag EMERGENCY KIT",
+   "camera": "static",
+   "onScreenText": [
+    "EMERGENCY KIT"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 7.4,
+   "durationSec": 2.913,
+   "beat": "problem",
+   "dominantVisual": "Long checklist with a Coral cross; tag TOO BIG; worried Inch",
+   "camera": "camera_push",
+   "onScreenText": [
+    "TOO BIG"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "slide_up",
+   "elementCount": 24
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 10.313,
+   "durationSec": 2.7,
+   "beat": "cite",
+   "dominantVisual": "Cite card: THE STUDY / Hiatt et al., 2021 / 96% FOOD, 53% WATER / self-reported 2014, n = 572",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Hiatt et al., 2021",
+    "96% FOOD",
+    "53% WATER",
+    "self-reported 2014, n = 572"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 13.013,
+   "durationSec": 3.3,
+   "beat": "evidence",
+   "dominantVisual": "Tall Mint bar: 96% FOOD",
+   "camera": "static",
+   "onScreenText": [
+    "96%",
+    "FOOD"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 16.313,
+   "durationSec": 3.68,
+   "beat": "evidence",
+   "dominantVisual": "Same Mint food bar, much shorter Coral water bar: 53%",
+   "camera": "static",
+   "onScreenText": [
+    "96%",
+    "53%",
+    "FOOD",
+    "WATER"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 19.993,
+   "durationSec": 1.598,
+   "beat": "fix",
+   "dominantVisual": "Inch with idea beside a coin; text 1 ITEM PER PAYDAY",
+   "camera": "static",
+   "onScreenText": [
+    "1 ITEM",
+    "PER PAYDAY"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 21.591,
+   "durationSec": 3.7,
+   "beat": "fix",
+   "dominantVisual": "Step slate 1: WATER FIRST; water jug, ticked; tag 1 GAL / PERSON / DAY",
+   "camera": "static",
+   "onScreenText": [
+    "1",
+    "WATER FIRST",
+    "1 GAL / PERSON / DAY"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 25.291,
+   "durationSec": 3.7,
+   "beat": "fix",
+   "dominantVisual": "Step slate 2: ONE SHELF-STABLE FOOD; can on a shopping list, ticked",
+   "camera": "static",
+   "onScreenText": [
+    "2",
+    "ONE SHELF-STABLE FOOD"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 28.991,
+   "durationSec": 2.622,
+   "beat": "fix",
+   "dominantVisual": "Step slate 3: ONE LABELED BIN; jug and can in a bin labeled KIT, ticked",
+   "camera": "static",
+   "onScreenText": [
+    "3",
+    "ONE LABELED BIN",
+    "KIT"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 20
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 31.613,
+   "durationSec": 2.177,
+   "beat": "caveat",
+   "dominantVisual": "Paper card: ONE SELF-REPORTED SURVEY; skeptical Inch",
+   "camera": "static",
+   "onScreenText": [
+    "ONE SELF-REPORTED SURVEY"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 33.79,
+   "durationSec": 3.513,
+   "beat": "caveat",
+   "dominantVisual": "Paper card NEEDS VARY BY HOUSEHOLD, Sun card FOLLOW LOCAL GUIDANCE",
+   "camera": "static",
+   "onScreenText": [
+    "NEEDS VARY BY HOUSEHOLD",
+    "FOLLOW LOCAL GUIDANCE"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-14",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 37.303,
+   "durationSec": 3.257,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on; cheering Inch beside ticked water jug",
+   "camera": "static",
+   "onScreenText": [
+    "TRY IT TODAY"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  }
+ ]
+}

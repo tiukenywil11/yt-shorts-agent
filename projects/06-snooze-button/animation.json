@@ -6,7 +6,7 @@
   "width": 1080,
   "height": 1920,
   "fps": 30,
-  "durationSec": 41.96
+  "durationSec": 41.462
  },
  "audio": {
   "voiceover": "voiceover.wav",
@@ -108,7 +108,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -324,33 +324,6 @@
      }
     },
     {
-     "id": "scene-01-button",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 2.234,
-     "transform": {
-      "x": 0.7,
-      "y": 0.498,
-      "rotation": 0,
-      "layer": 39
-     },
-     "preset": "none",
-     "loop": "pulse",
-     "params": {
-      "shape": "rect",
-      "width": 0.062,
-      "height": 0.024,
-      "color": "#F2B632",
-      "radius": 0.008,
-      "strokeColor": "#26303F",
-      "strokeWidth": 3,
-      "periodSec": 0.9,
-      "amount": 0.07
-     }
-    },
-    {
      "id": "scene-01-tagb",
      "type": "shape",
      "component": "Shape",
@@ -359,7 +332,7 @@
      "durationSec": 2.234,
      "transform": {
       "x": 0.7,
-      "y": 0.4,
+      "y": 0.43,
       "rotation": 0,
       "layer": 60
      },
@@ -383,7 +356,7 @@
      "durationSec": 2.234,
      "transform": {
       "x": 0.7,
-      "y": 0.4,
+      "y": 0.43,
       "rotation": 0,
       "layer": 61
      },
@@ -398,9 +371,637 @@
       "align": "center",
       "uppercase": true
      }
+    },
+    {
+     "id": "scene-01-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.234,
+     "transform": {
+      "x": 0.7,
+      "y": 0.5065,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.033600000000000005,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-01-btn-down-65",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.65,
+     "durationSec": 0.45,
+     "transform": {
+      "x": 0.7,
+      "y": 0.506,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1104,
+      "height": 0.02,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-01-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 0.65,
+     "transform": {
+      "x": 0.7,
+      "y": 0.4995,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1104,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-01-btn-up-110",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.1,
+     "durationSec": 1.134,
+     "transform": {
+      "x": 0.7,
+      "y": 0.4995,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1104,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-01-ring-10-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5843,
+      "y": 0.4954,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-10-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5411,
+      "y": 0.5255,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-10-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8157,
+      "y": 0.4954,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-10-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8589,
+      "y": 0.5255,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-20-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5673,
+      "y": 0.4841,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-20-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5178,
+      "y": 0.5185,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-20-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8327,
+      "y": 0.4841,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-20-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8822,
+      "y": 0.5185,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-30-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5843,
+      "y": 0.4954,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-30-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5411,
+      "y": 0.5255,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-30-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8157,
+      "y": 0.4954,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-30-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8589,
+      "y": 0.5255,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-40-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5673,
+      "y": 0.4841,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-40-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5178,
+      "y": 0.5185,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-40-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8327,
+      "y": 0.4841,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-40-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8822,
+      "y": 0.5185,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-50-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5843,
+      "y": 0.4954,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-50-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5411,
+      "y": 0.5255,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-50-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8157,
+      "y": 0.4954,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-50-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8589,
+      "y": 0.5255,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-60-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.5673,
+      "y": 0.4841,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-60-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.5178,
+      "y": 0.5185,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-60-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.8327,
+      "y": 0.4841,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-01-ring-60-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.8822,
+      "y": 0.5185,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
     }
    ],
-   "sfx": [],
+   "sfx": [
+    {
+     "asset": "assets/sfx/stamp_thud.wav",
+     "atSec": 0.65,
+     "volume": 0.35
+    }
+   ],
    "transitionOut": {
     "preset": "cut",
     "durationSec": 0
@@ -499,7 +1100,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -806,6 +1407,52 @@
       "inSec": 0.18,
       "overshoot": 0.14
      }
+    },
+    {
+     "id": "scene-02-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.261,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5171,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.030800000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-02-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.261,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5101,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1012,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
     }
    ],
    "sfx": [
@@ -920,7 +1567,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -1041,13 +1688,12 @@
       "rotation": 0,
       "layer": 40
      },
-     "preset": "shake",
+     "preset": "none",
      "params": {
       "shape": "circle",
       "width": 0.22,
       "height": 0.22,
-      "color": "#E2553F",
-      "amplitude": 0.012
+      "color": "#E2553F"
      }
     },
     {
@@ -1188,9 +1834,954 @@
       "inSec": 0.18,
       "overshoot": 0.1
      }
+    },
+    {
+     "id": "scene-03-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.405,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5171,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.030800000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-03-btn-down-45",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.3,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5166,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1012,
+      "height": 0.02,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-03-btn-down-140",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.4,
+     "durationSec": 0.3,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5166,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1012,
+      "height": 0.02,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-03-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 0.45,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5101,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1012,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-03-btn-up-75",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.75,
+     "durationSec": 0.65,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5101,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1012,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-03-btn-up-170",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.7,
+     "durationSec": 0.705,
+     "transform": {
+      "x": 0.68,
+      "y": 0.5101,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.1012,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-03-ring-5-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5739,
+      "y": 0.5069,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-5-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5343,
+      "y": 0.5344,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-5-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.7861,
+      "y": 0.5069,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-5-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8257,
+      "y": 0.5344,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-15-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5584,
+      "y": 0.4965,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-15-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5129,
+      "y": 0.528,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-15-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8016,
+      "y": 0.4965,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-15-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8471,
+      "y": 0.528,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-25-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5739,
+      "y": 0.5069,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-25-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5343,
+      "y": 0.5344,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-25-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.7861,
+      "y": 0.5069,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-25-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8257,
+      "y": 0.5344,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-35-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5584,
+      "y": 0.4965,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-35-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5129,
+      "y": 0.528,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-35-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8016,
+      "y": 0.4965,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-35-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8471,
+      "y": 0.528,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-95-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5739,
+      "y": 0.5069,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-95-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5343,
+      "y": 0.5344,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-95-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.7861,
+      "y": 0.5069,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-95-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8257,
+      "y": 0.5344,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-105-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5584,
+      "y": 0.4965,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-105-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5129,
+      "y": 0.528,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-105-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8016,
+      "y": 0.4965,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-105-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8471,
+      "y": 0.528,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-115-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5739,
+      "y": 0.5069,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-115-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5343,
+      "y": 0.5344,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-115-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.7861,
+      "y": 0.5069,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-115-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8257,
+      "y": 0.5344,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-125-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5584,
+      "y": 0.4965,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-125-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5129,
+      "y": 0.528,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-125-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8016,
+      "y": 0.4965,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-125-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8471,
+      "y": 0.528,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-135-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.5739,
+      "y": 0.5069,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-135-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.5343,
+      "y": 0.5344,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-135-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.7861,
+      "y": 0.5069,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-03-ring-135-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.8257,
+      "y": 0.5344,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
     }
    ],
-   "sfx": [],
+   "sfx": [
+    {
+     "asset": "assets/sfx/stamp_thud.wav",
+     "atSec": 0.45,
+     "volume": 0.35
+    },
+    {
+     "asset": "assets/sfx/stamp_thud.wav",
+     "atSec": 1.4,
+     "volume": 0.35
+    }
+   ],
    "transitionOut": {
     "preset": "slide_up",
     "durationSec": 0.3
@@ -1289,7 +2880,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -1386,15 +2977,15 @@
      "startSec": 0,
      "durationSec": 2.71,
      "transform": {
-      "x": 0.274,
-      "y": 0.581,
+      "x": 0.3,
+      "y": 0.595,
       "rotation": 0,
       "layer": 50
      },
      "preset": "none",
      "loop": "wiggle",
      "params": {
-      "width": 0.21,
+      "width": 0.27,
       "talking": false,
       "poses": [
        {
@@ -1676,7 +3267,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -1878,50 +3469,6 @@
      }
     },
     {
-     "id": "scene-05-a-minute",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 3.57,
-     "transform": {
-      "x": 0.22,
-      "y": 0.565,
-      "rotation": 0,
-      "layer": 42
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.012,
-      "height": 0.068,
-      "color": "#26303F",
-      "radius": 0.004
-     }
-    },
-    {
-     "id": "scene-05-a-hour",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 3.57,
-     "transform": {
-      "x": 0.244,
-      "y": 0.584,
-      "rotation": 0,
-      "layer": 42
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.048,
-      "height": 0.012,
-      "color": "#26303F",
-      "radius": 0.004
-     }
-    },
-    {
      "id": "scene-05-a-hub",
      "type": "shape",
      "component": "Shape",
@@ -2024,50 +3571,6 @@
       "width": 0.156,
       "height": 0.156,
       "color": "#F5EEDD"
-     }
-    },
-    {
-     "id": "scene-05-b-minute",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 3.57,
-     "transform": {
-      "x": 0.7,
-      "y": 0.565,
-      "rotation": 0,
-      "layer": 42
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.012,
-      "height": 0.068,
-      "color": "#26303F",
-      "radius": 0.004
-     }
-    },
-    {
-     "id": "scene-05-b-hour",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 3.57,
-     "transform": {
-      "x": 0.724,
-      "y": 0.584,
-      "rotation": 0,
-      "layer": 42
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.048,
-      "height": 0.012,
-      "color": "#26303F",
-      "radius": 0.004
      }
     },
     {
@@ -2302,6 +3805,1954 @@
       "inSec": 0.18,
       "overshoot": 0.1
      }
+    },
+    {
+     "id": "scene-05-a-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.57,
+     "transform": {
+      "x": 0.22,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-btn-down-60",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.35,
+     "transform": {
+      "x": 0.22,
+      "y": 0.5282,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.02,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-05-a-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.22,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-05-a-btn-up-95",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 2.62,
+     "transform": {
+      "x": 0.22,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-05-a-ring-15-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-15-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-15-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-15-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-25-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-25-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-25-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-25-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-35-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-35-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-35-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-35-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-44-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-44-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-44-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-44-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-54-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.1236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-54-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.0876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-54-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.3164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-54-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.3524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-minute-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 0.95,
+     "transform": {
+      "x": 0.22,
+      "y": 0.5663,
+      "rotation": 0,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.063,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-hour-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 0.95,
+     "transform": {
+      "x": 0.24,
+      "y": 0.584,
+      "rotation": 90,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.04,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-minute-95",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.2473,
+      "y": 0.5751,
+      "rotation": 60,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.063,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-hour-95",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.2399,
+      "y": 0.585,
+      "rotation": 95,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.04,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-minute-155",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.55,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.2473,
+      "y": 0.5929,
+      "rotation": 120,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.063,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-hour-155",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.55,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.2397,
+      "y": 0.586,
+      "rotation": 100,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.04,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-minute-215",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.15,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.22,
+      "y": 0.6017,
+      "rotation": 180,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.063,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-hour-215",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.15,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.2393,
+      "y": 0.5869,
+      "rotation": 105,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.04,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-minute-275",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.75,
+     "durationSec": 0.82,
+     "transform": {
+      "x": 0.22,
+      "y": 0.6017,
+      "rotation": 180,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.063,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-hour-275",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.75,
+     "durationSec": 0.82,
+     "transform": {
+      "x": 0.2393,
+      "y": 0.5869,
+      "rotation": 105,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.04,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-a-ring-275-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.75,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-275-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.75,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-275-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.75,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-275-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.75,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-285-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.85,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-285-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.85,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-285-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.85,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-285-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.85,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-295-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-295-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-295-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-295-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.95,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-305-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-305-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-305-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-305-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.05,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-315-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-315-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-315-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-315-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-325-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.1094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-325-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.0681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-325-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-325-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.3719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-335-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.1236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-335-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.0876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-335-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.3164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-a-ring-335-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 3.35,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.3524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.57,
+     "transform": {
+      "x": 0.7,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-b-btn-down-60",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.35,
+     "transform": {
+      "x": 0.7,
+      "y": 0.5282,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.02,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-05-b-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 0.6,
+     "transform": {
+      "x": 0.7,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-05-b-btn-up-95",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.95,
+     "durationSec": 2.62,
+     "transform": {
+      "x": 0.7,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-05-b-ring-15-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6036,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-15-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5676,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-15-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.7964,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-15-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.15,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8324,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-25-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5894,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-25-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5481,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-25-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8106,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-25-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.25,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8519,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-35-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6036,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-35-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5676,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-35-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.7964,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-35-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.35,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8324,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-44-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5894,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-44-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5481,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-44-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8106,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-44-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.45,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8519,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-54-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.6036,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-54-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.5676,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-54-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.7964,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-ring-54-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.55,
+     "durationSec": 0.05,
+     "transform": {
+      "x": 0.8324,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-05-b-minute-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.57,
+     "transform": {
+      "x": 0.7,
+      "y": 0.5663,
+      "rotation": 0,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.063,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-05-b-hour-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.57,
+     "transform": {
+      "x": 0.72,
+      "y": 0.584,
+      "rotation": 90,
+      "layer": 42
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.012,
+      "height": 0.04,
+      "color": "#26303F",
+      "radius": 0.004
+     }
     }
    ],
    "sfx": [
@@ -2309,6 +5760,16 @@
      "asset": "assets/sfx/paper_rustle.wav",
      "atSec": 0.1,
      "volume": 0.5
+    },
+    {
+     "asset": "assets/sfx/stamp_thud.wav",
+     "atSec": 0.6,
+     "volume": 0.35
+    },
+    {
+     "asset": "assets/sfx/stamp_thud.wav",
+     "atSec": 0.6,
+     "volume": 0.35
     }
    ],
    "transitionOut": {
@@ -2409,7 +5870,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -2847,7 +6308,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -3211,7 +6672,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -3507,7 +6968,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -3866,6 +7327,52 @@
       "inSec": 0.18,
       "overshoot": 0.14
      }
+    },
+    {
+     "id": "scene-09-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.155,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-09-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.155,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
     }
    ],
    "sfx": [
@@ -3973,7 +7480,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -4378,6 +7885,52 @@
       "inSec": 0.18,
       "overshoot": 0.14
      }
+    },
+    {
+     "id": "scene-10-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.397,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-10-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.397,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
     }
    ],
    "sfx": [
@@ -4485,7 +8038,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -4732,14 +8285,11 @@
       "layer": 40
      },
      "preset": "none",
-     "loop": "wiggle",
      "params": {
       "shape": "circle",
       "width": 0.2,
       "height": 0.2,
-      "color": "#E2553F",
-      "periodSec": 0.6,
-      "degrees": 3
+      "color": "#E2553F"
      }
     },
     {
@@ -4846,6 +8396,2164 @@
       "width": 0.1,
       "inSec": 0.18,
       "overshoot": 0.14
+     }
+    },
+    {
+     "id": "scene-11-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.797,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-11-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.797,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
+    },
+    {
+     "id": "scene-11-ring-20-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-20-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-20-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-20-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-30-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-30-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-30-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-30-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-40-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-40-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-40-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-40-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-50-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-50-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-50-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-50-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-60-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-60-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-60-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-60-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-70-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-70-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-70-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-70-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-80-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-80-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-80-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-80-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-89-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-89-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-89-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-89-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-99-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-99-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-99-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-99-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-109-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-109-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-109-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-109-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-120-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-120-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-120-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-120-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-130-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-130-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-130-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-130-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-140-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-140-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-140-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-140-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-150-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-150-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-150-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-150-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.5,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-160-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-160-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-160-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-160-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.6,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-170-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-170-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-170-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-170-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.7,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-180-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-180-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-180-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-180-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.8,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-190-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-190-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-190-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-190-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 1.9,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-200-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-200-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-200-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-200-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.0,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-210-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-210-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-210-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-210-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.1,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-220-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-220-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-220-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-220-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.2,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-230-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-230-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-230-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-230-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.3,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-240-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.6236,
+      "y": 0.5194,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-240-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.5876,
+      "y": 0.5444,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-240-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8164,
+      "y": 0.5194,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-240-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.4,
+     "durationSec": 0.1,
+     "transform": {
+      "x": 0.8524,
+      "y": 0.5444,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-250-L40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.5,
+     "durationSec": 0.097,
+     "transform": {
+      "x": 0.6094,
+      "y": 0.5099,
+      "rotation": -40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-250-L62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.5,
+     "durationSec": 0.097,
+     "transform": {
+      "x": 0.5681,
+      "y": 0.5386,
+      "rotation": -62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-250-R40",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.5,
+     "durationSec": 0.097,
+     "transform": {
+      "x": 0.8306,
+      "y": 0.5099,
+      "rotation": 40,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
+     }
+    },
+    {
+     "id": "scene-11-ring-250-R62",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 2.5,
+     "durationSec": 0.097,
+     "transform": {
+      "x": 0.8719,
+      "y": 0.5386,
+      "rotation": 62,
+      "layer": 36
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.0075,
+      "height": 0.024,
+      "color": "#26303F",
+      "radius": 0.003
      }
     }
    ],
@@ -4954,7 +10662,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -5272,6 +10980,52 @@
       "height": 0.022,
       "color": "#26303F"
      }
+    },
+    {
+     "id": "scene-12-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.104,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-12-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.104,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
     }
    ],
    "sfx": [],
@@ -5373,7 +11127,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -5691,6 +11445,52 @@
       "height": 0.022,
       "color": "#26303F"
      }
+    },
+    {
+     "id": "scene-13-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.781,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-13-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 3.781,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
     }
    ],
    "sfx": [],
@@ -5702,7 +11502,7 @@
   {
    "id": "scene-14",
    "startSec": 38.562,
-   "durationSec": 2.795,
+   "durationSec": 2.9,
    "background": {
     "type": "solid",
     "color": "#FBE6D6"
@@ -5718,7 +11518,7 @@
      "component": "Prop",
      "asset": "assets/props/floor_strip.svg",
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.5,
       "y": 0.81,
@@ -5736,7 +11536,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.38,
       "y": 0.11,
@@ -5761,7 +11561,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.1,
       "y": 0.11,
@@ -5783,7 +11583,7 @@
      "component": "KineticText",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.41,
       "y": 0.11,
@@ -5792,7 +11592,7 @@
       "fixed": true
      },
      "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
+     "content": "BODY · HABIT MYTHS",
      "params": {
       "fontSize": 44,
       "fontWeight": 900,
@@ -5809,7 +11609,7 @@
      "component": "Caption",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.46,
       "y": 0.7,
@@ -5836,7 +11636,7 @@
      "component": "Character",
      "asset": "assets/characters/inch/inch_cheer.svg",
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.34,
       "y": 0.559,
@@ -5864,7 +11664,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.652,
       "y": 0.533,
@@ -5885,7 +11685,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.788,
       "y": 0.533,
@@ -5906,7 +11706,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.72,
       "y": 0.584,
@@ -5927,7 +11727,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.72,
       "y": 0.584,
@@ -5948,7 +11748,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.72,
       "y": 0.565,
@@ -5970,7 +11770,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.744,
       "y": 0.584,
@@ -5992,7 +11792,7 @@
      "component": "Shape",
      "asset": null,
      "startSec": 0,
-     "durationSec": 2.795,
+     "durationSec": 2.9,
      "transform": {
       "x": 0.72,
       "y": 0.584,
@@ -6013,7 +11813,7 @@
      "component": "Prop",
      "asset": "assets/ui/try_today_note.svg",
      "startSec": 0.1,
-     "durationSec": 2.695,
+     "durationSec": 2.8,
      "transform": {
       "x": 0.58,
       "y": 0.3,
@@ -6033,7 +11833,7 @@
      "component": "Prop",
      "asset": "assets/ui/check_mint.svg",
      "startSec": 0.3,
-     "durationSec": 2.495,
+     "durationSec": 2.6,
      "transform": {
       "x": 0.28,
       "y": 0.47,
@@ -6046,6 +11846,52 @@
       "inSec": 0.18,
       "overshoot": 0.14
      }
+    },
+    {
+     "id": "scene-14-btn-stem",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.9,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5287,
+      "rotation": 0,
+      "layer": 38
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.028000000000000004,
+      "height": 0.02,
+      "color": "#26303F",
+      "radius": 0.004
+     }
+    },
+    {
+     "id": "scene-14-btn-up-0",
+     "type": "shape",
+     "component": "Shape",
+     "asset": null,
+     "startSec": 0,
+     "durationSec": 2.9,
+     "transform": {
+      "x": 0.72,
+      "y": 0.5217,
+      "rotation": 0,
+      "layer": 39
+     },
+     "preset": "none",
+     "params": {
+      "shape": "rect",
+      "width": 0.09200000000000001,
+      "height": 0.03,
+      "color": "#F2B632",
+      "radius": 0.01,
+      "strokeColor": "#26303F",
+      "strokeWidth": 3
+     }
     }
    ],
    "sfx": [
@@ -6055,414 +11901,6 @@
      "volume": 0.65
     }
    ],
-   "transitionOut": {
-    "preset": "cut",
-    "durationSec": 0
-   }
-  },
-  {
-   "id": "scene-15",
-   "startSec": 41.357,
-   "durationSec": 0.603,
-   "background": {
-    "type": "solid",
-    "color": "#FBE6D6"
-   },
-   "camera": {
-    "preset": "static",
-    "params": {}
-   },
-   "elements": [
-    {
-     "id": "scene-15-floor",
-     "type": "prop",
-     "component": "Prop",
-     "asset": "assets/props/floor_strip.svg",
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.5,
-      "y": 0.81,
-      "rotation": 0,
-      "layer": 5
-     },
-     "preset": "none",
-     "params": {
-      "width": 1.0
-     }
-    },
-    {
-     "id": "scene-15-chip-back",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.38,
-      "y": 0.11,
-      "rotation": 0,
-      "layer": 86,
-      "fixed": true
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.64,
-      "height": 0.075,
-      "color": "#F5EEDD",
-      "radius": 0.02,
-      "strokeColor": "#26303F",
-      "strokeWidth": 4
-     }
-    },
-    {
-     "id": "scene-15-chip-dot",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.1,
-      "y": 0.11,
-      "rotation": 0,
-      "layer": 87,
-      "fixed": true
-     },
-     "preset": "none",
-     "params": {
-      "shape": "circle",
-      "width": 0.04,
-      "height": 0.04,
-      "color": "#F2B632"
-     }
-    },
-    {
-     "id": "scene-15-chip-text",
-     "type": "text",
-     "component": "KineticText",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.41,
-      "y": 0.11,
-      "rotation": 0,
-      "layer": 87,
-      "fixed": true
-     },
-     "preset": "none",
-     "content": "BODY \u00b7 HABIT MYTHS",
-     "params": {
-      "fontSize": 44,
-      "fontWeight": 900,
-      "color": "#26303F",
-      "strokeWidth": 0,
-      "maxWidth": 0.56,
-      "align": "left",
-      "uppercase": true
-     }
-    },
-    {
-     "id": "scene-15-cap",
-     "type": "text",
-     "component": "Caption",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.46,
-      "y": 0.7,
-      "rotation": 0,
-      "layer": 90,
-      "fixed": true
-     },
-     "preset": "none",
-     "content": "Hitting snooze may not ruin your morning.",
-     "params": {
-      "fontSize": 84,
-      "fontFamily": "Arial Black, Impact, sans-serif",
-      "color": "#F5EEDD",
-      "highlightColor": "#F2B632",
-      "strokeColor": "#26303F",
-      "strokeWidth": 10,
-      "wordsPerChunk": 2,
-      "uppercase": true
-     }
-    },
-    {
-     "id": "scene-15-inch",
-     "type": "character",
-     "component": "Character",
-     "asset": "assets/characters/inch/inch_tired.svg",
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.34,
-      "y": 0.559,
-      "rotation": 0,
-      "layer": 50
-     },
-     "preset": "none",
-     "loop": "wiggle",
-     "params": {
-      "width": 0.286,
-      "talking": false,
-      "poses": [
-       {
-        "atSec": 0,
-        "asset": "assets/characters/inch/inch_tired.svg"
-       }
-      ],
-      "periodSec": 1.8,
-      "degrees": 1.5
-     }
-    },
-    {
-     "id": "scene-15-bellL",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.618,
-      "y": 0.512,
-      "rotation": 0,
-      "layer": 38
-     },
-     "preset": "none",
-     "params": {
-      "shape": "circle",
-      "width": 0.065,
-      "height": 0.065,
-      "color": "#E2553F"
-     }
-    },
-    {
-     "id": "scene-15-bellR",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.782,
-      "y": 0.512,
-      "rotation": 0,
-      "layer": 38
-     },
-     "preset": "none",
-     "params": {
-      "shape": "circle",
-      "width": 0.065,
-      "height": 0.065,
-      "color": "#E2553F"
-     }
-    },
-    {
-     "id": "scene-15-clock",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.7,
-      "y": 0.573,
-      "rotation": 0,
-      "layer": 40
-     },
-     "preset": "none",
-     "params": {
-      "shape": "circle",
-      "width": 0.24,
-      "height": 0.24,
-      "color": "#E2553F"
-     }
-    },
-    {
-     "id": "scene-15-face",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.7,
-      "y": 0.573,
-      "rotation": 0,
-      "layer": 41
-     },
-     "preset": "none",
-     "params": {
-      "shape": "circle",
-      "width": 0.187,
-      "height": 0.187,
-      "color": "#F5EEDD"
-     }
-    },
-    {
-     "id": "scene-15-minute",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.7,
-      "y": 0.55,
-      "rotation": 0,
-      "layer": 42
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.012,
-      "height": 0.082,
-      "color": "#26303F",
-      "radius": 0.004
-     }
-    },
-    {
-     "id": "scene-15-hour",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.729,
-      "y": 0.573,
-      "rotation": 0,
-      "layer": 42
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.058,
-      "height": 0.012,
-      "color": "#26303F",
-      "radius": 0.004
-     }
-    },
-    {
-     "id": "scene-15-hub",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.7,
-      "y": 0.573,
-      "rotation": 0,
-      "layer": 43
-     },
-     "preset": "none",
-     "params": {
-      "shape": "circle",
-      "width": 0.022,
-      "height": 0.022,
-      "color": "#26303F"
-     }
-    },
-    {
-     "id": "scene-15-button",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.7,
-      "y": 0.498,
-      "rotation": 0,
-      "layer": 39
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.062,
-      "height": 0.024,
-      "color": "#F2B632",
-      "radius": 0.008,
-      "strokeColor": "#26303F",
-      "strokeWidth": 3
-     }
-    },
-    {
-     "id": "scene-15-tagb",
-     "type": "shape",
-     "component": "Shape",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.7,
-      "y": 0.4,
-      "rotation": 0,
-      "layer": 60
-     },
-     "preset": "none",
-     "params": {
-      "shape": "rect",
-      "width": 0.4,
-      "height": 0.05,
-      "color": "#F5EEDD",
-      "radius": 0.012,
-      "strokeColor": "#26303F",
-      "strokeWidth": 3
-     }
-    },
-    {
-     "id": "scene-15-tagt",
-     "type": "text",
-     "component": "KineticText",
-     "asset": null,
-     "startSec": 0,
-     "durationSec": 0.603,
-     "transform": {
-      "x": 0.7,
-      "y": 0.4,
-      "rotation": 0,
-      "layer": 61
-     },
-     "preset": "none",
-     "content": "PLANNED SNOOZE",
-     "params": {
-      "fontSize": 44,
-      "fontWeight": 900,
-      "color": "#26303F",
-      "strokeWidth": 0,
-      "maxWidth": 0.38,
-      "align": "center",
-      "uppercase": true
-     }
-    },
-    {
-     "id": "scene-15-check",
-     "type": "prop",
-     "component": "Prop",
-     "asset": "assets/ui/check_mint.svg",
-     "startSec": 0.1,
-     "durationSec": 0.503,
-     "transform": {
-      "x": 0.83,
-      "y": 0.5,
-      "rotation": 0,
-      "layer": 70
-     },
-     "preset": "pop_in",
-     "params": {
-      "width": 0.1,
-      "inSec": 0.18,
-      "overshoot": 0.14
-     }
-    }
-   ],
-   "sfx": [],
    "transitionOut": {
     "preset": "cut",
     "durationSec": 0

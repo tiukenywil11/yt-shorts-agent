@@ -3,11 +3,11 @@
  "channel": "Small Change Lab",
  "pillar": "Body",
  "series": "Habit Myths",
- "targetDurationSec": 41.96,
+ "targetDurationSec": 41.462,
  "voiceoverSec": 41.357,
- "sceneCount": 15,
+ "sceneCount": 14,
  "notes": [
-  "Body tint #FBE6D6 solid + floor_strip; chip BODY \u00b7 HABIT MYTHS; NOT MEDICAL ADVICE tag from the cite card (scene-04) to scene-13.",
+  "Body tint #FBE6D6 solid + floor_strip; chip BODY · HABIT MYTHS; NOT MEDICAL ADVICE tag from the cite card (scene-04) to scene-13.",
   "Cite card scene-04: Sundelin et al., 2023; 31 SNOOZERS; limit one lab study. Print year to be confirmed before publish (Crossref lists 2023 online).",
   "Myth before finding: Coral MYTH stamp + cross (scene-02), Mint ACTUALLY stamp + check (scene-06). Never both on one prop.",
   "Cuts inside a segment are estimated by letter count. Inter-segment gaps belong to the preceding scene.",
@@ -274,7 +274,7 @@
     "seg-06"
    ],
    "startSec": 38.562,
-   "durationSec": 2.795,
+   "durationSec": 2.9,
    "beat": "try-it-today",
    "dominantVisual": "TRY IT TODAY note slaps on; cheering Inch, ticked clock",
    "camera": "static",
@@ -285,24 +285,8 @@
     "stamp_thud.wav"
    ],
    "transitionOut": "cut",
-   "elementCount": 15
-  },
-  {
-   "id": "scene-15",
-   "segmentIds": [
-    "seg-06"
-   ],
-   "startSec": 41.357,
-   "durationSec": 0.603,
-   "beat": "loop",
-   "dominantVisual": "Loop frame: hook layout, clock now ticked with tag PLANNED SNOOZE",
-   "camera": "static",
-   "onScreenText": [
-    "PLANNED SNOOZE"
-   ],
-   "sfx": [],
-   "transitionOut": "cut",
-   "elementCount": 17
+   "elementCount": 15,
+   "endSec": null
   }
  ]
 }

@@ -1,0 +1,5139 @@
+{
+  "schemaVersion": "1.0",
+  "video": {
+    "id": "emergency-kit-payday",
+    "title": "Build an Emergency Kit, One Item per Payday",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 40.56
+  },
+  "audio": {
+    "voiceover": "voiceover.wav",
+    "music": null,
+    "voiceVolume": 1,
+    "musicVolume": 0.12
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "startSec": 0,
+      "durationSec": 1.3,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-01-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 1.3,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-01-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.3,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-01-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.3,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-01-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.3,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.3,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "In one survey,",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_neutral.svg",
+          "startSec": 0,
+          "durationSec": 1.3,
+          "transform": {
+            "x": 0.3,
+            "y": 0.575,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.27,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_neutral.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-01-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0,
+          "durationSec": 1.3,
+          "transform": {
+            "x": 0.72,
+            "y": 0.565,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.26
+          }
+        },
+        {
+          "id": "scene-01-tagb",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 1.2,
+          "transform": {
+            "x": 0.46,
+            "y": 0.4,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.5,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-tagt",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 1.2,
+          "transform": {
+            "x": 0.46,
+            "y": 0.4,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "ONE SURVEY",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.48,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-02",
+      "startSec": 1.3,
+      "durationSec": 3.515,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-02-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.515,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-02-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.515,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-02-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.515,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-02-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.515,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-02-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.515,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "only 53% of households stored three days of water.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-02-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_worry.svg",
+          "startSec": 0,
+          "durationSec": 3.515,
+          "transform": {
+            "x": 0.27,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.25,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_worry.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-02-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0,
+          "durationSec": 3.515,
+          "transform": {
+            "x": 0.74,
+            "y": 0.57,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.24
+          }
+        },
+        {
+          "id": "scene-02-stat",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 3.415,
+          "transform": {
+            "x": 0.46,
+            "y": 0.3,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "pop_in",
+          "content": "53%",
+          "params": {
+            "fontSize": 170,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.8,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-02-tagb",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 3.015,
+          "transform": {
+            "x": 0.46,
+            "y": 0.4,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.66,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-02-tagt",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 3.015,
+          "transform": {
+            "x": 0.46,
+            "y": 0.4,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "3 DAYS OF WATER",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.64,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-03",
+      "startSec": 4.815,
+      "durationSec": 2.585,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-03-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-03-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-03-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-03-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-03-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Many of us mean to build an emergency kit.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-03-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_idea.svg",
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.3,
+            "y": 0.575,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.27,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_idea.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-03-bin",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.72,
+            "y": 0.55,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.3,
+            "height": 0.17,
+            "color": "#C9A77C",
+            "radius": 0.02
+          }
+        },
+        {
+          "id": "scene-03-bin-rim",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.72,
+            "y": 0.4625,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.33,
+            "height": 0.02,
+            "color": "#26303F",
+            "radius": 0.008
+          }
+        },
+        {
+          "id": "scene-03-bin-hole",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.585,
+          "transform": {
+            "x": 0.72,
+            "y": 0.45500000000000007,
+            "rotation": 0,
+            "layer": 39
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.26,
+            "height": 0.012,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-03-tagb",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.385,
+          "transform": {
+            "x": 0.46,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.62,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-03-tagt",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.385,
+          "transform": {
+            "x": 0.46,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "EMERGENCY KIT",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.1,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-04",
+      "startSec": 7.4,
+      "durationSec": 2.913,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "camera_push",
+        "params": {
+          "amount": 0.05
+        }
+      },
+      "elements": [
+        {
+          "id": "scene-04-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-04-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-04-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Then the list feels too big, so we never start.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_worry.svg",
+          "startSec": 0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.27,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.26,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_worry.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-04-list",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.72,
+            "y": 0.43,
+            "rotation": 2,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.66,
+            "color": "#F5EEDD",
+            "radius": 0.015,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-box0",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.58,
+            "y": 0.285,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.03,
+            "height": 0.02,
+            "color": "#C9A77C",
+            "radius": 0.004,
+            "strokeColor": "#26303F",
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "scene-04-row0",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 2.913,
+          "transform": {
+            "x": 0.76,
+            "y": 0.285,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.2,
+            "height": 0.008,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-box1",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.863,
+          "transform": {
+            "x": 0.58,
+            "y": 0.33199999999999996,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.03,
+            "height": 0.02,
+            "color": "#C9A77C",
+            "radius": 0.004,
+            "strokeColor": "#26303F",
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "scene-04-row1",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.863,
+          "transform": {
+            "x": 0.76,
+            "y": 0.33199999999999996,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.188,
+            "height": 0.008,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-box2",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 2.813,
+          "transform": {
+            "x": 0.58,
+            "y": 0.379,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.03,
+            "height": 0.02,
+            "color": "#C9A77C",
+            "radius": 0.004,
+            "strokeColor": "#26303F",
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "scene-04-row2",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 2.813,
+          "transform": {
+            "x": 0.76,
+            "y": 0.379,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.17600000000000002,
+            "height": 0.008,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-box3",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.15,
+          "durationSec": 2.763,
+          "transform": {
+            "x": 0.58,
+            "y": 0.426,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.03,
+            "height": 0.02,
+            "color": "#C9A77C",
+            "radius": 0.004,
+            "strokeColor": "#26303F",
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "scene-04-row3",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.15,
+          "durationSec": 2.763,
+          "transform": {
+            "x": 0.76,
+            "y": 0.426,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.2,
+            "height": 0.008,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-box4",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.713,
+          "transform": {
+            "x": 0.58,
+            "y": 0.473,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.03,
+            "height": 0.02,
+            "color": "#C9A77C",
+            "radius": 0.004,
+            "strokeColor": "#26303F",
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "scene-04-row4",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.713,
+          "transform": {
+            "x": 0.76,
+            "y": 0.473,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.188,
+            "height": 0.008,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-box5",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.25,
+          "durationSec": 2.663,
+          "transform": {
+            "x": 0.58,
+            "y": 0.52,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.03,
+            "height": 0.02,
+            "color": "#C9A77C",
+            "radius": 0.004,
+            "strokeColor": "#26303F",
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "scene-04-row5",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.25,
+          "durationSec": 2.663,
+          "transform": {
+            "x": 0.76,
+            "y": 0.52,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.17600000000000002,
+            "height": 0.008,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-box6",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 2.613,
+          "transform": {
+            "x": 0.58,
+            "y": 0.567,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.03,
+            "height": 0.02,
+            "color": "#C9A77C",
+            "radius": 0.004,
+            "strokeColor": "#26303F",
+            "strokeWidth": 2
+          }
+        },
+        {
+          "id": "scene-04-row6",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 2.613,
+          "transform": {
+            "x": 0.76,
+            "y": 0.567,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.2,
+            "height": 0.008,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-tagb",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.413,
+          "transform": {
+            "x": 0.27,
+            "y": 0.42,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-04-tagt",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.413,
+          "transform": {
+            "x": 0.27,
+            "y": 0.42,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "TOO BIG",
+          "params": {
+            "fontSize": 48,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.38,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-04-cross",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cross_coral.svg",
+          "startSec": 1.0,
+          "durationSec": 1.913,
+          "transform": {
+            "x": 0.84,
+            "y": 0.3,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.12,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/problem_bonk.wav",
+          "atSec": 0.8,
+          "volume": 0.55
+        }
+      ],
+      "transitionOut": {
+        "preset": "slide_up",
+        "durationSec": 0.3
+      }
+    },
+    {
+      "id": "scene-05",
+      "startSec": 10.313,
+      "durationSec": 2.7,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-05-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-05-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-05-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-05-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-05-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "A 2014 survey of 572 adults",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_skeptical.svg",
+          "startSec": 0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.27,
+            "y": 0.6,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.21,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_skeptical.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-05-card",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cite_card.svg",
+          "startSec": 0.05,
+          "durationSec": 2.65,
+          "transform": {
+            "x": 0.46,
+            "y": 0.38,
+            "rotation": -2,
+            "layer": 80
+          },
+          "preset": "pop_in",
+          "exit": "fade_out",
+          "params": {
+            "width": 0.874,
+            "inSec": 0.18,
+            "overshoot": 0.14,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-05-tab",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.65,
+          "transform": {
+            "x": 0.235,
+            "y": 0.248,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "THE STUDY",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.3,
+            "align": "left",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-05-source",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.65,
+          "transform": {
+            "x": 0.46,
+            "y": 0.299,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "Hiatt et al., 2021",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 46,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": false,
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-05-f1",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.65,
+          "transform": {
+            "x": 0.46,
+            "y": 0.37,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "96% FOOD",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 88,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "outSec": 0.25,
+            "strokeColor": "#26303F"
+          }
+        },
+        {
+          "id": "scene-05-f2",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.65,
+          "transform": {
+            "x": 0.46,
+            "y": 0.43,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "53% WATER",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 88,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "outSec": 0.25,
+            "strokeColor": "#26303F"
+          }
+        },
+        {
+          "id": "scene-05-limit",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.65,
+          "transform": {
+            "x": 0.53,
+            "y": 0.488,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "self-reported 2014, n = 572",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": false,
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-05-limit-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 2.65,
+          "transform": {
+            "x": 0.12,
+            "y": 0.489,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "exit": "fade_out",
+          "params": {
+            "shape": "circle",
+            "width": 0.029,
+            "height": 0.029,
+            "color": "#E2553F",
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "outSec": 0.25
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.05,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-06",
+      "startSec": 13.013,
+      "durationSec": 3.3,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-06-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-06-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-06-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "found 96% had three days of food,",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_cheer.svg",
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.17,
+            "y": 0.6,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.21,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_cheer.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-06-track-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3000000000000003,
+          "transform": {
+            "x": 0.38,
+            "y": 0.464,
+            "rotation": 0,
+            "layer": 38
+          },
+          "params": {
+            "shape": "rect",
+            "width": 0.28,
+            "height": 0.43,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          },
+          "preset": "none"
+        },
+        {
+          "id": "scene-06-l-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3000000000000003,
+          "transform": {
+            "x": 0.74,
+            "y": 0.613,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "content": "WATER",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-track-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3000000000000003,
+          "transform": {
+            "x": 0.74,
+            "y": 0.464,
+            "rotation": 0,
+            "layer": 38
+          },
+          "params": {
+            "shape": "rect",
+            "width": 0.28,
+            "height": 0.43,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          },
+          "preset": "none"
+        },
+        {
+          "id": "scene-06-bar-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 3.2,
+          "transform": {
+            "x": 0.38,
+            "y": 0.4689,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.28,
+            "height": 0.4128,
+            "color": "#3FA37A",
+            "radius": 0.01,
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-n-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 3.0,
+          "transform": {
+            "x": 0.38,
+            "y": 0.405,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "pop_in",
+          "content": "96%",
+          "params": {
+            "fontSize": 96,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-06-chart-title",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3000000000000003,
+          "transform": {
+            "x": 0.5,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "content": "MET THE 3-DAY GUIDANCE",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.9,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-l-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 3.0,
+          "transform": {
+            "x": 0.38,
+            "y": 0.613,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "content": "FOOD",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-06-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 0.8,
+          "durationSec": 2.5,
+          "transform": {
+            "x": 0.5,
+            "y": 0.345,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-07",
+      "startSec": 16.313,
+      "durationSec": 3.68,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-07-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-07-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-07-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "but only 53% had three days of water.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_worry.svg",
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.15,
+            "y": 0.6,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.2,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_worry.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-07-track-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.38,
+            "y": 0.464,
+            "rotation": 0,
+            "layer": 38
+          },
+          "params": {
+            "shape": "rect",
+            "width": 0.28,
+            "height": 0.43,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          },
+          "preset": "none"
+        },
+        {
+          "id": "scene-07-track-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.74,
+            "y": 0.464,
+            "rotation": 0,
+            "layer": 38
+          },
+          "params": {
+            "shape": "rect",
+            "width": 0.28,
+            "height": 0.43,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          },
+          "preset": "none"
+        },
+        {
+          "id": "scene-07-bar-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.38,
+            "y": 0.4689,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.28,
+            "height": 0.4128,
+            "color": "#3FA37A",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-n-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.38,
+            "y": 0.405,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "none",
+          "content": "96%",
+          "params": {
+            "fontSize": 96,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          }
+        },
+        {
+          "id": "scene-07-chart-title",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.5,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "content": "MET THE 3-DAY GUIDANCE",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.9,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-l-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.68,
+          "transform": {
+            "x": 0.38,
+            "y": 0.613,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "content": "FOOD",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-bar-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 3.48,
+          "transform": {
+            "x": 0.74,
+            "y": 0.5209,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.28,
+            "height": 0.2279,
+            "color": "#E2553F",
+            "radius": 0.01,
+            "inSec": 0.18,
+            "overshoot": 0.1,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-n-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 3.18,
+          "transform": {
+            "x": 0.74,
+            "y": 0.507,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "pop_in",
+          "content": "53%",
+          "params": {
+            "fontSize": 96,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-07-l-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.28,
+          "transform": {
+            "x": 0.74,
+            "y": 0.613,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "content": "WATER",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/problem_bonk.wav",
+          "atSec": 0.4,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-08",
+      "startSec": 19.993,
+      "durationSec": 1.598,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-08-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-08-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-08-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-08-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-08-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-08-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-08-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Try one item per payday.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-08-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_idea.svg",
+          "startSec": 0,
+          "durationSec": 1.598,
+          "transform": {
+            "x": 0.3,
+            "y": 0.575,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.27,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_idea.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-08-big1",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 1.548,
+          "transform": {
+            "x": 0.5,
+            "y": 0.3,
+            "rotation": 0,
+            "layer": 72
+          },
+          "preset": "pop_in",
+          "content": "1 ITEM",
+          "params": {
+            "fontSize": 130,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-08-big2",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 1.298,
+          "transform": {
+            "x": 0.5,
+            "y": 0.4,
+            "rotation": 0,
+            "layer": 72
+          },
+          "preset": "pop_in",
+          "content": "PER PAYDAY",
+          "params": {
+            "fontSize": 64,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-08-coin",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.2,
+          "durationSec": 1.398,
+          "transform": {
+            "x": 0.74,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.16,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-09",
+      "startSec": 21.591,
+      "durationSec": 3.7,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-09-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-09-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-09-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-09-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-09-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-09-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-09-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "One: start with water, about a gallon per person per day.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-09-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_idea.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.29,
+            "y": 0.575,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.27,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_idea.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-09-slate",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/step_slate.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": 0,
+            "layer": 72
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-09-numeral",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": 0,
+            "layer": 73
+          },
+          "preset": "pop_in",
+          "content": "1",
+          "params": {
+            "fontSize": 220,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-09-label",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.46,
+            "y": 0.435,
+            "rotation": 0,
+            "layer": 73
+          },
+          "preset": "pop_in",
+          "content": "WATER FIRST",
+          "params": {
+            "fontSize": 46,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.84,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-09-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.76,
+            "y": 0.618,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.17
+          }
+        },
+        {
+          "id": "scene-09-galb",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 3.2,
+          "transform": {
+            "x": 0.46,
+            "y": 0.476,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.56,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-09-galt",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 3.2,
+          "transform": {
+            "x": 0.46,
+            "y": 0.476,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "1 GAL / PERSON / DAY",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.7,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-09-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.88,
+            "y": 0.53,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.09,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.3,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-10",
+      "startSec": 25.291,
+      "durationSec": 3.7,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-10-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-10-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-10-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-10-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-10-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-10-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-10-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Two: add one shelf-stable food to your next shopping list.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-10-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_idea.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.29,
+            "y": 0.575,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.27,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_idea.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-10-slate",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/step_slate.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": 0,
+            "layer": 72
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-10-numeral",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": 0,
+            "layer": 73
+          },
+          "preset": "pop_in",
+          "content": "2",
+          "params": {
+            "fontSize": 220,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-10-label",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.46,
+            "y": 0.435,
+            "rotation": 0,
+            "layer": 73
+          },
+          "preset": "pop_in",
+          "content": "ONE SHELF-STABLE FOOD",
+          "params": {
+            "fontSize": 46,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.84,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-10-list",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/checklist_note.svg",
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.76,
+            "y": 0.56,
+            "rotation": 2,
+            "layer": 20
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.3
+          }
+        },
+        {
+          "id": "scene-10-can",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.54,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.11,
+            "height": 0.09,
+            "color": "#F2B632",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-10-can-band",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.54,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 42
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.11,
+            "height": 0.04,
+            "color": "#F5EEDD"
+          }
+        },
+        {
+          "id": "scene-10-can-lid",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.7,
+          "transform": {
+            "x": 0.54,
+            "y": 0.5525,
+            "rotation": 0,
+            "layer": 42
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.116,
+            "height": 0.011,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-10-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.0,
+          "durationSec": 2.7,
+          "transform": {
+            "x": 0.86,
+            "y": 0.5,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.3,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-11",
+      "startSec": 28.991,
+      "durationSec": 2.622,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-11-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-11-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-11-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-11-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-11-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-11-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-11-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Three: keep it all in one labeled bin.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-11-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_idea.svg",
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.29,
+            "y": 0.575,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.27,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_idea.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-11-slate",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/step_slate.svg",
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": 0,
+            "layer": 72
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-11-numeral",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": 0,
+            "layer": 73
+          },
+          "preset": "pop_in",
+          "content": "3",
+          "params": {
+            "fontSize": 220,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-11-label",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.422,
+          "transform": {
+            "x": 0.46,
+            "y": 0.405,
+            "rotation": 0,
+            "layer": 73
+          },
+          "preset": "pop_in",
+          "content": "ONE LABELED BIN",
+          "params": {
+            "fontSize": 46,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.84,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-11-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.57,
+            "y": 0.625,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.13
+          }
+        },
+        {
+          "id": "scene-11-can",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.79,
+            "y": 0.522,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.11,
+            "height": 0.09,
+            "color": "#F2B632",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-11-can-band",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.79,
+            "y": 0.522,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.11,
+            "height": 0.04,
+            "color": "#F5EEDD"
+          }
+        },
+        {
+          "id": "scene-11-can-lid",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.79,
+            "y": 0.4915,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.116,
+            "height": 0.011,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-11-bin",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.78,
+            "y": 0.6,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.26,
+            "height": 0.17,
+            "color": "#C9A77C",
+            "radius": 0.02
+          }
+        },
+        {
+          "id": "scene-11-bin-rim",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.78,
+            "y": 0.552,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.29,
+            "height": 0.02,
+            "color": "#26303F",
+            "radius": 0.008
+          }
+        },
+        {
+          "id": "scene-11-bin-label",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.78,
+            "y": 0.615,
+            "rotation": 0,
+            "layer": 42
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.17,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-11-bin-label-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.622,
+          "transform": {
+            "x": 0.78,
+            "y": 0.615,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "content": "KIT",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.16,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-11-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.0,
+          "durationSec": 1.622,
+          "transform": {
+            "x": 0.9,
+            "y": 0.46,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.3,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-12",
+      "startSec": 31.613,
+      "durationSec": 2.177,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-12-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-12-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-12-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-12-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-12-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-12-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-12-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "This was one self-reported survey,",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 1,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-12-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_skeptical.svg",
+          "startSec": 0,
+          "durationSec": 2.177,
+          "transform": {
+            "x": 0.3,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.27,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_skeptical.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-12-cardb",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 2.077,
+          "transform": {
+            "x": 0.46,
+            "y": 0.34,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.84,
+            "height": 0.12,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-12-cardt",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 2.077,
+          "transform": {
+            "x": 0.46,
+            "y": 0.34,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "ONE SELF-REPORTED SURVEY",
+          "params": {
+            "fontSize": 56,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.82,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-13",
+      "startSec": 33.79,
+      "durationSec": 3.513,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-13-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-13-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-13-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-13-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-13-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-13-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-13-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "and needs vary by household. Follow your local guidance.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 1,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-13-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_skeptical.svg",
+          "startSec": 0,
+          "durationSec": 3.513,
+          "transform": {
+            "x": 0.3,
+            "y": 0.59,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.26,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_skeptical.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-13-card1b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 3.413,
+          "transform": {
+            "x": 0.46,
+            "y": 0.3,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.84,
+            "height": 0.09,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-13-card1t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 3.413,
+          "transform": {
+            "x": 0.46,
+            "y": 0.3,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "NEEDS VARY BY HOUSEHOLD",
+          "params": {
+            "fontSize": 48,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.82,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-13-card2b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 1.0,
+          "durationSec": 2.513,
+          "transform": {
+            "x": 0.46,
+            "y": 0.42,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.84,
+            "height": 0.09,
+            "color": "#F2B632",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-13-card2t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 1.0,
+          "durationSec": 2.513,
+          "transform": {
+            "x": 0.46,
+            "y": 0.42,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 48,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.82,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-14",
+      "startSec": 37.303,
+      "durationSec": 3.257,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-14-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-14-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-14-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-14-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "READY · EMERGENCY KIT",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-14-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-14-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "FOLLOW LOCAL GUIDANCE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-14-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Try it today: add one gallon of water to your shopping list.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-14-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_cheer.svg",
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.3,
+            "y": 0.559,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.286,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_cheer.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-14-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.74,
+            "y": 0.57,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.24
+          }
+        },
+        {
+          "id": "scene-14-tnote",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/try_today_note.svg",
+          "startSec": 0.1,
+          "durationSec": 3.157,
+          "transform": {
+            "x": 0.58,
+            "y": 0.3,
+            "rotation": -3,
+            "layer": 95
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.42,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-14-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 0.3,
+          "durationSec": 2.957,
+          "transform": {
+            "x": 0.88,
+            "y": 0.47,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.117,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/stamp_thud.wav",
+          "atSec": 0.1,
+          "volume": 0.65
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "In one survey, only 53% of households stored three days of water.",
+      "startSec": 0.0,
+      "durationSec": 4.565
+    },
+    {
+      "id": "seg-02",
+      "text": "Many of us mean to build an emergency kit. Then the list feels too big, so we never start.",
+      "startSec": 4.815,
+      "durationSec": 5.248
+    },
+    {
+      "id": "seg-03",
+      "text": "A 2014 survey of 572 adults found 96% had three days of food, but only 53% had three days of water.",
+      "startSec": 10.313,
+      "durationSec": 9.429
+    },
+    {
+      "id": "seg-04",
+      "text": "Try one item per payday. One: start with water, about a gallon per person per day. Two: add one shelf-stable food to your next shopping list. Three: keep it all in one labeled bin.",
+      "startSec": 19.993,
+      "durationSec": 11.371
+    },
+    {
+      "id": "seg-05",
+      "text": "This was one self-reported survey, and needs vary by household. Follow your local guidance.",
+      "startSec": 31.613,
+      "durationSec": 5.44
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: add one gallon of water to your shopping list.",
+      "startSec": 37.303,
+      "durationSec": 3.157
+    }
+  ],
+  "targetDurationSec": 40,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 40.461,
+  "timingMode": "exact"
+}

@@ -19,9 +19,8 @@ Source: Sundelin, Landry & Axelsson, Journal of Sleep Research (doi:10.1111/jsr.
 | 11 | 28.880-31.677 | fix | Step slate 3: STAND UP AT LAST ALARM; ringing clock, ticked | 3; STAND UP AT LAST ALARM | paper_rustle |
 | 12 | 31.677-34.781 | caveat | Skeptical Inch; tag ONE SMALL LAB STUDY | ONE SMALL LAB STUDY | - |
 | 13 | 34.781-38.562 | caveat | Tag MAY DIFFER FOR YOU; NOT MEDICAL ADVICE tag stays | MAY DIFFER FOR YOU | - |
-| 14 | 38.562-41.357 | try-it-today | TRY IT TODAY note slaps on; cheering Inch, ticked clock | TRY IT TODAY | stamp_thud |
-| 15 | 41.357-41.960 | loop | Loop frame: hook layout, clock now ticked with tag PLANNED SNOOZE | PLANNED SNOOZE | - |
+| 14 | 38.562-41.462 | try-it-today | TRY IT TODAY note slaps on; cheering Inch, ticked clock | TRY IT TODAY | stamp_thud |
 
-Loop: last frame returns to the hook layout (tired Inch, clock, same spots); clock now ticked with tag PLANNED SNOOZE.
+Loop: none (video ends 0.1 s after the voiceover; no trailing frame).
 Missing assets: none. Clock, bed, moon and test sheet are engine-built shapes; optional drawn upgrades listed in asset-requirements.json.
 Notes: cuts inside a segment are estimated by letter count; word timing is not available.

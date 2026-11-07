@@ -112,12 +112,12 @@ Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 ## Story and pacing
 - Target duration: **35-45 s** (hard cap 50 s). **105-135 words** (cap 150). 7 Fixes Later may run to 50 s.
 - Scene cadence: 1 beat = 1 scene; 11-15 scenes; a new visual every **2.5-4 s**; nothing static over 4.5 s except the cite card (3.5 s max).
-- Beat map (about 40 s): Hook 0-2.5 s; Problem/cost 2.5-9 s; Cite card 9-16 s; Fix steps 16-32 s (1-3 numeral slates, or 7 for 7 Fixes Later); Caveat 32-35 s; Try it today 35-40 s; loop frame in the last 0.5 s.
+- Beat map (about 40 s): Hook 0-2.5 s; Problem/cost 2.5-9 s; Cite card 9-16 s; Fix steps 16-32 s (1-3 numeral slates, or 7 for 7 Fixes Later); Caveat 32-35 s; Try it today 35-40 s, held until the voiceover ends. No trailing scene.
 - Hook rules: speech on frame 0. Sentence 1 is 12 words or fewer and states a number, cost or concrete outcome ("Waiting 24 hours can kill most impulse buys" style, only if the source supports it). The problem is visible at frame 0 (Inch + prop in the problem state, chip on screen). No title card, logo or blank frame. Alternate outcome+number hooks with myth/curiosity hooks across batch 1 and log the hook type in idea.md.
 - Development: show the problem before the fix; Coral cross, then Mint check. The fix is a concrete behaviour (when, where, how long), not a mindset.
 - Caveat (required): one sentence on who or when this doesn't apply ("If your income is irregular, start with a smaller amount." style).
 - Ending: "Try it today: [one action, 12 words or fewer, under 5 minutes]." TRY IT TODAY note `tag_slap` + stamp thud + `check_mint`. No "follow/subscribe" voice line (CTA lives in the pinned comment).
-- Loop: the final 0.5 s cuts back to the frame-0 layout (same background, Inch in the same spot and pose as the hook, prop now in the fixed state). The last line must not be a sign-off; it can lead into the first line. No fade-out, no end card, no black.
+- Ending (updated 2026-11-08): no loop frame and no silent trailing scene. The video ends about 0.1 s after the voiceover ends, on the Try it today note (as in episodes 5 and 6). The last line must not be a sign-off. No fade-out, no end card, no black. Episodes 1-4 kept their old 0.6 s loop frame (already scheduled); do not copy it.
 
 ## Guardrail language (on screen and spoken)
 - Disclaimer tags (Paper tag, Ink 40 px, layer 87, from the cite card to the end): Money `NOT FINANCIAL ADVICE`; Body `NOT MEDICAL ADVICE`; Ready `FOLLOW LOCAL GUIDANCE`. Also in the description, the pinned comment and the About page. Affiliate links are disclosed in every description.
@@ -134,7 +134,7 @@ Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 - What we keep (general techniques only): promise/number in sentence 1; a persistent topic label; numbered step slates; do/don't badges; slate beats alternating with acting beats; one recurring original character; a caveat line.
 
 ## Constraints
-- Must always: palette only; one cite card with a limit line; problem before fix; a caveat line; try-it-today + loop frame; disclaimer tag per pillar; registry-only components/presets; sources in idea.md.
+- Must always: palette only; one cite card with a limit line; problem before fix; a caveat line; try-it-today as the last scene, ending ~0.1 s after the voiceover; disclaimer tag per pillar; registry-only components/presets; sources in idea.md.
 - Must never: copy reference looks or wording; logos/brands/real UIs; humans; Coral as decoration; absolute or medical/financial promises; the same script with swapped nouns.
 - Flexible: background image vs solid tint, number of steps (1-3, or 7), Inch's held prop, hook type, night palette for sleep topics.
 
