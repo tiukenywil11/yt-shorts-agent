@@ -1,6 +1,6 @@
 # Channel Identity
 
-Status: bootstrap v1 (2026-11-06). Name and mascot locked by the creator on 2026-11-06 (Small Change Lab, Inch). Handle/domain/USPTO checks still pending before public launch. Strategy: `docs/business/MONETIZATION_STRATEGY.md`. Look, pacing and guardrail wording: `creative/style-bible.md`. Open items: `creative/open-questions.md` > Bootstrap.
+Status: bootstrap v1 (2026-11-06). Name and mascot locked by the creator on 2026-11-06 (Small Change Lab, Inch). Handle `@small_change_lab` secured on YouTube, TikTok and Instagram (`@smallchangelab` was taken). Domain and USPTO checks still pending. Strategy: `docs/business/MONETIZATION_STRATEGY.md`. Look, pacing and guardrail wording: `creative/style-bible.md`. Open items: `creative/open-questions.md` > Bootstrap.
 
 ## Name (handle, domain and USPTO checks: NOT done)
 | Option | Note |
@@ -9,7 +9,7 @@ Status: bootstrap v1 (2026-11-06). Name and mascot locked by the creator on 2026
 | Paper Habits | Says the medium and the topic. Very plain; weaker search distinctiveness; no money hint. |
 | One Fold Better | Paper-fold metaphor for "1% better". Charming, but "1% better" phrasing is crowded and the name needs explaining. |
 
-Risk: "small change" is a common phrase, so trademark/handle conflicts are likely somewhere. Check `@smallchangelab` (YouTube, TikTok, Instagram), `.com`/`.co`, and a USPTO search in classes 9, 16, 41 before committing.
+Risk: "small change" is a common phrase, so trademark/handle conflicts are likely somewhere. `@smallchangelab` was taken, so all three platforms (YouTube, TikTok, Instagram) use `@small_change_lab` (done). Still to check: `.com`/`.co` and a USPTO search in classes 9, 16, 41 before committing.
 
 ## Positioning
 "Small habits, explained by science, practiced in public."

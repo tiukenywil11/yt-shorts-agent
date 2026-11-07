@@ -49,3 +49,25 @@ About 7.0 s (scene-03; still `output/stills/scene-03_7.00s.png`). It shows Inch 
 - [ ] Audience: Not made for kids.
 - [ ] Disclaimer: none required (Mind pillar). The caveat is in the description.
 - [x] QA: `qa-report-final-v3.md` verdict PUBLISH. All polish fixes are confirmed, audio is -14.2 LUFS (see v2), and captions are in sync.
+
+## 8. Platform copy (paste as-is)
+
+### YouTube
+Title: Task Switching Costs Time: Try a 20-Minute Focus Block
+
+Description: use section 2 above. Tags: section 4. Pinned comment: section 5.
+
+### Instagram (Reels caption)
+Switching tasks has a time cost. 🐌 Try one task, a 20-minute timer you can see, your phone face down, and a "later" list.
+
+Source: Rubinstein, Meyer & Evans (2001), JEP: Human Perception and Performance, 27(4), 763-797. doi:10.1037/0096-1523.27.4.763
+Caveat: one lab study with simple tasks. Real work varies, and some jobs need quick switching.
+
+#focus #studytips #habits #productivity
+
+### TikTok
+Every task switch has a time cost. Try a 20-minute focus block: one task, a visible timer, phone face down. 🐌 Source: Rubinstein et al. (2001), doi:10.1037/0096-1523.27.4.763. One lab study, simple tasks, so real work varies.
+
+#focus #studytips #habits
+
+Both: turn on the AI-generated content label (AI narration). Pinned comment on each: section 5.

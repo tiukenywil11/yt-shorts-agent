@@ -50,3 +50,25 @@ What is one cue you could use for two minutes of the task you keep putting off: 
 - [ ] Disclaimer: none required (Mind pillar). The limits are in the narration (seg-05), on the cite card and in the description.
 - [ ] Guardrails: no "studies show", "science says", "proven" (only "not proven" as a limit), "hack" or "secret". No claim that habits cause success, that motivation is useless, or that the cue and two-minute steps were tested.
 - [ ] QA: `qa-report.md` covers the draft only (360x640). Its major items 1 and 2 (categorical stamps, steps read as study-backed) look addressed in the current storyboard and script: stamps are `MYTH?` and `MAYBE`, and seg-04 says "A practical way to try this". Confirm on the final render. Minor items 3 to 6 (retention dip, in-segment caption sync, small source line on the card, slate label wrap) are not confirmed fixed. Do a quick listen and check of the final before upload.
+
+## 8. Platform copy (paste as-is)
+
+### YouTube
+Title: Do You Need Motivation to Start?
+
+Description: use section 2 above. Tags: section 4. Pinned comment: section 5.
+
+### Instagram (Reels caption)
+Disciplined people may not be using more willpower. 🐌 In one set of studies, better self-control was linked with relying more on habits and less on effortful resisting. Try one cue and two minutes today.
+
+Source: Galla & Duckworth (2015), Journal of Personality and Social Psychology, 109(3), 508-525. doi:10.1037/pspp0000026
+Limits: linked, not proven, and mostly self-reported. The cue and two-minute steps are a practical way to try the idea and were not tested in the study.
+
+#habits #motivation #selfcontrol #discipline
+
+### TikTok
+Disciplined people may not use more willpower. 🐌 One set of studies linked better self-control with leaning on habits. Try one cue and two minutes today. Linked, not proven; mostly self-reported. The cue and two-minute steps were not tested in the study. Source: Galla & Duckworth (2015), doi:10.1037/pspp0000026
+
+#habits #motivation #selfcontrol
+
+Both: turn on the AI-generated content label (AI narration). Pinned comment on each: section 5.

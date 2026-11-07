@@ -50,3 +50,25 @@ What is the first thing you would swap out of your bedtime routine: the screen, 
 - [ ] Disclaimer: required (Body pillar). NOT MEDICAL ADVICE is on screen from the cite card to the end and is in the description. The clinician line is in the narration (seg-05) and the description.
 - [ ] Guardrails: no "studies show", "proven" or "hack". No melatonin, supplement, dosing or diagnosis claims. No sample size or minutes (abstract-level finding only).
 - [ ] QA: `qa-report.md` covers the draft only (verdict PASS WITH FIXES). The scene-12 caption wrap (major) and the minor items 2-6 are not confirmed fixed in it. Check the final render before upload.
+
+## 8. Platform copy (paste as-is)
+
+### YouTube
+Title: Could Your Bedtime Screen Keep You Up?
+
+Description: use section 2 above. Tags: section 4. Pinned comment: section 5.
+
+### Instagram (Reels caption)
+Your bedtime screen may keep you awake longer. 🐌 In one lab study, reading on a light-emitting screen before bed was linked with taking longer to fall asleep than reading a printed book. Try a 3-step wind-down.
+
+Source: Chang, Aeschbach, Duffy & Czeisler (2015), PNAS, 112(4), 1232-1237. doi:10.1073/pnas.1418490112
+NOT MEDICAL ADVICE. One lab study, so results vary. The wind-down steps are everyday habits and were not tested in the study. If you have a sleep condition, ask a clinician.
+
+#sleep #nightroutine #habits #winddown
+
+### TikTok
+Your bedtime screen may keep you awake longer. 🐌 One lab study linked reading on a glowing screen with falling asleep slower than with a paper book. Try a 3-step wind-down: dim lights, paper book, repeat. NOT MEDICAL ADVICE. One study, results vary; if you have a sleep condition, ask a clinician. Source: Chang et al. (2015), PNAS, doi:10.1073/pnas.1418490112
+
+#sleep #nightroutine #habits
+
+Both: turn on the AI-generated content label (AI narration). Pinned comment on each: section 5.

@@ -1,6 +1,6 @@
 ---
 name: publish-packager
-description: Write YouTube Shorts publishing metadata for a finished project — title options, description, hashtags, tags, pinned comment, thumbnail/cover-frame pick and upload checklist. Use after a final render passes QA, before uploading.
+description: Write YouTube Shorts, Instagram Reels and TikTok publishing metadata for a finished project — title options, description, hashtags, tags, pinned comment, per-platform captions, thumbnail/cover-frame pick and upload checklist. Use after a final render passes QA, before uploading.
 tools: Read, Grep, Glob, Write
 ---
 
@@ -21,6 +21,13 @@ You package a finished Short for upload. You write text only; you never upload, 
 5. **Pinned comment**: one line inviting a reply (a question tied to the payoff), not engagement bait.
 6. **Cover frame**: recommend a timestamp/scene from the storyboard whose frame reads clearly at small size, and say why.
 7. **Upload checklist**: file path of the final MP4, aspect/length confirmed from project files, "Altered or synthetic content" disclosure recommendation if the voice is AI-generated, made-for-kids setting (default: not made for kids), and any open QA issues.
+
+8. **Platform copy (paste as-is)**: a final section with ready-to-paste text for each platform (handle `@small_change_lab` on all three):
+   - **YouTube**: the recommended title, and a pointer to the description, tags and pinned comment above.
+   - **Instagram Reels caption**: payoff line, full source citation (authors, year, journal, DOI), the caveat/limit line and any required disclaimer, then 3–5 hashtags.
+   - **TikTok caption**: shorter than Instagram (about 300–400 characters, no separate source field), with the payoff, the source inline, the limit line, any required disclaimer, then 3 hashtags.
+   - Required disclaimers (e.g. NOT MEDICAL ADVICE for Body, NOT FINANCIAL ADVICE for Money) must appear in every platform version.
+   - End with a note to turn on the AI-generated content label on Instagram and TikTok when the voice is AI, and to reuse the pinned comment on each.
 
 ## Rules
 - Original wording only; do not copy titles from reference or trending videos.
