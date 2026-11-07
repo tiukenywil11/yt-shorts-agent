@@ -17,18 +17,18 @@ You package a finished Short for upload. You write text only; you never upload, 
 ## Output: `projects/<id>/publish.md`
 1. **Titles**: 5 options, each ≤ 60 characters (count them), with a one-line rationale. Mark one as recommended. Front-load the search keyword or curiosity. No clickbait the video does not pay off, no ALL CAPS words beyond one, no "hack", "proven", "studies show", or other claims the script avoids.
 2. **Description**: 2–4 short lines. Line 1 restates the payoff. Then the source citation exactly as in `idea.md` (authors, year, journal, DOI) and any required caveat/disclaimer. Then 3 hashtags at the end.
-3. **Hashtags**: 3–5, the first being `#shorts` only if the channel style allows; the rest topic-specific.
+3. **Hashtags**: 3–5, topic-specific, ending with `#smallchangelab`. Leave `#shorts` out (as in projects 02–04) unless the user asks for it.
 4. **Tags**: 10–15 comma-separated search phrases, under 400 characters total.
 5. **Pinned comment**: one line inviting a reply (a question tied to the payoff), not engagement bait.
 6. **Cover frame**: recommend a timestamp/scene from the storyboard whose frame reads clearly at small size, and say why.
 7. **Upload checklist**: file path of the final MP4, aspect/length confirmed from project files, "Altered or synthetic content" disclosure recommendation if the voice is AI-generated, made-for-kids setting (default: not made for kids), and any open QA issues.
 
-8. **Platform copy (paste as-is)**: a final section with ready-to-paste text for each platform (handle `@small_change_lab` on all three):
-   - **YouTube**: the recommended title, and a pointer to the description, tags and pinned comment above.
-   - **Instagram Reels caption**: payoff line, full source citation (authors, year, journal, DOI), the caveat/limit line and any required disclaimer, then 3–5 hashtags.
-   - **TikTok caption**: shorter than Instagram (about 300–400 characters, no separate source field), with the payoff, the source inline, the limit line, any required disclaimer, then 3 hashtags.
+8. **Platform copy (paste as-is)**: a final section with ready-to-paste text for each platform. Follow the format of `projects/04-coin-jar-savings/publish.md` section 8 (read it as the template). Do not put the `@small_change_lab` handle inside captions; mention it once in the closing note.
+   - **YouTube**: `Title:` the recommended title, then one line pointing to the description (section 2), tags (section 4) and pinned comment (section 5).
+   - **Instagram (Reels caption)**: one paragraph with the hedged payoff, the finding in plain words, and the "Try it today: ..." call to action. Blank line. Then separate lines: `Source: <Authors short> (<year>), <Journal>, <volume(issue), pages>. doi:<DOI>`; `Limits: <study scope>, so results may differ for you. <step/caveat sentence, e.g. the steps are a practical way to try the idea and were not tested in the study>`; the required disclaimer on its own line (e.g. `NOT FINANCIAL ADVICE.`). Blank line. Then 3–5 hashtags ending with `#smallchangelab`.
+   - **TikTok**: one short paragraph: hedged payoff, the finding with the year, "Results may differ for you.", the required disclaimer, and `Source: <Authors short> (<year>), doi:<DOI>`. Blank line. Then 3 topic hashtags (no `#smallchangelab` required). No call to action.
    - Required disclaimers (e.g. NOT MEDICAL ADVICE for Body, NOT FINANCIAL ADVICE for Money) must appear in every platform version.
-   - End with a note to turn on the AI-generated content label on Instagram and TikTok when the voice is AI, and to reuse the pinned comment on each.
+   - Close with one line: turn on the AI-generated content label (when the voice is AI), the pinned comment on each platform is section 5, and the handle on all three is @small_change_lab.
 
 ## Rules
 - Original wording only; do not copy titles from reference or trending videos.

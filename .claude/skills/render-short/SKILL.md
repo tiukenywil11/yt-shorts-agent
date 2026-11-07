@@ -12,7 +12,7 @@ Command (the only render entry point; see `docs/technical/ENGINE_CONTRACT.md`):
 The adapter validates first, renders into `projects/<id>/output/`, and runs `scripts/check_video.py` automatically. Read its PASS/FAIL lines; do not re-probe manually.
 
 1. `python scripts/scene_manifest.py projects/<id>` → lists changed scene IDs since the last render.
-2. First render of a project: `--mode stills` → `output/stills-contact-sheet.jpg`. **Gate 2:** user approves stills before any video.
+2. First render of a project: `--mode stills` → `output/stills-contact-sheet.jpg`. **Gate 2:** user approves stills before any video. Stills are ALWAYS the full set (all scenes): never pass `--scenes` with `--mode stills`, because it wipes `output/stills/` and leaves only those scenes. After any DSL fix, re-run full stills.
 3. `--mode draft` (or `preview`). For iteration, pass `--scenes <changed ids>` to render only those scenes as clips.
 4. `python scripts/make_contact_sheet.py projects/<id>/output/<file>.mp4` for the review gate. Visual QA is done by `/review-short`, not here.
 5. **Gate 3:** after preview approval, render `--mode final` once. Never overwrite an existing `output/final.mp4` without explicit instruction (the adapter refuses unless `--overwrite`).
