@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Saving on autopilot may help you save more.",
+      "startSec": 0.0,
+      "durationSec": 2.603
+    },
+    {
+      "id": "seg-02",
+      "text": "Payday arrives, the money gets spent, and whatever is left becomes your savings. Which is often nothing.",
+      "startSec": 2.853,
+      "durationSec": 5.675
+    },
+    {
+      "id": "seg-03",
+      "text": "A 2001 study followed employees at one large company. When new hires were enrolled in a savings plan automatically, participation was significantly higher than when they had to sign up themselves.",
+      "startSec": 8.777,
+      "durationSec": 12.224
+    },
+    {
+      "id": "seg-04",
+      "text": "A practical way to try this. One: pick a small amount. Two: schedule a transfer to a separate account on payday. Three: set it once, then leave it alone.",
+      "startSec": 21.251,
+      "durationSec": 9.643
+    },
+    {
+      "id": "seg-05",
+      "text": "This was one study at one company, so results may differ for you. This is not financial advice.",
+      "startSec": 31.144,
+      "durationSec": 5.76
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: schedule one tiny transfer for your next payday.",
+      "startSec": 37.154,
+      "durationSec": 3.648
+    }
+  ],
+  "targetDurationSec": 40,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 40.802,
+  "timingMode": "exact"
+}

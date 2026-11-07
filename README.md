@@ -39,12 +39,13 @@ The first render downloads Remotion's Chrome Headless Shell (~130 MB, once).
 3. `/create-short`: topic → script (Gate 1) → local TTS → timing → storyboard + `animation.json` → validation.
 4. `/build-animation` (conditional): only when the plan needs a component or preset `engine/registry.json` lacks. Delegates to `animation-engineer`. Run it before rendering.
 5. Assets: the end of `/create-short` runs `python scripts/gen_assets.py projects/<id>` (generates what it can, prints `NEEDS DRAWING` lines) and delegates those to the `asset-artist` agent, then revalidates. You can also run the script or agent by hand.
-6. `/render-short`: stills (Gate 2) → draft/preview → final (Gate 3). Technical checks are automatic.
-7. `/review-short` is the single visual QA pass on the preview or final (delegates to `qa-reviewer`).
+6. `/render-short`: stills (Gate 2) → draft/preview. Technical checks are automatic. Use it for iteration; fix issues and re-render only changed scenes.
+7. `/review-short` is the single visual QA pass on the draft/preview (delegates to `qa-reviewer`, writes `qa-report.md`). Fix any critical/major issues, then re-render.
+8. `/release-short projects/<id>` (after Gate 3 approval): renders the final once (refuses to overwrite an existing `final.mp4` unless you say so, e.g. `/release-short projects/<id> overwrite`; the old file is archived to `output/archive/` first), commits the scene manifest, then delegates to `publish-packager` to write `publish.md` (titles, description with citation and disclaimer, hashtags, captions, cover frame, upload checklist). It never uploads or posts; uploading stays manual.
 
 `/setup-renderer` is manual-only: use it to repair or change the Remotion renderer integration, not in normal production.
 
-Agent order: `reference-analyst` → `creative-director` (channel setup, once) → `storyboard-architect` → `animation-engineer` (if needed) → `asset-artist` → `qa-reviewer`.
+Agent order: `reference-analyst` → `creative-director` (channel setup, once) → `storyboard-architect` → `animation-engineer` (if needed) → `asset-artist` → `qa-reviewer` → `publish-packager` (via `/release-short`).
 
 ## Commands
 

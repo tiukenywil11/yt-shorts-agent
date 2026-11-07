@@ -1,0 +1,268 @@
+{
+ "title": "Does Automatic Saving Beat Willpower?",
+ "channel": "Small Change Lab",
+ "pillar": "Money",
+ "series": "standard",
+ "targetDurationSec": 41.4,
+ "voiceoverSec": 40.802,
+ "sceneCount": 14,
+ "notes": [
+  "Money tint #E3F1E7 solid + floor_strip; chip MONEY · AUTO-SAVE; NOT FINANCIAL ADVICE tag from cite card (scene-04) onward (large tag in scene-12 replaces the small one).",
+  "Cite card scene-04, 3.5 s: Madrian & Shea, 2001; AUTO-ENROLL, MORE JOINED; limit line one study, one company. No percentages (abstract gives none).",
+  "Problem (draining wallet, coral cross) before fix (3 steps). Coral and mint never on the same prop.",
+  "Cuts inside a segment are estimated by letter count. Inter-segment gaps belong to the preceding scene.",
+  "Loop scene-14 (0.598 s): hook layout with one coin already in the jar.",
+  "No new assets: wallet, calendar, form, arrow and tags are engine-built; goal_photo not used."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0,
+   "durationSec": 2.853,
+   "beat": "hook",
+   "dominantVisual": "Inch beside a wallet with coins and an empty jar; tag ON AUTOPILOT",
+   "camera": "static",
+   "onScreenText": [
+    "ON AUTOPILOT"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.853,
+   "durationSec": 3.047,
+   "beat": "problem",
+   "dominantVisual": "Payday calendar page with circled day; wallet full of coins",
+   "camera": "static",
+   "onScreenText": [],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 5.9,
+   "durationSec": 2.877,
+   "beat": "problem",
+   "dominantVisual": "Coins drain from wallet; coral cross; tag NOTHING LEFT",
+   "camera": "static",
+   "onScreenText": [
+    "NOTHING LEFT"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 8.777,
+   "durationSec": 4.523,
+   "beat": "cite",
+   "dominantVisual": "Cite card held 3.5 s: THE STUDY / Madrian & Shea, 2001 / AUTO-ENROLL, MORE JOINED / one study, one company",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Madrian & Shea, 2001",
+    "AUTO-ENROLL, MORE JOINED",
+    "one study, one company"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 13.3,
+   "durationSec": 3.9,
+   "beat": "evidence",
+   "dominantVisual": "Paper form SIGN UP YOURSELF with small coral cross",
+   "camera": "static",
+   "onScreenText": [
+    "SIGN UP YOURSELF"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 17.2,
+   "durationSec": 4.051,
+   "beat": "evidence",
+   "dominantVisual": "Same form already checked; mint check; tags ENROLLED AUTOMATICALLY / PARTICIPATION HIGHER",
+   "camera": "static",
+   "onScreenText": [
+    "ENROLLED AUTOMATICALLY",
+    "PARTICIPATION HIGHER"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 21.251,
+   "durationSec": 1.949,
+   "beat": "fix",
+   "dominantVisual": "Inch with an idea; tag A WAY TO TRY IT",
+   "camera": "static",
+   "onScreenText": [
+    "A WAY TO TRY IT"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 23.2,
+   "durationSec": 2.5,
+   "beat": "fix",
+   "dominantVisual": "Step slate 1 PICK A SMALL AMOUNT; one coin set aside",
+   "camera": "static",
+   "onScreenText": [
+    "PICK A SMALL AMOUNT"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 25.7,
+   "durationSec": 2.9,
+   "beat": "fix",
+   "dominantVisual": "Step slate 2 SCHEDULE ON PAYDAY; arrow and coin go to a separate jar",
+   "camera": "static",
+   "onScreenText": [
+    "SCHEDULE ON PAYDAY"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 28.6,
+   "durationSec": 2.544,
+   "beat": "fix",
+   "dominantVisual": "Step slate 3 SET IT ONCE; mint check on jar",
+   "camera": "static",
+   "onScreenText": [
+    "SET IT ONCE"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 31.144,
+   "durationSec": 3.056,
+   "beat": "caveat",
+   "dominantVisual": "Skeptical Inch beside jar; tags ONE STUDY / ONE COMPANY",
+   "camera": "static",
+   "onScreenText": [
+    "ONE STUDY",
+    "ONE COMPANY"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 34.2,
+   "durationSec": 2.954,
+   "beat": "caveat",
+   "dominantVisual": "Inch beside jar with a big NOT FINANCIAL ADVICE tag",
+   "camera": "static",
+   "onScreenText": [
+    "NOT FINANCIAL ADVICE"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 37.154,
+   "durationSec": 3.648,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on; cheering Inch, jar with coins",
+   "camera": "static",
+   "onScreenText": [],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-14",
+   "segmentIds": [],
+   "startSec": 40.802,
+   "durationSec": 0.598,
+   "beat": "loop",
+   "dominantVisual": "Loop frame: hook layout, wallet now with the payday coin already in the jar",
+   "camera": "static",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 12
+  }
+ ]
+}
