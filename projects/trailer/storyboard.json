@@ -1,0 +1,224 @@
+{
+ "title": "Small Change Lab: Channel Trailer",
+ "channel": "Small Change Lab",
+ "pillar": "Brand",
+ "series": "trailer",
+ "targetDurationSec": 28.75,
+ "voiceoverSec": 28.651,
+ "sceneCount": 11,
+ "notes": [
+  "Channel trailer: no cite card (no study claimed) and no pillar disclaimer tag. GENERAL EDUCATION / NOT FINANCIAL OR MEDICAL ADVICE tag on seg-06 scenes only.",
+  "Video ends 0.1 s after VO on the TRY IT TODAY note; no loop or trailing scene.",
+  "Segments 03, 05, 06 are split over two scenes; cuts estimated by letter count.",
+  "Pillar chips and fact/study cards are engine-built from Shape + KineticText. Drawn assets copied from earlier projects."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0,
+   "durationSec": 2.981,
+   "beat": "hook",
+   "dominantVisual": "Inch beside a 2-minute timer (the small habit prop) at frame 0; headline ONE SMALL HABIT",
+   "camera": "static",
+   "onScreenText": [
+    "ONE SMALL HABIT"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 8
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.981,
+   "durationSec": 2.874,
+   "beat": "inch-intro",
+   "dominantVisual": "Inch pops in under MEET INCH; three ascending step blocks grow beside him",
+   "camera": "static",
+   "onScreenText": [
+    "MEET INCH"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 5.855,
+   "durationSec": 2.095,
+   "beat": "promise-fact",
+   "dominantVisual": "Paper fact card pops in labelled 1 CITED FACT (no actual study card); skeptical Inch checks it",
+   "camera": "static",
+   "onScreenText": [
+    "1 CITED FACT",
+    "STUDY NAMED \u00b7 LIMITS SHOWN"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 9
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 7.95,
+   "durationSec": 1.845,
+   "beat": "promise-try",
+   "dominantVisual": "TRY IT TODAY sticky note slaps on (small preview); cheering Inch",
+   "camera": "static",
+   "onScreenText": [
+    "TRY IT TODAY",
+    "1 THING TO DO"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 8
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 9.795,
+   "durationSec": 2.32,
+   "beat": "four-pillars",
+   "dominantVisual": "Four pillar chips pop in one per word: MONEY, MIND, BODY, GETTING READY",
+   "camera": "static",
+   "onScreenText": [
+    "MONEY",
+    "MIND",
+    "BODY",
+    "GETTING READY"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 12.115,
+   "durationSec": 1.285,
+   "beat": "weekly",
+   "dominantVisual": "Seven-day row of dots fills in under NEW SHORTS / EVERY WEEK",
+   "camera": "static",
+   "onScreenText": [
+    "NEW SHORTS",
+    "EVERY WEEK"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 13.4,
+   "durationSec": 2.229,
+   "beat": "tracker",
+   "dominantVisual": "Checklist note slides in and a mint tick lands; headline FREE TRACKER",
+   "camera": "static",
+   "onScreenText": [
+    "FREE TRACKER"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 9
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 15.629,
+   "durationSec": 2.171,
+   "beat": "limits-study",
+   "dominantVisual": "Two paper cards slide in: THE STUDY and ITS LIMITS; skeptical Inch; GENERAL EDUCATION tag on",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "ITS LIMITS",
+    "GENERAL EDUCATION \u00b7 NOT FINANCIAL OR MEDICAL ADVICE"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 17.8,
+   "durationSec": 4.159,
+   "beat": "limits-disclaimer",
+   "dominantVisual": "Large GENERAL EDUCATION lettering with NOT ADVICE; calm Inch; tag stays on",
+   "camera": "static",
+   "onScreenText": [
+    "GENERAL EDUCATION",
+    "NOT ADVICE"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-07"
+   ],
+   "startSec": 21.959,
+   "durationSec": 3.407,
+   "beat": "tagline",
+   "dominantVisual": "Tagline builds in three lines, one per phrase; cheering Inch",
+   "camera": "static",
+   "onScreenText": [
+    "SMALL HABITS",
+    "EXPLAINED BY SCIENCE",
+    "PRACTICED IN PUBLIC"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 9
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-08"
+   ],
+   "startSec": 25.366,
+   "durationSec": 3.384,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on; cheering Inch beside the 2-minute timer; ends 0.1 s after VO",
+   "camera": "static",
+   "onScreenText": [
+    "TRY IT TODAY",
+    "2 MINUTES"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 10
+  }
+ ]
+}

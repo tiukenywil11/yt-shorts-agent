@@ -20,6 +20,7 @@ Input: project folder (e.g. `projects/05-pay-yourself-first`). Use `python`, not
 2. `python scripts/scene_manifest.py projects/<id> --commit`.
 3. Delegate once to `publish-packager` with the project dir. It writes `projects/<id>/publish.md` (titles, description with citation and disclaimer, hashtags, tags, pinned comment, per-platform captions, cover frame, upload checklist).
 4. Skim `publish.md`: titles must match the narration in `script.json` and avoid banned phrases in `creative/style-bible.md` (guardrail language).
+5. If the project is linked in the topic queue, run `python scripts/topic_queue.py sync`. It sets Produced once `publish.md` exists. Published is manual: only the user marks it (`topic_queue.py set <num> Published`) after uploading.
 
 ## Report (brief)
 Files created, render command (and the archive path if overwritten), output path and size, check_video result, open minor QA items, and what was not verified (the video was not watched or listened to). Never upload or post; uploading stays the user's action.

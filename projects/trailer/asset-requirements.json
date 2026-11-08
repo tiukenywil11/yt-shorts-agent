@@ -1,0 +1,128 @@
+{
+ "missing": [],
+ "note": "All drawn assets reused from the library (copied from earlier projects). Pillar chips, fact/study cards, calendar dots and step blocks are engine-built. No music.",
+ "optionalUpgrades": [
+  {
+   "id": "lightbulb",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "Mind pillar chip icon"
+  },
+  {
+   "id": "sneaker",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "Body pillar chip icon"
+  },
+  {
+   "id": "lantern",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "Ready pillar chip icon (PP source project fallout-shelter not present)"
+  },
+  {
+   "id": "calendar_page",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "Weekly beat"
+  }
+ ],
+ "assets": [
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_skeptical",
+   "type": "character",
+   "path": "assets/characters/inch/inch_skeptical.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "checklist_note",
+   "type": "prop",
+   "path": "assets/props/checklist_note.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "timer_2min",
+   "type": "prop",
+   "path": "assets/props/timer_2min.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "coin",
+   "type": "prop",
+   "path": "assets/props/coin.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  }
+ ]
+}

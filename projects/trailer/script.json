@@ -1,0 +1,60 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Big changes often start as one small habit.",
+      "startSec": 0.0,
+      "durationSec": 2.731
+    },
+    {
+      "id": "seg-02",
+      "text": "This is Inch. Slow, steady steps still add up.",
+      "startSec": 2.981,
+      "durationSec": 2.624
+    },
+    {
+      "id": "seg-03",
+      "text": "Every Short gives you one cited fact and one thing to try today.",
+      "startSec": 5.855,
+      "durationSec": 3.691
+    },
+    {
+      "id": "seg-04",
+      "text": "Money, mind, body, and getting ready.",
+      "startSec": 9.795,
+      "durationSec": 2.069
+    },
+    {
+      "id": "seg-05",
+      "text": "New Shorts every week, plus a free tracker to log your habit.",
+      "startSec": 12.115,
+      "durationSec": 3.264
+    },
+    {
+      "id": "seg-06",
+      "text": "We name each study and its limits. This is general education, not financial or medical advice.",
+      "startSec": 15.629,
+      "durationSec": 6.08
+    },
+    {
+      "id": "seg-07",
+      "text": "Small habits, explained by science, practiced in public.",
+      "startSec": 21.959,
+      "durationSec": 3.157
+    },
+    {
+      "id": "seg-08",
+      "text": "Try it today: pick one small habit, and start for two minutes.",
+      "startSec": 25.366,
+      "durationSec": 3.285
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 28.651,
+  "timingMode": "exact"
+}

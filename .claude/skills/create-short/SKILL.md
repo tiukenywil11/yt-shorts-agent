@@ -6,9 +6,11 @@ model: sonnet
 
 # Create Short
 
+Topic queue: `creative/topic-queue.csv` (managed by `python scripts/topic_queue.py`; the .xlsx is generated output, never edit it). If the user names no topic, run `python scripts/topic_queue.py next` and let the user choose; never pick one yourself. Queue sources are search findings, not citations: read the primary paper and put the exact citation in `idea.md`. Drop a topic whose caveats say the source fails.
+
 Inputs: topic or topic brief, target duration, channel style bible, and project ID. If the user gives a topic, do not block on optional preferences. Use `python` (not `python3`) on Windows.
 
-1. Run `python scripts/new_short.py <id> [--duration N]` (it creates `projects/<NN>-<id>/` with the next sequence number; use that folder in later steps) if the project does not exist.
+1. Run `python scripts/new_short.py <id> [--duration N]` (it creates `projects/<NN>-<id>/` with the next sequence number; use that folder in later steps) if the project does not exist. If the topic came from the queue, run `python scripts/topic_queue.py link <num> <folder>` then `python scripts/topic_queue.py sync`.
 2. Read only the relevant channel style bible section and `docs/creative/STORY_AND_STORYBOARD.md`.
 3. Fill `idea.md` (central idea, audience, hook, payoff).
 4. Write `script.json`: `{"segments": [{"id": "seg-01", "text": "..."}], "targetDurationSec": N, "voice": null}`. **Gate 1:** show the user the narration text only and get approval.
