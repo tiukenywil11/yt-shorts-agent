@@ -9,6 +9,7 @@ Read this index to locate knowledge. Do not read every document.
 | Create original channel identity | `docs/creative/STYLE_BIBLE_TEMPLATE.md` |
 | Analyze reference videos | `docs/creative/REFERENCE_ANALYSIS.md` |
 | Write scripts and storyboards | `docs/creative/STORY_AND_STORYBOARD.md` |
+| Episode ratings and retention findings | `creative/viral-audit-2026-11-08.md` |
 | Understand the JSON animation plan | `docs/technical/ANIMATION_DSL.md` |
 | Build reusable animation engine | `docs/technical/ENGINE_CONTRACT.md` |
 | Produce a Short end to end | `docs/production/WORKFLOW.md` |

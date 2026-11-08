@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "30 minutes of snoozing cost only about 6 minutes of sleep.",
+      "startSec": 0.0,
+      "durationSec": 3.328
+    },
+    {
+      "id": "seg-02",
+      "text": "That's what one lab study measured in 31 regular snoozers.",
+      "startSec": 3.578,
+      "durationSec": 3.563
+    },
+    {
+      "id": "seg-03",
+      "text": "We're told snoozing wrecks your morning. Here, it didn't.",
+      "startSec": 7.391,
+      "durationSec": 2.581
+    },
+    {
+      "id": "seg-04",
+      "text": "Compared with waking abruptly, the snoozers did as well or better on thinking tests right after getting up.",
+      "startSec": 10.222,
+      "durationSec": 6.165
+    },
+    {
+      "id": "seg-05",
+      "text": "So skip the guilt and make a plan. Decide your snooze window the night before, then stand up when the last alarm rings.",
+      "startSec": 16.637,
+      "durationSec": 6.677
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: decide your snooze window before bed.",
+      "startSec": 23.565,
+      "durationSec": 2.795
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 26.359,
+  "timingMode": "exact"
+}

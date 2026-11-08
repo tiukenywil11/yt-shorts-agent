@@ -1,0 +1,54 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "People with better self-control reported trying less.",
+      "startSec": 0.0,
+      "durationSec": 2.944
+    },
+    {
+      "id": "seg-02",
+      "text": "Not more willpower. More habits.",
+      "startSec": 3.194,
+      "durationSec": 1.856
+    },
+    {
+      "id": "seg-03",
+      "text": "Across six studies, mostly self-reported, people with better self-control leaned more on habits, and said they spent less effort resisting.",
+      "startSec": 5.3,
+      "durationSec": 7.744
+    },
+    {
+      "id": "seg-04",
+      "text": "That's a link, not proof.",
+      "startSec": 13.294,
+      "durationSec": 1.28
+    },
+    {
+      "id": "seg-05",
+      "text": "But if you keep waiting to feel motivated, the feeling may show up late, or never.",
+      "startSec": 14.824,
+      "durationSec": 4.288
+    },
+    {
+      "id": "seg-06",
+      "text": "So pick a fixed cue, like right after breakfast, then do just two minutes.",
+      "startSec": 19.362,
+      "durationSec": 3.819
+    },
+    {
+      "id": "seg-07",
+      "text": "Try it today: pick one cue, and do two minutes after it.",
+      "startSec": 23.431,
+      "durationSec": 3.157
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 26.588,
+  "timingMode": "exact"
+}

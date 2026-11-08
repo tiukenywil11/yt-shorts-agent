@@ -17,5 +17,6 @@ Report:
 1. Per platform: the key numbers (viewed vs swiped away, average view duration or percentage viewed, watch time, shares/saves) and what they suggest.
 2. Retention drop-offs by timestamp, mapped to scene IDs and what is on screen.
 3. Up to 3 fixes ordered by likely impact, each tagged script, visuals, audio, or packaging.
+4. Predicted vs actual: the episode's scorecard from `idea.md` or `creative/viral-audit-2026-11-08.md`, its format and hook type, and whether the numbers agree. State how many videos back any rule in `creative/style-bible.md` > Story and pacing that the data supports or contradicts.
 
 Return this in the reply only. Never edit or write anything in the project.

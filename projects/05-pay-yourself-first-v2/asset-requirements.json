@@ -1,0 +1,187 @@
+{
+ "missing": [],
+ "unsupported": [],
+ "note": "All files reused from projects/05-pay-yourself-first (ids in creative/asset-registry.json). Bars, track, forms, meter, arrows, wallet and tags are engine-built Shape/KineticText, no files. sfx_page_flip is not drawn: sfx_paper_rustle stands in. No growing-bar (height animation) component: bars enter with slide_in_up/pop_in. Triangle shapes are used for arrows (no arrow glyph dependency). No music (audio.music null).",
+ "heroObjectStates": [
+  {
+   "object": "hero bar (engine Shape rects, no file)",
+   "states": [
+    "37% Kraft bar (problem, frame 0)",
+    "86% Mint bar slid up over it, ghost line WAS 37%"
+   ],
+   "scenes": [
+    "scene-01",
+    "scene-02",
+    "scene-03"
+   ]
+  },
+  {
+   "object": "hero sign-up form (engine Shape rects, no file)",
+   "states": [
+    "blank opt-in box + Coral cross",
+    "pre-checked Mint box + check_mint"
+   ],
+   "scenes": [
+    "scene-04",
+    "scene-05"
+   ]
+  },
+  {
+   "object": "SAVE RATE meter (engine Shape rects, no file)",
+   "states": [
+    "low Coral bar + Coral down-arrow + cross (stuck default)",
+    "taller Mint bar + Mint up-arrow (raised later)"
+   ],
+   "scenes": [
+    "scene-07",
+    "scene-10"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "description": "Inch pose 'neutral'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "Inch pose 'idea'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "Inch pose 'cheer'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "inch_skeptical",
+   "type": "character",
+   "path": "assets/characters/inch/inch_skeptical.svg",
+   "description": "Inch pose 'skeptical'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "inch_tired",
+   "type": "character",
+   "path": "assets/characters/inch/inch_tired.svg",
+   "description": "Inch pose 'tired'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "inch_worry",
+   "type": "character",
+   "path": "assets/characters/inch/inch_worry.svg",
+   "description": "Inch pose 'worry'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "coin",
+   "type": "prop",
+   "path": "assets/props/coin.svg",
+   "description": "Coin.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "Floor strip.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "savings_jar",
+   "type": "prop",
+   "path": "assets/props/savings_jar.svg",
+   "description": "Savings jar.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "Mint check badge.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "Coral cross badge.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "Cite card.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "TRY IT TODAY note.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "sfx_paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "Paper rustle (also stands in for page flip).",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "sfx_problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "Frame-0 hit and problem bonk.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  },
+  {
+   "id": "sfx_stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "Try it today stamp.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library (projects/05-pay-yourself-first)"
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+  "missing": [],
+  "reused": {
+    "fromProject": "projects/03-motivation-vs-discipline",
+    "registryIds": [
+      "cite_card",
+      "try_today_note",
+      "check_mint",
+      "cross_coral",
+      "battery_low",
+      "clock_face",
+      "timer_2min",
+      "sfx_stamp_thud",
+      "sfx_problem_bonk",
+      "sfx_paper_rustle"
+    ],
+    "files": [
+      "assets/ui/{cite_card,try_today_note,check_mint,cross_coral}.svg",
+      "assets/props/{battery_low,clock_face,timer_2min}.svg",
+      "assets/sfx/{stamp_thud,problem_bonk,paper_rustle}.wav"
+    ]
+  },
+  "heroObject": {
+    "id": "willpower_vs_habit_lanes",
+    "status": "engine_built",
+    "note": "Two horizontal meters built from Shape (Paper box, Ink stroke, nub, Coral or Mint fill). No SVG needed.",
+    "states": [
+      {
+        "state": "strained effort",
+        "scenes": [
+          "scene-01"
+        ],
+        "look": "Coral fill 88% then drains to 26%, width 0.58 under TRYING LESS"
+      },
+      {
+        "state": "willpower low vs habits rising",
+        "scenes": [
+          "scene-02",
+          "scene-03",
+          "scene-04"
+        ],
+        "look": "Coral fill low and draining; Mint habit track filling to 100%"
+      },
+      {
+        "state": "habit track full (study)",
+        "scenes": [
+          "scene-05",
+          "scene-06",
+          "scene-07",
+          "scene-08"
+        ],
+        "look": "Mint 95-100%; effort meter drains to 12%"
+      },
+      {
+        "state": "motivation empty",
+        "scenes": [
+          "scene-09",
+          "scene-10"
+        ],
+        "look": "battery_low pulsing, then clock_face wiggling"
+      },
+      {
+        "state": "cue then fill",
+        "scenes": [
+          "scene-11",
+          "scene-12",
+          "scene-13"
+        ],
+        "look": "Sun cue chip, barely filled track fills to Mint 100%, check on the end"
+      }
+    ]
+  },
+  "engineBuilt": [
+    "pillar_chip",
+    "willpower/habit lanes",
+    "cue chip",
+    "coral LINKED, NOT PROOF tag"
+  ],
+  "unsupportedComponents": [],
+  "notes": [
+    "Inch is not used in this episode.",
+    "All text is KineticText/Caption."
+  ],
+  "assets": [
+    {
+      "id": "inch_skeptical",
+      "type": "character",
+      "path": "assets/characters/inch/inch_skeptical.svg",
+      "description": "inch skeptical",
+      "status": "drawn",
+      "inRegistry": true,
+      "source": "library"
+    },
+    {
+      "id": "inch_neutral",
+      "type": "character",
+      "path": "assets/characters/inch/inch_neutral.svg",
+      "description": "inch neutral",
+      "status": "drawn",
+      "inRegistry": true,
+      "source": "library"
+    },
+    {
+      "id": "inch_worry",
+      "type": "character",
+      "path": "assets/characters/inch/inch_worry.svg",
+      "description": "inch worry",
+      "status": "drawn",
+      "inRegistry": true,
+      "source": "library"
+    },
+    {
+      "id": "inch_idea",
+      "type": "character",
+      "path": "assets/characters/inch/inch_idea.svg",
+      "description": "inch idea",
+      "status": "drawn",
+      "inRegistry": true,
+      "source": "library"
+    },
+    {
+      "id": "inch_cheer",
+      "type": "character",
+      "path": "assets/characters/inch/inch_cheer.svg",
+      "description": "inch cheer",
+      "status": "drawn",
+      "inRegistry": true,
+      "source": "library"
+    },
+    {
+      "id": "floor_strip",
+      "type": "prop",
+      "path": "assets/props/floor_strip.svg",
+      "description": "Kraft floor band",
+      "status": "drawn",
+      "inRegistry": true,
+      "source": "library"
+    }
+  ]
+}

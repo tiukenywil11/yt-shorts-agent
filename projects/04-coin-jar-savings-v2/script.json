@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Same money. Two accounts instead of one. People saved more.",
+      "startSec": 0.0,
+      "durationSec": 3.349
+    },
+    {
+      "id": "seg-02",
+      "text": "When your savings sit in one pile, dipping in is easy.",
+      "startSec": 3.599,
+      "durationSec": 2.837
+    },
+    {
+      "id": "seg-03",
+      "text": "In one study of low-income consumers, splitting money set aside for a goal into two parts raised savings.",
+      "startSec": 6.687,
+      "durationSec": 6.229
+    },
+    {
+      "id": "seg-04",
+      "text": "A visible reminder of the goal helped too.",
+      "startSec": 13.166,
+      "durationSec": 2.155
+    },
+    {
+      "id": "seg-05",
+      "text": "So name one goal. Split its money into two separate parts. Then keep a picture of the goal where you'll see it.",
+      "startSec": 15.571,
+      "durationSec": 5.845
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: name one goal, and split its savings in two.",
+      "startSec": 21.666,
+      "durationSec": 3.2
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 24.866,
+  "timingMode": "exact"
+}

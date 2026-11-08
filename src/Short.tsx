@@ -3,6 +3,10 @@ import {AbsoluteFill, Freeze, Html5Audio, Sequence, interpolate, staticFile, use
 import {SceneView, toFrames} from './engine/Scene';
 import type {ShortProps} from './types';
 
+// End on the rounded end time, so adjacent scenes never share a frame.
+const sceneFrames = (scene: {startSec: number; durationSec: number}, fps: number) =>
+  toFrames(scene.startSec + scene.durationSec, fps) - toFrames(scene.startSec, fps);
+
 /**
  * Timeline: scenes play back-to-back at their exact startSec, so narration sync never shifts.
  * A non-cut transitionOut holds the outgoing scene's last frame for durationSec while the next
@@ -20,7 +24,7 @@ export const Short: React.FC<ShortProps> = ({plan}) => {
       {scenes.map((scene, i) => {
         const tr = scene.transitionOut;
         if (!scenes[i + 1] || !tr || tr.preset === 'cut' || !tr.durationSec) return null;
-        const len = toFrames(scene.durationSec, fps);
+        const len = sceneFrames(scene, fps);
         return (
           <Sequence
             key={`${scene.id}-hold`}
@@ -39,7 +43,7 @@ export const Short: React.FC<ShortProps> = ({plan}) => {
           key={scene.id}
           name={scene.id}
           from={toFrames(scene.startSec, fps)}
-          durationInFrames={Math.max(1, toFrames(scene.durationSec, fps))}
+          durationInFrames={Math.max(1, sceneFrames(scene, fps))}
         >
           <SceneView scene={scene} transitionIn={i > 0 ? scenes[i - 1].transitionOut : undefined} />
         </Sequence>

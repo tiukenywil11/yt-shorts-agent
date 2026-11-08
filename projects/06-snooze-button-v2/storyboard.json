@@ -1,0 +1,263 @@
+{
+ "title": "30 Minutes of Snoozing Cost 6 Minutes of Sleep",
+ "channel": "Small Change Lab",
+ "pillar": "Body",
+ "series": "Habit Myths",
+ "format": "Number reveal",
+ "targetDurationSec": 26.459,
+ "voiceoverSec": 26.359,
+ "sceneCount": 12,
+ "notes": [
+  "Body tint #FBE6D6 solid + floor_strip; chip BODY · HABIT MYTHS; NOT MEDICAL ADVICE tag from the cite card (scene-08) to scene-12.",
+  "Frame 0: coral alarm clock at width 0.52 ringing, '30 MIN SNOOZE' over it, '~6 MIN OF SLEEP' under it, stamp_thud at 0.0 s.",
+  "Hero object (alarm clock) states: ringing (scenes 1-5, jolts under the MYTH stamp) -> calm Sky (6-9) -> ringing again as the planned last alarm (11) -> Mint planned window with check and label (12).",
+  "Order: number (1-2), study scope (3-4), Coral MYTH stamp on 'wrecks your morning' (5), Mint ACTUALLY + SAME OR BETTER result (6-7), then cite card with limit (8).",
+  "Cite card: Sundelin et al., 2023; SAME OR BETTER; limit '31 snoozers, one lab study'. Year to be confirmed before publish (as in v1).",
+  "Cuts inside a segment are estimated by letter count; inter-segment gaps belong to the preceding scene.",
+  "No loop or trailing scene: video ends 0.1 s after the voiceover (26.459 s).",
+  "Alarm clock, ruler, dots and moon are engine-built from Shape; no new SVGs required. Optional upgrade: draw alarm_clock from the registry.",
+  "Script gap: 'If you have a condition, ask a clinician' is not in the approved narration; NOT MEDICAL ADVICE tag covers it on screen."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 1.8,
+   "beat": "hook",
+   "dominantVisual": "Huge ringing coral alarm clock (width 0.52) between '30 MIN SNOOZE' and '~6 MIN OF SLEEP'",
+   "camera": "static",
+   "onScreenText": [
+    "30 MIN SNOOZE",
+    "~6 MIN OF SLEEP"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 20
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 1.8,
+   "durationSec": 1.778,
+   "beat": "tension",
+   "dominantVisual": "Long Sun bar (30 MIN) beside a tiny Mint bar (~6 MIN); clock keeps ringing below",
+   "camera": "static",
+   "onScreenText": [
+    "30 MIN SNOOZING",
+    "~6 MIN OF SLEEP"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 3.578,
+   "durationSec": 2.022,
+   "beat": "tension",
+   "dominantVisual": "Ringing clock on a Kraft ruler under an 'ONE LAB STUDY' tag (measured, not guessed)",
+   "camera": "static",
+   "onScreenText": [
+    "ONE LAB STUDY"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 28
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 5.6,
+   "durationSec": 1.791,
+   "beat": "tension",
+   "dominantVisual": "Grid of 31 Sun dots (one per snoozer) filling in; label 31 REGULAR SNOOZERS",
+   "camera": "static",
+   "onScreenText": [
+    "31 REGULAR SNOOZERS"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 37
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 7.391,
+   "durationSec": 1.809,
+   "beat": "problem",
+   "dominantVisual": "Coral MYTH stamp; the coral clock jolts; Coral cross badge; worried Inch",
+   "camera": "static",
+   "onScreenText": [
+    "MYTH"
+   ],
+   "sfx": [
+    "stamp_thud.wav",
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03",
+    "seg-04"
+   ],
+   "startSec": 9.2,
+   "durationSec": 2.7,
+   "beat": "finding",
+   "dominantVisual": "Mint ACTUALLY stamp; clock now calm Sky with a Mint check badge",
+   "camera": "static",
+   "onScreenText": [
+    "ACTUALLY"
+   ],
+   "sfx": [
+    "stamp_thud.wav",
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 11.9,
+   "durationSec": 1.75,
+   "beat": "finding",
+   "dominantVisual": "Big Mint stat SAME OR BETTER; cheering Inch hops beside the calm clock",
+   "camera": "static",
+   "onScreenText": [
+    "SAME OR BETTER"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "slide_up",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 13.65,
+   "durationSec": 2.987,
+   "beat": "finding",
+   "dominantVisual": "Cite card: Sundelin et al., 2023; SAME OR BETTER; limit 31 snoozers, one lab study",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Sundelin et al., 2023",
+    "SAME OR BETTER",
+    "31 snoozers, one lab study",
+    "NOT MEDICAL ADVICE"
+   ],
+   "sfx": [
+    "paper_rustle.wav",
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 23
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 16.637,
+   "durationSec": 2.063,
+   "beat": "fix",
+   "dominantVisual": "Inch has an idea beside the calm clock; text SKIP THE GUILT",
+   "camera": "static",
+   "onScreenText": [
+    "SKIP THE GUILT"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 18.7,
+   "durationSec": 2.5,
+   "beat": "fix",
+   "dominantVisual": "Night before: crescent moon, checklist note with a Mint check, calm clock; text PLAN IT TONIGHT",
+   "camera": "static",
+   "onScreenText": [
+    "PLAN IT TONIGHT"
+   ],
+   "sfx": [
+    "paper_rustle.wav",
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 21
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 21.2,
+   "durationSec": 2.365,
+   "beat": "fix",
+   "dominantVisual": "Last alarm rings: clock rings coral again; Inch cheers and stands; text LAST ALARM = UP",
+   "camera": "camera_push",
+   "onScreenText": [
+    "LAST ALARM = UP"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 22
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 23.565,
+   "durationSec": 2.894,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note; clock turns Mint with a check and the label PLANNED WINDOW; cheering Inch",
+   "camera": "static",
+   "onScreenText": [
+    "TRY IT TODAY",
+    "PLANNED WINDOW"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 18
+  }
+ ]
+}

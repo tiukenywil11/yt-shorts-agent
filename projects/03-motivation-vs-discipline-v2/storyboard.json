@@ -1,0 +1,280 @@
+{
+ "title": "People With More Self-Control Reported Trying Less",
+ "channel": "Small Change Lab",
+ "pillar": "Mind",
+ "series": "Habit Myths",
+ "format": "Myth check",
+ "targetDurationSec": 26.688,
+ "voiceoverSec": 26.588,
+ "sceneCount": 13,
+ "notes": [
+  "Mind tint #E2ECF5 solid; chip MIND · HABIT MYTHS; no disclaimer tag (Mind pillar). No floor strip.",
+  "Frame 0: strained effort meter (Shape lane, width 0.58) under TRYING LESS (120 px), stamp_thud at 0.0 s; the fill drains 88% to 26% at 0.7 s.",
+  "Hero object: one two-lane stage (willpower/effort meter in Coral vs habit track in Mint) on scenes 1-8 and 11-13; scenes 9-10 swap to the motivation battery and clock.",
+  "Cite card: Galla & Duckworth, 2015; HABITS > WILLPOWER; limit 'linked, mostly self-reported'; width 0.76 at x 0.46, text inset; held 2.4 s.",
+  "The 7.744 s finding narration is split over scenes 5-7 (2.4, 3.0, 2.594 s); cuts estimated by letter count.",
+  "Inter-segment gaps belong to the preceding scene. No loop or trailing scene: video ends 0.1 s after the voiceover (26.688 s).",
+  "Captions carry the narration chunk of each scene at y 0.70; no stage item below y 0.64."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 1.7,
+   "beat": "hook",
+   "dominantVisual": "Hero effort meter (width 0.58) drains from strained 88% to 26% under a huge TRYING LESS",
+   "camera": "static",
+   "onScreenText": [
+    "TRYING LESS",
+    "WILLPOWER EFFORT",
+    "BETTER SELF-CONTROL"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 1.7,
+   "durationSec": 1.494,
+   "beat": "tension",
+   "dominantVisual": "Two lanes: willpower meter stays low, Mint habit track fills",
+   "camera": "static",
+   "onScreenText": [
+    "BETTER SELF-CONTROL",
+    "WILLPOWER USED",
+    "HABITS"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 3.194,
+   "durationSec": 1.106,
+   "beat": "tension",
+   "dominantVisual": "Willpower meter drains under the word WILLPOWER; Coral cross pops beside it",
+   "camera": "static",
+   "onScreenText": [
+    "WILLPOWER",
+    "EFFORT TO RESIST"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 4.3,
+   "durationSec": 1.0,
+   "beat": "tension",
+   "dominantVisual": "Habit track fills to 100% under the word HABITS; Mint check pops beside it",
+   "camera": "static",
+   "onScreenText": [
+    "HABITS",
+    "HABIT TRACK"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 5.3,
+   "durationSec": 2.4,
+   "beat": "finding",
+   "dominantVisual": "Cite card (width 0.76, x 0.46) with HABITS > WILLPOWER first, full Mint habit track below",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Galla & Duckworth, 2015",
+    "HABITS > WILLPOWER",
+    "linked, mostly self-reported",
+    "HABIT TRACK"
+   ],
+   "sfx": [
+    "paper_rustle.wav",
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 7.7,
+   "durationSec": 3.0,
+   "beat": "finding",
+   "dominantVisual": "Habit track fills 35% to 95% above a low willpower meter",
+   "camera": "static",
+   "onScreenText": [
+    "LEANED ON HABITS",
+    "HABITS",
+    "WILLPOWER USED"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 10.7,
+   "durationSec": 2.594,
+   "beat": "finding",
+   "dominantVisual": "Effort-resisting meter drains 60% to 12% above the full habit track",
+   "camera": "static",
+   "onScreenText": [
+    "LESS EFFORT",
+    "EFFORT RESISTING",
+    "HABITS"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 13.294,
+   "durationSec": 1.53,
+   "beat": "caveat",
+   "dominantVisual": "Same two lanes (low effort, full habits) with a Coral LINKED, NOT PROOF tag on the habit lane",
+   "camera": "static",
+   "onScreenText": [
+    "A LINK",
+    "LINKED, NOT PROOF",
+    "WILLPOWER USED",
+    "HABITS"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 14.824,
+   "durationSec": 2.176,
+   "beat": "fix-setup",
+   "dominantVisual": "Paper battery_low pulses under MOTIVATION",
+   "camera": "static",
+   "onScreenText": [
+    "MOTIVATION",
+    "WAITING..."
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 7
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 17.0,
+   "durationSec": 2.362,
+   "beat": "fix-setup",
+   "dominantVisual": "Large clock_face wiggles under LATE OR NEVER",
+   "camera": "static",
+   "onScreenText": [
+    "LATE OR NEVER",
+    "MOTIVATION SHOWS UP"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 7
+  },
+  {
+   "id": "scene-11",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 19.362,
+   "durationSec": 2.538,
+   "beat": "fix",
+   "dominantVisual": "Sun cue chip AFTER BREAKFAST points down at a barely filled habit track",
+   "camera": "static",
+   "onScreenText": [
+    "FIXED CUE",
+    "AFTER BREAKFAST",
+    "HABIT TRACK"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-12",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 21.9,
+   "durationSec": 1.531,
+   "beat": "fix",
+   "dominantVisual": "timer_2min pulses over a habit track that fills",
+   "camera": "static",
+   "onScreenText": [
+    "JUST 2 MINUTES"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-13",
+   "segmentIds": [
+    "seg-07"
+   ],
+   "startSec": 23.431,
+   "durationSec": 3.257,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on above the full Mint habit track; check pops at 1.0 s",
+   "camera": "static",
+   "onScreenText": [
+    "CUE + 2 MIN"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 10
+  }
+ ]
+}

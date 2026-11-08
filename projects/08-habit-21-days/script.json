@@ -1,0 +1,54 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Forget 21 days. One study estimated habits take 18 to 254.",
+      "startSec": 0.0,
+      "durationSec": 5.333
+    },
+    {
+      "id": "seg-02",
+      "text": "96 volunteers repeated one daily behaviour for 12 weeks, and rated how automatic it felt.",
+      "startSec": 5.583,
+      "durationSec": 5.995
+    },
+    {
+      "id": "seg-03",
+      "text": "Then a model estimated when each person would level off. The spread was huge.",
+      "startSec": 11.828,
+      "durationSec": 4.288
+    },
+    {
+      "id": "seg-04",
+      "text": "So if it still feels hard on day 22, you're not failing.",
+      "startSec": 16.366,
+      "durationSec": 3.115
+    },
+    {
+      "id": "seg-05",
+      "text": "And missing one day did not materially affect the habit.",
+      "startSec": 19.731,
+      "durationSec": 2.944
+    },
+    {
+      "id": "seg-06",
+      "text": "Pick one action, tie it to the same moment each day, and don't judge it at three weeks.",
+      "startSec": 22.925,
+      "durationSec": 4.629
+    },
+    {
+      "id": "seg-07",
+      "text": "Try it today: pick one habit, and mark day one.",
+      "startSec": 27.804,
+      "durationSec": 2.731
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 30.535,
+  "timingMode": "exact"
+}

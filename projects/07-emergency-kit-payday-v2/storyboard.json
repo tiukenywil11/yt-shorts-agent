@@ -1,0 +1,187 @@
+{
+ "format": "Head-to-head",
+ "durationSec": 27.803,
+ "voiceoverSec": 27.703,
+ "scenes": [
+  {
+   "id": "scene-01",
+   "startSec": 0,
+   "durationSec": 1.9,
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "purpose": "hook",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Water bar (53%, Coral, hero) beside food bar (96%, Mint), both full-stage at frame 0",
+   "onScreenText": "96%; 53%; FOOD; WATER",
+   "caption": "Nearly everyone had food for three days.",
+   "sfx": [
+    "problem_bonk"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-02",
+   "startSec": 1.9,
+   "durationSec": 1.87,
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "purpose": "problem",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Hero water bar shakes; Coral cross lands on it",
+   "onScreenText": "(cross)",
+   "caption": "Barely half had water.",
+   "sfx": [
+    "problem_bonk"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-03",
+   "startSec": 3.77,
+   "durationSec": 3.5,
+   "narrationSegmentIds": [
+    "seg-02"
+   ],
+   "purpose": "cite",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Cite card: results first (96% FOOD, 53% WATER), then Hiatt et al., 2021, then limit; Inch skeptical; FOLLOW LOCAL GUIDANCE tag from here",
+   "onScreenText": "THE STUDY; 96% FOOD; 53% WATER; Hiatt et al., 2021; self-reported, n = 572",
+   "caption": "In one survey of 572 adults,",
+   "sfx": [
+    "paper_rustle"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-04",
+   "startSec": 7.27,
+   "durationSec": 3.299,
+   "narrationSegmentIds": [
+    "seg-02"
+   ],
+   "purpose": "evidence",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Same two bars; Coral outline marks the empty part of the water bar",
+   "onScreenText": "96%; 53%; THE GAP",
+   "caption": "it was 96% for food, and 53% for water.",
+   "sfx": [
+    "problem_bonk"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-05",
+   "startSec": 10.569,
+   "durationSec": 3.45,
+   "narrationSegmentIds": [
+    "seg-03"
+   ],
+   "purpose": "finding",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Left: cans bounce into a pile. Right: the water bar becomes the jug",
+   "onScreenText": "FOOD: BY ACCIDENT; WATER: A CHOICE",
+   "caption": "You can stock food by accident. Water, you have to choose.",
+   "sfx": [
+    "paper_rustle"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-06",
+   "startSec": 14.019,
+   "durationSec": 2.618,
+   "narrationSegmentIds": [
+    "seg-04"
+   ],
+   "purpose": "fix-intro",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Inch with idea; one jug floats over an empty bin (no checklist beat)",
+   "onScreenText": "START SMALL",
+   "caption": "So skip the giant kit list and start small.",
+   "sfx": [],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-07",
+   "startSec": 16.637,
+   "durationSec": 3.163,
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "purpose": "fix",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Hero jug large and centred, tick",
+   "onScreenText": "1 GAL / PERSON / DAY",
+   "caption": "Start with water, at least a gallon per person per day.",
+   "sfx": [
+    "paper_rustle"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-08",
+   "startSec": 19.8,
+   "durationSec": 2.6,
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "purpose": "fix",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Jug plus coin-topped can",
+   "onScreenText": "NEXT PAYDAY; +; 1 SHELF-STABLE FOOD",
+   "caption": "Next payday, add one shelf-stable food.",
+   "sfx": [
+    "paper_rustle"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-09",
+   "startSec": 22.4,
+   "durationSec": 2.146,
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "purpose": "fix",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "Jug and can drop into the KIT bin, tick",
+   "onScreenText": "KIT",
+   "caption": "Keep it all in one labeled bin.",
+   "sfx": [
+    "paper_rustle"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-10",
+   "startSec": 24.546,
+   "durationSec": 3.257,
+   "narrationSegmentIds": [
+    "seg-06"
+   ],
+   "purpose": "try-it-today",
+   "background": "bg_tint_ready (#EFE2C9)",
+   "visual": "TRY IT TODAY note slaps on; cheering Inch beside the ticked jug; holds to voiceover end + 0.1 s",
+   "onScreenText": "TRY IT TODAY",
+   "caption": "Try it today: add one gallon of water to your shopping list.",
+   "sfx": [
+    "stamp_thud"
+   ],
+   "camera": "static",
+   "transitionOut": "cut"
+  }
+ ],
+ "targetDurationSec": 30,
+ "loop": null
+}

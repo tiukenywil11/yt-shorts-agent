@@ -1,0 +1,163 @@
+{
+ "missing": [],
+ "note": "No new drawing needed. Bars, cans, bin, pills are engine-built from Shape/KineticText. No music (audio.music null).",
+ "heroObject": {
+  "id": "water_bar_to_jug",
+  "states": [
+   {
+    "scenes": "1",
+    "state": "half-empty Coral bar, 53%, width 0.45 (problem)",
+    "build": "Shape"
+   },
+   {
+    "scenes": "2",
+    "state": "bar shakes, Coral cross lands on it",
+    "build": "Shape + cross_coral"
+   },
+   {
+    "scenes": "4",
+    "state": "empty part outlined, THE GAP",
+    "build": "Shape"
+   },
+   {
+    "scenes": "5",
+    "state": "bar becomes water_jug",
+    "build": "water_jug"
+   },
+   {
+    "scenes": "7",
+    "state": "jug large with tick and 1 GAL tag",
+    "build": "water_jug + check_mint"
+   },
+   {
+    "scenes": "9",
+    "state": "jug inside the KIT bin",
+    "build": "water_jug + engine bin"
+   },
+   {
+    "scenes": "10",
+    "state": "jug beside cheering Inch, ticked",
+    "build": "water_jug + check_mint"
+   }
+  ]
+ },
+ "assets": [
+  {
+   "id": "inch_skeptical",
+   "type": "character",
+   "path": "assets/characters/inch/inch_skeptical.svg",
+   "description": "inch skeptical",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "inch idea",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "inch cheer",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "water_jug",
+   "type": "prop",
+   "path": "assets/props/water_jug.svg",
+   "description": "Hero object end state: jug (scenes 5-10)",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "coin",
+   "type": "prop",
+   "path": "assets/props/coin.svg",
+   "description": "payday beat",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "floor",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "ticks",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "cross on water bar",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "cite card",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "ending note",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "sfx_problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "problem_bonk",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "sfx_paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "paper_rustle",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  },
+  {
+   "id": "sfx_stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "stamp_thud",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "copied from projects/07-emergency-kit-payday"
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "format": "Myth check",
+ "hookType": "myth + number",
+ "pillar": "Mind",
+ "heroObject": "day track (range bar 18 to 254)",
+ "targetDurationSec": 30.635,
+ "disclaimerTag": null,
+ "citeCard": {
+  "source": "Lally et al., 2010",
+  "finding": "18 TO 254 DAYS",
+  "limit": "model estimate, 39 good fits"
+ },
+ "scenes": [
+  {
+   "id": "scene-01",
+   "startSec": 0,
+   "durationSec": 2.33,
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "purpose": "Hook: myth stamped on frame 0",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip",
+    "myth_stamp"
+   ],
+   "actions": "Paper calendar 21 DAYS (width 0.52) gets Coral MYTH stamp on 'days'; Inch skeptical",
+   "camera": "static",
+   "onScreenText": "21 DAYS / MYTH",
+   "sfx": [
+    "problem_bonk@0.0",
+    "stamp_thud@1.0"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-02",
+   "startSec": 2.33,
+   "durationSec": 2.22,
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "purpose": "Tension: the myth range is a sliver",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "cross_coral",
+    "floor_strip"
+   ],
+   "actions": "Empty day track appears; Sun sliver to day 21 with Coral cross",
+   "camera": "static",
+   "onScreenText": "21 / DAYS",
+   "sfx": [
+    "problem_bonk@0.9"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-03",
+   "startSec": 4.55,
+   "durationSec": 2.675,
+   "narrationSegmentIds": [
+    "seg-01",
+    "seg-02"
+   ],
+   "purpose": "Result: the track stretches to 18 to 254",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Range bar slides out from 18 to 254; 96 VOLUNTEERS tag",
+   "camera": "camera_push",
+   "onScreenText": "18 / 254 / 96 VOLUNTEERS",
+   "sfx": [
+    "paper_rustle@0.45"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-04",
+   "startSec": 7.225,
+   "durationSec": 2.215,
+   "narrationSegmentIds": [
+    "seg-02"
+   ],
+   "purpose": "Method: one daily behaviour, 12 weeks",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "12 cells fill one by one under the track",
+   "camera": "static",
+   "onScreenText": "12 WEEKS",
+   "sfx": [],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-05",
+   "startSec": 9.44,
+   "durationSec": 2.388,
+   "narrationSegmentIds": [
+    "seg-02"
+   ],
+   "purpose": "Method: rated how automatic it felt",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Four bars rise as Inch has an idea",
+   "camera": "static",
+   "onScreenText": "HOW AUTOMATIC",
+   "sfx": [],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-06",
+   "startSec": 11.828,
+   "durationSec": 1.872,
+   "narrationSegmentIds": [
+    "seg-03"
+   ],
+   "purpose": "Finding: each person levels off on a different day",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Six dots land at different points along the range bar",
+   "camera": "static",
+   "onScreenText": "WHEN EACH PERSON LEVELS OFF",
+   "sfx": [],
+   "transitionOut": "slide_up"
+  },
+  {
+   "id": "scene-07",
+   "startSec": 13.7,
+   "durationSec": 2.666,
+   "narrationSegmentIds": [
+    "seg-03"
+   ],
+   "purpose": "Cite card: result first, then study details",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "cite_card",
+    "floor_strip"
+   ],
+   "actions": "Cite card: 18 TO 254 DAYS, Lally et al., 2010, limit model estimate, 39 good fits",
+   "camera": "static",
+   "onScreenText": "THE STUDY / Lally et al., 2010 / 18 TO 254 DAYS / model estimate, 39 good fits",
+   "sfx": [
+    "paper_rustle@0.05"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-08",
+   "startSec": 16.366,
+   "durationSec": 2.004,
+   "narrationSegmentIds": [
+    "seg-04"
+   ],
+   "purpose": "Reassurance setup: day 22 still hard",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Inch worry; DAY 22 flag drops onto the left end of the long track",
+   "camera": "camera_push",
+   "onScreenText": "DAY 22",
+   "sfx": [
+    "stamp_thud@1.5"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-09",
+   "startSec": 18.37,
+   "durationSec": 1.361,
+   "narrationSegmentIds": [
+    "seg-04"
+   ],
+   "purpose": "Relief: you're not failing",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "check_mint",
+    "floor_strip"
+   ],
+   "actions": "Inch switches worry to cheer; Mint check beside the DAY 22 flag",
+   "camera": "static",
+   "onScreenText": "DAY 22",
+   "sfx": [
+    "paper_rustle@0.2"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-10",
+   "startSec": 19.731,
+   "durationSec": 3.194,
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "purpose": "Finding: one missed day does not derail",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Cell 4 goes blank; later cells keep filling Sun",
+   "camera": "static",
+   "onScreenText": "none",
+   "sfx": [
+    "problem_bonk@0.85"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-11",
+   "startSec": 22.925,
+   "durationSec": 2.855,
+   "narrationSegmentIds": [
+    "seg-06"
+   ],
+   "purpose": "Fix: one action tied to the same moment",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "check_mint",
+    "checklist_note",
+    "clock_face",
+    "floor_strip"
+   ],
+   "actions": "Checklist note ticked, linked to the clock",
+   "camera": "static",
+   "onScreenText": "none",
+   "sfx": [
+    "paper_rustle@0.05",
+    "paper_rustle@1.1"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-12",
+   "startSec": 25.78,
+   "durationSec": 2.024,
+   "narrationSegmentIds": [
+    "seg-06"
+   ],
+   "purpose": "Fix: don't judge at three weeks",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "cross_coral",
+    "floor_strip"
+   ],
+   "actions": "Day-21 tick on the track with a Coral cross; the range runs far right",
+   "camera": "static",
+   "onScreenText": "21",
+   "sfx": [
+    "problem_bonk@0.9"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-13",
+   "startSec": 27.804,
+   "durationSec": 2.831,
+   "narrationSegmentIds": [
+    "seg-07"
+   ],
+   "purpose": "Try it today: mark day one",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "check_mint",
+    "floor_strip",
+    "try_today_note"
+   ],
+   "actions": "TRY IT TODAY note slaps in; first cell fills Sun with Mint check and confetti",
+   "camera": "static",
+   "onScreenText": "TRY IT TODAY / DAY 1",
+   "sfx": [
+    "stamp_thud@0.05",
+    "paper_rustle@1.5"
+   ],
+   "transitionOut": "cut"
+  }
+ ]
+}

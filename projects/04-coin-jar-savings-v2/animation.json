@@ -1,0 +1,4307 @@
+{
+  "schemaVersion": "1.0",
+  "video": {
+    "id": "coin-jar-savings-v2",
+    "title": "Why Two Accounts Can Beat One",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 24.966
+  },
+  "audio": {
+    "voiceover": "voiceover.wav",
+    "music": null,
+    "voiceVolume": 1,
+    "musicVolume": 0.12
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "startSec": 0.0,
+      "durationSec": 3.599,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-01-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-01-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-01-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-01-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Same money. Two accounts instead of one. People saved more.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-jar-one",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 1.1,
+          "transform": {
+            "x": 0.46,
+            "y": 0.4926,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.48
+          }
+        },
+        {
+          "id": "scene-01-jar-one-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 1.1,
+          "transform": {
+            "x": 0.3502,
+            "y": 0.603,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1291
+          }
+        },
+        {
+          "id": "scene-01-jar-one-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 1.1,
+          "transform": {
+            "x": 0.46,
+            "y": 0.603,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1291
+          }
+        },
+        {
+          "id": "scene-01-jar-one-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 1.1,
+          "transform": {
+            "x": 0.5698,
+            "y": 0.603,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1291
+          }
+        },
+        {
+          "id": "scene-01-jar-a",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.27,
+            "y": 0.5313,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.37,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-a-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.1854,
+            "y": 0.6162,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-a-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.27,
+            "y": 0.6162,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-a-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.3546,
+            "y": 0.6162,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-a-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.1854,
+            "y": 0.5686,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-a-c4",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.27,
+            "y": 0.5686,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-a-c5",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.8,
+          "durationSec": 1.799,
+          "transform": {
+            "x": 0.3546,
+            "y": 0.5686,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-b",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.65,
+            "y": 0.5313,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.37,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-b-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.5654,
+            "y": 0.6162,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-b-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.65,
+            "y": 0.6162,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-b-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.7346,
+            "y": 0.6162,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-b-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.5654,
+            "y": 0.5686,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-b-c4",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.65,
+            "y": 0.5686,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-jar-b-c5",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 2.1,
+          "durationSec": 1.499,
+          "transform": {
+            "x": 0.7346,
+            "y": 0.5686,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-tag-one-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 1.1,
+          "transform": {
+            "x": 0.46,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.34,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-01-tag-one-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 1.1,
+          "transform": {
+            "x": 0.46,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "none",
+          "content": "ONE PILE",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.32,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-tag-two-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.46,
+            "y": 0.365,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.36,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-01-tag-two-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 1.1,
+          "durationSec": 2.499,
+          "transform": {
+            "x": 0.46,
+            "y": 0.365,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "pop_in",
+          "content": "TWO PARTS",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.34,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/stamp_thud.wav",
+          "atSec": 0.0,
+          "volume": 0.6
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-02",
+      "startSec": 3.599,
+      "durationSec": 1.701,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-02-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-02-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-02-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-02-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-02-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "When your savings sit in one pile,",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-02-jar-one",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.46,
+            "y": 0.4927,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.48
+          }
+        },
+        {
+          "id": "scene-02-jar-one-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.3502,
+            "y": 0.603,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1291
+          }
+        },
+        {
+          "id": "scene-02-jar-one-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.46,
+            "y": 0.603,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1291
+          }
+        },
+        {
+          "id": "scene-02-jar-one-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.5698,
+            "y": 0.603,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1291
+          }
+        },
+        {
+          "id": "scene-02-tag-one-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.46,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.34,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-02-tag-one-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 1.701,
+          "transform": {
+            "x": 0.46,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "none",
+          "content": "ONE PILE",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.32,
+            "align": "center",
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-03",
+      "startSec": 5.3,
+      "durationSec": 1.387,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-03-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 1.387,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-03-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.387,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-03-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.387,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-03-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.387,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-03-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.387,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "dipping in is easy.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-03-jar-one",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 1.387,
+          "transform": {
+            "x": 0.46,
+            "y": 0.4927,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.48
+          }
+        },
+        {
+          "id": "scene-03-jar-one-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 1.387,
+          "transform": {
+            "x": 0.46,
+            "y": 0.603,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1291
+          }
+        },
+        {
+          "id": "scene-03-leak0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.05,
+          "durationSec": 1.0,
+          "transform": {
+            "x": 0.4,
+            "y": 0.27,
+            "rotation": 12,
+            "layer": 45
+          },
+          "preset": "slide_in_up",
+          "exit": "fade_out",
+          "params": {
+            "width": 0.129,
+            "inSec": 0.4,
+            "distance": 0.14,
+            "outSec": 0.3
+          }
+        },
+        {
+          "id": "scene-03-leak1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.3,
+          "durationSec": 1.0,
+          "transform": {
+            "x": 0.54,
+            "y": 0.27,
+            "rotation": 12,
+            "layer": 45
+          },
+          "preset": "slide_in_up",
+          "exit": "fade_out",
+          "params": {
+            "width": 0.129,
+            "inSec": 0.4,
+            "distance": 0.14,
+            "outSec": 0.3
+          }
+        },
+        {
+          "id": "scene-03-cross",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cross_coral.svg",
+          "startSec": 0.1,
+          "durationSec": 1.287,
+          "transform": {
+            "x": 0.78,
+            "y": 0.34,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/problem_bonk.wav",
+          "atSec": 0.05,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "slide_up",
+        "durationSec": 0.3
+      }
+    },
+    {
+      "id": "scene-04",
+      "startSec": 6.687,
+      "durationSec": 3.5,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-04-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-04-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-04-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "NOT FINANCIAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "In one study of low-income consumers, splitting money set aside",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-card",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cite_card.svg",
+          "startSec": 0.05,
+          "durationSec": 3.4,
+          "transform": {
+            "x": 0.46,
+            "y": 0.36,
+            "rotation": -2,
+            "layer": 80
+          },
+          "preset": "pop_in",
+          "exit": "fade_out",
+          "params": {
+            "width": 0.76,
+            "inSec": 0.3,
+            "overshoot": 0.06,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-04-tab",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 3.4,
+          "transform": {
+            "x": 0.2643,
+            "y": 0.2452,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "THE STUDY",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.2609,
+            "align": "left",
+            "uppercase": true,
+            "inSec": 0.3,
+            "overshoot": 0.06,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-04-source",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 3.4,
+          "transform": {
+            "x": 0.46,
+            "y": 0.2904,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "Soman & Cheema, 2011",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 46,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.68,
+            "align": "center",
+            "uppercase": false,
+            "inSec": 0.3,
+            "overshoot": 0.06,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-04-finding",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 3.4,
+          "transform": {
+            "x": 0.46,
+            "y": 0.36,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "SPLIT IN TWO, SAVED MORE",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 64,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6783,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.3,
+            "overshoot": 0.06,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-04-limit",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 3.4,
+          "transform": {
+            "x": 0.5122,
+            "y": 0.44,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "one study, low-income consumers",
+          "exit": "fade_out",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.5739,
+            "align": "center",
+            "uppercase": false,
+            "inSec": 0.3,
+            "overshoot": 0.06,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-04-limit-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 3.4,
+          "transform": {
+            "x": 0.2078,
+            "y": 0.441,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "exit": "fade_out",
+          "params": {
+            "shape": "circle",
+            "width": 0.0287,
+            "height": 0.0287,
+            "color": "#E2553F",
+            "inSec": 0.3,
+            "overshoot": 0.06,
+            "outSec": 0.25
+          }
+        },
+        {
+          "id": "scene-04-jar-a",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.31,
+            "y": 0.5541,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.22
+          }
+        },
+        {
+          "id": "scene-04-jar-a-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.2597,
+            "y": 0.6047,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        },
+        {
+          "id": "scene-04-jar-a-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.31,
+            "y": 0.6047,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        },
+        {
+          "id": "scene-04-jar-a-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.3603,
+            "y": 0.6047,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        },
+        {
+          "id": "scene-04-jar-a-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.31,
+            "y": 0.5764,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        },
+        {
+          "id": "scene-04-jar-b",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.61,
+            "y": 0.5541,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.22
+          }
+        },
+        {
+          "id": "scene-04-jar-b-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.5597,
+            "y": 0.6047,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        },
+        {
+          "id": "scene-04-jar-b-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.61,
+            "y": 0.6047,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        },
+        {
+          "id": "scene-04-jar-b-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.6603,
+            "y": 0.6047,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        },
+        {
+          "id": "scene-04-jar-b-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.61,
+            "y": 0.5764,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0592
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.05,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-05",
+      "startSec": 10.187,
+      "durationSec": 2.979,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-05-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-05-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-05-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-05-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-05-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "NOT FINANCIAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "for a goal into two parts raised savings.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-jar-a",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.27,
+            "y": 0.5313,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.37
+          }
+        },
+        {
+          "id": "scene-05-jar-a-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.1854,
+            "y": 0.6164,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-a-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.27,
+            "y": 0.6164,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-a-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.3546,
+            "y": 0.6164,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-a-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.1854,
+            "y": 0.5688,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-a-c4",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.3,
+          "durationSec": 2.679,
+          "transform": {
+            "x": 0.27,
+            "y": 0.5688,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-05-jar-a-c5",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.2,
+          "durationSec": 1.779,
+          "transform": {
+            "x": 0.3546,
+            "y": 0.5688,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-05-jar-b",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.65,
+            "y": 0.5313,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.37
+          }
+        },
+        {
+          "id": "scene-05-jar-b-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.5654,
+            "y": 0.6164,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-b-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.65,
+            "y": 0.6164,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-b-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.7346,
+            "y": 0.6164,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-b-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.979,
+          "transform": {
+            "x": 0.5654,
+            "y": 0.5688,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-05-jar-b-c4",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.6,
+          "durationSec": 2.379,
+          "transform": {
+            "x": 0.65,
+            "y": 0.5688,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-05-jar-b-c5",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.5,
+          "durationSec": 1.479,
+          "transform": {
+            "x": 0.7346,
+            "y": 0.5688,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-05-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.7,
+          "durationSec": 1.279,
+          "transform": {
+            "x": 0.46,
+            "y": 0.34,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.12,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-06",
+      "startSec": 13.166,
+      "durationSec": 2.405,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-06-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-06-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-06-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "NOT FINANCIAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "A visible reminder of the goal helped too.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-jar-a",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.27,
+            "y": 0.5559,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.3
+          }
+        },
+        {
+          "id": "scene-06-jar-a-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.2014,
+            "y": 0.6249,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-a-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.27,
+            "y": 0.6249,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-a-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.3386,
+            "y": 0.6249,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-a-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.2014,
+            "y": 0.5863,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-a-c4",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.27,
+            "y": 0.5863,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-a-c5",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.3386,
+            "y": 0.5863,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-b",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.65,
+            "y": 0.5559,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.3
+          }
+        },
+        {
+          "id": "scene-06-jar-b-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.5814,
+            "y": 0.6249,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-b-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.65,
+            "y": 0.6249,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-b-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.7186,
+            "y": 0.6249,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-b-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.5814,
+            "y": 0.5863,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-b-c4",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.65,
+            "y": 0.5863,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-jar-b-c5",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.405,
+          "transform": {
+            "x": 0.7186,
+            "y": 0.5863,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0807
+          }
+        },
+        {
+          "id": "scene-06-photo",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/goal_photo.svg",
+          "startSec": 0.1,
+          "durationSec": 2.305,
+          "transform": {
+            "x": 0.46,
+            "y": 0.32,
+            "rotation": -3,
+            "layer": 42
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.3,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-06-tag-goal-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.4,
+          "durationSec": 2.005,
+          "transform": {
+            "x": 0.46,
+            "y": 0.425,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.24,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-06-tag-goal-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.4,
+          "durationSec": 2.005,
+          "transform": {
+            "x": 0.46,
+            "y": 0.425,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "pop_in",
+          "content": "GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.22,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-06-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 0.8,
+          "durationSec": 1.605,
+          "transform": {
+            "x": 0.68,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.1,
+          "volume": 0.4
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-07",
+      "startSec": 15.571,
+      "durationSec": 0.929,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-07-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-07-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-07-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "NOT FINANCIAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "So name one goal.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-jar-one",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.46,
+            "y": 0.5209,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.4
+          }
+        },
+        {
+          "id": "scene-07-jar-one-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.3685,
+            "y": 0.6128,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1076
+          }
+        },
+        {
+          "id": "scene-07-jar-one-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.46,
+            "y": 0.6128,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1076
+          }
+        },
+        {
+          "id": "scene-07-jar-one-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.5515,
+            "y": 0.6128,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1076
+          }
+        },
+        {
+          "id": "scene-07-jar-one-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 0.929,
+          "transform": {
+            "x": 0.46,
+            "y": 0.5613,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.1076
+          }
+        },
+        {
+          "id": "scene-07-tag-goal-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 0.829,
+          "transform": {
+            "x": 0.46,
+            "y": 0.34,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.42,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-07-tag-goal-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 0.829,
+          "transform": {
+            "x": 0.46,
+            "y": 0.34,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "pop_in",
+          "content": "GOAL: LAPTOP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-08",
+      "startSec": 16.5,
+      "durationSec": 2.1,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-08-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-08-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-08-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-08-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-08-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-08-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "NOT FINANCIAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-08-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Split its money into two separate parts.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-08-jar-a",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.27,
+            "y": 0.5313,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.37
+          }
+        },
+        {
+          "id": "scene-08-jar-a-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.2276,
+            "y": 0.6164,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-08-jar-a-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 2.1,
+          "transform": {
+            "x": 0.3124,
+            "y": 0.6164,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0996
+          }
+        },
+        {
+          "id": "scene-08-jar-b",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.3,
+          "durationSec": 1.8,
+          "transform": {
+            "x": 0.65,
+            "y": 0.5313,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "slide_in_right",
+          "params": {
+            "width": 0.37,
+            "inSec": 0.4,
+            "distance": 0.3
+          }
+        },
+        {
+          "id": "scene-08-jar-b-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.3,
+          "durationSec": 1.8,
+          "transform": {
+            "x": 0.6076,
+            "y": 0.6164,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "slide_in_right",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.4,
+            "distance": 0.3
+          }
+        },
+        {
+          "id": "scene-08-jar-b-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.3,
+          "durationSec": 1.8,
+          "transform": {
+            "x": 0.6924,
+            "y": 0.6164,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "slide_in_right",
+          "params": {
+            "width": 0.0996,
+            "inSec": 0.4,
+            "distance": 0.3
+          }
+        },
+        {
+          "id": "scene-08-tag-p1-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.27,
+            "y": 0.365,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.26,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-08-tag-p1-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.27,
+            "y": 0.365,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "pop_in",
+          "content": "PART 1",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.24,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-08-tag-p2-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.7,
+          "durationSec": 1.4,
+          "transform": {
+            "x": 0.65,
+            "y": 0.365,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.26,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-08-tag-p2-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.7,
+          "durationSec": 1.4,
+          "transform": {
+            "x": 0.65,
+            "y": 0.365,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "pop_in",
+          "content": "PART 2",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.24,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-08-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.2,
+          "durationSec": 0.9,
+          "transform": {
+            "x": 0.46,
+            "y": 0.29,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.11,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-09",
+      "startSec": 18.6,
+      "durationSec": 3.066,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-09-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-09-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-09-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-09-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-09-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-09-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "NOT FINANCIAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-09-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Then keep a picture of the goal where you'll see it.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-09-photo",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/goal_photo.svg",
+          "startSec": 0.1,
+          "durationSec": 2.966,
+          "transform": {
+            "x": 0.27,
+            "y": 0.42,
+            "rotation": -3,
+            "layer": 42
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.42,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-09-tag-see-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.566,
+          "transform": {
+            "x": 0.27,
+            "y": 0.6,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.3,
+            "height": 0.05,
+            "color": "#F2B632",
+            "radius": 0.008,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-09-tag-see-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.566,
+          "transform": {
+            "x": 0.27,
+            "y": 0.6,
+            "rotation": 0,
+            "layer": 44
+          },
+          "preset": "pop_in",
+          "content": "IN SIGHT",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.28,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-09-jar-a",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.62,
+            "y": 0.5911,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.2
+          }
+        },
+        {
+          "id": "scene-09-jar-a-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.5742,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-09-jar-a-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.62,
+            "y": 0.6371,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-09-jar-a-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.6658,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-09-jar-b",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.83,
+            "y": 0.5911,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.2
+          }
+        },
+        {
+          "id": "scene-09-jar-b-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.7842,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-09-jar-b-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.83,
+            "y": 0.6371,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-09-jar-b-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.066,
+          "transform": {
+            "x": 0.8758,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-09-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.0,
+          "durationSec": 2.066,
+          "transform": {
+            "x": 0.72,
+            "y": 0.46,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.1,
+          "volume": 0.4
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-10",
+      "startSec": 21.666,
+      "durationSec": 3.3,
+      "background": {
+        "type": "solid",
+        "color": "#E3F1E7"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-10-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-10-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-10-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#3FA37A"
+          }
+        },
+        {
+          "id": "scene-10-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "MONEY · SAVINGS GOAL",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-10-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-10-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.38,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "NOT FINANCIAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-10-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Try it today: name one goal, and split its savings in two.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-10-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_cheer.svg",
+          "startSec": 0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.2,
+            "y": 0.567,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.26,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_cheer.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-10-jar-a",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.5,
+            "y": 0.5912,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.2
+          }
+        },
+        {
+          "id": "scene-10-jar-a-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.4543,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-10-jar-a-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.5,
+            "y": 0.6371,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-10-jar-a-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.5457,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-10-jar-a-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.4,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.5,
+            "y": 0.6114,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0538,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-10-jar-b",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/savings_jar.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.72,
+            "y": 0.5912,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.2
+          }
+        },
+        {
+          "id": "scene-10-jar-b-c0",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.6743,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-10-jar-b-c1",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.72,
+            "y": 0.6371,
+            "rotation": 10,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-10-jar-b-c2",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.0,
+          "durationSec": 3.3,
+          "transform": {
+            "x": 0.7657,
+            "y": 0.6371,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.0538
+          }
+        },
+        {
+          "id": "scene-10-jar-b-c3",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 1.9,
+          "durationSec": 1.4,
+          "transform": {
+            "x": 0.72,
+            "y": 0.6114,
+            "rotation": -8,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.0538,
+            "inSec": 0.25,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-10-tnote",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/try_today_note.svg",
+          "startSec": 0.1,
+          "durationSec": 3.2,
+          "transform": {
+            "x": 0.56,
+            "y": 0.34,
+            "rotation": -3,
+            "layer": 95
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.42,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-10-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 0.3,
+          "durationSec": 3.0,
+          "transform": {
+            "x": 0.2,
+            "y": 0.41,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/stamp_thud.wav",
+          "atSec": 0.1,
+          "volume": 0.65
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    }
+  ]
+}

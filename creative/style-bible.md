@@ -105,17 +105,22 @@ Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 
 ## Audio
 - Narration: **locked 2026-11-06: Kokoro TTS `af_heart`, speed 1.10** (`"voice": {"engine": "kokoro", "voice": "af_heart", "speed": 1.1}` in `script.json`). Use it in every video, with no per-video voice changes. Reasons and auditions: `creative/voice-research.md`. If a script measures outside the target, adjust speed between 1.05 and 1.15. Target **3.0 words/s** (2.8-3.2). One idea per sentence. Pauses <=0.3 s, except 0.4 s before "Try it today".
-- Music: soft lo-fi/acoustic bed, royalty-free with a documented license, `musicVolume` 0.10-0.15. No risers, no dread drones.
-- SFX (paper Foley, 0.4-0.7 volume, max 1 per 1.5 s): rustle on `snip_in`, bonk on cross, pencil tick on check, coin clink on coin props, page flip on the cite card, stamp thud on the TRY IT TODAY note. Reuse the PP rustle/bonk/thud wavs.
+- Music: soft lo-fi/acoustic bed, royalty-free with a documented license, `musicVolume` 0.10-0.15. No risers, no dread drones. Episodes 1-7 shipped with none (`audio.music: null`); no licensed track is in the repo yet.
+- SFX (paper Foley, 0.4-0.7 volume, max 1 per 1.5 s): one hit on frame 0 of the hook; rustle on `snip_in`, bonk on cross, pencil tick on check, coin clink on coin props, page flip on the cite card, stamp thud on the TRY IT TODAY note. Reuse the PP rustle/bonk/thud wavs.
 - Mix: VO on top (`voiceVolume` 1.0). Target about -14 LUFS / -1 dBTP (measurement tool unconfirmed).
 
 ## Story and pacing
-- Target duration: **35-45 s** (hard cap 50 s). **105-135 words** (cap 150). 7 Fixes Later may run to 50 s.
-- Scene cadence: 1 beat = 1 scene; 11-15 scenes; a new visual every **2.5-4 s**; nothing static over 4.5 s except the cite card (3.5 s max).
-- Beat map (about 40 s): Hook 0-2.5 s; Problem/cost 2.5-9 s; Cite card 9-16 s; Fix steps 16-32 s (1-3 numeral slates, or 7 for 7 Fixes Later); Caveat 32-35 s; Try it today 35-40 s, held until the voiceover ends. No trailing scene.
-- Hook rules: speech on frame 0. Sentence 1 is 12 words or fewer and states a number, cost or concrete outcome ("Waiting 24 hours can kill most impulse buys" style, only if the source supports it). The problem is visible at frame 0 (Inch + prop in the problem state, chip on screen). No title card, logo or blank frame. Alternate outcome+number hooks with myth/curiosity hooks across batch 1 and log the hook type in idea.md.
-- Development: show the problem before the fix; Coral cross, then Mint check. The fix is a concrete behaviour (when, where, how long), not a mindset.
-- Caveat (required): one sentence on who or when this doesn't apply ("If your income is irregular, start with a smaller amount." style).
+Retention revision 2026-11-08 (hypotheses from `creative/viral-audit-2026-11-08.md`, not analytics; revisit when real data arrives). `python scripts/retention_lint.py projects/<id>` checks the scriptable rules.
+- Target duration: **25-35 s** (hard cap 50 s). **75-105 words** (cap 150). 7 Fixes Later may run to 50 s.
+- Scene cadence: 1 beat = 1 scene; 9-13 scenes; a new visual every **2-3.5 s**; nothing static over 4 s except the cite card (3.5 s max). No single narration block over 8 s.
+- Format rotation: pick one per episode and do not repeat the last two. **Myth check** (belief, stamp, what happened), **Number reveal** (the number first, then why), **Head-to-head** (same thing, two conditions, on one stage), **Steps** (1-3 slates; only when the steps are the point). Log the format in idea.md.
+- Beat map (about 30 s): Hook 0-2 s; Tension 2-7 s; Finding 7-16 s (cite card plus acting beat, result before study details); Fix 16-25 s; Try it today 25-30 s, held until the voiceover ends. No trailing scene.
+- Hook rules: speech and a sound on frame 0. Sentence 1 is 12 words or fewer, has no hedge word, and states a number, a surprise or a head-to-head, only if the source supports it as worded. Keep the sentence literally true (a measured result, a logical fact), and put scope such as "in one lab study" in the next sentence. The problem is visible at frame 0, with one hero object at `width` 0.45-0.6 in its problem state and the stage filled. No title card, logo or blank frame. Log the hook type in idea.md.
+- Hero object: one object carries the story and visibly changes state through the video (filling, melting, splitting, racing). Prefer an acting beat over a slate or text tag.
+- Development: show the problem before the fix; Coral cross, then Mint check. The fix is a concrete behaviour (when, where, how long), not a mindset. No bridge lines such as "a practical way to try this".
+- Finding: say what happened first, then who it was tested on. Read the full text for the one number the hook needs; an abstract is enough only for claims made without a number.
+- Caveat (required, on screen): the limit lives on the cite card and an on-screen tag, and the study's scope is spoken as a clause inside the finding ("in one lab study of 31 snoozers"). Spoken caveat lines total 2.5 s or less. Disclaimers are tags, not narration, except that "If you have a condition, ask a clinician" stays spoken when the habit touches health.
+- Comment trigger: every episode gives viewers a side to take or a reason to send it to someone, and the pinned comment asks it.
 - Ending: "Try it today: [one action, 12 words or fewer, under 5 minutes]." TRY IT TODAY note `tag_slap` + stamp thud + `check_mint`. No "follow/subscribe" voice line (CTA lives in the pinned comment).
 - Ending (updated 2026-11-08): no loop frame and no silent trailing scene. The video ends about 0.1 s after the voiceover ends, on the Try it today note (as in episodes 5 and 6). The last line must not be a sign-off. No fade-out, no end card, no black. Episodes 1-4 kept their old 0.6 s loop frame (already scheduled); do not copy it.
 
@@ -134,7 +139,7 @@ Horizontal safe range x 0.06-0.84; centre content at x 0.46.
 - What we keep (general techniques only): promise/number in sentence 1; a persistent topic label; numbered step slates; do/don't badges; slate beats alternating with acting beats; one recurring original character; a caveat line.
 
 ## Constraints
-- Must always: palette only; one cite card with a limit line; problem before fix; a caveat line; try-it-today as the last scene, ending ~0.1 s after the voiceover; disclaimer tag per pillar; registry-only components/presets; sources in idea.md.
+- Must always: palette only; one cite card with a limit line; problem before fix; the study's scope stated in the narration; try-it-today as the last scene, ending ~0.1 s after the voiceover; disclaimer tag per pillar; registry-only components/presets; sources in idea.md.
 - Must never: copy reference looks or wording; logos/brands/real UIs; humans; Coral as decoration; absolute or medical/financial promises; the same script with swapped nouns.
 - Flexible: background image vs solid tint, number of steps (1-3, or 7), Inch's held prop, hook type, night palette for sleep topics.
 

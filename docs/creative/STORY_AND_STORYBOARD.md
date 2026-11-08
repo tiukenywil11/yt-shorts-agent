@@ -10,6 +10,16 @@ A Short should have one central idea. Default structure:
 
 Avoid filler, unsupported factual claims, and narration that merely describes what is already obvious.
 
+## Trend scorecard (predicted, out of 10)
+Score the script before Gate 1 and log the total in `idea.md`. Compare it with real numbers later.
+- **Hook /3:** frame 0 and sentence 1 open a question or surprise. 0 = states a hedged conclusion.
+- **Hold /3:** new information or a visible change every few seconds; no lecture block or caveat stretch.
+- **Share /2:** viewers have a side to take or someone to send it to.
+- **Look /1:** the hero object reads at feed size and changes state.
+- **Packaging /1:** the title creates tension and the video pays it off.
+
+Below 7: rewrite the hook or change the format before asking for approval. Channel rules: `creative/style-bible.md` > Story and pacing.
+
 ## Script segment fields
 - `id`
 - `text`

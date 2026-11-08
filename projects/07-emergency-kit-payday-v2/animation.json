@@ -1,0 +1,3833 @@
+{
+  "schemaVersion": "1.0",
+  "video": {
+    "id": "emergency-kit-payday-v2",
+    "title": "96% Had Food. Only 53% Had Water.",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 27.803
+  },
+  "audio": {
+    "voiceover": "voiceover.wav",
+    "music": null,
+    "voiceVolume": 1,
+    "musicVolume": 0.15
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "startSec": 0,
+      "durationSec": 1.9,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-01-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-01-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-01-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-01-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-01-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "Nearly everyone had food for three days."
+        },
+        {
+          "id": "scene-01-track-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.25,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 38
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.46,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-01-track-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.7,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 38
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.46,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-01-bar-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.25,
+            "y": 0.4352,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.4416,
+            "color": "#3FA37A",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-01-bar-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.7,
+            "y": 0.4908,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.24380000000000002,
+            "color": "#E2553F",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-01-n-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.25,
+            "y": 0.4352,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 130,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          },
+          "content": "96%"
+        },
+        {
+          "id": "scene-01-n-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.7,
+            "y": 0.4908,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 130,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          },
+          "content": "53%"
+        },
+        {
+          "id": "scene-01-l-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.25,
+            "y": 0.62,
+            "rotation": 0,
+            "layer": 83
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOOD"
+        },
+        {
+          "id": "scene-01-l-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.9,
+          "transform": {
+            "x": 0.7,
+            "y": 0.62,
+            "rotation": 0,
+            "layer": 83
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.45,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "WATER"
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/problem_bonk.wav",
+          "atSec": 0.0,
+          "volume": 0.7
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-02",
+      "startSec": 1.9,
+      "durationSec": 1.87,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-02-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-02-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-02-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-02-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-02-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "Barely half had water."
+        },
+        {
+          "id": "scene-02-track-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.25,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 38
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.46,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-02-track-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.7,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 38
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.46,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-02-bar-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.25,
+            "y": 0.4352,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.4416,
+            "color": "#3FA37A",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-02-bar-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.7,
+            "y": 0.4908,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "shake",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.24380000000000002,
+            "color": "#E2553F",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4,
+            "inSec": 0.5,
+            "amplitude": 0.012
+          }
+        },
+        {
+          "id": "scene-02-n-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.25,
+            "y": 0.4352,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 130,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          },
+          "content": "96%"
+        },
+        {
+          "id": "scene-02-n-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.7,
+            "y": 0.4908,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 130,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          },
+          "content": "53%"
+        },
+        {
+          "id": "scene-02-l-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.25,
+            "y": 0.62,
+            "rotation": 0,
+            "layer": 83
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOOD"
+        },
+        {
+          "id": "scene-02-l-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.7,
+            "y": 0.62,
+            "rotation": 0,
+            "layer": 83
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.45,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "WATER"
+        },
+        {
+          "id": "scene-02-cross",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cross_coral.svg",
+          "startSec": 0.25,
+          "durationSec": 1.62,
+          "transform": {
+            "x": 0.7,
+            "y": 0.3606,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.2,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/problem_bonk.wav",
+          "atSec": 0.2,
+          "volume": 0.6
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-03",
+      "startSec": 3.77,
+      "durationSec": 3.5,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-03-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-03-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-03-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-03-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-03-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-03-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-03-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "In one survey of 572 adults,"
+        },
+        {
+          "id": "scene-03-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_skeptical.svg",
+          "startSec": 0,
+          "durationSec": 3.5,
+          "transform": {
+            "x": 0.27,
+            "y": 0.64,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.21,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_skeptical.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          },
+          "loop": "wiggle"
+        },
+        {
+          "id": "scene-03-card",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cite_card.svg",
+          "startSec": 0.05,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.46,
+            "y": 0.38,
+            "rotation": -2,
+            "layer": 80
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.874,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-03-tab",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.235,
+            "y": 0.248,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.3,
+            "align": "left",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "THE STUDY"
+        },
+        {
+          "id": "scene-03-f1",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.05,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 88,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "96% FOOD"
+        },
+        {
+          "id": "scene-03-f2",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 3.2,
+          "transform": {
+            "x": 0.46,
+            "y": 0.37,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 88,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "53% WATER"
+        },
+        {
+          "id": "scene-03-source",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.9,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.46,
+            "y": 0.43,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 46,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": false,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "Hiatt et al., 2021"
+        },
+        {
+          "id": "scene-03-limit",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 1.2,
+          "durationSec": 2.3,
+          "transform": {
+            "x": 0.53,
+            "y": 0.488,
+            "rotation": -2,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.78,
+            "align": "center",
+            "uppercase": false,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "self-reported, n = 572"
+        },
+        {
+          "id": "scene-03-limit-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 1.2,
+          "durationSec": 2.3,
+          "transform": {
+            "x": 0.12,
+            "y": 0.489,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "circle",
+            "width": 0.029,
+            "height": 0.029,
+            "color": "#E2553F",
+            "radius": 0,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.05,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-04",
+      "startSec": 7.27,
+      "durationSec": 3.299,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-04-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-04-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-04-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-04-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-04-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "it was 96% for food, and 53% for water."
+        },
+        {
+          "id": "scene-04-track-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.25,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 38
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.46,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-04-track-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.7,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 38
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.46,
+            "color": "#E4D3B3",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3
+          }
+        },
+        {
+          "id": "scene-04-bar-food",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.25,
+            "y": 0.4352,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.4416,
+            "color": "#3FA37A",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-bar-water",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.7,
+            "y": 0.4908,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.24380000000000002,
+            "color": "#E2553F",
+            "radius": 0.01,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-n-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.25,
+            "y": 0.4352,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 130,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          },
+          "content": "96%"
+        },
+        {
+          "id": "scene-04-n-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.7,
+            "y": 0.4908,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 130,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          },
+          "content": "53%"
+        },
+        {
+          "id": "scene-04-l-food",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.25,
+            "y": 0.62,
+            "rotation": 0,
+            "layer": 83
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOOD"
+        },
+        {
+          "id": "scene-04-l-water",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.7,
+            "y": 0.62,
+            "rotation": 0,
+            "layer": 83
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.45,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "WATER"
+        },
+        {
+          "id": "scene-04-gap",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.4,
+          "durationSec": 2.899,
+          "transform": {
+            "x": 0.7,
+            "y": 0.3614,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.2162,
+            "color": "transparent",
+            "radius": 0.01,
+            "strokeColor": "#E2553F",
+            "strokeWidth": 6,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-04-gap-pill-b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.799,
+          "transform": {
+            "x": 0.7,
+            "y": 0.3414,
+            "rotation": 0,
+            "layer": 62
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.3,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-04-gap-pill-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.799,
+          "transform": {
+            "x": 0.7,
+            "y": 0.3414,
+            "rotation": 0,
+            "layer": 63
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 42,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "THE GAP"
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/problem_bonk.wav",
+          "atSec": 0.4,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-05",
+      "startSec": 10.569,
+      "durationSec": 3.45,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-05-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-05-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-05-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-05-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-05-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-05-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-05-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "You can stock food by accident. Water, you have to choose."
+        },
+        {
+          "id": "scene-05-p-food-b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.25,
+            "y": 0.28,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-05-p-food-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.25,
+            "y": 0.28,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 34,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.38,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "FOOD: BY ACCIDENT"
+        },
+        {
+          "id": "scene-05-can1",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.17,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.15,
+            "height": 0.12299999999999998,
+            "color": "#F2B632",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-can1-band",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.17,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.15,
+            "height": 0.055349999999999996,
+            "color": "#F5EEDD",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-05-can1-lid",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 3.45,
+          "transform": {
+            "x": 0.17,
+            "y": 0.5155,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.159,
+            "height": 0.012,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-05-can2",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 3.25,
+          "transform": {
+            "x": 0.34,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.15,
+            "height": 0.12299999999999998,
+            "color": "#F2B632",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-can2-band",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 3.25,
+          "transform": {
+            "x": 0.34,
+            "y": 0.58,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.15,
+            "height": 0.055349999999999996,
+            "color": "#F5EEDD",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-05-can2-lid",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 3.25,
+          "transform": {
+            "x": 0.34,
+            "y": 0.5155,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.159,
+            "height": 0.012,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-05-can3",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.45,
+          "durationSec": 3.0,
+          "transform": {
+            "x": 0.255,
+            "y": 0.46,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.15,
+            "height": 0.12299999999999998,
+            "color": "#F2B632",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-can3-band",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.45,
+          "durationSec": 3.0,
+          "transform": {
+            "x": 0.255,
+            "y": 0.46,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.15,
+            "height": 0.055349999999999996,
+            "color": "#F5EEDD",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-05-can3-lid",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.45,
+          "durationSec": 3.0,
+          "transform": {
+            "x": 0.255,
+            "y": 0.3955,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "bounce",
+          "params": {
+            "shape": "rect",
+            "width": 0.159,
+            "height": 0.012,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-05-p-water-b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.9,
+          "durationSec": 2.55,
+          "transform": {
+            "x": 0.71,
+            "y": 0.28,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-05-p-water-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.9,
+          "durationSec": 2.55,
+          "transform": {
+            "x": 0.71,
+            "y": 0.28,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 34,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.38,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "WATER: A CHOICE"
+        },
+        {
+          "id": "scene-05-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 1.0,
+          "durationSec": 2.45,
+          "transform": {
+            "x": 0.73,
+            "y": 0.5,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.34,
+            "inSec": 0.25,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.1,
+          "volume": 0.4
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-06",
+      "startSec": 14.019,
+      "durationSec": 2.618,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-06-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-06-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-06-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-06-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-06-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "So skip the giant kit list and start small."
+        },
+        {
+          "id": "scene-06-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_idea.svg",
+          "startSec": 0,
+          "durationSec": 2.618,
+          "transform": {
+            "x": 0.3,
+            "y": 0.57,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.3,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_idea.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          },
+          "loop": "wiggle"
+        },
+        {
+          "id": "scene-06-title",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 2.518,
+          "transform": {
+            "x": 0.5,
+            "y": 0.3,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 96,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.9,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "START SMALL"
+        },
+        {
+          "id": "scene-06-bin",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.418,
+          "transform": {
+            "x": 0.74,
+            "y": 0.62,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.26,
+            "height": 0.17,
+            "color": "#C9A77C",
+            "radius": 0.02
+          }
+        },
+        {
+          "id": "scene-06-bin-rim",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.418,
+          "transform": {
+            "x": 0.74,
+            "y": 0.567,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.2912,
+            "height": 0.02,
+            "color": "#26303F",
+            "radius": 0.008
+          }
+        },
+        {
+          "id": "scene-06-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0.4,
+          "durationSec": 2.218,
+          "transform": {
+            "x": 0.74,
+            "y": 0.51,
+            "rotation": 0,
+            "layer": 35
+          },
+          "preset": "bounce",
+          "params": {
+            "width": 0.15
+          },
+          "loop": "float_loop"
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-07",
+      "startSec": 16.637,
+      "durationSec": 3.163,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-07-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-07-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-07-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-07-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-07-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "Start with water, at least a gallon per person per day."
+        },
+        {
+          "id": "scene-07-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0.0,
+          "durationSec": 3.163,
+          "transform": {
+            "x": 0.5,
+            "y": 0.46,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "bounce",
+          "params": {
+            "width": 0.44
+          }
+        },
+        {
+          "id": "scene-07-gal-b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.663,
+          "transform": {
+            "x": 0.5,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.7,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-07-gal-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 2.663,
+          "transform": {
+            "x": 0.5,
+            "y": 0.27,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 42,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.7,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "1 GAL / PERSON / DAY"
+        },
+        {
+          "id": "scene-07-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.1,
+          "durationSec": 2.063,
+          "transform": {
+            "x": 0.84,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.14,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.2,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-08",
+      "startSec": 19.8,
+      "durationSec": 2.6,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-08-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-08-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-08-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-08-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-08-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-08-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-08-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "Next payday, add one shelf-stable food."
+        },
+        {
+          "id": "scene-08-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0,
+          "durationSec": 2.6,
+          "transform": {
+            "x": 0.25,
+            "y": 0.571,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.4
+          }
+        },
+        {
+          "id": "scene-08-plus",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 2.3,
+          "transform": {
+            "x": 0.5,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 110,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.2,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "+"
+        },
+        {
+          "id": "scene-08-can",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.6,
+          "durationSec": 2.0,
+          "transform": {
+            "x": 0.7,
+            "y": 0.593,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "slide_in_right",
+          "params": {
+            "shape": "rect",
+            "width": 0.16,
+            "height": 0.13,
+            "color": "#F2B632",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-08-can-band",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.6,
+          "durationSec": 2.0,
+          "transform": {
+            "x": 0.7,
+            "y": 0.593,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "slide_in_right",
+          "params": {
+            "shape": "rect",
+            "width": 0.16,
+            "height": 0.0585,
+            "color": "#F5EEDD",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-08-can-lid",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.6,
+          "durationSec": 2.0,
+          "transform": {
+            "x": 0.7,
+            "y": 0.553,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "slide_in_right",
+          "params": {
+            "shape": "rect",
+            "width": 0.17,
+            "height": 0.012,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-08-coin",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/coin.svg",
+          "startSec": 0.1,
+          "durationSec": 2.5,
+          "transform": {
+            "x": 0.7,
+            "y": 0.36,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.15,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-08-p-pay-b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 2.5,
+          "transform": {
+            "x": 0.5,
+            "y": 0.25,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.5,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-08-p-pay-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.1,
+          "durationSec": 2.5,
+          "transform": {
+            "x": 0.5,
+            "y": 0.25,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.5,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "NEXT PAYDAY"
+        },
+        {
+          "id": "scene-08-p-food-b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.9,
+          "durationSec": 1.7,
+          "transform": {
+            "x": 0.66,
+            "y": 0.47,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.5,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-08-p-food-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.9,
+          "durationSec": 1.7,
+          "transform": {
+            "x": 0.66,
+            "y": 0.47,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 36,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.48,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "1 SHELF-STABLE FOOD"
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.6,
+          "volume": 0.4
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-09",
+      "startSec": 22.4,
+      "durationSec": 2.146,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-09-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-09-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-09-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-09-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-09-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-09-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-09-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "Keep it all in one labeled bin."
+        },
+        {
+          "id": "scene-09-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0.0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.36,
+            "y": 0.535,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "bounce",
+          "params": {
+            "width": 0.34
+          }
+        },
+        {
+          "id": "scene-09-can",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.4,
+          "durationSec": 1.746,
+          "transform": {
+            "x": 0.66,
+            "y": 0.555,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "slide_in_up",
+          "params": {
+            "shape": "rect",
+            "width": 0.13,
+            "height": 0.107,
+            "color": "#F2B632",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-09-can-band",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.4,
+          "durationSec": 1.746,
+          "transform": {
+            "x": 0.66,
+            "y": 0.555,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "slide_in_up",
+          "params": {
+            "shape": "rect",
+            "width": 0.13,
+            "height": 0.048,
+            "color": "#F5EEDD",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-09-can-lid",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.4,
+          "durationSec": 1.746,
+          "transform": {
+            "x": 0.66,
+            "y": 0.522,
+            "rotation": 0,
+            "layer": 31
+          },
+          "preset": "slide_in_up",
+          "params": {
+            "shape": "rect",
+            "width": 0.138,
+            "height": 0.012,
+            "color": "#26303F",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-09-bin",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.5,
+            "y": 0.66,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.56,
+            "height": 0.22,
+            "color": "#C9A77C",
+            "radius": 0.02
+          }
+        },
+        {
+          "id": "scene-09-bin-rim",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.0,
+          "durationSec": 2.146,
+          "transform": {
+            "x": 0.5,
+            "y": 0.592,
+            "rotation": 0,
+            "layer": 41
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.6272000000000001,
+            "height": 0.02,
+            "color": "#26303F",
+            "radius": 0.008
+          }
+        },
+        {
+          "id": "scene-09-bin-label-b",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 1.946,
+          "transform": {
+            "x": 0.5,
+            "y": 0.645,
+            "rotation": 0,
+            "layer": 42
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.336,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 3,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-09-bin-label-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 1.946,
+          "transform": {
+            "x": 0.5,
+            "y": 0.645,
+            "rotation": 0,
+            "layer": 43
+          },
+          "preset": "pop_in",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.336,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          },
+          "content": "KIT"
+        },
+        {
+          "id": "scene-09-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.0,
+          "durationSec": 1.146,
+          "transform": {
+            "x": 0.85,
+            "y": 0.38,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.12,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.3,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-10",
+      "startSec": 24.546,
+      "durationSec": 3.257,
+      "background": {
+        "type": "solid",
+        "color": "#EFE2C9"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-10-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-10-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-10-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632",
+            "radius": 0
+          }
+        },
+        {
+          "id": "scene-10-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.43,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.6,
+            "align": "left",
+            "uppercase": true
+          },
+          "content": "READY · EMERGENCY KIT"
+        },
+        {
+          "id": "scene-10-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.4,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.68,
+            "height": 0.06,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-10-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.39,
+            "y": 0.17,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.66,
+            "align": "center",
+            "uppercase": true
+          },
+          "content": "FOLLOW LOCAL GUIDANCE"
+        },
+        {
+          "id": "scene-10-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          },
+          "content": "Try it today: add one gallon of water to your shopping list."
+        },
+        {
+          "id": "scene-10-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_cheer.svg",
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.3,
+            "y": 0.6,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.286,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_cheer.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          },
+          "loop": "wiggle"
+        },
+        {
+          "id": "scene-10-jug",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/water_jug.svg",
+          "startSec": 0,
+          "durationSec": 3.257,
+          "transform": {
+            "x": 0.74,
+            "y": 0.57,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.24
+          }
+        },
+        {
+          "id": "scene-10-tnote",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/try_today_note.svg",
+          "startSec": 0.1,
+          "durationSec": 3.157,
+          "transform": {
+            "x": 0.58,
+            "y": 0.345,
+            "rotation": -3,
+            "layer": 95
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.42,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-10-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 0.3,
+          "durationSec": 2.957,
+          "transform": {
+            "x": 0.88,
+            "y": 0.47,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.117,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/stamp_thud.wav",
+          "atSec": 0.1,
+          "volume": 0.65
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    }
+  ]
+}

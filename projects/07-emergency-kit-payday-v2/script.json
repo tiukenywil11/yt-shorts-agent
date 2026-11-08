@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Nearly everyone had food for three days. Barely half had water.",
+      "startSec": 0.0,
+      "durationSec": 3.52
+    },
+    {
+      "id": "seg-02",
+      "text": "In one survey of 572 adults, it was 96% for food, and 53% for water.",
+      "startSec": 3.77,
+      "durationSec": 6.549
+    },
+    {
+      "id": "seg-03",
+      "text": "You can stock food by accident. Water, you have to choose.",
+      "startSec": 10.569,
+      "durationSec": 3.2
+    },
+    {
+      "id": "seg-04",
+      "text": "So skip the giant kit list and start small.",
+      "startSec": 14.019,
+      "durationSec": 2.368
+    },
+    {
+      "id": "seg-05",
+      "text": "Start with water, at least a gallon per person per day. Next payday, add one shelf-stable food. Keep it all in one labeled bin.",
+      "startSec": 16.637,
+      "durationSec": 7.659
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: add one gallon of water to your shopping list.",
+      "startSec": 24.546,
+      "durationSec": 3.157
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 27.703,
+  "timingMode": "exact"
+}

@@ -24,7 +24,7 @@ What decided it: the creator wants to practice these habits (authenticity, and i
 | Ready | ~20% | Blackout habits, the 72-hour kit habit (reuses Paper Prepper props/topics) | Follow local guidance |
 
 ## Formats
-- **Shorts (discovery):** one small habit, problem→fix, 30–50 s. Show the study or stat on screen and end on "try it today."
+- **Shorts (discovery):** one small habit, 25–35 s (changed 2026-11-08, see `creative/viral-audit-2026-11-08.md`). Show the study or stat on screen and end on "try it today."
 - **Long-form (income):** 8–12 minute "the science behind ___" explainers grown from winning Shorts. Each is cut back into 2–3 Shorts that point to it with the Related Video link and pinned comment. Needs a 16:9 engine variant, scoped separately.
 - **Build in public:** a monthly "I tried this habit for 30 days" update with your own numbers (savings rate, sleep log). This is the authenticity anchor. Use your own voice on long-form at least sometimes.
 

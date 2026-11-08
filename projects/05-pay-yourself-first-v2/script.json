@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "37% of new hires joined their savings plan. Then 86% did.",
+      "startSec": 0.0,
+      "durationSec": 4.971
+    },
+    {
+      "id": "seg-02",
+      "text": "Same company. Same plan. Only the default changed.",
+      "startSec": 5.221,
+      "durationSec": 3.307
+    },
+    {
+      "id": "seg-03",
+      "text": "Before, you had to sign up. After, you were signed up unless you opted out.",
+      "startSec": 8.777,
+      "durationSec": 4.075
+    },
+    {
+      "id": "seg-04",
+      "text": "That was one company, in a 2001 study. And the catch: most of them never raised the low default.",
+      "startSec": 13.102,
+      "durationSec": 5.995
+    },
+    {
+      "id": "seg-05",
+      "text": "If you save what's left, what's left is often nothing. So make saving your default: schedule a small transfer for payday, then raise it later.",
+      "startSec": 19.347,
+      "durationSec": 8.0
+    },
+    {
+      "id": "seg-06",
+      "text": "Try it today: schedule one tiny transfer for your next payday.",
+      "startSec": 27.597,
+      "durationSec": 3.648
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 31.245,
+  "timingMode": "exact"
+}

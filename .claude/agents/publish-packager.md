@@ -15,11 +15,11 @@ You package a finished Short for upload. You write text only; you never upload, 
 - `creative/topic-research.md` or a trend file named in `idea.md`: only the keywords/search terms for this topic.
 
 ## Output: `projects/<id>/publish.md`
-1. **Titles**: 5 options, each ≤ 60 characters (count them), with a one-line rationale. Mark one as recommended. Front-load the search keyword or curiosity. No clickbait the video does not pay off, no ALL CAPS words beyond one, no "hack", "proven", "studies show", or other claims the script avoids.
+1. **Titles**: 5 options, each ≤ 60 characters (count them), with a one-line rationale. Mark one as recommended. Shorts are mostly feed-driven, so lead with the tension, number or surprise; include a keyword only where it fits naturally. Avoid search-query questions ("Does X Help?") and hedged titles. Every title must be literally true of the study. No clickbait the video does not pay off, no ALL CAPS words beyond one, no "hack", "proven", "studies show", or other claims the script avoids.
 2. **Description**: 2–4 short lines. Line 1 restates the payoff. Then the source citation exactly as in `idea.md` (authors, year, journal, DOI) and any required caveat/disclaimer. Then 3 hashtags at the end.
 3. **Hashtags**: 3–5, topic-specific, ending with `#smallchangelab`. Leave `#shorts` out (as in projects 02–04) unless the user asks for it.
 4. **Tags**: 10–15 comma-separated search phrases, under 400 characters total.
-5. **Pinned comment**: one line inviting a reply (a question tied to the payoff), not engagement bait.
+5. **Pinned comment**: one line asking viewers to take a side on the video's claim or share their own number, not engagement bait.
 6. **Cover frame**: recommend a timestamp/scene from the storyboard whose frame reads clearly at small size, and say why.
 7. **Upload checklist**: file path of the final MP4, aspect/length confirmed from project files, "Altered or synthetic content" disclosure recommendation if the voice is AI-generated, made-for-kids setting (default: not made for kids), and any open QA issues.
 

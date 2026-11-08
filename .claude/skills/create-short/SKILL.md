@@ -12,10 +12,10 @@ Inputs: topic or topic brief, target duration, channel style bible, and project 
 
 1. Run `python scripts/new_short.py <id> [--duration N]` (it creates `projects/<NN>-<id>/` with the next sequence number; use that folder in later steps) if the project does not exist. If the topic came from the queue, run `python scripts/topic_queue.py link <num> <folder>` then `python scripts/topic_queue.py sync`.
 2. Read only the relevant channel style bible section and `docs/creative/STORY_AND_STORYBOARD.md`.
-3. Fill `idea.md` (central idea, audience, hook, payoff).
-4. Write `script.json`: `{"segments": [{"id": "seg-01", "text": "..."}], "targetDurationSec": N, "voice": null}`. **Gate 1:** show the user the narration text only and get approval.
+3. Fill `idea.md` (central idea, audience, hook, payoff). Choose a format from the style bible's rotation, different from the last two episodes. Write three opening lines and pick one. Log format, hook type and the three candidates. If the hook needs a number, read the full text for it; never use one seen only in a secondary source.
+4. Write `script.json`: `{"segments": [{"id": "seg-01", "text": "..."}], "targetDurationSec": N, "voice": null}`. Run `python scripts/retention_lint.py projects/<id>` and fix every FAIL (the length and caveat checks need the timings from step 6, so rerun it then). Score it on the trend scorecard in `docs/creative/STORY_AND_STORYBOARD.md` and log the score in `idea.md`. **Gate 1:** show the user the narration text and the scorecard and get approval.
 5. Generate voiceover: `python scripts/tts.py projects/<id>` (local Piper/Kokoro). If the user supplies their own `voiceover.wav`, skip this.
-6. Reconcile timing: `python scripts/audio_timing.py projects/<id>`. This writes real `startSec`/`durationSec` per segment into `script.json`.
+6. Reconcile timing: `python scripts/audio_timing.py projects/<id>`. This writes real `startSec`/`durationSec` per segment into `script.json`. Rerun `python scripts/retention_lint.py projects/<id>`.
 7. Delegate to `storyboard-architect` (once) with: project dir, style bible path, target duration. It writes `storyboard.md`, `storyboard.json`, `animation.json`, `asset-requirements.json` and runs the validator. Do not write those files yourself first.
 8. If the architect reports validation errors it could not fix, fix them and rerun `python scripts/validate_project.py projects/<id>`.
 

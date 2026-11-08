@@ -1,0 +1,246 @@
+{
+ "missing": [],
+ "note": "No blocking gaps: every visual is a library asset or built from registered Shape/KineticText/Prop. Optional upgrades below. Hero states are engine-built (listed in heroStates, not in assets). No music (audio.music null).",
+ "optionalUpgrades": [
+  {
+   "id": "calendar_page",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "Registry prop (Paper page, Coral header); would replace the 4-piece engine-built calendar in scene-01."
+  },
+  {
+   "id": "range_track",
+   "status": "to_create",
+   "inRegistry": false,
+   "note": "Dedicated range-bar prop; would replace the rail + range + tick shapes used as hero in scenes 2-13."
+  },
+  {
+   "id": "day_flag",
+   "status": "to_create",
+   "inRegistry": false,
+   "note": "Flag marker for DAY 22; built from Shape pole + tag."
+  },
+  {
+   "id": "sfx_pencil_tick",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "No recipe in make_sfx.py; paper_rustle substituted on check_mint."
+  },
+  {
+   "id": "sfx_page_flip",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "No recipe; paper_rustle substituted on the cite card."
+  }
+ ],
+ "heroStates": [
+  {
+   "id": "hero_calendar_myth",
+   "scene": "scene-01",
+   "state": "problem",
+   "builtFrom": "Shape + KineticText (paper calendar 21 DAYS, width 0.52) + myth_stamp",
+   "note": "Frame 0 hero in its problem state; MYTH stamp lands on 'days' (1.0 s) with stamp_thud."
+  },
+  {
+   "id": "hero_track_21_sliver",
+   "scene": "scene-02",
+   "state": "myth range",
+   "builtFrom": "Shape rail + Sun sliver + tick + KineticText 21 + cross_coral"
+  },
+  {
+   "id": "hero_track_18_254",
+   "scene": "scene-03",
+   "state": "stretched",
+   "builtFrom": "Shape rail + Sun range bar (slide_in_left) + KineticText 18 / 254",
+   "note": "Visual anchor in scenes 3-6 and 8-13, rail at y 0.33, day d at x = 0.12 + 0.68*d/254."
+  },
+  {
+   "id": "hero_track_daily_cells",
+   "scene": "scene-04",
+   "state": "daily ticks, 12 weeks",
+   "builtFrom": "12 Shape cells, Sun fills staggered"
+  },
+  {
+   "id": "hero_track_meter",
+   "scene": "scene-05",
+   "state": "automatic meter rising",
+   "builtFrom": "4 Shape bars (slide_in_up)"
+  },
+  {
+   "id": "hero_track_spread",
+   "scene": "scene-06",
+   "state": "level-off spread",
+   "builtFrom": "6 Ink Shape dots on the range bar (illustrative)"
+  },
+  {
+   "id": "hero_track_day22",
+   "scene": "scene-08/09",
+   "state": "day 22 marker; Inch worry -> cheer + check_mint",
+   "builtFrom": "Shape pole + Paper tag + KineticText DAY 22"
+  },
+  {
+   "id": "hero_track_blank_day",
+   "scene": "scene-10",
+   "state": "one square blank, fills continue",
+   "builtFrom": "9 cells; cell 4 covered by a Paper blank cell"
+  },
+  {
+   "id": "hero_track_day21_cross",
+   "scene": "scene-12",
+   "state": "do not judge at day 21",
+   "builtFrom": "Shape tick + KineticText 21 + cross_coral"
+  },
+  {
+   "id": "hero_track_day1",
+   "scene": "scene-13",
+   "state": "day one marked",
+   "builtFrom": "Shape cell + check_mint + ParticleBurst + try_today_note"
+  }
+ ],
+ "assets": [
+  {
+   "id": "inch_skeptical",
+   "type": "character",
+   "path": "assets/characters/inch/inch_skeptical.svg",
+   "description": "inch skeptical",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "description": "inch neutral",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_worry",
+   "type": "character",
+   "path": "assets/characters/inch/inch_worry.svg",
+   "description": "inch worry",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "inch idea",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "inch cheer",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "Kraft floor band",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "checklist_note",
+   "type": "prop",
+   "path": "assets/props/checklist_note.svg",
+   "description": "Paper note, empty boxes (pick one action)",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "clock_face",
+   "type": "prop",
+   "path": "assets/props/clock_face.svg",
+   "description": "Clock, same moment each day (from 01-focus-block)",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "Cite card",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "Mint check",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "Coral cross",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "myth_stamp",
+   "type": "ui",
+   "path": "assets/ui/myth_stamp.svg",
+   "description": "Coral MYTH stamp, frame-0 beat",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "TRY IT TODAY sticky note",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "problem bonk",
+   "status": "to_create",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "stamp thud",
+   "status": "to_create",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "paper rustle",
+   "status": "to_create",
+   "inRegistry": true,
+   "source": "library"
+  }
+ ]
+}

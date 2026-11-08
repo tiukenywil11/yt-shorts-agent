@@ -1,0 +1,76 @@
+{
+ "missing": [],
+ "reused": {
+  "fromProject": "projects/06-snooze-button",
+  "registryIds": [
+   "inch",
+   "floor_strip",
+   "checklist_note",
+   "check_mint",
+   "cross_coral",
+   "cite_card",
+   "try_today_note",
+   "myth_stamp",
+   "actually_stamp",
+   "sfx_stamp_thud",
+   "sfx_problem_bonk",
+   "sfx_paper_rustle"
+  ],
+  "files": [
+   "assets/characters/inch/inch_{neutral,idea,cheer,skeptical,worry,tired}.svg",
+   "assets/props/floor_strip.svg",
+   "assets/props/checklist_note.svg",
+   "assets/ui/{myth_stamp,actually_stamp,check_mint,cross_coral,cite_card,try_today_note}.svg",
+   "assets/sfx/{stamp_thud,problem_bonk,paper_rustle}.wav"
+  ]
+ },
+ "heroObject": {
+  "id": "alarm_clock",
+  "status": "engine_built",
+  "note": "Built from Shape (bells, stem, SNOOZE button, body, face, hands). Optional upgrade: hand-drawn alarm_clock.svg per registry.",
+  "states": [
+   {
+    "state": "ringing",
+    "scenes": [
+     "scene-01",
+     "scene-02",
+     "scene-03",
+     "scene-05",
+     "scene-11"
+    ],
+    "look": "Coral body/bells, hands 12 and 3, pulsing, Ink ring marks"
+   },
+   {
+    "state": "calm",
+    "scenes": [
+     "scene-06",
+     "scene-07",
+     "scene-08",
+     "scene-09",
+     "scene-10"
+    ],
+    "look": "Sky body/bells, hands re-set, no motion, no marks"
+   },
+   {
+    "state": "planned window",
+    "scenes": [
+     "scene-12"
+    ],
+    "look": "Mint body/bells, no hands, check_mint on the face, Paper label PLANNED WINDOW"
+   }
+  ]
+ },
+ "engineBuilt": [
+  "alarm_clock (shapes)",
+  "lab ruler",
+  "31 snoozer dots",
+  "crescent moon",
+  "bars",
+  "pillar_chip",
+  "disclaimer_tag"
+ ],
+ "unsupportedComponents": [],
+ "notes": [
+  "No new files needed. All text is KineticText/Caption."
+ ]
+}

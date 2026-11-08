@@ -1,0 +1,168 @@
+{
+ "title": "Why Two Accounts Can Beat One",
+ "channel": "Small Change Lab",
+ "pillar": "Money",
+ "format": "Head-to-head",
+ "targetDurationSec": 24.966,
+ "voiceoverSec": 24.866,
+ "sceneCount": 10,
+ "notes": [
+  "Hero object: savings jars on one Money-tint stage. States: single jar 3 coins (hook), single jar leaking to 1 coin (problem), two jars 4 coins (cite card), two jars 6 coins (acting beat), single jar with goal tag, split jars 2 coins each, jars with photo 3 coins, final jars 4 coins.",
+  "Frame 0: big jar width 0.48 beside two jars with more coins, stamp_thud at 0, tags filled.",
+  "Result before study details: cite card finding SPLIT IN TWO, SAVED MORE at scene-04 (6.687 s), limit 'one study, low-income consumers'. Disclaimer tag NOT FINANCIAL ADVICE from scene-04 to the end.",
+  "Ends 0.1 s after voiceover on the Try it today note. No loop or trailing scene. No music.",
+  "Jars are a visual metaphor for accounts; no amounts claimed. Caption cut points inside a segment are estimated by letter count."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 3.599,
+   "beat": "hook",
+   "dominantVisual": "Big jar (3 coins) beside two small jars with 5-6 coins each; tags ONE PILE / TWO PARTS; extra coins drop into the pair",
+   "camera": "static",
+   "onScreenText": "ONE PILE; TWO PARTS",
+   "sfx": "stamp_thud.wav",
+   "transitionOut": "cut",
+   "elementCount": 27
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 3.599,
+   "durationSec": 1.701,
+   "beat": "problem",
+   "dominantVisual": "One big jar, three coins, tag ONE PILE",
+   "camera": "static",
+   "onScreenText": "ONE PILE",
+   "sfx": "-",
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 5.3,
+   "durationSec": 1.387,
+   "beat": "problem",
+   "dominantVisual": "Two coins rise out of the single jar and vanish; coral cross; 1 coin left",
+   "camera": "static",
+   "onScreenText": "(cross)",
+   "sfx": "problem_bonk.wav",
+   "transitionOut": "slide_up",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 6.687,
+   "durationSec": 3.5,
+   "beat": "cite",
+   "dominantVisual": "Result-first cite card (3.5 s): THE STUDY / Soman & Cheema, 2011 / SPLIT IN TWO, SAVED MORE / one study, low-income consumers; two jars with 4 coins each below; tag NOT FINANCIAL ADVICE starts",
+   "camera": "static",
+   "onScreenText": "THE STUDY; Soman & Cheema, 2011; SPLIT IN TWO, SAVED MORE; one study, low-income consumers; NOT FINANCIAL ADVICE",
+   "sfx": "paper_rustle.wav",
+   "transitionOut": "cut",
+   "elementCount": 23
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 10.187,
+   "durationSec": 2.979,
+   "beat": "finding",
+   "dominantVisual": "Acting beat: coins drop into both jars (4 to 6 each), mint check",
+   "camera": "static",
+   "onScreenText": "-",
+   "sfx": "-",
+   "transitionOut": "cut",
+   "elementCount": 22
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 13.166,
+   "durationSec": 2.405,
+   "beat": "finding",
+   "dominantVisual": "Goal photo pops in above the two full jars; GOAL tag, mint check",
+   "camera": "static",
+   "onScreenText": "GOAL",
+   "sfx": "paper_rustle.wav",
+   "transitionOut": "cut",
+   "elementCount": 25
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 15.571,
+   "durationSec": 0.929,
+   "beat": "fix",
+   "dominantVisual": "Single jar gets a LAPTOP goal tag",
+   "camera": "static",
+   "onScreenText": "GOAL: LAPTOP",
+   "sfx": "-",
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 16.5,
+   "durationSec": 2.1,
+   "beat": "fix",
+   "dominantVisual": "Jar splits: second jar slides in, 2 coins each, PART 1 / PART 2 tags, mint check",
+   "camera": "static",
+   "onScreenText": "PART 1; PART 2",
+   "sfx": "-",
+   "transitionOut": "cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 18.6,
+   "durationSec": 3.066,
+   "beat": "fix",
+   "dominantVisual": "Goal photo beside two jars (3 coins each), tag IN SIGHT, mint check",
+   "camera": "static",
+   "onScreenText": "IN SIGHT",
+   "sfx": "paper_rustle.wav",
+   "transitionOut": "cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 21.666,
+   "durationSec": 3.3,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on; cheering Inch, two jars (3 to 4 coins), mint check; holds to the end",
+   "camera": "static",
+   "onScreenText": "(note)",
+   "sfx": "stamp_thud.wav",
+   "transitionOut": "cut",
+   "elementCount": 20
+  }
+ ]
+}

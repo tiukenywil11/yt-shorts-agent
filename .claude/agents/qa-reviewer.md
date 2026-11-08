@@ -19,4 +19,6 @@ Report issues with:
 
 Check character consistency, broken poses, merged objects, cropping, readability, motion, timing, scene transitions, audio sync, clipping, black frames, output dimensions, frame rate, codecs, and full-file decode.
 
+Add a short "Retention risk" section, separate from defects and labelled prediction: score the video on the scorecard in `docs/creative/STORY_AND_STORYBOARD.md`, name the likely swipe points by timestamp, and say whether frame 0 makes sense as a still with the sound off.
+
 Distinguish objective defects from subjective creative preferences. Do not silently modify creative direction. Write `qa-report.md` in the project directory and return a concise prioritized summary.

@@ -1,0 +1,386 @@
+{
+ "title": "37% Joined. Then 86% Did. Only the Default Changed.",
+ "channel": "Small Change Lab",
+ "pillar": "Money",
+ "format": "Number reveal",
+ "targetDurationSec": 31.345,
+ "voiceoverSec": 31.245,
+ "sceneCount": 11,
+ "notes": [
+  "Money tint #E3F1E7 solid + floor_strip; chip MONEY · THE DEFAULT.",
+  "Hero object: tall bar (scenes 1-3), then the sign-up form (4-5), then the SAVE RATE meter (7, 10).",
+  "Cite card scene-06 shows the result (37% > 86%) before study details; limit: one company, new hires. Source: NBER WP 7682 full text, QJE not read (idea.md).",
+  "NOT FINANCIAL ADVICE tag from scene-06 to the end. No loop or trailing scene: video ends 0.1 s after the voiceover.",
+  "Coral is used for the cross on the blank opt-in (scene-04), the catch (scene-07) and the draining wallet (scene-08) only; Mint always has a check or up-arrow.",
+  "Cuts inside a segment are estimated by letter count; inter-segment gaps belong to the preceding scene. page_turn (slide_up) used only into the cite card."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0,
+   "durationSec": 3.4,
+   "beat": "hook",
+   "purpose": "Hero bar at 37% in its problem state, big 37% stat, hit SFX on frame 0",
+   "dominantVisual": "Hero bar at 37% in its problem state, big 37% stat, hit SFX on frame 0",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [],
+   "props": [
+    "floor"
+   ],
+   "actions": "Hero bar at 37% in its problem state, big 37% stat, hit SFX on frame 0",
+   "camera": "static",
+   "onScreenText": [
+    "JOINED THE SAVINGS PLAN",
+    "37%",
+    "BEFORE"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 10
+  },
+  {
+   "id": "scene-02",
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 3.4,
+   "durationSec": 1.821,
+   "beat": "payoff",
+   "purpose": "86% Mint bar slides up over the 37% bar; stat jumps to 86% on the word; ghost line WAS 37%",
+   "dominantVisual": "86% Mint bar slides up over the 37% bar; stat jumps to 86% on the word; ghost line WAS 37%",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [],
+   "props": [
+    "check",
+    "floor"
+   ],
+   "actions": "86% Mint bar slides up over the 37% bar; stat jumps to 86% on the word; ghost line WAS 37%",
+   "camera": "static",
+   "onScreenText": [
+    "86%",
+    "WAS 37%",
+    "AFTER"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-03",
+   "narrationSegmentIds": [
+    "seg-02"
+   ],
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 5.221,
+   "durationSec": 3.556,
+   "beat": "tension",
+   "purpose": "Head-to-head: same company, same plan, two bars side by side; Inch skeptical",
+   "dominantVisual": "Head-to-head: same company, same plan, two bars side by side; Inch skeptical",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch skeptical"
+   ],
+   "props": [
+    "floor"
+   ],
+   "actions": "Head-to-head: same company, same plan, two bars side by side; Inch skeptical",
+   "camera": "static",
+   "onScreenText": [
+    "SAME COMPANY · SAME PLAN",
+    "ONLY THE DEFAULT CHANGED",
+    "37%",
+    "86%"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-04",
+   "narrationSegmentIds": [
+    "seg-03"
+   ],
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 8.777,
+   "durationSec": 1.823,
+   "beat": "finding",
+   "purpose": "Hero sign-up form, blank opt-in box, Coral cross (acting: Inch tired)",
+   "dominantVisual": "Hero sign-up form, blank opt-in box, Coral cross (acting: Inch tired)",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch tired"
+   ],
+   "props": [
+    "cross",
+    "floor"
+   ],
+   "actions": "Hero sign-up form, blank opt-in box, Coral cross (acting: Inch tired)",
+   "camera": "static",
+   "onScreenText": [
+    "BEFORE: SIGN UP YOURSELF"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-05",
+   "narrationSegmentIds": [
+    "seg-03"
+   ],
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 10.6,
+   "durationSec": 2.502,
+   "beat": "finding",
+   "purpose": "Same form, box flips to pre-checked Mint with check (acting: Inch cheer)",
+   "dominantVisual": "Same form, box flips to pre-checked Mint with check (acting: Inch cheer)",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch cheer"
+   ],
+   "props": [
+    "check",
+    "floor"
+   ],
+   "actions": "Same form, box flips to pre-checked Mint with check (acting: Inch cheer)",
+   "camera": "static",
+   "onScreenText": [
+    "AFTER: ALREADY SIGNED UP"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "slide_up",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-06",
+   "narrationSegmentIds": [
+    "seg-04"
+   ],
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 13.102,
+   "durationSec": 2.798,
+   "beat": "cite",
+   "purpose": "Cite card 3.0 s: result first (37% > 86%), source, limit line; NOT FINANCIAL ADVICE tag starts",
+   "dominantVisual": "Cite card 3.0 s: result first (37% > 86%), source, limit line; NOT FINANCIAL ADVICE tag starts",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch neutral"
+   ],
+   "props": [
+    "card",
+    "floor"
+   ],
+   "actions": "Cite card 3.0 s: result first (37% > 86%), source, limit line; NOT FINANCIAL ADVICE tag starts",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Madrian & Shea, 2001",
+    "37% > 86%",
+    "one company, new hires",
+    "NOT FINANCIAL ADVICE"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-07",
+   "narrationSegmentIds": [
+    "seg-04"
+   ],
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 15.9,
+   "durationSec": 3.447,
+   "beat": "catch",
+   "purpose": "Rate meter stuck low: Coral low bar, big Coral down-arrow, cross badge; Inch worried",
+   "dominantVisual": "Rate meter stuck low: Coral low bar, big Coral down-arrow, cross badge; Inch worried",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch worry"
+   ],
+   "props": [
+    "cross",
+    "floor"
+   ],
+   "actions": "Rate meter stuck low: Coral low bar, big Coral down-arrow, cross badge; Inch worried",
+   "camera": "static",
+   "onScreenText": [
+    "STUCK AT THE LOW DEFAULT",
+    "SAVE RATE"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-08",
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 19.347,
+   "durationSec": 3.153,
+   "beat": "fix-problem",
+   "purpose": "Wallet coins drain, Coral cross, NOTHING LEFT",
+   "dominantVisual": "Wallet coins drain, Coral cross, NOTHING LEFT",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch worry"
+   ],
+   "props": [
+    "cross",
+    "drain0",
+    "drain1",
+    "drain2",
+    "floor"
+   ],
+   "actions": "Wallet coins drain, Coral cross, NOTHING LEFT",
+   "camera": "static",
+   "onScreenText": [
+    "NOTHING LEFT"
+   ],
+   "sfx": [
+    "problem_bonk.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 16
+  },
+  {
+   "id": "scene-09",
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 22.5,
+   "durationSec": 3.0,
+   "beat": "fix",
+   "purpose": "Coin travels from the payday wallet to a separate jar, Mint check",
+   "dominantVisual": "Coin travels from the payday wallet to a separate jar, Mint check",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch idea"
+   ],
+   "props": [
+    "check",
+    "coin-m",
+    "floor",
+    "jar",
+    "wc0",
+    "wc1"
+   ],
+   "actions": "Coin travels from the payday wallet to a separate jar, Mint check",
+   "camera": "static",
+   "onScreenText": [
+    "AUTO-TRANSFER ON PAYDAY"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-10",
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 25.5,
+   "durationSec": 2.097,
+   "beat": "fix",
+   "purpose": "Rate meter returns: low bar replaced by taller Mint bar and Mint up-arrow",
+   "dominantVisual": "Rate meter returns: low bar replaced by taller Mint bar and Mint up-arrow",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch idea"
+   ],
+   "props": [
+    "floor"
+   ],
+   "actions": "Rate meter returns: low bar replaced by taller Mint bar and Mint up-arrow",
+   "camera": "static",
+   "onScreenText": [
+    "RAISE IT LATER",
+    "SAVE RATE"
+   ],
+   "sfx": [
+    "paper_rustle.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-11",
+   "narrationSegmentIds": [
+    "seg-06"
+   ],
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 27.597,
+   "durationSec": 3.748,
+   "beat": "try-it-today",
+   "purpose": "TRY IT TODAY note stamped, Inch cheer, jar with floating coins, held to voiceover end",
+   "dominantVisual": "TRY IT TODAY note stamped, Inch cheer, jar with floating coins, held to voiceover end",
+   "background": "bg_tint_money (solid #E3F1E7) + floor_strip",
+   "characters": [
+    "inch cheer"
+   ],
+   "props": [
+    "check",
+    "floor",
+    "jar",
+    "jc0",
+    "jc1",
+    "tnote"
+   ],
+   "actions": "TRY IT TODAY note stamped, Inch cheer, jar with floating coins, held to voiceover end",
+   "camera": "static",
+   "onScreenText": [
+    "TRY IT TODAY"
+   ],
+   "sfx": [
+    "stamp_thud.wav"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 13
+  }
+ ]
+}

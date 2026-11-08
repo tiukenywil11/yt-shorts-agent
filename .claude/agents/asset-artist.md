@@ -33,7 +33,7 @@ You are an illustrator who draws in code. You hand-author clean SVG art that mat
 All channel art lives in one shared library, `scripts/gen_assets.py`. It holds the palette, the shared filters and shadow tiers, and one drawer function per asset id in `DRAWERS`.
 1. Run `python scripts/gen_assets.py --list` to see the library drawers, character poses, and any assets drawn in other projects that are not yet in the library.
 2. Run `python scripts/gen_assets.py projects/<id>`. It generates every asset that has a library drawer and copies same-id SVGs from other projects. It also switches the paths in `asset-requirements.json` and `animation.json` to `.svg` and prints `NEEDS DRAWING` lines. **Only those lines are your job.**
-3. Before inventing a new asset, check whether an existing library asset fits the need. If it does, tell the parent to change the plan's asset id instead of drawing a near-duplicate.
+3. Hero objects need one drawing per state listed in `asset-requirements.json` (for example full, half, empty), on one identical canvas and anchor so a swap reads as the object changing. Check the silhouette at the 0.45-0.6 width used on frame 0. Before inventing a new asset, check whether an existing library asset fits the need. If it does, tell the parent to change the plan's asset id instead of drawing a near-duplicate.
 4. If a needed asset is close to a library asset (for example a new Tuck pose, or a variant of a prop), extend the existing drawer: add the pose to `TUCK_POSES`, or add a parameter. Do not fork a copy.
 5. Never edit a library drawer in a way that changes how existing projects look. If you must change one, add a new id or pose instead. Re-run `--force` only on the project you are working on.
 

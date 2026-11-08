@@ -1,0 +1,181 @@
+{
+ "missing": [
+  "savings_jar (final art; placeholder reused from v1)",
+  "coin (final art; placeholder reused from v1)",
+  "goal_photo (final art; not in creative/asset-registry.json)",
+  "sfx_coin_clink (registered, not made; not referenced)",
+  "sfx_pencil_tick (registered, not made; not referenced)"
+ ],
+ "unsupportedComponents": [],
+ "note": "No new component or preset needed. Jar-pair, tags and disclaimer are built from Shape/KineticText plus reused savings_jar. Coins leaking use slide_in_up + fade_out. No music (audio.music null).",
+ "heroObjectStates": [
+  {
+   "state": "single_jar_3_coins",
+   "scenes": [
+    "scene-01",
+    "scene-02"
+   ],
+   "build": "savings_jar w0.48 + 3 coin props"
+  },
+  {
+   "state": "single_jar_leaking_1_coin",
+   "scenes": [
+    "scene-03"
+   ],
+   "build": "savings_jar + 1 coin + 2 coin props with slide_in_up/fade_out + cross_coral"
+  },
+  {
+   "state": "two_jars_4_coins_each",
+   "scenes": [
+    "scene-04"
+   ],
+   "build": "2 savings_jar w0.22 + 4 coins each"
+  },
+  {
+   "state": "two_jars_6_coins_each",
+   "scenes": [
+    "scene-05",
+    "scene-06"
+   ],
+   "build": "2 savings_jar + coin pop_in; goal_photo in scene-06"
+  },
+  {
+   "state": "single_jar_goal_tag",
+   "scenes": [
+    "scene-07"
+   ],
+   "build": "savings_jar w0.40 + 4 coins + GOAL: LAPTOP tag"
+  },
+  {
+   "state": "split_jars_2_coins_each",
+   "scenes": [
+    "scene-08"
+   ],
+   "build": "second jar slide_in_right + PART 1/PART 2 tags"
+  },
+  {
+   "state": "jars_with_photo_3_coins",
+   "scenes": [
+    "scene-09"
+   ],
+   "build": "2 savings_jar w0.17 + goal_photo + IN SIGHT tag"
+  },
+  {
+   "state": "final_jars_4_coins_each",
+   "scenes": [
+    "scene-10"
+   ],
+   "build": "2 savings_jar w0.20 + coins, Inch cheer, try_today_note"
+  }
+ ],
+ "assets": [
+  {
+   "id": "savings_jar",
+   "type": "prop",
+   "path": "assets/props/savings_jar.svg",
+   "description": "Paper jar, empty interior (hero object)",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "coin",
+   "type": "prop",
+   "path": "assets/props/coin.svg",
+   "description": "Sun Yellow coin",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "goal_photo",
+   "type": "prop",
+   "path": "assets/props/goal_photo.svg",
+   "description": "Generic goal image",
+   "status": "drawn",
+   "inRegistry": false,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "Kraft floor strip",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "Inch cheer pose (final scene)",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "Mint check badge",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "Coral cross badge (scene-03)",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "Cite card",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "TRY IT TODAY note",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "Cite card / photo",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "Leak cross",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  },
+  {
+   "id": "stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "Frame 0 hit and TRY IT TODAY",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "reused from projects/04-coin-jar-savings"
+  }
+ ]
+}
