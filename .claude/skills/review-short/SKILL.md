@@ -14,4 +14,6 @@ This is the single visual QA pass per gate. Run it at Gate 3 (preview) and optio
 4. Prioritize critical and major issues. For each one, name the scene ID and the smallest fix (DSL, asset, audio, or engine).
 5. Don't recommend changes based only on taste; tie each suggestion to clarity, storytelling, or quality.
 
+6. **Optional analytics check (only if asked: `analytics`).** Delegate once to `analytics-reviewer` with the project dir; it reads `analytics.md` (from `templates/analytics.example.md`; no file means "no data yet") and replies only, writing nothing. Report in a few lines; never apply changes automatically.
+
 `qa-reviewer` writes `qa-report.md`. Return a short publish / fix-first recommendation.

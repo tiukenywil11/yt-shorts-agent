@@ -1,0 +1,66 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Watch what one phone check does to this timer.",
+      "startSec": 0.0,
+      "durationSec": 2.304
+    },
+    {
+      "id": "seg-02",
+      "text": "Text, homework, email, text again. Every switch slows you down.",
+      "startSec": 2.554,
+      "durationSec": 3.776
+    },
+    {
+      "id": "seg-03",
+      "text": "In one 2001 lab study, switching tasks made people slower.",
+      "startSec": 6.58,
+      "durationSec": 4.16
+    },
+    {
+      "id": "seg-04",
+      "text": "Just a quick peek? The timer starts over.",
+      "startSec": 10.99,
+      "durationSec": 2.411
+    },
+    {
+      "id": "seg-05",
+      "text": "So try a focus block.",
+      "startSec": 13.651,
+      "durationSec": 1.408
+    },
+    {
+      "id": "seg-06",
+      "text": "One: one task, and a twenty-minute timer you can see.",
+      "startSec": 15.309,
+      "durationSec": 3.051
+    },
+    {
+      "id": "seg-07",
+      "text": "Two: phone face down, in another room.",
+      "startSec": 18.609,
+      "durationSec": 2.176
+    },
+    {
+      "id": "seg-08",
+      "text": "Three: a stray thought? Write it on a later list.",
+      "startSec": 21.035,
+      "durationSec": 2.603
+    },
+    {
+      "id": "seg-09",
+      "text": "Try it today, and watch the ice melt.",
+      "startSec": 23.888,
+      "durationSec": 2.027
+    }
+  ],
+  "targetDurationSec": 26,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.05
+  },
+  "voiceoverDurationSec": 25.915,
+  "timingMode": "exact"
+}

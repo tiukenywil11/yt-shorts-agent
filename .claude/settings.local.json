@@ -92,7 +92,15 @@
       "Bash(python scripts/make_channel_art.py)",
       "Bash(rm creative/brand/_t.html creative/brand/dp.png)",
       "Bash(sed -i 's/\"--headless=new\"/\"--headless\"/' scripts/make_channel_art.py)",
-      "Bash(python -c \"import json;d=json.load\\(open\\('projects/05-pay-yourself-first/script.json'\\)\\);print\\(json.dumps\\(d,indent=1\\)[:1500]\\)\")"
+      "Bash(python -c \"import json;d=json.load\\(open\\('projects/05-pay-yourself-first/script.json'\\)\\);print\\(json.dumps\\(d,indent=1\\)[:1500]\\)\")",
+      "Bash(python scripts/new_short.py focus-block-v2 --duration 26)",
+      "Bash(python scripts/tts.py projects/08-focus-block-v2 --engine kokoro --voice af_heart --speed 1.05)",
+      "Bash(python \"C:/Users/KENYWI~1/AppData/Local/Temp/claude/6fc44096c91f9657/db12be56-2929-4f9b-9cc7-673b8d249358/scratchpad/gen.py\")",
+      "Bash(cp -n projects/01-focus-block/assets/sfx/*.wav projects/08-focus-block-v2/assets/sfx/)",
+      "Bash(python scripts/gen_assets.py projects/08-focus-block-v2)",
+      "Bash(python scripts/validate_project.py projects/08-focus-block-v2)",
+      "Bash(python scripts/validate_project.py projects/01-focus-block-v2)",
+      "Bash(rm -r *)"
     ]
   }
 }

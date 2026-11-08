@@ -1,0 +1,191 @@
+{
+ "title": "This Is What One Phone Check Does to Your Focus",
+ "channel": "Small Change Lab",
+ "targetDurationSec": 26.015,
+ "voiceoverSec": 25.915,
+ "sceneCount": 9,
+ "notes": [
+  "One scene per segment; no trailing loop scene; last scene ends at voiceover + 0.1 s.",
+  "Ice cube is the visual timer in every scene; scale steps: 0.85,0.72 (hook), regrow 0.82,0.92,1.02,1.12 (switches), shatter then reset 1.0, then 0.88..0.09 and gone.",
+  "Citation lower-third sits at y 0.23-0.35 (stage top), not y 0.8+, because the style bible reserves y>0.74 for platform UI.",
+  "Cube regrow is a visual metaphor, not a measured claim. Source: Rubinstein, Meyer & Evans 2001."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0,
+   "durationSec": 2.554,
+   "beat": "hook",
+   "dominantVisual": "Paper ice-cube timer already melting on the desk, large, labelled 20 MIN; Inch steps toward the buzzing phone",
+   "camera": "static",
+   "onScreenText": [],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.554,
+   "durationSec": 4.026,
+   "beat": "problem",
+   "dominantVisual": "Four switches (text, homework, email, text again): each distractor icon pops, a coral cross lands and the ice REGROWS (0.72 -> 1.12)",
+   "camera": "static",
+   "onScreenText": [
+    "TEXT",
+    "HOMEWORK",
+    "EMAIL",
+    "TEXT AGAIN"
+   ],
+   "sfx": [
+    "problem_bonk.wav@0.2",
+    "problem_bonk.wav@0.65",
+    "problem_bonk.wav@1.25",
+    "problem_bonk.wav@1.85"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 30
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 6.58,
+   "durationSec": 4.41,
+   "beat": "cite",
+   "dominantVisual": "Citation lower-third (1.85 s) over the still-visible desk and ice",
+   "camera": "static",
+   "onScreenText": [
+    "Rubinstein et al., 2001 · J Exp Psych",
+    "SWITCHING = SLOWER",
+    "ONE LAB STUDY · SIMPLE TASKS"
+   ],
+   "sfx": [
+    "paper_rustle.wav@0.15"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 10.99,
+   "durationSec": 2.661,
+   "beat": "problem",
+   "dominantVisual": "Quick peek: cube shakes then shatters (ice burst + cross), a fresh full cube pops in: timer starts over",
+   "camera": "static",
+   "onScreenText": [],
+   "sfx": [
+    "problem_bonk.wav@1.55"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 13.651,
+   "durationSec": 1.658,
+   "beat": "fix",
+   "dominantVisual": "Open book + mint check; Inch has an idea; ice at full size",
+   "camera": "static",
+   "onScreenText": [],
+   "sfx": [
+    "paper_rustle.wav@0.05"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 15.309,
+   "durationSec": 3.3,
+   "beat": "fix",
+   "dominantVisual": "Step 1 slate; ice begins to shrink",
+   "camera": "static",
+   "onScreenText": [
+    "1",
+    "PICK ONE TASK",
+    "20 MIN"
+   ],
+   "sfx": [
+    "paper_rustle.wav@0.05"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-07"
+   ],
+   "startSec": 18.609,
+   "durationSec": 2.426,
+   "beat": "fix",
+   "dominantVisual": "Step 2 slate; phone flips face down, mint check, leaves; ice shrinks",
+   "camera": "static",
+   "onScreenText": [
+    "2",
+    "PHONE FACE DOWN"
+   ],
+   "sfx": [
+    "paper_rustle.wav@0.8"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 20
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-08"
+   ],
+   "startSec": 21.035,
+   "durationSec": 2.853,
+   "beat": "fix",
+   "dominantVisual": "Step 3 slate; LATER sticky note gets a line; ice shrinks",
+   "camera": "static",
+   "onScreenText": [
+    "3",
+    "LATER LIST",
+    "LATER"
+   ],
+   "sfx": [
+    "paper_rustle.wav@0.9"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-09"
+   ],
+   "startSec": 23.888,
+   "durationSec": 2.127,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY stamp, mint check + confetti; ice melts away on the last words",
+   "camera": "camera_push",
+   "onScreenText": [
+    "TRY IT TODAY"
+   ],
+   "sfx": [
+    "stamp_thud.wav@0.1"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 18
+  }
+ ]
+}
