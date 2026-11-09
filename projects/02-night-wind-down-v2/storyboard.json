@@ -1,0 +1,168 @@
+{
+ "title": "Same Bedtime, Same Room. The Screen Lost.",
+ "channel": "Small Change Lab",
+ "pillar": "Body",
+ "format": "Head-to-head",
+ "targetDurationSec": 18.1,
+ "voiceoverSec": 18.0,
+ "sceneCount": 7,
+ "notes": [
+  "Night palette: Ink solid background, floor strip, chip BODY · SLEEP; NOT MEDICAL ADVICE tag from the cite card (scene 6) to the end.",
+  "Frame 0: split stage SCREEN vs PAPER; hero glowing phone with glow width 0.42 and Inch tired; stamp_thud at 0.0 s.",
+  "Hero object: the glowing phone and its glow (pulse speeds up, Coral cross), then replaced by the dim lamp and paper book on the paper side. Final frames stay on the paper side.",
+  "Bars (scene 5): both tracks share x, width 0.58 and fill origin; only the fill differs; values at the same x. 26 min = full inner width 0.54, 16 min = 0.332.",
+  "Cite card: Chang et al., 2015 PNAS; limit \"n = 12 · one lab study\"; clinician line on a Paper tag under the card, not spoken; held 2.4 s.",
+  "Spoken scope clause: \"in a lab\" (seg-02). Hook says same bedtime / same dim room. Participants chose their own books, so no shared-book claim. Say \"nearly ten minutes\", never \"ten\".",
+  "Inter-segment gaps belong to the preceding scene. No trailing scene: video 18.1 s = voiceover 18.0 s + 0.1 s.",
+  "Captions at y 0.70; nothing on the stage below y 0.64. Scene cuts inside a segment are estimated by letter count."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0,
+   "durationSec": 1.87,
+   "beat": "hook",
+   "dominantVisual": "Split stage: hero glowing phone (glow width 0.42) vs a paper book, Inch tired on the screen side",
+   "camera": "static",
+   "onScreenText": [
+    "SCREEN",
+    "PAPER"
+   ],
+   "sfx": [
+    "stamp_thud"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 1.87,
+   "durationSec": 2.796,
+   "beat": "tension",
+   "dominantVisual": "Same split stage; glow pulses faster, Inch swaps to worry, Coral cross slaps on the phone",
+   "camera": "static",
+   "onScreenText": [
+    "SCREEN",
+    "PAPER"
+   ],
+   "sfx": [
+    "problem_bonk"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 4.666,
+   "durationSec": 2.434,
+   "beat": "finding",
+   "dominantVisual": "Cite card (width 0.76, x 0.46) over \"twelve adults read before bed in a lab\": limit \"n = 12 · one lab study\", clinician tag under it; held 2.4 s; NOT MEDICAL ADVICE tag starts here",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Chang et al., 2015 · PNAS",
+    "SCREEN: ~26 MIN TO SLEEP",
+    "PAPER: ~16 MIN",
+    "n = 12 · one lab study",
+    "NOT MEDICAL ADVICE",
+    "If you have a condition, ask a clinician"
+   ],
+   "sfx": [
+    "paper_rustle"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 7.1,
+   "durationSec": 2.467,
+   "beat": "tension",
+   "dominantVisual": "Split stage: Inch with the glowing phone, then slides to the paper-book side on \"paper\"",
+   "camera": "static",
+   "onScreenText": [
+    "SCREEN",
+    "PAPER",
+    "NOT MEDICAL ADVICE"
+   ],
+   "sfx": [
+    "paper_rustle"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 9.567,
+   "durationSec": 3.599,
+   "beat": "finding",
+   "dominantVisual": "Bars stay for the whole sentence: both race, Mint PAPER stops at ~16, Coral SCREEN runs on to ~26 as the voice says \"nearly ten minutes\", then a +~10 MIN gap stat",
+   "camera": "static",
+   "onScreenText": [
+    "SCREEN",
+    "PAPER",
+    "~16 MIN",
+    "~26 MIN",
+    "+~10 MIN",
+    "NOT MEDICAL ADVICE"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 27
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 13.166,
+   "durationSec": 2.49,
+   "beat": "fix",
+   "dominantVisual": "Dim lamp pops in beside the paper book, which pulses under a Mint check as Inch cheers",
+   "camera": "static",
+   "onScreenText": [
+    "NOT MEDICAL ADVICE"
+   ],
+   "sfx": [
+    "paper_rustle"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 11
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 15.656,
+   "durationSec": 2.444,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note slaps on above the paper book, lamp and cheering Inch; check pops at 1.0 s; ends 0.1 s after the voiceover",
+   "camera": "static",
+   "onScreenText": [
+    "TRY IT TODAY (note)",
+    "NOT MEDICAL ADVICE"
+   ],
+   "sfx": [
+    "stamp_thud"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 14
+  }
+ ]
+}

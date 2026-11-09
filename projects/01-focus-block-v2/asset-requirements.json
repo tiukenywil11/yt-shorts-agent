@@ -1,0 +1,223 @@
+{
+ "note": "Everything reused from theory/projects/01-focus-block-v2 and projects/03-motivation-vs-discipline-v2 (cite_card). Puddle, tags, thought bubble, confetti are Shape/ParticleBurst, no assets.",
+ "heroStates": [
+  {
+   "state": "melting_full",
+   "scene": "scene-01",
+   "scale": 1.0,
+   "note": "frame 0 problem state, width 0.5"
+  },
+  {
+   "state": "melting_small",
+   "scene": "scene-01/02",
+   "scale": "0.9, 0.84"
+  },
+  {
+   "state": "regrown_away",
+   "scene": "scene-03",
+   "scale": 0.96
+  },
+  {
+   "state": "regrown_back",
+   "scene": "scene-03/04/05",
+   "scale": 1.08
+  },
+  {
+   "state": "fresh_full",
+   "scene": "scene-06",
+   "scale": 1.0
+  },
+  {
+   "state": "timer_melting",
+   "scene": "scene-07..09",
+   "scale": "0.9 to 0.55"
+  },
+  {
+   "state": "melted_out",
+   "scene": "scene-10",
+   "scale": "0.35 to 0.08 plus wide puddle"
+  }
+ ],
+ "assets": [
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "description": "Inch pose neutral.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_worry",
+   "type": "character",
+   "path": "assets/characters/inch/inch_worry.svg",
+   "description": "Inch pose worry.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "Inch pose idea.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "Inch pose cheer.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "Floor band.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "phone",
+   "type": "prop",
+   "path": "assets/props/phone.svg",
+   "description": "Generic phone.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "phone_facedown",
+   "type": "prop",
+   "path": "assets/props/phone_facedown.svg",
+   "description": "Phone face down.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "notification_dot",
+   "type": "prop",
+   "path": "assets/props/notification_dot.svg",
+   "description": "Coral dot with '!'.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "book_open",
+   "type": "prop",
+   "path": "assets/props/book_open.svg",
+   "description": "Open textbook (one task).",
+   "status": "drawn",
+   "inRegistry": false,
+   "source": "library",
+   "newAsset": true
+  },
+  {
+   "id": "later_note",
+   "type": "prop",
+   "path": "assets/props/later_note.svg",
+   "description": "Sticky note for the later list.",
+   "status": "drawn",
+   "inRegistry": false,
+   "source": "library",
+   "newAsset": true
+  },
+  {
+   "id": "ice_cube",
+   "type": "prop",
+   "path": "assets/props/ice_cube.svg",
+   "description": "Hero paper ice-cube timer. Hero states are produced by scale on this one SVG (see heroStates).",
+   "status": "drawn",
+   "inRegistry": false,
+   "source": "library",
+   "newAsset": true
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "Mint check.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "Coral cross.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "step_slate",
+   "type": "ui",
+   "path": "assets/ui/step_slate.svg",
+   "description": "Step slate backdrop; numeral is KineticText.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "TRY IT TODAY note.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "Paper index card with Ink border and Sun Yellow tab.",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "Copied from the theory/ project (same library wav).",
+   "status": "generated",
+   "license": "original or documented royalty-free"
+  },
+  {
+   "id": "sfx_problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "Copied from the theory/ project (same library wav).",
+   "status": "generated",
+   "license": "original or documented royalty-free"
+  },
+  {
+   "id": "sfx_stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "Copied from the theory/ project (same library wav).",
+   "status": "generated",
+   "license": "original or documented royalty-free"
+  },
+  {
+   "id": "voiceover",
+   "type": "voice",
+   "path": "voiceover.wav",
+   "description": "Kokoro af_heart 1.1, 21.59 s",
+   "status": "generated"
+  }
+ ],
+ "missing": [],
+ "unsupportedComponents": []
+}

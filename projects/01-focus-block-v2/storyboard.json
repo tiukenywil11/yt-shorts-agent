@@ -1,0 +1,224 @@
+{
+ "title": "One Quick Text Is Two Task Switches",
+ "channel": "Small Change Lab",
+ "pillar": "Mind",
+ "format": "Number reveal",
+ "targetDurationSec": 21.69,
+ "voiceoverSec": 21.59,
+ "sceneCount": 10,
+ "notes": [
+  "Hero: paper ice-cube timer (ice_cube.svg, width 0.5, x 0.6, bottom on y 0.64). States by scale: 1.0 and 0.9 and 0.84 melting; 0.96 and 1.08 regrown (metaphor, not a measured claim); fresh 1.0; 0.8, 0.7, 0.66, 0.55, 0.35, 0.2, 0.08 melting out. Sky puddle Shape grows as it melts.",
+  "seg-01 split by letter count at 'really | two' (1.35 s); seg-03 split at 'when | they' (7.55 s). Gaps belong to the preceding scene.",
+  "Cite card held 2.65 s, result (SWITCHING = SLOWER) enters before source line; entered by slide_up transition from scene-03. Caveat lives on the card limit line (SIMPLE LAB TASKS), spoken only as 'in one 2001 lab study'.",
+  "SFX spaced >= 1.5 s apart; frame-0 hit is problem_bonk. No trailing scene: video ends 0.1 s after the voiceover (21.69 s).",
+  "Captions at y 0.70; stage items at y <= 0.64; digits used for numbers in captions ('20-minute') where the script says 'twenty-minute'.",
+  "Cube sits at x 0.6, slightly overlapping the right rail at scale >= 1.0 (right edge 0.85-0.88); Inch/phone at left. Check stills."
+ ],
+ "scenes": [
+  {
+   "id": "scene-01",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 0.0,
+   "durationSec": 1.35,
+   "beat": "hook",
+   "dominantVisual": "Hero ice-cube timer (width 0.5, 20 MIN) already melting, buzzing phone, Inch reaching",
+   "camera": "static",
+   "onScreenText": [
+    "20 MIN"
+   ],
+   "sfx": [
+    "problem_bonk@0.0"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 15
+  },
+  {
+   "id": "scene-02",
+   "segmentIds": [
+    "seg-01"
+   ],
+   "startSec": 1.35,
+   "durationSec": 1.268,
+   "beat": "tension",
+   "dominantVisual": "Number reveal: big yellow 2 over TASK SWITCHES, cube keeps melting",
+   "camera": "static",
+   "onScreenText": [
+    "2",
+    "TASK SWITCHES",
+    "20 MIN"
+   ],
+   "sfx": [
+    "paper_rustle@0.3"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 13
+  },
+  {
+   "id": "scene-03",
+   "segmentIds": [
+    "seg-02"
+   ],
+   "startSec": 2.618,
+   "durationSec": 2.149,
+   "beat": "problem",
+   "dominantVisual": "Phone round trip: 1 AWAY + cross, ice regrows 0.96; 2 BACK + cross, ice regrows 1.08",
+   "camera": "static",
+   "onScreenText": [
+    "1 · AWAY",
+    "2 · BACK",
+    "20 MIN"
+   ],
+   "sfx": [
+    "problem_bonk@0.8"
+   ],
+   "transitionOut": "slide_up",
+   "elementCount": 25
+  },
+  {
+   "id": "scene-04",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 4.767,
+   "durationSec": 2.783,
+   "beat": "finding",
+   "dominantVisual": "Cite card (result first): SWITCHING = SLOWER, then Rubinstein et al., 2001, limit SIMPLE LAB TASKS; held 2.65 s",
+   "camera": "static",
+   "onScreenText": [
+    "THE STUDY",
+    "Rubinstein et al., 2001",
+    "SWITCHING",
+    "= SLOWER",
+    "SIMPLE LAB TASKS"
+   ],
+   "sfx": [
+    "paper_rustle@0.2"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 17
+  },
+  {
+   "id": "scene-05",
+   "segmentIds": [
+    "seg-03"
+   ],
+   "startSec": 7.55,
+   "durationSec": 1.584,
+   "beat": "finding",
+   "dominantVisual": "Acting beat: regrown cube and Inch jolt (shake), cross on cube; slow push",
+   "camera": "camera_push",
+   "onScreenText": [
+    "20 MIN"
+   ],
+   "sfx": [],
+   "transitionOut": "cut",
+   "elementCount": 12
+  },
+  {
+   "id": "scene-06",
+   "segmentIds": [
+    "seg-04"
+   ],
+   "startSec": 9.134,
+   "durationSec": 1.615,
+   "beat": "fix",
+   "dominantVisual": "Phone gone; fresh full cube pops in, mint check, Inch has an idea",
+   "camera": "static",
+   "onScreenText": [
+    "20 MIN"
+   ],
+   "sfx": [
+    "paper_rustle@0.1"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 9
+  },
+  {
+   "id": "scene-07",
+   "segmentIds": [
+    "seg-05"
+   ],
+   "startSec": 10.749,
+   "durationSec": 3.258,
+   "beat": "fix",
+   "dominantVisual": "Step 1 slate; open book + check; cube melts steadily 1.0 -> 0.8",
+   "camera": "static",
+   "onScreenText": [
+    "1",
+    "ONE TASK",
+    "20 MIN"
+   ],
+   "sfx": [
+    "paper_rustle@0.1"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 20
+  },
+  {
+   "id": "scene-08",
+   "segmentIds": [
+    "seg-06"
+   ],
+   "startSec": 14.007,
+   "durationSec": 2.341,
+   "beat": "fix",
+   "dominantVisual": "Step 2 slate; face-down phone + check then gone; cube 0.8 -> 0.7",
+   "camera": "static",
+   "onScreenText": [
+    "2",
+    "FACE DOWN",
+    "OTHER ROOM",
+    "20 MIN"
+   ],
+   "sfx": [
+    "paper_rustle@0.3"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 18
+  },
+  {
+   "id": "scene-09",
+   "segmentIds": [
+    "seg-07"
+   ],
+   "startSec": 16.348,
+   "durationSec": 2.746,
+   "beat": "fix",
+   "dominantVisual": "Step 3 slate; stray-thought bubble becomes LATER note + check; cube 0.66 -> 0.55",
+   "camera": "static",
+   "onScreenText": [
+    "3",
+    "LATER LIST",
+    "?",
+    "20 MIN"
+   ],
+   "sfx": [
+    "paper_rustle@0.3"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 19
+  },
+  {
+   "id": "scene-10",
+   "segmentIds": [
+    "seg-08"
+   ],
+   "startSec": 19.094,
+   "durationSec": 2.596,
+   "beat": "try-it-today",
+   "dominantVisual": "TRY IT TODAY note + check + confetti; Inch hops; ice melts fully on the last words",
+   "camera": "camera_push",
+   "onScreenText": [
+    "TRY IT TODAY",
+    "20 MIN"
+   ],
+   "sfx": [
+    "stamp_thud@0.1"
+   ],
+   "transitionOut": "cut",
+   "elementCount": 20
+  }
+ ]
+}

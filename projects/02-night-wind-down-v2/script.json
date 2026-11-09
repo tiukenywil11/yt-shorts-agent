@@ -1,0 +1,42 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Same bedtime, same dim room. On a screen, it took longer to fall asleep.",
+      "startSec": 0.0,
+      "durationSec": 4.416
+    },
+    {
+      "id": "seg-02",
+      "text": "Twelve adults read before bed in a lab, once on a glowing screen, once on paper.",
+      "startSec": 4.666,
+      "durationSec": 4.651
+    },
+    {
+      "id": "seg-03",
+      "text": "On the screen, they took nearly ten minutes longer to fall asleep.",
+      "startSec": 9.567,
+      "durationSec": 3.349
+    },
+    {
+      "id": "seg-04",
+      "text": "So tonight, try paper instead of a screen.",
+      "startSec": 13.166,
+      "durationSec": 2.24
+    },
+    {
+      "id": "seg-05",
+      "text": "Try it today: one paper book, no screen.",
+      "startSec": 15.656,
+      "durationSec": 2.347
+    }
+  ],
+  "targetDurationSec": 28,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 18.003,
+  "timingMode": "exact"
+}

@@ -1,0 +1,172 @@
+{
+ "missing": [],
+ "note": "No blocking gaps. All files are library copies from 08-habit-21-days. Hero states are engine-built (Shape + KineticText). No music (audio.music null).",
+ "assets": [
+  {
+   "id": "floor_strip",
+   "type": "prop",
+   "path": "assets/props/floor_strip.svg",
+   "description": "floor",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cite_card",
+   "type": "ui",
+   "path": "assets/ui/cite_card.svg",
+   "description": "cite card",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "check_mint",
+   "type": "ui",
+   "path": "assets/ui/check_mint.svg",
+   "description": "Mint check",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "cross_coral",
+   "type": "ui",
+   "path": "assets/ui/cross_coral.svg",
+   "description": "Coral cross",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "try_today_note",
+   "type": "ui",
+   "path": "assets/ui/try_today_note.svg",
+   "description": "TRY IT TODAY note",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_worry",
+   "type": "character",
+   "path": "assets/characters/inch/inch_worry.svg",
+   "description": "Inch worry",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_neutral",
+   "type": "character",
+   "path": "assets/characters/inch/inch_neutral.svg",
+   "description": "Inch neutral",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_idea",
+   "type": "character",
+   "path": "assets/characters/inch/inch_idea.svg",
+   "description": "Inch idea",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "inch_cheer",
+   "type": "character",
+   "path": "assets/characters/inch/inch_cheer.svg",
+   "description": "Inch cheer",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_problem_bonk",
+   "type": "sfx",
+   "path": "assets/sfx/problem_bonk.wav",
+   "description": "problem_bonk",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_paper_rustle",
+   "type": "sfx",
+   "path": "assets/sfx/paper_rustle.wav",
+   "description": "paper_rustle",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  },
+  {
+   "id": "sfx_stamp_thud",
+   "type": "sfx",
+   "path": "assets/sfx/stamp_thud.wav",
+   "description": "stamp_thud",
+   "status": "drawn",
+   "inRegistry": true,
+   "source": "library"
+  }
+ ],
+ "optionalUpgrades": [
+  {
+   "id": "sfx_pencil_tick",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "paper_rustle substituted on check_mint."
+  },
+  {
+   "id": "sfx_page_flip",
+   "status": "to_create",
+   "inRegistry": true,
+   "note": "paper_rustle substituted on the cite card."
+  },
+  {
+   "id": "task_block",
+   "status": "to_create",
+   "inRegistry": false,
+   "note": "Dedicated task-block prop with jagged edge; currently Shape rect + 6 Coral triangles."
+  }
+ ],
+ "heroStates": [
+  {
+   "id": "task_heavy",
+   "scene": "scene-01",
+   "state": "problem: big spiky block, 691 above, Inch worry",
+   "builtFrom": "Shape + KineticText"
+  },
+  {
+   "id": "task_jolt_cross",
+   "scene": "scene-02",
+   "state": "jolting with Coral cross"
+  },
+  {
+   "id": "task_small_listed",
+   "scene": "scene-03",
+   "state": "block shrinks to make room for predictor tags"
+  },
+  {
+   "id": "task_far_reward",
+   "scene": "scene-06",
+   "state": "small block far from reward coin"
+  },
+  {
+   "id": "task_not_tested",
+   "scene": "scene-08",
+   "state": "spiky with cross"
+  },
+  {
+   "id": "tile_2min",
+   "scene": "scene-09",
+   "state": "block exits, rounded Sun 2 MIN tile (no spikes)"
+  },
+  {
+   "id": "tile_checked",
+   "scene": "scene-10",
+   "state": "tile + Mint check + Inch cheer"
+  }
+ ]
+}

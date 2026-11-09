@@ -1,0 +1,2783 @@
+{
+  "schemaVersion": "1.0",
+  "video": {
+    "id": "night-wind-down-v2",
+    "title": "Same Bedtime, Same Room. The Screen Lost.",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 18.1
+  },
+  "audio": {
+    "voiceover": "voiceover.wav",
+    "music": null,
+    "voiceVolume": 1,
+    "musicVolume": 0.15
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "startSec": 0,
+      "durationSec": 1.87,
+      "background": {
+        "type": "solid",
+        "color": "#26303F"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-01-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-01-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-01-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "BODY · SLEEP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-01-divider",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.47,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 20
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.008,
+            "height": 0.38,
+            "color": "#F5EEDD",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-01-lbl-screen",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.26,
+            "y": 0.22,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "SCREEN ~26 MIN",
+          "params": {
+            "fontSize": 76,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-lbl-paper",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.7,
+            "y": 0.22,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "PAPER ~16 MIN",
+          "params": {
+            "fontSize": 76,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.34,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-01-glow",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/phone_glow.svg",
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.28,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 39
+          },
+          "preset": "none",
+          "loop": "pulse",
+          "params": {
+            "width": 0.42,
+            "periodSec": 0.6,
+            "amount": 0.08
+          }
+        },
+        {
+          "id": "scene-01-phone",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/phone.svg",
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.28,
+            "y": 0.5504,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.32
+          }
+        },
+        {
+          "id": "scene-01-book",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/book_open.svg",
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.66,
+            "y": 0.5336,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.38
+          }
+        },
+        {
+          "id": "scene-01-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_tired.svg",
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.16,
+            "y": 0.576,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.2,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_tired.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-01-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 1.87,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Same bedtime, same dim room.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/stamp_thud.wav",
+          "atSec": 0,
+          "volume": 0.65
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-02",
+      "startSec": 1.87,
+      "durationSec": 2.796,
+      "background": {
+        "type": "solid",
+        "color": "#26303F"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-02-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-02-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-02-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "BODY · SLEEP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-02-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-02-divider",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.47,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 20
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.008,
+            "height": 0.38,
+            "color": "#F5EEDD",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-02-lbl-screen",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.26,
+            "y": 0.22,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "SCREEN ~26 MIN",
+          "params": {
+            "fontSize": 76,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-02-lbl-paper",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.7,
+            "y": 0.22,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "PAPER ~16 MIN",
+          "params": {
+            "fontSize": 76,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.34,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-02-glow",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/phone_glow.svg",
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.28,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 39
+          },
+          "preset": "none",
+          "loop": "pulse",
+          "params": {
+            "width": 0.42,
+            "periodSec": 0.4,
+            "amount": 0.1
+          }
+        },
+        {
+          "id": "scene-02-phone",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/phone.svg",
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.28,
+            "y": 0.5504,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.32
+          }
+        },
+        {
+          "id": "scene-02-book",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/book_open.svg",
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.66,
+            "y": 0.5336,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.38
+          }
+        },
+        {
+          "id": "scene-02-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_tired.svg",
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.16,
+            "y": 0.576,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.2,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_tired.svg"
+              },
+              {
+                "atSec": 0.2,
+                "asset": "assets/characters/inch/inch_worry.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-02-cross",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cross_coral.svg",
+          "startSec": 0.3,
+          "durationSec": 2.496,
+          "transform": {
+            "x": 0.44,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.12,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-02-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.796,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "On a screen, it took longer to fall asleep.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/problem_bonk.wav",
+          "atSec": 0.3,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-03",
+      "startSec": 4.666,
+      "durationSec": 2.434,
+      "background": {
+        "type": "solid",
+        "color": "#26303F"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-03-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-03-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-03-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "BODY · SLEEP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-03-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-03-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.234,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.56,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 0,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-03-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.2,
+          "durationSec": 2.234,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 88,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "content": "NOT MEDICAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.54,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-03-card",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cite_card.svg",
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.46,
+            "y": 0.38,
+            "rotation": 0,
+            "layer": 80
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.76,
+            "inSec": 0.18,
+            "overshoot": 0.06
+          }
+        },
+        {
+          "id": "scene-03-tab",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.213,
+            "y": 0.268,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "THE STUDY",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.27,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18
+          }
+        },
+        {
+          "id": "scene-03-source",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.46,
+            "y": 0.31,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "Chang et al., 2015 · PNAS",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.7,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18
+          }
+        },
+        {
+          "id": "scene-03-f1",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.46,
+            "y": 0.365,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "SCREEN: ~26 MIN TO SLEEP",
+          "params": {
+            "fontSize": 48,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.68,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18
+          }
+        },
+        {
+          "id": "scene-03-f2",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.46,
+            "y": 0.415,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "PAPER: ~16 MIN",
+          "params": {
+            "fontSize": 48,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.68,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18
+          }
+        },
+        {
+          "id": "scene-03-limit",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.5,
+            "y": 0.465,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "content": "n = 12 · one lab study",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.64,
+            "align": "left",
+            "uppercase": true,
+            "inSec": 0.18
+          }
+        },
+        {
+          "id": "scene-03-limit-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.13,
+            "y": 0.466,
+            "rotation": 0,
+            "layer": 81
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "circle",
+            "width": 0.03,
+            "height": 0.03,
+            "color": "#E2553F",
+            "inSec": 0.18
+          }
+        },
+        {
+          "id": "scene-03-clin-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 1.934,
+          "transform": {
+            "x": 0.6,
+            "y": 0.585,
+            "rotation": 0,
+            "layer": 87
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.66,
+            "height": 0.1,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 0,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-03-clin-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.5,
+          "durationSec": 1.934,
+          "transform": {
+            "x": 0.6,
+            "y": 0.585,
+            "rotation": 0,
+            "layer": 88
+          },
+          "preset": "pop_in",
+          "content": "If you have a condition, ask a clinician",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.62,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-03-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_neutral.svg",
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.15,
+            "y": 0.576,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.2,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_neutral.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-03-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.434,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Twelve adults read before bed in a lab,",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.05,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-04",
+      "startSec": 7.1,
+      "durationSec": 2.467,
+      "background": {
+        "type": "solid",
+        "color": "#26303F"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-04-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-04-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-04-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "BODY · SLEEP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-04-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.56,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 0,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-04-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 88,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "content": "NOT MEDICAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.54,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-04-divider",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.47,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 20
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.008,
+            "height": 0.38,
+            "color": "#F5EEDD",
+            "radius": 0.004
+          }
+        },
+        {
+          "id": "scene-04-lbl-screen",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.26,
+            "y": 0.28,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "SCREEN",
+          "params": {
+            "fontSize": 56,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.4,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-lbl-paper",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.7,
+            "y": 0.28,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "PAPER",
+          "params": {
+            "fontSize": 56,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.34,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-04-glow",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/phone_glow.svg",
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.28,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 39
+          },
+          "preset": "none",
+          "loop": "pulse",
+          "params": {
+            "width": 0.42,
+            "periodSec": 0.6,
+            "amount": 0.08
+          }
+        },
+        {
+          "id": "scene-04-phone",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/phone.svg",
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.28,
+            "y": 0.5504,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.32
+          }
+        },
+        {
+          "id": "scene-04-book",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/book_open.svg",
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.72,
+            "y": 0.5616,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.28
+          }
+        },
+        {
+          "id": "scene-04-inch-l",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_neutral.svg",
+          "startSec": 0,
+          "durationSec": 1.2,
+          "transform": {
+            "x": 0.16,
+            "y": 0.576,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.2,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_neutral.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-04-inch-r",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_neutral.svg",
+          "startSec": 1.2,
+          "durationSec": 1.267,
+          "transform": {
+            "x": 0.56,
+            "y": 0.576,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "slide_in_right",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.2,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_neutral.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5,
+            "inSec": 0.25
+          }
+        },
+        {
+          "id": "scene-04-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.467,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "once on a glowing screen, once on paper.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 1.25,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-05",
+      "startSec": 9.567,
+      "durationSec": 3.599,
+      "background": {
+        "type": "solid",
+        "color": "#26303F"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-05-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-05-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-05-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "BODY · SLEEP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-05-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.56,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 0,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-05-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 88,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "content": "NOT MEDICAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.54,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-05-sc-lbl",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.5,
+            "y": 0.26,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "SCREEN",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.5,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-sc-box",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.5,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 25
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.58,
+            "height": 0.14,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 5
+          }
+        },
+        {
+          "id": "scene-05-sc-nub",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.803,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 24
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.026,
+            "height": 0.056,
+            "color": "#F5EEDD",
+            "radius": 0.006
+          }
+        },
+        {
+          "id": "scene-05-pa-lbl",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.5,
+            "y": 0.49,
+            "rotation": 0,
+            "layer": 60
+          },
+          "preset": "none",
+          "content": "PAPER",
+          "params": {
+            "fontSize": 52,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 0,
+            "maxWidth": 0.5,
+            "align": "center",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-05-pa-box",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.5,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 25
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.58,
+            "height": 0.14,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 5
+          }
+        },
+        {
+          "id": "scene-05-pa-nub",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.803,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 24
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.026,
+            "height": 0.056,
+            "color": "#F5EEDD",
+            "radius": 0.006
+          }
+        },
+        {
+          "id": "scene-05-pa-fill0",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.29,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.12,
+            "height": 0.1,
+            "color": "#3FA37A",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-pa-fill3",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.355,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.25,
+            "height": 0.1,
+            "color": "#3FA37A",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-pa-fill6",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.6,
+          "durationSec": 2.999,
+          "transform": {
+            "x": 0.3962,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.3323,
+            "height": 0.1,
+            "color": "#3FA37A",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-sc-fill0",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.29,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.12,
+            "height": 0.1,
+            "color": "#E2553F",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-sc-fill3",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.3,
+          "durationSec": 3.299,
+          "transform": {
+            "x": 0.355,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.25,
+            "height": 0.1,
+            "color": "#E2553F",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-sc-fill6",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.6,
+          "durationSec": 2.999,
+          "transform": {
+            "x": 0.395,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.33,
+            "height": 0.1,
+            "color": "#E2553F",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-sc-fill9",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0.9,
+          "durationSec": 2.699,
+          "transform": {
+            "x": 0.43,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.4,
+            "height": 0.1,
+            "color": "#E2553F",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-sc-fill12",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 1.2,
+          "durationSec": 2.399,
+          "transform": {
+            "x": 0.465,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.47,
+            "height": 0.1,
+            "color": "#E2553F",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-sc-fill15",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 1.5,
+          "durationSec": 2.099,
+          "transform": {
+            "x": 0.5,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 30
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.54,
+            "height": 0.1,
+            "color": "#E2553F",
+            "radius": 0.012
+          }
+        },
+        {
+          "id": "scene-05-pa-val",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0.65,
+          "durationSec": 2.949,
+          "transform": {
+            "x": 0.38,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "none",
+          "content": "~16 MIN",
+          "params": {
+            "fontSize": 56,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 6,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          }
+        },
+        {
+          "id": "scene-05-sc-val",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 1.55,
+          "durationSec": 2.049,
+          "transform": {
+            "x": 0.38,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 61
+          },
+          "preset": "none",
+          "content": "~26 MIN",
+          "params": {
+            "fontSize": 56,
+            "fontWeight": 900,
+            "color": "#F5EEDD",
+            "strokeWidth": 6,
+            "maxWidth": 0.3,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F"
+          }
+        },
+        {
+          "id": "scene-05-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 0.65,
+          "durationSec": 2.949,
+          "transform": {
+            "x": 0.83,
+            "y": 0.56,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-05-cross",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/cross_coral.svg",
+          "startSec": 1.55,
+          "durationSec": 2.049,
+          "transform": {
+            "x": 0.83,
+            "y": 0.33,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.1,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-05-gap",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 1.75,
+          "durationSec": 1.849,
+          "transform": {
+            "x": 0.5,
+            "y": 0.43,
+            "rotation": 0,
+            "layer": 82
+          },
+          "preset": "pop_in",
+          "content": "+~10 MIN",
+          "params": {
+            "fontSize": 80,
+            "fontWeight": 900,
+            "color": "#F2B632",
+            "strokeWidth": 8,
+            "maxWidth": 0.6,
+            "align": "center",
+            "uppercase": true,
+            "strokeColor": "#26303F",
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-05-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 3.599,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "On the screen, they took nearly ten minutes longer to fall asleep.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-06",
+      "startSec": 13.166,
+      "durationSec": 2.49,
+      "background": {
+        "type": "solid",
+        "color": "#26303F"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-06-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-06-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-06-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "BODY · SLEEP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-06-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-06-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.56,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 0,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-06-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 88,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "content": "NOT MEDICAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.54,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-06-book",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/book_open.svg",
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.5,
+            "y": 0.5224,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "loop": "pulse",
+          "params": {
+            "width": 0.42,
+            "periodSec": 1.2,
+            "amount": 0.03
+          }
+        },
+        {
+          "id": "scene-06-lamp",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/lamp_dim.svg",
+          "startSec": 0.1,
+          "durationSec": 2.39,
+          "transform": {
+            "x": 0.8,
+            "y": 0.5728,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.24,
+            "inSec": 0.28,
+            "overshoot": 0.08
+          }
+        },
+        {
+          "id": "scene-06-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_idea.svg",
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.2,
+            "y": 0.5648,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.24,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_idea.svg"
+              },
+              {
+                "atSec": 1.2,
+                "asset": "assets/characters/inch/inch_cheer.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-06-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.2,
+          "durationSec": 1.29,
+          "transform": {
+            "x": 0.5,
+            "y": 0.38,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.13,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-06-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.49,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "So tonight, try paper instead of a screen.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/paper_rustle.wav",
+          "atSec": 0.1,
+          "volume": 0.5
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    },
+    {
+      "id": "scene-07",
+      "startSec": 15.656,
+      "durationSec": 2.444,
+      "background": {
+        "type": "solid",
+        "color": "#26303F"
+      },
+      "camera": {
+        "preset": "static",
+        "params": {}
+      },
+      "elements": [
+        {
+          "id": "scene-07-chip-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.38,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 86,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "rect",
+            "width": 0.64,
+            "height": 0.075,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4
+          }
+        },
+        {
+          "id": "scene-07-chip-dot",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.1,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "params": {
+            "shape": "circle",
+            "width": 0.04,
+            "height": 0.04,
+            "color": "#F2B632"
+          }
+        },
+        {
+          "id": "scene-07-chip-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.41,
+            "y": 0.11,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "BODY · SLEEP",
+          "params": {
+            "fontSize": 44,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.56,
+            "align": "left",
+            "uppercase": true
+          }
+        },
+        {
+          "id": "scene-07-floor",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/floor_strip.svg",
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.5,
+            "y": 0.81,
+            "rotation": 0,
+            "layer": 5
+          },
+          "preset": "none",
+          "params": {
+            "width": 1.0
+          }
+        },
+        {
+          "id": "scene-07-disc-back",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 87,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.56,
+            "height": 0.05,
+            "color": "#F5EEDD",
+            "radius": 0.012,
+            "strokeColor": "#26303F",
+            "strokeWidth": 0,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-07-disc-text",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.34,
+            "y": 0.18,
+            "rotation": 0,
+            "layer": 88,
+            "fixed": true
+          },
+          "preset": "pop_in",
+          "content": "NOT MEDICAL ADVICE",
+          "params": {
+            "fontSize": 40,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.54,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-07-note",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/try_today_note.svg",
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.46,
+            "y": 0.3,
+            "rotation": -3,
+            "layer": 95
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.38,
+            "inSec": 0.2,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-07-book",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/book_open.svg",
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.5,
+            "y": 0.5224,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.42
+          }
+        },
+        {
+          "id": "scene-07-lamp",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/props/lamp_dim.svg",
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.8,
+            "y": 0.5728,
+            "rotation": 0,
+            "layer": 40
+          },
+          "preset": "none",
+          "params": {
+            "width": 0.24
+          }
+        },
+        {
+          "id": "scene-07-inch",
+          "type": "character",
+          "component": "Character",
+          "asset": "assets/characters/inch/inch_cheer.svg",
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.2,
+            "y": 0.5704,
+            "rotation": 0,
+            "layer": 50
+          },
+          "preset": "none",
+          "loop": "wiggle",
+          "params": {
+            "width": 0.22,
+            "talking": false,
+            "poses": [
+              {
+                "atSec": 0,
+                "asset": "assets/characters/inch/inch_cheer.svg"
+              }
+            ],
+            "periodSec": 1.8,
+            "degrees": 1.5
+          }
+        },
+        {
+          "id": "scene-07-check",
+          "type": "prop",
+          "component": "Prop",
+          "asset": "assets/ui/check_mint.svg",
+          "startSec": 1.0,
+          "durationSec": 1.444,
+          "transform": {
+            "x": 0.86,
+            "y": 0.42,
+            "rotation": 0,
+            "layer": 70
+          },
+          "preset": "pop_in",
+          "params": {
+            "width": 0.13,
+            "inSec": 0.18,
+            "overshoot": 0.14
+          }
+        },
+        {
+          "id": "scene-07-q-bg",
+          "type": "shape",
+          "component": "Shape",
+          "asset": null,
+          "startSec": 1.0,
+          "durationSec": 1.444,
+          "transform": {
+            "x": 0.5,
+            "y": 0.5,
+            "rotation": 0,
+            "layer": 74
+          },
+          "preset": "pop_in",
+          "params": {
+            "shape": "rect",
+            "width": 0.86,
+            "height": 0.11,
+            "color": "#F5EEDD",
+            "radius": 0.02,
+            "strokeColor": "#26303F",
+            "strokeWidth": 4,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-07-q-t",
+          "type": "text",
+          "component": "KineticText",
+          "asset": null,
+          "startSec": 1.05,
+          "durationSec": 1.394,
+          "transform": {
+            "x": 0.5,
+            "y": 0.5,
+            "rotation": 0,
+            "layer": 75
+          },
+          "preset": "pop_in",
+          "content": "Paper or screen?",
+          "params": {
+            "fontSize": 48,
+            "fontWeight": 900,
+            "color": "#26303F",
+            "strokeWidth": 0,
+            "maxWidth": 0.82,
+            "align": "center",
+            "uppercase": true,
+            "inSec": 0.18,
+            "overshoot": 0.1
+          }
+        },
+        {
+          "id": "scene-07-cap",
+          "type": "text",
+          "component": "Caption",
+          "asset": null,
+          "startSec": 0,
+          "durationSec": 2.444,
+          "transform": {
+            "x": 0.46,
+            "y": 0.7,
+            "rotation": 0,
+            "layer": 90,
+            "fixed": true
+          },
+          "preset": "none",
+          "content": "Try it today: one paper book, no screen.",
+          "params": {
+            "fontSize": 84,
+            "fontFamily": "Arial Black, Impact, sans-serif",
+            "color": "#F5EEDD",
+            "highlightColor": "#F2B632",
+            "strokeColor": "#26303F",
+            "strokeWidth": 10,
+            "wordsPerChunk": 2,
+            "uppercase": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "asset": "assets/sfx/stamp_thud.wav",
+          "atSec": 0.1,
+          "volume": 0.65
+        }
+      ],
+      "transitionOut": {
+        "preset": "cut",
+        "durationSec": 0
+      }
+    }
+  ]
+}

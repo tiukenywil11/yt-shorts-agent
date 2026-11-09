@@ -24,6 +24,8 @@ button,.btn{background:var(--sun);color:#26303F;border:3px solid var(--ink);bord
 button:hover,.btn:hover{filter:brightness(1.08)}
 :focus-visible{outline:3px solid var(--sky);outline-offset:2px}
 .small{font-size:.85rem;color:var(--muted)}
+.hero .small{color:var(--ink);font-size:1rem}
+.hero .small a{font-weight:bold;text-decoration:underline;text-underline-offset:3px}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .grid{display:grid;gap:1rem;grid-template-columns:1fr}
 .pillar{border:3px solid var(--ink);border-radius:12px;padding:1rem 1.2rem;color:var(--ink)}

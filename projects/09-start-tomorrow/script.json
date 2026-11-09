@@ -1,0 +1,54 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "Researchers combined 691 findings on why people put things off.",
+      "startSec": 0.0,
+      "durationSec": 4.8
+    },
+    {
+      "id": "seg-02",
+      "text": "Four predictors stood out: unpleasant tasks, far-off rewards, low confidence, and impulsiveness.",
+      "startSec": 5.05,
+      "durationSec": 5.547
+    },
+    {
+      "id": "seg-03",
+      "text": "Saying \"I'll start tomorrow\" pushes any reward even further away.",
+      "startSec": 10.847,
+      "durationSec": 3.733
+    },
+    {
+      "id": "seg-04",
+      "text": "That's linked with delay across studies, not a verdict on you.",
+      "startSec": 14.83,
+      "durationSec": 3.029
+    },
+    {
+      "id": "seg-05",
+      "text": "The review didn't test fixes, so the next step is our suggestion.",
+      "startSec": 18.109,
+      "durationSec": 3.456
+    },
+    {
+      "id": "seg-06",
+      "text": "Make the start tiny, so the task feels less unpleasant and more doable.",
+      "startSec": 21.815,
+      "durationSec": 3.797
+    },
+    {
+      "id": "seg-07",
+      "text": "Try it today: do the first 2 minutes only.",
+      "startSec": 25.863,
+      "durationSec": 2.389
+    }
+  ],
+  "targetDurationSec": 30,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 28.252,
+  "timingMode": "exact"
+}

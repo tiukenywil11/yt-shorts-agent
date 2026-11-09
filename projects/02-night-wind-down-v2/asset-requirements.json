@@ -1,0 +1,50 @@
+{
+  "missing": [],
+  "reused": {
+    "fromProject": "projects/02-night-wind-down",
+    "files": [
+      "assets/characters/inch/inch_{neutral,tired,worry,idea,cheer,skeptical}.svg",
+      "assets/props/{phone,phone_glow,book_open,lamp_dim,floor_strip}.svg",
+      "assets/ui/{cite_card,try_today_note,check_mint,cross_coral}.svg",
+      "assets/sfx/{stamp_thud,problem_bonk,paper_rustle}.wav"
+    ]
+  },
+  "heroObject": {
+    "id": "glowing_phone_vs_paper_book",
+    "status": "existing_assets",
+    "note": "phone + phone_glow on the screen side, book_open (+ lamp_dim) on the paper side. Bars in scene 5 are Shape-built.",
+    "states": [
+      {
+        "state": "glowing, Inch tired",
+        "scenes": [
+          "scene-01"
+        ],
+        "look": "phone_glow width 0.42 pulsing, phone 0.32, Inch tired"
+      },
+      {
+        "state": "glare, cross",
+        "scenes": [
+          "scene-02"
+        ],
+        "look": "faster pulse, Inch worry, cross_coral on phone"
+      },
+      {
+        "state": "race",
+        "scenes": [
+          "scene-05"
+        ],
+        "look": "Coral screen bar to ~26, Mint paper bar to ~16"
+      },
+      {
+        "state": "dim and paper",
+        "scenes": [
+          "scene-07",
+          "scene-08",
+          "scene-09"
+        ],
+        "look": "lamp_dim pops in, book pulses with check_mint, Inch cheer"
+      }
+    ]
+  },
+  "unsupportedComponents": []
+}

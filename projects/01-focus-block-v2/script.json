@@ -1,0 +1,60 @@
+{
+  "segments": [
+    {
+      "id": "seg-01",
+      "text": "One quick text is really two task switches.",
+      "startSec": 0.0,
+      "durationSec": 2.368
+    },
+    {
+      "id": "seg-02",
+      "text": "You switch away. Then you switch back.",
+      "startSec": 2.618,
+      "durationSec": 1.899
+    },
+    {
+      "id": "seg-03",
+      "text": "In one 2001 lab study, people were slower when they switched tasks.",
+      "startSec": 4.767,
+      "durationSec": 4.117
+    },
+    {
+      "id": "seg-04",
+      "text": "So try a focus block.",
+      "startSec": 9.134,
+      "durationSec": 1.365
+    },
+    {
+      "id": "seg-05",
+      "text": "One: one task, and a twenty-minute timer you can see.",
+      "startSec": 10.749,
+      "durationSec": 3.008
+    },
+    {
+      "id": "seg-06",
+      "text": "Two: phone face down, in another room.",
+      "startSec": 14.007,
+      "durationSec": 2.091
+    },
+    {
+      "id": "seg-07",
+      "text": "Three: a stray thought? Write it on a later list.",
+      "startSec": 16.348,
+      "durationSec": 2.496
+    },
+    {
+      "id": "seg-08",
+      "text": "Try it today: start one twenty-minute block.",
+      "startSec": 19.094,
+      "durationSec": 2.496
+    }
+  ],
+  "targetDurationSec": 28,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "voiceoverDurationSec": 21.59,
+  "timingMode": "exact"
+}

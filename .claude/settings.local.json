@@ -179,7 +179,8 @@
       "Bash(python \"C:/Users/KENYWI~1/AppData/Local/Temp/claude/6fc44096c91f9657/859ffbcc-c87a-40cc-ab15-44d42abc5f20/scratchpad/dump5.py\")",
       "Bash(python \"C:/Users/KENYWI~1/AppData/Local/Temp/claude/6fc44096c91f9657/859ffbcc-c87a-40cc-ab15-44d42abc5f20/scratchpad/gen_03v2.py\")",
       "Bash(python scripts/validate_project.py projects/03-motivation-vs-discipline-v2)",
-      "Bash(python scripts/retention_lint.py projects/03-motivation-vs-discipline-v2)"
+      "Bash(python scripts/retention_lint.py projects/03-motivation-vs-discipline-v2)",
+      "Bash(python -c \"import json;d=json.load\\(open\\('projects/trailer/script.json'\\)\\);print\\(json.dumps\\(d,indent=1\\)[:1800]\\)\")"
     ]
   }
 }

@@ -1,0 +1,272 @@
+{
+ "format": "Number reveal",
+ "hookType": "number",
+ "pillar": "Mind",
+ "heroObject": "TASK block (spiky/heavy -> 2 MIN tile -> checked tile)",
+ "targetDurationSec": 28.35,
+ "disclaimerTag": null,
+ "citeCard": {
+  "tab": "THE STUDY",
+  "source": "Steel, 2007",
+  "finding": "691 FINDINGS",
+  "limit": "correlation, not cause"
+ },
+ "scenes": [
+  {
+   "id": "scene-01",
+   "startSec": 0,
+   "durationSec": 2.7,
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "purpose": "Hook: hero task block in problem state, 691 lands, bonk on frame 0",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Kraft TASK block (w 0.52) with Coral spikes; 691 stat pops; Inch worry",
+   "camera": "static",
+   "onScreenText": "691 / TASK",
+   "sfx": [
+    "problem_bonk@0.0"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-02",
+   "startSec": 2.7,
+   "durationSec": 2.35,
+   "narrationSegmentIds": [
+    "seg-01"
+   ],
+   "purpose": "Tension: putting it off",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "cross_coral",
+    "floor_strip"
+   ],
+   "actions": "Block jolts, Coral cross slaps, LATER tag, Inch worry",
+   "camera": "static",
+   "onScreenText": "LATER",
+   "sfx": [
+    "problem_bonk@0.3"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-03",
+   "startSec": 5.05,
+   "durationSec": 2.6,
+   "narrationSegmentIds": [
+    "seg-02"
+   ],
+   "purpose": "Predictor 1: unpleasant task",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Block (spiky) with UNPLEASANT tag on 'unpleasant'; camera_push 0.05",
+   "camera": "camera_push",
+   "onScreenText": "UNPLEASANT",
+   "sfx": [
+    "paper_rustle@1.45"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-04",
+   "startSec": 7.65,
+   "durationSec": 3.197,
+   "narrationSegmentIds": [
+    "seg-02"
+   ],
+   "purpose": "Predictors 2-4",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "FAR REWARD, LOW CONFIDENCE, IMPULSIVE tags pop one per noun",
+   "camera": "static",
+   "onScreenText": "FAR REWARD / LOW CONFIDENCE / IMPULSIVE",
+   "sfx": [
+    "paper_rustle@0.0"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-05",
+   "startSec": 10.847,
+   "durationSec": 2.073,
+   "narrationSegmentIds": [
+    "seg-03"
+   ],
+   "purpose": "Delay: I'll start tomorrow, reward still near",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Speech tag I'LL START TOMORROW; task block and REWARD coin close",
+   "camera": "static",
+   "onScreenText": "I'LL START TOMORROW / REWARD",
+   "sfx": [],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-06",
+   "startSec": 12.92,
+   "durationSec": 1.91,
+   "narrationSegmentIds": [
+    "seg-03"
+   ],
+   "purpose": "Delay pushes reward further away",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Block shrinks left, rail extends, small coin far right, +1 DAY AWAY",
+   "camera": "static",
+   "onScreenText": "+1 DAY AWAY",
+   "sfx": [],
+   "transitionOut": "slide_up"
+  },
+  {
+   "id": "scene-07",
+   "startSec": 14.83,
+   "durationSec": 3.279,
+   "narrationSegmentIds": [
+    "seg-04"
+   ],
+   "purpose": "Cite card (result first), limit on card; Inch worry to neutral on 'not a verdict'",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "cite_card",
+    "floor_strip"
+   ],
+   "actions": "Cite card THE STUDY / Steel, 2007 / 691 / FINDINGS / limit 'correlation, not cause'",
+   "camera": "static",
+   "onScreenText": "THE STUDY / Steel, 2007 / 691 FINDINGS / correlation, not cause",
+   "sfx": [
+    "paper_rustle@0.0"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-08",
+   "startSec": 18.109,
+   "durationSec": 3.706,
+   "narrationSegmentIds": [
+    "seg-05"
+   ],
+   "purpose": "Scope: fixes not tested, then our suggestion",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "cross_coral",
+    "floor_strip"
+   ],
+   "actions": "Spiky block, cross + NOT TESTED tag exit; OUR SUGGESTION Sun tag; Inch worry to idea",
+   "camera": "static",
+   "onScreenText": "NOT TESTED / OUR SUGGESTION",
+   "sfx": [
+    "problem_bonk@0.1",
+    "paper_rustle@2.5"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-09",
+   "startSec": 21.815,
+   "durationSec": 2.085,
+   "narrationSegmentIds": [
+    "seg-06"
+   ],
+   "purpose": "Hero shrinks: big task block pops out, 2 MIN tile pops in",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "floor_strip"
+   ],
+   "actions": "Block exits at 1.1 s; Sun 2 MIN tile (rounded, no spikes)",
+   "camera": "static",
+   "onScreenText": "2 MIN",
+   "sfx": [
+    "paper_rustle@1.05"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-10",
+   "startSec": 23.9,
+   "durationSec": 1.963,
+   "narrationSegmentIds": [
+    "seg-06"
+   ],
+   "purpose": "Doable: tile gets Mint check",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "check_mint",
+    "floor_strip"
+   ],
+   "actions": "check_mint, DOABLE tag, Inch cheer",
+   "camera": "static",
+   "onScreenText": "DOABLE",
+   "sfx": [
+    "paper_rustle@0.15"
+   ],
+   "transitionOut": "cut"
+  },
+  {
+   "id": "scene-11",
+   "startSec": 25.863,
+   "durationSec": 2.487,
+   "narrationSegmentIds": [
+    "seg-07"
+   ],
+   "purpose": "Try it today, held to the end of the voiceover",
+   "background": "Mind tint #E2ECF5 + floor_strip",
+   "characters": [
+    "inch"
+   ],
+   "props": [
+    "check_mint",
+    "floor_strip",
+    "try_today_note"
+   ],
+   "actions": "TRY IT TODAY note + stamp thud, tile with check, Mint burst, Inch cheer",
+   "camera": "static",
+   "onScreenText": "TRY IT TODAY / 2 MIN",
+   "sfx": [
+    "stamp_thud@0.05"
+   ],
+   "transitionOut": "cut"
+  }
+ ]
+}
