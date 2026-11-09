@@ -111,6 +111,17 @@ Other scripts: `gen_assets.py --list` (library drawers and assets drawn in other
 - `templates/animation.example.json`: a complete, valid plan to copy from. `templates/analytics.example.md`: the post-publish numbers template.
 - `theory/`: untested ideas kept out of the workflow (see `theory/README.md`).
 - `projects/<id>/`: one folder per video (plans, assets, voice, output).
+- `marketing/site/`: git submodule of the live website repo (`Small-Change-Lab/small-change-lab.github.io`, deployed via GitHub Pages). See "Website submodule" below.
+
+## Website submodule
+
+`marketing/site/` is its own git repo, pinned by this repo to one commit.
+
+- **Clone:** `git clone --recurse-submodules <url>`, or in an existing clone `git submodule update --init`.
+- **Edit the site:** change files in `marketing/site/`, then `git add`, `git commit` and `git push` from inside that folder (branch `main`). The push publishes the site.
+- **Record the new version here:** from the repo root, `git add marketing/site` and commit. Until you do, this repo still points at the old site commit.
+- **Pull site changes made elsewhere:** `git submodule update --remote marketing/site`, then commit the updated pointer.
+- Site docs (Brevo form, reCAPTCHA, tracker) are in `marketing/site/README.md`.
 
 ## Cost-control rules
 

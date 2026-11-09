@@ -1,0 +1,3 @@
+[submodule "marketing/site"]
+	path = marketing/site
+	url = https://github.com/Small-Change-Lab/small-change-lab.github.io.git
