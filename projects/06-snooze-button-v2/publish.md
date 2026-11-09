@@ -52,8 +52,8 @@ Avoid: `scene-08_15.13s.png` (cite card, small text) and `scene-02_2.70s.png` (s
 - [ ] Altered or synthetic content: **Yes, disclose.** The narration is AI-generated (Kokoro TTS, voice `af_heart`). The visuals are original animation.
 - [ ] Audience: Not made for kids.
 - [ ] Disclaimer: NOT MEDICAL ADVICE is required. It shows on screen from the cite card (scene-08) to the end and is in every description and caption here. It is not spoken, and the narration has no "ask a clinician" line.
-- [ ] **CONFIRM THE YEAR before publishing.** The cite card shows "Sundelin et al., 2023", and idea.md lists "2023/2024" (Crossref lists 2023 online; print year unconfirmed). The text here uses "2023/2024". Check the DOI record, then make the card and all copy match. A card fix means a re-render, and the user decides that.
-- [ ] Citation gap: volume, issue and pages are not in idea.md, so the Instagram source line gives the DOI only. Add them if confirmed.
+- [x] Year confirmed 2026-11-09 from the Crossref record: published online 2023-10-17, print issue May 2024 (vol. 33, issue 3). The "Sundelin et al., 2023" card is correct as the online date, so no re-render is needed. "2023/2024" in the copy is also accurate.
+- [x] Citation detail from Crossref: J. Sleep Research, vol. 33, issue 3 (2024), article e14054 per the DOI. Crossref lists no page range.
 - [ ] Guardrails: no "studies show", "proven" or "hack", and no claim that snoozing is healthy or helps everyone. Not claimed: effects beyond the first moments after waking, sleep-disorder or chronotype advice, or longer-term snoozing.
 - [ ] QA: `qa-report.md` covers the preview only, and audio was not listened to. Open minor items: small hero clock and empty lower third in scenes 06 to 12; mojibake in `storyboard.json` notes (not on screen); a possible 0.1 to 0.2 s near-blank beat at 5.6 s. Do a quick listen and a final-frame check before upload. QA's predicted score is 7.5/10 against 8.5 in idea.md.
 - [ ] Re-cut of 06: the user decides whether v2 replaces the original upload. Do not publish both as duplicates.

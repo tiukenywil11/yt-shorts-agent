@@ -1,0 +1,10 @@
+project,topic_num,version,platform,status,publish_date,url,notes
+01-focus-block,1,v1,,Public,,,Fill in platform; date and URL
+02-night-wind-down,2,v1,,Public,,,Fill in platform; date and URL
+03-motivation-vs-discipline-v2,3,v2,,Public,,,Fill in platform; date and URL
+01-focus-block-v2,1,v2,,Scheduled,2026-11-14,,Date is the repost target in idea.md; confirm against Studio
+02-night-wind-down-v2,2,v2,,Scheduled,2026-11-15,,Date is the repost target in idea.md; confirm against Studio
+04-coin-jar-savings-v2,4,v2,,Scheduled,,,Fill in scheduled date
+05-pay-yourself-first-v2,5,v2,,Scheduled,,,Fill in scheduled date
+06-snooze-button-v2,6,v2,,Scheduled,,,Fill in scheduled date
+07-emergency-kit-payday-v2,7,v2,,Scheduled,,,Fill in scheduled date

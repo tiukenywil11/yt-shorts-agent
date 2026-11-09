@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Render adapter: npm run render:short -- --project projects/<id> --mode stills|draft|preview|final
-//   [--scenes scene-01,scene-03] [--overwrite] [--concurrency N]
-// Validates first, bundles with the project folder as publicDir, renders into <project>/output/,
+//   [--scenes scene-01,scene-03] [--overwrite] [--concurrency N] [--skip-lint]
+// Runs retention_lint.py (a FAIL blocks every mode except stills; --skip-lint is for older cuts). Validates first, bundles with the project folder as publicDir, renders into <project>/output/,
 // then runs scripts/check_video.py (videos) or make_contact_sheet.py (stills).
 import {bundle} from '@remotion/bundler';
 import {renderMedia, renderStill, selectComposition} from '@remotion/renderer';
@@ -20,7 +20,7 @@ const die = (msg) => {
 };
 
 const parseArgs = (argv) => {
-  const out = {mode: 'preview', scenes: null, overwrite: false, concurrency: null};
+  const out = {mode: 'preview', scenes: null, overwrite: false, concurrency: null, skipLint: false};
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--project') out.project = argv[++i];
@@ -28,6 +28,7 @@ const parseArgs = (argv) => {
     else if (a === '--scenes') out.scenes = argv[++i].split(',').map((s) => s.trim()).filter(Boolean);
     else if (a === '--overwrite') out.overwrite = true;
     else if (a === '--concurrency') out.concurrency = Number(argv[++i]);
+    else if (a === '--skip-lint') out.skipLint = true;
     else die(`Unknown argument ${a}`);
   }
   if (!out.project) die('Missing --project projects/<id>');
@@ -44,6 +45,10 @@ const main = async () => {
   if (!fs.existsSync(planPath)) die(`No animation.json in ${projectDir}`);
 
   if (py([path.join('scripts', 'validate_project.py'), projectDir]) !== 0) die('validation errors (see above).');
+  if (!args.skipLint && fs.existsSync(path.join(projectDir, 'script.json'))) {
+    const lintFailed = py([path.join('scripts', 'retention_lint.py'), projectDir]) !== 0;
+    if (lintFailed && args.mode !== 'stills') die('retention lint failed (see FAIL lines). Pass --skip-lint for older cuts.');
+  }
   const plan = JSON.parse(fs.readFileSync(planPath, 'utf8').replace(/^﻿/, ''));
   const outDir = path.join(projectDir, 'output');
   fs.mkdirSync(outDir, {recursive: true});

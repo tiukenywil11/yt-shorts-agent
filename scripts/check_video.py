@@ -61,7 +61,7 @@ def main():
     cmd = [tools["ffmpeg"], "-hide_banner", "-nostats", "-loglevel", "repeat+level+info", "-i", str(video),
            "-vf", "blackdetect=d=0.5:pix_th=0.06"]
     if aus:
-        cmd += ["-af", "silencedetect=n=-50dB:d=2"]
+        cmd += ["-af", "silencedetect=n=-50dB:d=2,ebur128=peak=true:framelog=quiet"]
     cmd += ["-f", "null", "-"]
     res = subprocess.run(cmd, capture_output=True, text=True, errors="replace")
     errors = [ln for ln in res.stderr.splitlines() if "[error]" in ln or "[fatal]" in ln]
@@ -73,6 +73,14 @@ def main():
         warns.append(f"black frames {float(m[1]):.2f}-{float(m[2]):.2f}s")
     for m in re.finditer(r"silence_start: ([\d.]+)", res.stderr):
         warns.append(f"silence (>2s) starting at {float(m[1]):.2f}s")
+
+    # Style bible target: about -14 LUFS / -1 dBTP. Advisory; scene clips are too short to measure.
+    lufs = re.findall(r"\bI:\s+(-?[\d.]+) LUFS", res.stderr)
+    peak = re.findall(r"\bPeak:\s+(-?[\d.]+) dBFS", res.stderr)
+    if aus and not args.partial and lufs and peak:
+        i, tp = float(lufs[-1]), float(peak[-1])
+        (passes if abs(i + 14) <= 2 else warns).append(f"loudness {i:.1f} LUFS (target -14 +/-2)")
+        (passes if tp <= -1 else warns).append(f"true peak {tp:.1f} dBTP (max -1)")
 
     for x in passes: print(f"PASS: {x}")
     for x in warns: print(f"WARN: {x}")

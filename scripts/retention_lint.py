@@ -28,7 +28,7 @@ def first_sentence(text):
 
 
 def lint(project):
-    segments = json.loads((project / "script.json").read_text(encoding="utf-8"))["segments"]
+    segments = json.loads((project / "script.json").read_text(encoding="utf-8-sig"))["segments"]
     results = []
     add = lambda level, msg: results.append((level, msg))
 
@@ -68,7 +68,7 @@ def lint(project):
     animation = project / "animation.json"
     voice = project / "voiceover.wav"
     if animation.exists() and voice.exists():
-        duration = json.loads(animation.read_text(encoding="utf-8"))["video"].get("durationSec")
+        duration = json.loads(animation.read_text(encoding="utf-8-sig"))["video"].get("durationSec")
         with wave.open(str(voice), "rb") as w:
             voice_end = w.getnframes() / w.getframerate()
         if duration is not None and duration - voice_end > 0.15:

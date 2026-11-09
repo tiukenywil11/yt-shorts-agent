@@ -1,6 +1,6 @@
 # Small Change Lab: YouTube About kit
 
-Status: draft, nothing posted. Handle `@small_change_lab` (YouTube, TikTok, Instagram). Domain and USPTO checks still pending (see `creative/channel-identity.md`).
+Status: channel is live; posts are recorded in `creative/publishing-log.csv`. Handle `@small_change_lab` (YouTube, TikTok, Instagram). Domain and USPTO checks still pending (see `creative/channel-identity.md`).
 
 ## Channel description (paste into YouTube > Customization > Basic info; under 1,000 chars)
 
@@ -23,11 +23,15 @@ Small habits, explained by science. One cited fact, one thing to try today.
 
 | Order | Label | URL |
 |---|---|---|
-| 1 | Free 30-day habit tracker | https://smallchangelab.kenywil.com/ |
+| 1 | Free 30-day habit tracker | https://smallchangelab.kenywil.com/tracker.html?ref=yt |
 | 2 | Website | https://smallchangelab.kenywil.com/ (own domain still pending) |
-| 3 | TikTok | `[TODO: https://www.tiktok.com/@small_change_lab]` |
-| 4 | Instagram | `[TODO: https://www.instagram.com/small_change_lab]` |
+| 3 | TikTok | https://www.tiktok.com/@small_change_lab |
+| 4 | Instagram | https://www.instagram.com/small_change_lab |
 | 5 | Business contact email | `[TODO: contact email, set in YouTube > Basic info]` |
+
+Links in Shorts descriptions and comments are not clickable, so this profile list is the route to the tracker.
+
+Bio links on the other platforms: Instagram `https://smallchangelab.kenywil.com/tracker.html?ref=ig`, TikTok `https://smallchangelab.kenywil.com/tracker.html?ref=tt` (TikTok may not offer a bio link on small accounts).
 
 ## Disclaimers (post on About and on the website footer)
 
@@ -48,7 +52,7 @@ Small habits, explained by science. One cited fact, one thing to try today.
 1. Every Short with a factual claim cites its source on screen (study card) and in the description.
 2. We prefer peer-reviewed studies and government health and finance data (for example CDC, NIH, FEMA, CFPB) over blogs or social posts.
 3. Cards state the study, year, sample size when known, and the limit. We use hedged language ("in one study", "may") unless the evidence is strong.
-4. Full citations live in each video's description and pinned comment. If a source turns out to be wrong or retracted, we correct it with a pinned comment and update the description.
+4. Full citations live in each video's description. If a source turns out to be wrong or retracted, we correct it with a pinned comment and update the description.
 5. Spot an error? Comment or email `[TODO: contact email]` and we will review it.
 
 ## Affiliate and FTC disclosure
