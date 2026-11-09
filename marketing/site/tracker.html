@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>30-Day Small Habit Tracker — Small Change Lab</title>
+<meta name="description" content="Free online 30-day habit tracker. Tick one box a day for up to three small habits. No login; saved in your browser.">
+<link rel="icon" href="assets/dp.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<style>
+.tk-head{display:flex;align-items:center;gap:1rem;padding:1.5rem 0 .5rem}
+.tk-head img{width:4.5rem;height:4.5rem;border-radius:50%;border:3px solid var(--ink);flex:none}
+.tk-head h1{font-size:clamp(1.4rem,5vw,2.1rem);margin:0}
+.tk-head p{margin:.2rem 0 0}
+.warn{background:#FFF1C9;color:#26303F;border:3px solid var(--ink);border-left-width:10px;border-radius:8px;padding:.8rem 1rem;margin:1rem 0;box-shadow:4px 4px 0 rgba(38,48,63,.2)}
+.warn strong{font-family:"Arial Black",sans-serif}
+.warn p{margin:.3rem 0}
+.warn.bad{background:#FBD9D2}
+.tools{display:flex;flex-wrap:wrap;gap:.6rem;margin:.5rem 0 1rem}
+.tools button,.tools label.btn{font-size:.9rem;padding:.55rem .9rem}
+.tools input[type=file]{display:none}
+button.alt,.btn.alt{background:var(--card);color:var(--fg)}
+.habit{background:var(--card);border:4px solid var(--ink);border-radius:12px;padding:1rem;margin:1.2rem 0;box-shadow:5px 5px 0 rgba(38,48,63,.2)}
+.habit[data-pillar=Money]{background:var(--money);color:var(--ink)}
+.habit[data-pillar=Mind]{background:var(--mind);color:var(--ink)}
+.habit[data-pillar=Body]{background:var(--body);color:var(--ink)}
+.habit[data-pillar=Ready]{background:var(--ready);color:var(--ink)}
+.hrow{display:grid;grid-template-columns:1fr;gap:.6rem;margin-bottom:.8rem}
+.hrow label{display:flex;flex-direction:column;font-size:.8rem;font-weight:bold;gap:.2rem}
+.hrow input,.hrow select{padding:.6rem;font-size:1rem;border:3px solid var(--ink);border-radius:8px;background:#fff;color:#26303F}
+@media(min-width:44rem){.hrow{grid-template-columns:2fr 1fr 1fr}}
+.days{display:grid;grid-template-columns:repeat(5,1fr);gap:.4rem}
+@media(min-width:44rem){.days{grid-template-columns:repeat(10,1fr)}}
+.day{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;aspect-ratio:1;min-height:2.8rem;padding:0;border:3px solid var(--ink);border-radius:8px;background:#fff;color:#26303F;font:bold .85rem "Arial Black",sans-serif}
+.day[aria-pressed=true]{background:var(--mint);color:#fff}
+.day[aria-pressed=true]::after{content:"\2713";font-size:1.1rem;line-height:1}
+.day.today{outline:4px solid var(--sun);outline-offset:2px}
+.day.future{opacity:.55}
+.stats{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin:.9rem 0 0;font-size:.95rem}
+.stats b{font-family:"Arial Black",sans-serif}
+.nudge{margin:.6rem 0 0;font-weight:bold}
+.hactions{margin-top:.8rem;display:flex;gap:.6rem;flex-wrap:wrap}
+.hactions button{font-size:.8rem;padding:.45rem .8rem}
+.noscript{display:none}
+.print-only{display:none}
+@media print{
+  body{background:#fff;color:#000}
+  .no-print,.tools,.signup,.hactions,footer,.warn{display:none!important}
+  .print-only{display:block}
+  .habit{box-shadow:none;break-inside:avoid;background:#fff!important}
+  .day{border-color:#000;background:#fff!important;color:#000!important}
+  .day[aria-pressed=true]::after{color:#000}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="tk-head">
+    <img src="assets/dp.svg" alt="Inch, the paper-cutout snail mascot" width="72" height="72">
+    <div>
+      <h1>30-Day Small Habit Tracker</h1>
+      <p><b>One small habit. One box a day.</b> Smaller than you think it needs to be.</p>
+      <p class="small"><a href="index.html">&larr; Small Change Lab</a></p>
+    </div>
+  </div>
+
+  <noscript><div class="warn bad"><p><strong>JavaScript is off.</strong> The online tracker needs it. Use the <a href="assets/habit-tracker-30day.pdf">printable PDF</a> instead.</p></div></noscript>
+
+  <div class="warn" role="note" id="device-warning">
+    <p><strong>Heads up: your ticks are saved only in this browser, on this device.</strong></p>
+    <p>There is no account and no server copy. A different phone, computer or browser (or a private window) will show an empty tracker. Clearing your browsing data or site data erases it. Use <em>Download backup</em> now and then to keep a copy, and <em>Restore backup</em> to move it to another device.</p>
+  </div>
+  <div class="warn bad" role="alert" id="storage-warning" hidden>
+    <p><strong>Saving is not available in this browser.</strong> This can happen in a private window or when site data is blocked. Your ticks will be lost when you close or reload this page. Download a backup before you leave, or use the <a href="assets/habit-tracker-30day.pdf">printable PDF</a>.</p>
+  </div>
+
+  <div class="tools no-print">
+    <button type="button" id="add-habit">+ Add a habit</button>
+    <button type="button" class="alt" id="export">Download backup</button>
+    <label class="btn alt" for="import">Restore backup</label>
+    <input type="file" id="import" accept="application/json,.json">
+    <button type="button" class="alt" id="print">Print</button>
+    <a class="btn alt" href="assets/habit-tracker-30day.pdf" download>Printable PDF</a>
+  </div>
+  <p class="small" id="msg" role="status" aria-live="polite"></p>
+
+  <p class="small"><b>How:</b> tap today's box when you've done the habit. Missed a day? Restart tomorrow. Never miss twice. Tie it to something you already do. Up to three habits.</p>
+
+  <div id="habits"></div>
+
+  <section class="signup no-print" aria-labelledby="e-h">
+    <h2 id="e-h">Want the next habit experiment?</h2>
+    <p>Add your email for new Shorts and notes from the lab, and so you can always find this tracker again. Unsubscribe any time. Your tracker ticks are not sent to us.</p>
+    <!-- PLACEHOLDER: same provider endpoint as index.html (see README.md). Nothing is collected until you replace it. -->
+    <form action="https://example.invalid/REPLACE-WITH-PROVIDER-FORM-URL" method="post">
+      <label class="visually-hidden" for="email">Email address</label>
+      <input id="email" type="email" name="email_address" placeholder="you@example.com" autocomplete="email" required>
+      <button type="submit">Send me updates</button>
+    </form>
+    <p class="small">See the <a href="privacy.html">privacy policy</a>.</p>
+  </section>
+
+  <p class="small"><b>Not financial or medical advice.</b> For personal use. Free to print.</p>
+</main>
+<footer><div class="wrap">
+  <p>Small Change Lab · @small_change_lab</p>
+  <p class="small"><a href="privacy.html">Privacy policy</a> · <a href="index.html#about">Disclaimer and sources</a></p>
+</div></footer>
+
+<script>
+(function(){
+  "use strict";
+  var KEY="scl-tracker-v1", MAX_HABITS=3, DAYS=30, PILLARS=["","Money","Mind","Body","Ready"];
+  var state, canSave=true;
+
+  // Optional analytics hook. Does nothing until you add a privacy-friendly script that defines
+  // window.plausible (or edit this). If you enable analytics, update privacy.html first.
+  function track(name){ try{ if(typeof window.plausible==="function"){ window.plausible(name); } }catch(e){} }
+
+  function todayStr(){ var d=new Date(); return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
+  function pad(n){ return n<10?"0"+n:""+n; }
+  function dayNumber(startStr){ // 1-based day of today relative to start, local calendar days
+    var s=/^(\d{4})-(\d{2})-(\d{2})$/.exec(startStr||""); if(!s) return 0;
+    var t=new Date(), a=Date.UTC(+s[1],+s[2]-1,+s[3]), b=Date.UTC(t.getFullYear(),t.getMonth(),t.getDate());
+    return Math.round((b-a)/86400000)+1;
+  }
+  function newHabit(){ return {name:"",pillar:"",start:todayStr(),done:new Array(DAYS).fill(false)}; }
+  function sanitize(s){
+    var out={habits:[],firstSeen:null,lastSeen:null,everTicked:false};
+    if(s&&Array.isArray(s.habits)){
+      s.habits.slice(0,MAX_HABITS).forEach(function(h){
+        if(!h||typeof h!=="object") return;
+        var d=new Array(DAYS).fill(false);
+        if(Array.isArray(h.done)) for(var i=0;i<DAYS;i++) d[i]=h.done[i]===true;
+        out.habits.push({
+          name:typeof h.name==="string"?h.name.slice(0,80):"",
+          pillar:PILLARS.indexOf(h.pillar)>-1?h.pillar:"",
+          start:/^\d{4}-\d{2}-\d{2}$/.test(h.start)?h.start:todayStr(),
+          done:d});
+      });
+      if(typeof s.firstSeen==="string") out.firstSeen=s.firstSeen.slice(0,10);
+      if(typeof s.lastSeen==="string") out.lastSeen=s.lastSeen.slice(0,10);
+      out.everTicked=s.everTicked===true;
+    }
+    if(!out.habits.length) out.habits.push(newHabit());
+    return out;
+  }
+  function load(){
+    try{ var raw=localStorage.getItem(KEY); return sanitize(raw?JSON.parse(raw):null); }
+    catch(e){ canSave=false; return sanitize(null); }
+  }
+  function save(){
+    try{ localStorage.setItem(KEY,JSON.stringify(state)); }
+    catch(e){ canSave=false; }
+    document.getElementById("storage-warning").hidden=canSave;
+  }
+  function streak(h){
+    var n=dayNumber(h.start); if(n<1) return 0;
+    var d=Math.min(n,DAYS); if(!h.done[d-1]) d--;
+    var c=0; while(d>=1&&h.done[d-1]){ c++; d--; }
+    return c;
+  }
+  function msg(t){ document.getElementById("msg").textContent=t||""; }
+
+  function render(){
+    var root=document.getElementById("habits"); root.innerHTML="";
+    state.habits.forEach(function(h,hi){
+      var n=dayNumber(h.start), total=h.done.filter(Boolean).length, s=streak(h);
+      var sec=document.createElement("section"); sec.className="habit"; sec.setAttribute("data-pillar",h.pillar);
+      sec.setAttribute("aria-label","Habit "+(hi+1));
+
+      var row=document.createElement("div"); row.className="hrow";
+      row.appendChild(field("Habit "+(hi+1)+" (one small habit)","text",h.name,function(v){h.name=v.slice(0,80);save();},{maxlength:80,placeholder:"e.g. Put away $1 in coins"}));
+      var lp=document.createElement("label"); lp.textContent="Pillar";
+      var sel=document.createElement("select");
+      PILLARS.forEach(function(p){ var o=document.createElement("option"); o.value=p; o.textContent=p||"(optional)"; if(p===h.pillar) o.selected=true; sel.appendChild(o); });
+      sel.addEventListener("change",function(){ h.pillar=sel.value; sec.setAttribute("data-pillar",h.pillar); save(); });
+      lp.appendChild(sel); row.appendChild(lp);
+      row.appendChild(field("Start date","date",h.start,function(v){ if(v){h.start=v; save(); render();} }));
+      sec.appendChild(row);
+
+      var grid=document.createElement("div"); grid.className="days";
+      for(var i=0;i<DAYS;i++){
+        (function(i){
+          var b=document.createElement("button"); b.type="button"; b.className="day";
+          if(i+1===n) b.className+=" today"; if(i+1>n) b.className+=" future";
+          b.setAttribute("aria-pressed",h.done[i]?"true":"false");
+          b.setAttribute("aria-label","Day "+(i+1)+(i+1===n?" (today)":""));
+          if(!h.done[i]) b.textContent=i+1;
+          b.addEventListener("click",function(){
+            h.done[i]=!h.done[i];
+            if(h.done[i]&&!state.everTicked){ state.everTicked=true; track("tracker_first_tick"); }
+            save(); render();
+          });
+          grid.appendChild(b);
+        })(i);
+      }
+      sec.appendChild(grid);
+
+      var st=document.createElement("p"); st.className="stats";
+      st.innerHTML="<span><b>"+total+"</b> / "+DAYS+" days</span><span>Current streak: <b>"+s+"</b></span><span>"+
+        (n<1?"Starts in "+(1-n)+" day"+(1-n===1?"":"s"):n>DAYS?"30 days are up":"Today is day <b>"+n+"</b>")+"</span>";
+      sec.appendChild(st);
+
+      var nudge=document.createElement("p"); nudge.className="nudge";
+      if(n>=2&&n<=DAYS&&!h.done[n-2]&&!h.done[n-1]) nudge.textContent="Missed yesterday? Never miss twice. Do it today.";
+      if(nudge.textContent) sec.appendChild(nudge);
+
+      var act=document.createElement("div"); act.className="hactions no-print";
+      var clr=document.createElement("button"); clr.type="button"; clr.className="alt"; clr.textContent="Clear ticks";
+      clr.addEventListener("click",function(){ if(confirm("Clear all ticks for this habit?")){ h.done=new Array(DAYS).fill(false); save(); render(); } });
+      act.appendChild(clr);
+      if(state.habits.length>1){
+        var del=document.createElement("button"); del.type="button"; del.className="alt"; del.textContent="Remove habit";
+        del.addEventListener("click",function(){ if(confirm("Remove this habit and its ticks?")){ state.habits.splice(hi,1); save(); render(); } });
+        act.appendChild(del);
+      }
+      sec.appendChild(act);
+      root.appendChild(sec);
+    });
+    document.getElementById("add-habit").disabled=state.habits.length>=MAX_HABITS;
+  }
+  function field(label,type,val,onchange,attrs){
+    var l=document.createElement("label"); l.textContent=label;
+    var i=document.createElement("input"); i.type=type; i.value=val;
+    if(attrs) for(var k in attrs) i.setAttribute(k,attrs[k]);
+    i.addEventListener(type==="date"?"change":"input",function(){ onchange(i.value); });
+    l.appendChild(i); return l;
+  }
+
+  document.getElementById("add-habit").addEventListener("click",function(){
+    if(state.habits.length<MAX_HABITS){ state.habits.push(newHabit()); save(); render(); }
+  });
+  document.getElementById("print").addEventListener("click",function(){ window.print(); });
+  document.getElementById("export").addEventListener("click",function(){
+    var blob=new Blob([JSON.stringify({app:"small-change-lab-tracker",version:1,data:state},null,2)],{type:"application/json"});
+    var a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="small-change-lab-tracker-backup-"+todayStr()+".json";
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(function(){URL.revokeObjectURL(a.href);},1000);
+    msg("Backup downloaded. Keep the file somewhere safe.");
+  });
+  document.getElementById("import").addEventListener("change",function(e){
+    var f=e.target.files&&e.target.files[0]; if(!f) return;
+    if(f.size>200000){ msg("That file is too large to be a tracker backup."); e.target.value=""; return; }
+    var r=new FileReader();
+    r.onload=function(){
+      try{
+        var j=JSON.parse(r.result);
+        if(!j||j.app!=="small-change-lab-tracker"||!j.data) throw new Error("not a backup");
+        if(!confirm("Replace the ticks currently in this browser with the backup?")) return;
+        state=sanitize(j.data); save(); render(); msg("Backup restored.");
+      }catch(err){ msg("That file is not a Small Change Lab tracker backup."); }
+      e.target.value="";
+    };
+    r.readAsText(f);
+  });
+
+  state=load();
+  var today=todayStr();
+  if(!state.firstSeen) state.firstSeen=today;
+  if(state.everTicked&&state.lastSeen&&state.lastSeen!==today) track("tracker_return_visit");
+  state.lastSeen=today;
+  save(); render();
+})();
+</script>
+</body>
+</html>

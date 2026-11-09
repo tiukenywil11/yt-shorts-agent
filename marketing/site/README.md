@@ -16,3 +16,8 @@ Check each provider's current docs for exact URLs. Add double opt-in and a priva
 - Point the `../tracker/` link at the real tracker location.
 - Confirm the domain and add a privacy policy.
 - Pillar and series copy is paraphrased from `creative/channel-identity.md`.
+
+## Online tracker (`tracker.html`)
+Interactive 30-day tracker, up to 3 habits, no login. Data lives in the visitor's browser (`localStorage`, key `scl-tracker-v1`), so it is per device and per browser; the page warns about this and offers Download/Restore backup (JSON). The email form reuses the same placeholder endpoint as `index.html`: replace it there and here. The printable PDF is `assets/habit-tracker-30day.pdf` (a copy of `../tracker/habit-tracker-30day.pdf`; re-copy if you change the print version).
+
+Analytics are off. `track()` in `tracker.html` calls `window.plausible` if you add a privacy-friendly script; it fires `tracker_first_tick` and `tracker_return_visit`. If you enable analytics, update `privacy.html` first (it currently says no analytics).
